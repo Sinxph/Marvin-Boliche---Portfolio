@@ -1,0 +1,1502 @@
+﻿ProductID,OrderDate,DeliveryDate,Supplier,WarehouseLocation,QuantityOrdered,QuantityReceived,UnitCost,Status
+40001,2023-08-30,2023-09-16,Delta Supplies, unknown,4936,4936,475,Delivered
+40002,2024-10-16,2024-11-02,Gamma Logistics,Los Angeles DC,1629,1629,417,Delivered
+40003,2024-05-27,, alpha corp ,New York DC,3083,0,233,In Transit
+40004,2024-01-06,,Gamma Logistics,Los Angeles DC,1855,0,221,In Transit
+40005,2023-01-19,2023-02-05,Alpha Corp,Dallas DC,2362,2362,56,Delivered
+40006,2024-10-05,,Beta Mfg,Los Angeles DC,2752,0,262,In Transit
+40007,2023-07-03,2023-07-25,Delta Supplies, unknown,2784,2784,482,Delivered
+40008,2023-12-15,2023-12-31,Gamma Logistics,Chicago DC,1784,1784,256,Delivered
+40009,2023-08-22,,Beta Mfg,Dallas DC,481,0,93,Delayed
+40010,2024-03-22,, alpha corp ,Los Angeles DC,1256,0,414,Delayed
+40011,2023-01-11,, alpha corp , unknown,2813,0,203,Delayed
+40012,2024-01-23,,Beta Mfg,Dallas DC,4820,0,54,Delayed
+40013,2024-10-21,,Gamma Logistics,Chicago DC,4362,0,448,Delayed
+40014,2023-06-09,, alpha corp ,Chicago DC,3204,0,441,In Transit
+40015,2024-01-28,,Gamma Logistics, unknown,3399,0,310,Delayed
+40016,2023-08-20,,Beta Mfg,Chicago DC,631,0,273,Delayed
+40017,2024-11-29,2024-12-10,Alpha Corp, unknown,487,452,341,Delivered
+40018,2023-09-14,, alpha corp ,Dallas DC,4375,0,261,Delayed
+40019,2024-10-06,,Gamma Logistics,Los Angeles DC,3885,0,341,Delayed
+40020,2023-07-23,,Gamma Logistics,Dallas DC,1003,0,13,In Transit
+40021,2024-06-17,2024-07-03,Beta Mfg,Chicago DC,4626,4626,281,Delivered
+40022,2023-05-30,,Beta Mfg, unknown,2753,0,374,Delayed
+40023,2024-04-03,2024-04-12,Gamma Logistics, unknown,398,398,396,Delivered
+40024,2023-09-02,,Delta Supplies, unknown,2120,0,51,In Transit
+40025,2024-04-13,,Beta Mfg,Dallas DC,1682,0,282,In Transit
+40026,2024-09-14,,Delta Supplies,Los Angeles DC,465,0,390,Delayed
+40027,2024-07-19,,Gamma Logistics,Chicago DC,4979,0,85,In Transit
+40028,2024-05-29,2024-06-24, alpha corp ,New York DC,3224,2901,342,Delivered
+40029,2023-10-11,2023-10-17,Alpha Corp,New York DC,3217,3217,275,Delivered
+40030,2023-12-23,, alpha corp ,Chicago DC,4502,0,,Delayed
+40031,2023-07-25,2023-08-22,Gamma Logistics,New York DC,4928,4928,425,Delivered
+40032,2023-10-14,,Gamma Logistics,Chicago DC,2803,0,,Delayed
+40033,2023-02-19,,Gamma Logistics,Los Angeles DC,3638,0,383,Delayed
+40034,2024-03-01,,Beta Mfg,New York DC,3257,0,171,Delayed
+40035,2023-03-31,,Beta Mfg, unknown,3589,0,25,In Transit
+40036,2023-10-07,2023-10-15, alpha corp , unknown,1117,1117,254,Delivered
+40037,2024-08-21,,Gamma Logistics,New York DC,2317,0,149,Delayed
+40038,2023-06-10,,Beta Mfg,Chicago DC,2959,0,452,In Transit
+40039,2023-12-30,,Beta Mfg,Chicago DC,1482,0,93,Delayed
+40040,2023-02-11,2023-02-21, alpha corp ,Los Angeles DC,3386,3386,377,Delivered
+40041,2024-01-03,, alpha corp ,New York DC,1170,0,181,Delayed
+40042,2023-09-01,,Delta Supplies, unknown,3542,0,175,In Transit
+40043,2024-04-07,2024-04-28,Alpha Corp,Chicago DC,2400,2400,261,Delivered
+40044,2023-08-19,,Alpha Corp,Dallas DC,3982,0,342,Delayed
+40045,2024-08-12,,Beta Mfg,Chicago DC,129,0,218,Delayed
+40046,2023-06-13,,Delta Supplies,New York DC,929,0,482,Delayed
+40047,2023-12-23,, alpha corp ,Dallas DC,3437,0,103,In Transit
+40048,2023-09-27,, alpha corp , unknown,157,0,10,Delayed
+40049,2023-12-14,,Gamma Logistics,Dallas DC,3383,0,,Delayed
+40050,2023-09-07,2023-09-16,Beta Mfg,Chicago DC,1250,1250,188,Delivered
+40051,2023-04-03,,Gamma Logistics,Chicago DC,4119,0,177,In Transit
+40052,2023-02-03,,Alpha Corp,Chicago DC,2339,0,241,In Transit
+40053,2024-10-27,, alpha corp ,Chicago DC,3707,0,142,Delayed
+40054,2023-02-12,,Gamma Logistics, unknown,849,0,307,In Transit
+40055,2023-12-05,,Gamma Logistics,Chicago DC,197,0,270,Delayed
+40056,2023-08-01,,Gamma Logistics,Chicago DC,859,0,179,Delayed
+40057,2024-02-29,,Alpha Corp,Los Angeles DC,4433,0,296,In Transit
+40058,2023-05-07,, alpha corp , unknown,558,0,390,In Transit
+40059,2023-01-16,,Gamma Logistics,New York DC,3696,0,459,Delayed
+40060,2024-04-10,, alpha corp ,Dallas DC,4703,0,465,In Transit
+40061,2024-01-09,, alpha corp ,Dallas DC,4632,0,465,In Transit
+40062,2023-08-10,2023-08-20,Delta Supplies, unknown,210,210,322,Delivered
+40063,2023-09-24,, alpha corp ,Dallas DC,1481,0,449,In Transit
+40064,2023-07-24,2023-08-13,Gamma Logistics,Chicago DC,4712,4712,62,Delivered
+40065,2024-04-03,, alpha corp ,Dallas DC,1111,0,474,Delayed
+40066,2024-08-15,,Delta Supplies,Dallas DC,969,0,205,Delayed
+40067,2023-09-18,2023-09-25,Beta Mfg,New York DC,1668,1668,153,Delivered
+40068,2024-03-21,2024-04-06,Gamma Logistics,Chicago DC,2530,2530,43,Delivered
+40069,2024-07-02,,Beta Mfg,Los Angeles DC,3315,0,382,In Transit
+40070,2023-10-30,2023-11-07,Delta Supplies, unknown,2926,2926,447,Delivered
+40071,2023-02-09,,Delta Supplies, unknown,1808,0,302,Delayed
+40072,2023-09-11,,Delta Supplies,New York DC,3833,0,395,In Transit
+40073,2024-10-26,,Alpha Corp,Dallas DC,2029,0,46,Delayed
+40074,2024-07-09,,Delta Supplies,Los Angeles DC,4447,0,378,Delayed
+40075,2023-07-11,2023-07-25,Delta Supplies,Dallas DC,2801,2801,72,Delivered
+40076,2023-04-11,,Gamma Logistics,New York DC,122,0,488,In Transit
+40077,2023-10-01,2023-10-29,Delta Supplies,Dallas DC,4805,4805,475,Delivered
+40078,2024-07-26,2024-08-20,Beta Mfg,Los Angeles DC,3278,2884,248,Delivered
+40079,2024-07-23,2024-08-17,Beta Mfg,New York DC,1748,1748,258,Delivered
+40080,2023-10-07,,Beta Mfg,Chicago DC,4104,0,480,In Transit
+40081,2023-07-15,2023-08-06,Beta Mfg,Dallas DC,1857,1857,208,Delivered
+40082,2023-03-01,,Alpha Corp, unknown,788,0,77,Delayed
+40083,2023-02-23,2023-03-05, alpha corp ,New York DC,1463,1463,427,Delivered
+40084,2023-10-13,,Gamma Logistics,Chicago DC,1598,0,22,In Transit
+40085,2023-05-25,2023-06-16,Delta Supplies,Dallas DC,971,971,483,Delivered
+40086,2024-05-10,2024-05-21,Gamma Logistics,Los Angeles DC,4319,4319,137,Delivered
+40087,2023-11-02,,Gamma Logistics,Dallas DC,3026,0,425,In Transit
+40088,2024-07-23,,Alpha Corp, unknown,1002,0,381,In Transit
+40089,2023-02-11,2023-02-17,Delta Supplies,Dallas DC,2138,2138,453,Delivered
+40090,2023-05-19,,Delta Supplies,Chicago DC,387,0,401,Delayed
+40091,2024-08-19,,Alpha Corp,Los Angeles DC,4362,0,304,Delayed
+40092,2024-02-02,2024-02-25,Alpha Corp, unknown,1881,1881,286,Delivered
+40093,2024-10-27,2024-11-24,Alpha Corp,New York DC,627,627,177,Delivered
+40094,2024-01-08,,Beta Mfg,Chicago DC,232,0,447,Delayed
+40095,2023-01-11,2023-01-28, alpha corp ,New York DC,4475,4475,234,Delivered
+40096,2023-05-11,,Alpha Corp,Chicago DC,4018,0,454,In Transit
+40097,2024-03-19,,Beta Mfg,Dallas DC,4351,0,244,Delayed
+40098,2023-11-26,2023-12-07,Alpha Corp, unknown,1757,1757,332,Delivered
+40099,2024-11-19,2024-12-05,Gamma Logistics,Los Angeles DC,3437,3437,486,Delivered
+40100,2024-05-27,,Beta Mfg, unknown,2048,0,358,In Transit
+40101,2024-03-12,, alpha corp , unknown,2094,0,,In Transit
+40102,2024-01-12,2024-01-20,Delta Supplies,Dallas DC,4724,4724,57,Delivered
+40103,2024-01-05,2024-01-27, alpha corp ,Chicago DC,2314,2314,195,Delivered
+40104,2024-03-29,2024-04-06,Gamma Logistics,New York DC,1318,1238,94,Delivered
+40105,2024-01-04,,Gamma Logistics,New York DC,4973,0,210,Delayed
+40106,2023-09-17,,Alpha Corp,New York DC,446,0,143,In Transit
+40107,2024-06-22,,Beta Mfg,Chicago DC,2528,0,231,Delayed
+40108,2023-03-20,,Gamma Logistics,Dallas DC,2928,0,436,Delayed
+40109,2023-12-02,,Gamma Logistics,Los Angeles DC,3669,0,257,Delayed
+40110,2023-03-08,,Gamma Logistics,New York DC,4053,0,324,In Transit
+40111,2024-04-14,,Beta Mfg,Los Angeles DC,778,0,254,In Transit
+40112,2024-08-21,,Gamma Logistics, unknown,3634,0,451,Delayed
+40113,2023-02-18,,Beta Mfg, unknown,2738,0,192,In Transit
+40114,2023-12-28,,Delta Supplies, unknown,3866,0,41,In Transit
+40115,2024-10-20,,Gamma Logistics,Los Angeles DC,4066,0,193,Delayed
+40116,2023-05-02,,Gamma Logistics,New York DC,1916,0,62,In Transit
+40117,2024-11-13,2024-11-15,Gamma Logistics, unknown,3061,3061,81,Delivered
+40118,2023-04-11,,Beta Mfg,Los Angeles DC,856,0,281,In Transit
+40119,2023-06-14,,Beta Mfg,Chicago DC,4581,0,79,In Transit
+40120,2023-02-07,, alpha corp ,Chicago DC,4488,0,393,Delayed
+40121,2024-11-16,2024-12-13,Alpha Corp,Los Angeles DC,2747,2747,174,Delivered
+40122,2024-09-28,2024-10-15,Delta Supplies,Dallas DC,777,777,414,Delivered
+40123,2024-03-09,2024-03-30,Alpha Corp, unknown,4686,4686,418,Delivered
+40124,2024-09-29,2024-10-10,Alpha Corp,New York DC,741,741,90,Delivered
+40125,2023-01-05,2023-01-12,Beta Mfg,Dallas DC,2476,2476,,Delivered
+40126,2023-03-26,, alpha corp ,Chicago DC,1925,0,352,In Transit
+40127,2023-07-13,,Delta Supplies, unknown,1234,0,408,Delayed
+40128,2024-05-09,2024-05-25,Gamma Logistics, unknown,519,519,220,Delivered
+40129,2024-11-12,,Beta Mfg,Chicago DC,3397,0,161,In Transit
+40130,2023-02-02,, alpha corp ,Chicago DC,2983,0,492,In Transit
+40131,2023-07-13,,Delta Supplies,Los Angeles DC,4287,0,363,In Transit
+40132,2023-06-28,, alpha corp ,New York DC,4546,0,451,Delayed
+40133,2024-04-07,,Alpha Corp,Dallas DC,3489,0,440,In Transit
+40134,2023-08-08,2023-09-01, alpha corp ,New York DC,4834,4834,32,Delivered
+40135,2023-09-16,2023-10-07, alpha corp ,Dallas DC,3587,3587,123,Delivered
+40136,2024-05-10,,Gamma Logistics,Dallas DC,1769,0,410,In Transit
+40137,2023-10-14,,Alpha Corp,Los Angeles DC,3106,0,476,Delayed
+40138,2023-03-16,, alpha corp , unknown,1188,0,246,Delayed
+40139,2024-05-28,2024-06-04,Delta Supplies,Los Angeles DC,4132,4132,416,Delivered
+40140,2023-04-10,,Gamma Logistics,Chicago DC,4922,0,196,Delayed
+40141,2024-08-27,2024-09-09,Gamma Logistics,Los Angeles DC,2830,2830,158,Delivered
+40142,2023-10-20,2023-11-04,Alpha Corp,Dallas DC,3768,3768,377,Delivered
+40143,2024-11-12,, alpha corp ,Chicago DC,2636,0,39,In Transit
+40144,2024-02-10,2024-03-08,Beta Mfg,Los Angeles DC,333,333,,Delivered
+40145,2023-03-11,2023-03-19,Beta Mfg, unknown,1722,1722,454,Delivered
+40146,2023-10-11,,Delta Supplies,Chicago DC,277,0,259,In Transit
+40147,2024-07-25,,Alpha Corp,New York DC,1550,0,236,In Transit
+40148,2023-07-14,,Delta Supplies, unknown,971,0,486,In Transit
+40149,2023-07-26,2023-08-13,Alpha Corp, unknown,3282,3282,262,Delivered
+40150,2023-02-18,,Gamma Logistics,Dallas DC,652,0,,In Transit
+40151,2023-01-04,,Beta Mfg,Dallas DC,1230,0,43,In Transit
+40152,2023-05-08,,Delta Supplies,Dallas DC,3064,0,287,In Transit
+40153,2023-11-11,,Alpha Corp, unknown,638,0,268,Delayed
+40154,2023-08-17,2023-09-14,Beta Mfg,Los Angeles DC,1582,1582,474,Delivered
+40155,2024-09-23,, alpha corp , unknown,4871,0,67,In Transit
+40156,2024-02-04,2024-02-06, alpha corp ,Los Angeles DC,3560,3560,423,Delivered
+40157,2024-10-26,,Alpha Corp,Dallas DC,3380,0,,In Transit
+40158,2024-08-16,,Beta Mfg,Dallas DC,2430,0,46,Delayed
+40159,2023-11-15,2023-12-06, alpha corp ,Los Angeles DC,3697,3697,452,Delivered
+40160,2023-08-20,,Delta Supplies,Los Angeles DC,4424,0,141,Delayed
+40161,2024-07-06,2024-07-17,Beta Mfg,Chicago DC,1833,1833,,Delivered
+40162,2023-01-19,, alpha corp ,New York DC,1545,0,92,In Transit
+40163,2023-12-13,2023-12-22,Alpha Corp,Dallas DC,2410,2410,161,Delivered
+40164,2023-02-01,,Delta Supplies,Los Angeles DC,1596,0,70,Delayed
+40165,2024-02-10,,Beta Mfg, unknown,398,0,375,In Transit
+40166,2024-10-15,,Delta Supplies, unknown,3570,0,338,Delayed
+40167,2024-01-31,,Alpha Corp,New York DC,4359,0,379,In Transit
+40168,2024-11-11,2024-12-05,Gamma Logistics,Los Angeles DC,620,527,26,Delivered
+40169,2024-05-17,, alpha corp ,Dallas DC,4960,0,208,In Transit
+40170,2024-09-26,,Delta Supplies,Chicago DC,3337,0,329,Delayed
+40171,2024-02-04,,Delta Supplies,Dallas DC,3175,0,71,In Transit
+40172,2023-11-02,,Beta Mfg,New York DC,4219,0,311,In Transit
+40173,2024-10-30,2024-11-08,Delta Supplies,Los Angeles DC,3055,3055,404,Delivered
+40174,2023-04-29,,Gamma Logistics,Dallas DC,3760,0,68,In Transit
+40175,2023-07-10,,Beta Mfg, unknown,2677,0,239,Delayed
+40176,2024-08-03,2024-08-25,Alpha Corp, unknown,1479,1479,435,Delivered
+40177,2024-07-07,2024-07-10,Alpha Corp, unknown,887,887,173,Delivered
+40178,2024-06-19,,Delta Supplies,Chicago DC,4754,0,280,Delayed
+40179,2023-08-10,2023-09-07,Alpha Corp,Dallas DC,4933,4933,248,Delivered
+40180,2023-11-02,2023-11-09, alpha corp ,Dallas DC,4985,4985,157,Delivered
+40181,2024-09-12,2024-09-21,Gamma Logistics,Dallas DC,918,918,265,Delivered
+40182,2024-06-16,,Delta Supplies, unknown,1242,0,184,Delayed
+40183,2024-11-06,,Gamma Logistics, unknown,907,0,464,In Transit
+40184,2023-11-22,,Delta Supplies,Dallas DC,1880,0,135,Delayed
+40185,2023-12-12,,Gamma Logistics,New York DC,407,0,54,In Transit
+40186,2023-06-14,2023-06-21, alpha corp ,New York DC,2378,2378,366,Delivered
+40187,2023-12-25,,Delta Supplies,Los Angeles DC,255,0,391,In Transit
+40188,2024-05-24,2024-06-07,Beta Mfg, unknown,1716,1716,393,Delivered
+40189,2023-07-05,2023-07-11,Beta Mfg,Los Angeles DC,3675,3675,,Delivered
+40190,2024-05-26,,Delta Supplies, unknown,3528,0,293,In Transit
+40191,2024-05-31,2024-06-07,Beta Mfg,Los Angeles DC,220,220,361,Delivered
+40192,2023-11-12,,Beta Mfg,New York DC,1997,0,435,Delayed
+40193,2023-10-04,2023-10-25,Alpha Corp,Los Angeles DC,4639,4639,45,Delivered
+40194,2023-02-22,2023-03-11,Beta Mfg,Los Angeles DC,1931,1931,196,Delivered
+40195,2024-02-19,,Alpha Corp,Los Angeles DC,4340,0,184,Delayed
+40196,2024-01-21,2024-02-09, alpha corp ,Los Angeles DC,424,424,432,Delivered
+40197,2023-10-24,,Beta Mfg,Chicago DC,280,0,132,In Transit
+40198,2023-04-09,,Gamma Logistics, unknown,4566,0,283,In Transit
+40199,2023-06-27,,Delta Supplies,Dallas DC,3997,0,402,In Transit
+40200,2024-04-21,2024-05-04,Beta Mfg, unknown,1942,1942,430,Delivered
+40201,2024-02-23,,Delta Supplies,Chicago DC,4754,0,412,Delayed
+40202,2024-09-11,,Beta Mfg,Los Angeles DC,533,0,100,In Transit
+40203,2024-07-02,,Alpha Corp, unknown,228,0,277,Delayed
+40204,2023-01-23,, alpha corp ,New York DC,3744,0,53,Delayed
+40205,2023-11-23,2023-12-19,Delta Supplies,Dallas DC,1488,1279,241,Delivered
+40206,2023-01-02,,Gamma Logistics,Dallas DC,790,0,231,Delayed
+40207,2023-03-21,2023-04-09,Gamma Logistics,Los Angeles DC,4438,4438,196,Delivered
+40208,2023-03-31,,Gamma Logistics, unknown,4936,0,111,In Transit
+40209,2023-10-09,,Gamma Logistics,Dallas DC,1320,0,404,Delayed
+40210,2024-01-29,, alpha corp ,Dallas DC,4798,0,300,In Transit
+40211,2023-12-19,, alpha corp ,Los Angeles DC,4367,0,131,Delayed
+40212,2024-02-21,2024-03-20,Gamma Logistics,Los Angeles DC,4138,4138,395,Delivered
+40213,2023-03-05,,Gamma Logistics,Dallas DC,1115,0,216,Delayed
+40214,2024-07-03,,Alpha Corp,Los Angeles DC,4066,0,78,In Transit
+40215,2024-11-14,,Delta Supplies,Dallas DC,3162,0,340,In Transit
+40216,2024-04-13,2024-04-25,Alpha Corp, unknown,4057,4057,308,Delivered
+40217,2024-08-06,,Alpha Corp,Dallas DC,2942,0,405,Delayed
+40218,2024-09-17,,Delta Supplies,New York DC,2998,0,310,In Transit
+40219,2024-09-04,, alpha corp ,Chicago DC,1576,0,,In Transit
+40220,2024-02-23,,Beta Mfg,New York DC,2170,0,246,In Transit
+40221,2024-04-25,2024-05-10,Beta Mfg,Chicago DC,963,963,,Delivered
+40222,2023-05-18,,Delta Supplies,New York DC,4482,0,326,In Transit
+40223,2023-07-16,, alpha corp ,New York DC,511,0,62,In Transit
+40224,2023-11-25,,Alpha Corp,Los Angeles DC,1255,0,442,In Transit
+40225,2023-11-26,2023-12-11,Alpha Corp,Los Angeles DC,1112,1112,138,Delivered
+40226,2024-10-19,,Alpha Corp,Dallas DC,1373,0,369,Delayed
+40227,2024-09-30,,Alpha Corp, unknown,4169,0,283,Delayed
+40228,2024-10-12,2024-10-21,Delta Supplies,Chicago DC,664,650,127,Delivered
+40229,2023-09-16,,Delta Supplies,Chicago DC,916,0,346,Delayed
+40230,2023-02-01,2023-02-09,Alpha Corp,Chicago DC,2389,2389,54,Delivered
+40231,2024-10-13,2024-11-09,Beta Mfg,Los Angeles DC,677,677,397,Delivered
+40232,2024-02-05,,Delta Supplies,Los Angeles DC,1056,0,227,In Transit
+40233,2024-08-15,,Beta Mfg,Chicago DC,1358,0,151,In Transit
+40234,2023-11-15,,Delta Supplies,Dallas DC,384,0,132,Delayed
+40235,2023-09-11,,Beta Mfg, unknown,764,0,,In Transit
+40236,2024-10-30,,Alpha Corp,Chicago DC,3459,0,229,Delayed
+40237,2023-02-11,,Alpha Corp,Dallas DC,377,0,236,Delayed
+40238,2024-11-30,,Delta Supplies,Chicago DC,3244,0,277,In Transit
+40239,2024-03-30,,Beta Mfg,New York DC,2751,0,467,Delayed
+40240,2023-07-17,2023-08-12,Beta Mfg,New York DC,3834,3834,113,Delivered
+40241,2024-05-19,2024-05-22,Gamma Logistics, unknown,2034,2034,,Delivered
+40242,2024-07-04,, alpha corp ,Los Angeles DC,2050,0,451,In Transit
+40243,2023-04-05,,Beta Mfg,Los Angeles DC,2615,0,479,Delayed
+40244,2023-12-26,,Beta Mfg,Dallas DC,3328,0,384,Delayed
+40245,2024-08-17,,Delta Supplies,Dallas DC,4204,0,454,Delayed
+40246,2023-10-04,,Beta Mfg,New York DC,274,0,428,In Transit
+40247,2023-03-06,, alpha corp ,Dallas DC,603,0,287,Delayed
+40248,2023-09-13,,Gamma Logistics,Chicago DC,3829,0,219,In Transit
+40249,2024-06-21,,Delta Supplies, unknown,1188,0,356,In Transit
+40250,2023-03-20,,Gamma Logistics, unknown,4965,0,350,In Transit
+40251,2024-08-19,,Beta Mfg,Chicago DC,619,0,201,In Transit
+40252,2024-01-10,,Alpha Corp,Dallas DC,1075,0,337,In Transit
+40253,2023-04-12,2023-05-01,Beta Mfg,Los Angeles DC,2454,2454,391,Delivered
+40254,2024-10-20,, alpha corp ,New York DC,4905,0,144,Delayed
+40255,2023-09-15,,Alpha Corp, unknown,2611,0,168,Delayed
+40256,2024-11-15,,Delta Supplies,New York DC,1237,0,258,Delayed
+40257,2024-08-13,,Alpha Corp,New York DC,4836,0,114,In Transit
+40258,2023-12-05,2023-12-21,Gamma Logistics,Los Angeles DC,461,461,335,Delivered
+40259,2024-02-05,2024-02-16,Gamma Logistics,Los Angeles DC,2120,2120,392,Delivered
+40260,2024-07-28,,Beta Mfg,Los Angeles DC,2272,0,285,In Transit
+40261,2023-07-10,,Alpha Corp,New York DC,623,0,,Delayed
+40262,2023-02-12,,Beta Mfg, unknown,3270,0,388,In Transit
+40263,2023-06-01,,Gamma Logistics,Los Angeles DC,2376,0,239,Delayed
+40264,2023-05-27,,Delta Supplies,Los Angeles DC,1367,0,245,Delayed
+40265,2024-08-06,2024-08-30,Beta Mfg,New York DC,3343,3343,43,Delivered
+40266,2024-09-03,, alpha corp ,Los Angeles DC,1082,0,26,In Transit
+40267,2024-08-17,,Delta Supplies,New York DC,3063,0,,In Transit
+40268,2024-05-23,, alpha corp ,New York DC,408,0,175,In Transit
+40269,2023-03-08,, alpha corp , unknown,1212,0,31,Delayed
+40270,2024-01-05,, alpha corp ,New York DC,826,0,46,In Transit
+40271,2024-08-12,,Beta Mfg,New York DC,954,0,95,Delayed
+40272,2023-01-11,,Beta Mfg, unknown,4680,0,109,In Transit
+40273,2023-03-05,,Gamma Logistics,Los Angeles DC,3681,0,355,Delayed
+40274,2023-01-04,,Beta Mfg,Chicago DC,4950,0,355,Delayed
+40275,2024-05-02,, alpha corp , unknown,4145,0,292,In Transit
+40276,2024-05-20,,Alpha Corp,Dallas DC,902,0,85,Delayed
+40277,2024-02-23,2024-03-08, alpha corp ,Los Angeles DC,4219,4219,214,Delivered
+40278,2024-09-20,,Gamma Logistics,Los Angeles DC,4202,0,467,In Transit
+40279,2024-07-11,2024-07-14,Alpha Corp,Chicago DC,1660,1660,51,Delivered
+40280,2024-03-14,,Gamma Logistics,Los Angeles DC,3235,0,426,In Transit
+40281,2024-01-21,,Delta Supplies,Chicago DC,1219,0,343,In Transit
+40282,2023-06-02,2023-06-29, alpha corp ,Los Angeles DC,4990,4391,33,Delivered
+40283,2024-02-01,, alpha corp ,Dallas DC,4645,0,383,Delayed
+40284,2024-09-10,2024-09-15,Beta Mfg,New York DC,280,271,33,Delivered
+40285,2024-07-27,, alpha corp ,Chicago DC,1359,0,,In Transit
+40286,2023-06-24,2023-07-15,Beta Mfg,New York DC,364,334,207,Delivered
+40287,2024-10-26,,Delta Supplies,New York DC,3150,0,469,Delayed
+40288,2023-12-19,, alpha corp ,Chicago DC,989,0,408,Delayed
+40289,2023-02-20,, alpha corp ,New York DC,4787,0,312,In Transit
+40290,2023-08-05,,Delta Supplies,Dallas DC,2963,0,363,In Transit
+40291,2024-08-03,,Alpha Corp,Chicago DC,3206,0,250,In Transit
+40292,2023-08-25,2023-08-28, alpha corp , unknown,215,215,143,Delivered
+40293,2023-03-12,,Alpha Corp,Chicago DC,258,0,60,In Transit
+40294,2023-01-12,,Delta Supplies,Dallas DC,3240,0,29,In Transit
+40295,2023-10-24,,Alpha Corp,Los Angeles DC,3402,0,394,Delayed
+40296,2023-10-29,,Gamma Logistics,Los Angeles DC,3700,0,34,In Transit
+40297,2023-11-04,2023-11-21, alpha corp ,Los Angeles DC,275,275,195,Delivered
+40298,2023-02-11,,Alpha Corp,Dallas DC,2618,0,378,In Transit
+40299,2023-04-18,,Beta Mfg,Los Angeles DC,2818,0,87,In Transit
+40300,2023-10-12,,Beta Mfg,Chicago DC,3380,0,264,In Transit
+40301,2023-06-15,,Beta Mfg,New York DC,2924,0,411,In Transit
+40302,2023-04-04,,Delta Supplies, unknown,321,0,491,Delayed
+40303,2024-06-10,, alpha corp ,Chicago DC,3426,0,352,In Transit
+40304,2023-03-22,,Gamma Logistics,Dallas DC,1477,0,71,In Transit
+40305,2024-08-07,,Gamma Logistics,Chicago DC,4307,0,425,Delayed
+40306,2024-08-28,,Delta Supplies,Dallas DC,4667,0,,Delayed
+40307,2024-05-08,,Beta Mfg,Chicago DC,960,0,329,In Transit
+40308,2023-10-21,,Alpha Corp,New York DC,4128,0,27,Delayed
+40309,2024-08-25,2024-09-04,Gamma Logistics, unknown,3505,3505,38,Delivered
+40310,2023-01-09,,Alpha Corp,New York DC,4449,0,143,In Transit
+40311,2023-12-28,2024-01-03,Delta Supplies,Los Angeles DC,2108,1728,61,Delivered
+40312,2023-06-14,2023-07-05,Gamma Logistics,Chicago DC,4549,4321,12,Delivered
+40313,2024-05-09,,Delta Supplies,Los Angeles DC,3644,0,327,Delayed
+40314,2023-12-16,2023-12-26,Beta Mfg,New York DC,3859,3859,343,Delivered
+40315,2023-12-06,, alpha corp ,Dallas DC,1599,0,424,Delayed
+40316,2023-06-05,,Beta Mfg, unknown,911,0,60,In Transit
+40317,2023-08-14,2023-08-30,Delta Supplies, unknown,275,275,290,Delivered
+40318,2024-06-17,,Alpha Corp,Dallas DC,416,0,85,Delayed
+40319,2023-07-07,,Alpha Corp,Chicago DC,2800,0,462,In Transit
+40320,2023-05-21,, alpha corp , unknown,171,0,206,In Transit
+40321,2023-03-03,2023-03-29,Delta Supplies,Los Angeles DC,3619,3619,72,Delivered
+40322,2024-07-19,,Delta Supplies, unknown,4750,0,346,In Transit
+40323,2023-01-16,,Alpha Corp,New York DC,3108,0,189,Delayed
+40324,2023-11-04,,Gamma Logistics,Los Angeles DC,3447,0,47,In Transit
+40325,2023-10-22,,Gamma Logistics,New York DC,3403,0,179,In Transit
+40326,2024-03-30,,Beta Mfg,Chicago DC,791,0,462,In Transit
+40327,2024-10-13,2024-11-07,Delta Supplies,Chicago DC,2619,2619,170,Delivered
+40328,2023-12-22,2024-01-01,Beta Mfg,Dallas DC,4787,4787,32,Delivered
+40329,2023-02-05,2023-02-14,Alpha Corp,Los Angeles DC,3731,3731,177,Delivered
+40330,2023-09-19,2023-10-12,Delta Supplies,Dallas DC,2416,2416,259,Delivered
+40331,2024-10-18,,Delta Supplies,New York DC,1744,0,55,Delayed
+40332,2024-04-09,2024-04-22,Beta Mfg, unknown,1397,1117,198,Delivered
+40333,2024-08-02,,Gamma Logistics,Dallas DC,2951,0,385,Delayed
+40334,2024-07-06,,Gamma Logistics,Chicago DC,1067,0,379,In Transit
+40335,2023-10-23,,Gamma Logistics,Dallas DC,2273,0,25,In Transit
+40336,2024-06-15,2024-06-22,Beta Mfg,Dallas DC,2659,2659,109,Delivered
+40337,2024-06-10,,Alpha Corp, unknown,3108,0,195,In Transit
+40338,2023-02-14,,Beta Mfg, unknown,244,0,436,Delayed
+40339,2023-05-27,,Gamma Logistics,Dallas DC,3624,0,410,Delayed
+40340,2024-03-27,, alpha corp ,Los Angeles DC,437,0,,Delayed
+40341,2024-07-28,,Alpha Corp,Chicago DC,2977,0,92,Delayed
+40342,2023-04-22,,Beta Mfg,Los Angeles DC,313,0,318,In Transit
+40343,2023-01-19,2023-02-03,Delta Supplies,New York DC,4459,4459,308,Delivered
+40344,2024-03-31,,Gamma Logistics,Los Angeles DC,626,0,110,Delayed
+40345,2024-01-03,,Gamma Logistics,Los Angeles DC,1289,0,155,Delayed
+40346,2023-01-16,,Gamma Logistics,Dallas DC,341,0,105,Delayed
+40347,2023-01-06,,Delta Supplies,New York DC,3132,0,190,Delayed
+40348,2024-04-03,,Alpha Corp,Los Angeles DC,1130,0,78,In Transit
+40349,2023-12-12,,Beta Mfg,Los Angeles DC,4777,0,351,Delayed
+40350,2023-03-26,2023-03-28,Delta Supplies, unknown,3674,3674,382,Delivered
+40351,2024-11-30,,Gamma Logistics,Chicago DC,3250,0,404,Delayed
+40352,2024-10-06,2024-11-02,Gamma Logistics, unknown,4357,4357,,Delivered
+40353,2023-04-21,2023-05-06,Gamma Logistics,Chicago DC,1890,1530,197,Delivered
+40354,2024-09-23,,Beta Mfg,Dallas DC,849,0,158,Delayed
+40355,2024-11-24,,Beta Mfg,New York DC,2301,0,83,Delayed
+40356,2023-01-03,2023-01-26,Gamma Logistics,Los Angeles DC,2258,2258,433,Delivered
+40357,2023-07-12,,Gamma Logistics,Dallas DC,2649,0,413,In Transit
+40358,2023-08-24,, alpha corp ,Los Angeles DC,4523,0,416,Delayed
+40359,2024-02-24,,Delta Supplies, unknown,1941,0,278,Delayed
+40360,2023-06-15,,Delta Supplies,Chicago DC,1259,0,475,Delayed
+40361,2024-11-13,2024-11-24,Alpha Corp,Chicago DC,284,284,165,Delivered
+40362,2024-07-27,,Beta Mfg,New York DC,3808,0,440,In Transit
+40363,2023-10-03,2023-10-18,Delta Supplies,New York DC,3045,3045,12,Delivered
+40364,2023-08-09,,Beta Mfg,New York DC,926,0,324,Delayed
+40365,2024-09-03,,Alpha Corp,Los Angeles DC,4523,0,315,Delayed
+40366,2024-11-21,2024-11-28, alpha corp ,Los Angeles DC,754,754,72,Delivered
+40367,2023-09-09,2023-09-18,Gamma Logistics,New York DC,403,403,274,Delivered
+40368,2023-10-07,,Delta Supplies,Dallas DC,1536,0,231,In Transit
+40369,2023-05-05,,Alpha Corp,Los Angeles DC,2042,0,18,In Transit
+40370,2024-06-23,2024-07-04, alpha corp ,New York DC,1663,1663,209,Delivered
+40371,2023-05-11,2023-05-19, alpha corp ,Dallas DC,658,658,20,Delivered
+40372,2024-07-28,,Beta Mfg,Chicago DC,799,0,241,Delayed
+40373,2024-08-03,,Delta Supplies, unknown,4588,0,396,In Transit
+40374,2023-08-28,2023-09-25,Beta Mfg,Los Angeles DC,4379,4379,132,Delivered
+40375,2024-11-26,,Gamma Logistics,Chicago DC,3111,0,85,In Transit
+40376,2024-02-18,, alpha corp ,Los Angeles DC,2917,0,366,In Transit
+40377,2024-09-22,,Delta Supplies,Dallas DC,2501,0,259,In Transit
+40378,2024-09-21,,Beta Mfg,Los Angeles DC,1752,0,485,Delayed
+40379,2023-11-13,,Beta Mfg,Los Angeles DC,2899,0,46,Delayed
+40380,2023-07-19,2023-07-31,Delta Supplies, unknown,3403,3403,322,Delivered
+40381,2023-07-10,,Gamma Logistics,Dallas DC,1980,0,184,In Transit
+40382,2023-08-06,,Gamma Logistics,Dallas DC,561,0,172,Delayed
+40383,2024-06-30,,Beta Mfg,New York DC,778,0,265,In Transit
+40384,2024-03-19,2024-04-14,Alpha Corp,Dallas DC,3119,3119,180,Delivered
+40385,2024-11-17,,Alpha Corp,Los Angeles DC,715,0,193,In Transit
+40386,2023-09-24,2023-10-19,Gamma Logistics,New York DC,4878,4878,134,Delivered
+40387,2024-10-28,,Gamma Logistics,New York DC,2505,0,61,Delayed
+40388,2023-03-24,,Delta Supplies,Dallas DC,4811,0,189,In Transit
+40389,2023-05-11,,Beta Mfg, unknown,3826,0,395,In Transit
+40390,2024-05-21,,Alpha Corp,Chicago DC,4035,0,489,In Transit
+40391,2023-08-19,2023-09-08,Alpha Corp,New York DC,2052,2052,352,Delivered
+40392,2024-01-20,,Beta Mfg, unknown,802,0,475,Delayed
+40393,2024-09-29,,Delta Supplies,New York DC,4550,0,,Delayed
+40394,2024-07-15,,Alpha Corp,Chicago DC,1222,0,235,In Transit
+40395,2023-06-20,2023-07-04,Delta Supplies,New York DC,3961,3961,152,Delivered
+40396,2024-01-25,,Alpha Corp,Chicago DC,2120,0,160,In Transit
+40397,2024-11-19,,Delta Supplies,Dallas DC,2525,0,398,In Transit
+40398,2023-07-29,,Alpha Corp,Chicago DC,2040,0,61,Delayed
+40399,2023-06-08,2023-07-01,Gamma Logistics,Los Angeles DC,1597,1597,314,Delivered
+40400,2023-08-01,2023-08-14,Alpha Corp,Dallas DC,2341,2341,217,Delivered
+40401,2023-12-12,,Alpha Corp,Chicago DC,2336,0,467,Delayed
+40402,2023-11-12,2023-11-15, alpha corp , unknown,1884,1884,101,Delivered
+40403,2023-08-20,,Delta Supplies,Los Angeles DC,623,0,338,In Transit
+40404,2023-09-11,,Beta Mfg,Chicago DC,4394,0,301,In Transit
+40405,2024-05-22,,Delta Supplies,New York DC,4518,0,460,In Transit
+40406,2023-08-22,, alpha corp ,Los Angeles DC,4289,0,371,Delayed
+40407,2024-02-05,, alpha corp ,Dallas DC,2213,0,287,Delayed
+40408,2024-09-25,,Alpha Corp,New York DC,4136,0,35,In Transit
+40409,2024-01-26,2024-01-30, alpha corp ,Chicago DC,4290,4290,173,Delivered
+40410,2023-06-26,2023-07-24,Alpha Corp,Los Angeles DC,4981,4981,187,Delivered
+40411,2024-10-14,,Beta Mfg,Dallas DC,4101,0,246,In Transit
+40412,2023-01-21,,Beta Mfg, unknown,4592,0,452,In Transit
+40413,2024-08-29,,Beta Mfg,Dallas DC,4279,0,347,Delayed
+40414,2023-04-30,, alpha corp ,Los Angeles DC,2062,0,428,In Transit
+40415,2023-09-25,2023-10-21,Alpha Corp,Los Angeles DC,3638,3638,422,Delivered
+40416,2023-05-30,,Alpha Corp, unknown,4149,0,188,Delayed
+40417,2024-07-08,2024-07-16,Gamma Logistics,Los Angeles DC,2070,2070,352,Delivered
+40418,2024-04-16,,Beta Mfg,Dallas DC,2799,0,360,In Transit
+40419,2024-03-15,2024-03-22,Beta Mfg,Dallas DC,3064,3064,333,Delivered
+40420,2023-01-18,, alpha corp ,Chicago DC,4421,0,423,Delayed
+40421,2024-07-18,2024-08-10,Gamma Logistics,Chicago DC,349,349,266,Delivered
+40422,2023-12-27,,Alpha Corp,New York DC,736,0,231,Delayed
+40423,2023-12-15,,Delta Supplies,Los Angeles DC,983,0,152,In Transit
+40424,2023-12-03,,Beta Mfg,Dallas DC,1950,0,434,Delayed
+40425,2024-09-06,2024-09-10,Beta Mfg, unknown,4781,4781,272,Delivered
+40426,2024-08-09,2024-08-15,Gamma Logistics,New York DC,538,538,338,Delivered
+40427,2024-02-05,2024-03-05,Beta Mfg,New York DC,2737,2737,262,Delivered
+40428,2024-11-07,, alpha corp ,Los Angeles DC,1975,0,332,Delayed
+40429,2024-03-22,, alpha corp ,Los Angeles DC,955,0,304,Delayed
+40430,2024-11-05,2024-11-23,Beta Mfg,Chicago DC,384,384,162,Delivered
+40431,2023-01-13,, alpha corp , unknown,2997,0,406,In Transit
+40432,2024-01-19,,Alpha Corp,Chicago DC,776,0,,Delayed
+40433,2024-10-12,,Alpha Corp,Chicago DC,2310,0,125,Delayed
+40434,2024-06-15,, alpha corp , unknown,600,0,,In Transit
+40435,2023-06-20,2023-07-01, alpha corp ,Los Angeles DC,3308,3308,51,Delivered
+40436,2023-01-02,2023-01-24,Delta Supplies, unknown,3386,3386,308,Delivered
+40437,2023-09-08,,Beta Mfg,Chicago DC,3007,0,119,Delayed
+40438,2023-02-23,,Alpha Corp,Los Angeles DC,4184,0,70,Delayed
+40439,2023-04-01,2023-04-16,Delta Supplies,Los Angeles DC,367,367,392,Delivered
+40440,2024-08-14,2024-08-23,Gamma Logistics,Chicago DC,3147,3147,466,Delivered
+40441,2023-09-11,2023-09-22, alpha corp ,Dallas DC,2337,2337,89,Delivered
+40442,2024-02-09,2024-02-15,Delta Supplies,New York DC,3744,3744,352,Delivered
+40443,2023-09-14,,Delta Supplies,Dallas DC,377,0,292,Delayed
+40444,2024-05-27,,Beta Mfg,New York DC,2623,0,62,Delayed
+40445,2023-08-17,2023-08-24,Delta Supplies,Chicago DC,3751,3751,480,Delivered
+40446,2024-09-16,2024-10-10,Gamma Logistics, unknown,2904,2904,296,Delivered
+40447,2024-10-07,2024-11-04,Beta Mfg, unknown,2387,2387,91,Delivered
+40448,2024-05-22,2024-06-13,Alpha Corp,Los Angeles DC,3140,3140,382,Delivered
+40449,2023-07-10,,Delta Supplies,Chicago DC,2304,0,208,Delayed
+40450,2024-07-05,,Beta Mfg,New York DC,859,0,24,In Transit
+40451,2024-01-18,, alpha corp ,Chicago DC,236,0,44,Delayed
+40452,2023-01-02,2023-01-20,Alpha Corp,Chicago DC,2329,2329,358,Delivered
+40453,2023-10-31,,Gamma Logistics, unknown,2776,0,419,In Transit
+40454,2023-02-10,, alpha corp ,Chicago DC,3429,0,88,In Transit
+40455,2024-05-21,,Gamma Logistics,Dallas DC,3353,0,,In Transit
+40456,2024-05-06,2024-05-31,Delta Supplies,Dallas DC,1422,1422,302,Delivered
+40457,2023-11-12,,Beta Mfg,New York DC,3616,0,29,In Transit
+40458,2024-04-18,2024-05-05, alpha corp ,Dallas DC,2724,2724,344,Delivered
+40459,2024-08-11,,Gamma Logistics, unknown,3826,0,239,Delayed
+40460,2023-11-08,, alpha corp ,Dallas DC,703,0,174,Delayed
+40461,2023-07-16,,Delta Supplies,Chicago DC,269,0,67,Delayed
+40462,2024-07-24,2024-08-21,Alpha Corp,Dallas DC,189,189,496,Delivered
+40463,2024-07-30,,Alpha Corp,New York DC,2203,0,81,In Transit
+40464,2024-06-01,,Beta Mfg, unknown,3192,0,211,In Transit
+40465,2023-08-24,,Beta Mfg,Los Angeles DC,2214,0,248,Delayed
+40466,2024-11-20,2024-11-26,Gamma Logistics,Chicago DC,227,227,395,Delivered
+40467,2024-10-30,, alpha corp ,Chicago DC,4552,0,276,In Transit
+40468,2024-11-06,, alpha corp ,New York DC,3632,0,333,Delayed
+40469,2024-06-29,2024-07-19, alpha corp ,Chicago DC,1803,1803,409,Delivered
+40470,2023-12-21,,Gamma Logistics, unknown,2267,0,169,In Transit
+40471,2024-07-15,, alpha corp , unknown,233,0,184,In Transit
+40472,2024-11-09,2024-11-19,Alpha Corp,Dallas DC,1943,1943,351,Delivered
+40473,2023-08-16,2023-09-10,Gamma Logistics,Dallas DC,3155,3155,469,Delivered
+40474,2023-04-08,2023-04-28,Gamma Logistics, unknown,445,445,323,Delivered
+40475,2023-08-21,2023-09-14, alpha corp ,Dallas DC,222,222,,Delivered
+40476,2024-01-25,,Delta Supplies,Los Angeles DC,1197,0,407,Delayed
+40477,2023-12-26,2023-12-28,Alpha Corp,Dallas DC,3920,3920,17,Delivered
+40478,2024-09-13,, alpha corp ,Los Angeles DC,131,0,449,Delayed
+40479,2024-05-30,,Gamma Logistics, unknown,2969,0,87,Delayed
+40480,2023-09-10,2023-10-03,Beta Mfg,New York DC,1405,1405,94,Delivered
+40481,2023-04-04,, alpha corp ,Chicago DC,180,0,199,Delayed
+40482,2024-07-08,, alpha corp ,Dallas DC,771,0,268,Delayed
+40483,2023-12-08,2023-12-17, alpha corp ,Dallas DC,2865,2865,48,Delivered
+40484,2023-09-06,,Delta Supplies,Los Angeles DC,2986,0,148,Delayed
+40485,2024-08-01,,Delta Supplies,Dallas DC,603,0,492,In Transit
+40486,2023-05-20,,Gamma Logistics,Los Angeles DC,944,0,388,Delayed
+40487,2023-10-19,,Beta Mfg, unknown,3542,0,137,Delayed
+40488,2024-09-02,,Beta Mfg,Dallas DC,369,0,246,Delayed
+40489,2024-10-15,2024-11-11,Delta Supplies,Chicago DC,2595,2595,48,Delivered
+40490,2024-08-31,,Gamma Logistics,Chicago DC,2350,0,453,In Transit
+40491,2024-07-26,,Alpha Corp,Los Angeles DC,4703,0,240,In Transit
+40492,2023-06-25,2023-06-29, alpha corp ,New York DC,4770,4770,344,Delivered
+40493,2023-12-18,,Beta Mfg,Los Angeles DC,4688,0,336,Delayed
+40494,2024-01-19,, alpha corp ,Los Angeles DC,4826,0,142,Delayed
+40495,2024-05-13,,Alpha Corp, unknown,4001,0,445,Delayed
+40496,2024-08-09,2024-08-24,Beta Mfg,Chicago DC,899,899,56,Delivered
+40497,2024-03-07,,Beta Mfg,New York DC,111,0,157,In Transit
+40498,2023-05-29,,Beta Mfg,New York DC,3815,0,371,In Transit
+40499,2024-02-24,,Gamma Logistics, unknown,1618,0,490,Delayed
+40500,2023-11-30,2023-12-24,Beta Mfg,Dallas DC,3355,3355,223,Delivered
+40501,2023-12-02,,Alpha Corp,Chicago DC,3631,0,279,Delayed
+40502,2024-08-27,,Alpha Corp,Chicago DC,3804,0,356,Delayed
+40503,2023-11-22,, alpha corp ,New York DC,4326,0,381,In Transit
+40504,2023-12-17,,Alpha Corp,New York DC,784,0,18,Delayed
+40505,2023-03-16,,Beta Mfg,Los Angeles DC,3903,0,257,In Transit
+40506,2023-06-23,,Beta Mfg, unknown,346,0,362,Delayed
+40507,2023-12-11,2023-12-22, alpha corp ,New York DC,3872,3872,161,Delivered
+40508,2023-08-15,, alpha corp ,Dallas DC,4897,0,499,In Transit
+40509,2024-10-23,,Gamma Logistics,Chicago DC,3813,0,430,In Transit
+40510,2024-01-31,, alpha corp ,Los Angeles DC,1162,0,346,Delayed
+40511,2024-06-29,2024-07-03, alpha corp ,New York DC,139,139,381,Delivered
+40512,2023-09-08,,Alpha Corp,Dallas DC,4963,0,230,Delayed
+40513,2024-10-02,,Delta Supplies,Los Angeles DC,4315,0,157,Delayed
+40514,2023-08-22,,Beta Mfg,Dallas DC,2359,0,132,Delayed
+40515,2024-04-23,2024-05-12,Alpha Corp,Dallas DC,2771,2771,266,Delivered
+40516,2024-05-19,2024-06-16,Beta Mfg,New York DC,957,957,51,Delivered
+40517,2023-03-22,2023-04-05, alpha corp ,Los Angeles DC,4840,4840,244,Delivered
+40518,2024-05-08,,Delta Supplies,Los Angeles DC,3167,0,259,In Transit
+40519,2024-04-16,, alpha corp ,New York DC,2292,0,167,In Transit
+40520,2023-10-02,,Delta Supplies,Chicago DC,3400,0,53,Delayed
+40521,2023-01-09,,Beta Mfg,Chicago DC,1795,0,191,Delayed
+40522,2023-10-09,,Alpha Corp, unknown,426,0,418,Delayed
+40523,2024-07-23,,Gamma Logistics,Los Angeles DC,3421,0,210,In Transit
+40524,2023-09-15,,Delta Supplies,Chicago DC,3992,0,214,In Transit
+40525,2024-01-29,,Gamma Logistics,New York DC,2007,0,476,Delayed
+40526,2023-08-07,2023-08-16, alpha corp ,Dallas DC,782,782,406,Delivered
+40527,2024-04-07,,Beta Mfg,Chicago DC,2929,0,70,In Transit
+40528,2023-02-25,, alpha corp ,Dallas DC,3260,0,308,Delayed
+40529,2023-02-05,,Gamma Logistics, unknown,4215,0,355,In Transit
+40530,2023-02-26,2023-03-13,Delta Supplies, unknown,2559,2559,180,Delivered
+40531,2024-09-13,,Beta Mfg,Chicago DC,4636,0,143,In Transit
+40532,2024-09-13,2024-10-04,Beta Mfg,Chicago DC,4689,4689,64,Delivered
+40533,2024-05-07,, alpha corp ,Dallas DC,1020,0,76,Delayed
+40534,2023-03-15,,Beta Mfg,Chicago DC,3064,0,152,Delayed
+40535,2023-09-04,, alpha corp ,Dallas DC,3978,0,310,In Transit
+40536,2023-03-07,2023-03-24,Alpha Corp,Dallas DC,413,359,474,Delivered
+40537,2024-11-08,,Delta Supplies,New York DC,4554,0,383,Delayed
+40538,2023-09-03,,Delta Supplies,Dallas DC,715,0,179,In Transit
+40539,2024-05-06,2024-05-16,Gamma Logistics,Los Angeles DC,1848,1848,459,Delivered
+40540,2024-11-03,,Delta Supplies, unknown,2473,0,70,Delayed
+40541,2023-01-21,2023-01-25,Gamma Logistics,Chicago DC,3702,3702,145,Delivered
+40542,2023-01-28,2023-02-26,Alpha Corp,New York DC,4096,4096,348,Delivered
+40543,2024-01-14,2024-01-16,Gamma Logistics, unknown,1033,1033,34,Delivered
+40544,2023-06-11,,Alpha Corp,New York DC,765,0,121,Delayed
+40545,2024-06-20,2024-07-05, alpha corp ,Dallas DC,4189,4189,483,Delivered
+40546,2023-08-11,,Alpha Corp,Los Angeles DC,3446,0,169,Delayed
+40547,2023-04-05,,Delta Supplies, unknown,1293,0,359,In Transit
+40548,2024-05-05,,Beta Mfg,Dallas DC,4364,0,53,In Transit
+40549,2023-06-02,, alpha corp , unknown,338,0,371,In Transit
+40550,2024-03-01,,Beta Mfg,Dallas DC,4309,0,340,Delayed
+40551,2024-03-28,, alpha corp ,New York DC,4530,0,277,In Transit
+40552,2023-03-03,,Alpha Corp,Chicago DC,363,0,269,In Transit
+40553,2024-08-03,,Alpha Corp,Los Angeles DC,4396,0,148,In Transit
+40554,2023-03-26,,Beta Mfg,Chicago DC,2978,0,185,In Transit
+40555,2023-09-09,,Beta Mfg,Dallas DC,288,0,252,In Transit
+40556,2023-11-07,,Gamma Logistics, unknown,2757,0,211,Delayed
+40557,2024-07-01,,Beta Mfg, unknown,1128,0,157,Delayed
+40558,2023-06-06,,Beta Mfg,Los Angeles DC,2021,0,388,Delayed
+40559,2023-12-09,2023-12-31,Delta Supplies, unknown,1024,1024,461,Delivered
+40560,2023-02-09,,Alpha Corp,New York DC,1989,0,321,Delayed
+40561,2024-04-06,,Beta Mfg, unknown,1759,0,15,Delayed
+40562,2024-03-23,,Beta Mfg,New York DC,768,0,453,Delayed
+40563,2023-10-09,,Delta Supplies,Dallas DC,4774,0,,In Transit
+40564,2024-03-30,,Beta Mfg, unknown,4311,0,215,In Transit
+40565,2024-11-16,,Alpha Corp,Los Angeles DC,2978,0,24,In Transit
+40566,2024-03-29,2024-04-26,Gamma Logistics, unknown,2439,2097,75,Delivered
+40567,2024-02-19,,Alpha Corp,Chicago DC,1907,0,163,In Transit
+40568,2023-10-30,2023-11-16,Delta Supplies,Los Angeles DC,4904,4904,244,Delivered
+40569,2024-06-13,,Delta Supplies,Los Angeles DC,1831,0,279,Delayed
+40570,2024-03-27,,Delta Supplies,New York DC,1773,0,243,Delayed
+40571,2024-05-05,2024-05-31,Delta Supplies,Los Angeles DC,4068,4068,109,Delivered
+40572,2024-08-26,, alpha corp , unknown,3580,0,343,Delayed
+40573,2024-03-24,,Beta Mfg,Dallas DC,1460,0,331,Delayed
+40574,2023-11-12,2023-11-20,Beta Mfg,New York DC,4555,4555,204,Delivered
+40575,2024-10-30,2024-11-22, alpha corp ,Dallas DC,3821,3821,321,Delivered
+40576,2024-01-23,,Alpha Corp,Los Angeles DC,2016,0,367,Delayed
+40577,2024-11-06,,Alpha Corp,Chicago DC,3202,0,299,Delayed
+40578,2023-01-31,, alpha corp ,Dallas DC,3858,0,354,Delayed
+40579,2023-07-31,,Beta Mfg,Chicago DC,135,0,443,Delayed
+40580,2023-09-24,, alpha corp ,New York DC,453,0,87,In Transit
+40581,2024-03-01,,Beta Mfg,Dallas DC,1633,0,487,Delayed
+40582,2024-07-23,,Delta Supplies,Dallas DC,1882,0,194,In Transit
+40583,2023-08-17,, alpha corp ,Chicago DC,4673,0,387,Delayed
+40584,2024-04-22,, alpha corp ,Dallas DC,4238,0,46,In Transit
+40585,2023-05-06,,Gamma Logistics,Los Angeles DC,2217,0,418,In Transit
+40586,2024-02-08,,Alpha Corp,New York DC,3669,0,15,In Transit
+40587,2024-02-28,,Delta Supplies,Chicago DC,2588,0,263,In Transit
+40588,2024-10-05,2024-11-01,Gamma Logistics,Chicago DC,2005,2005,265,Delivered
+40589,2024-01-18,,Gamma Logistics, unknown,3210,0,183,In Transit
+40590,2024-08-27,2024-09-12, alpha corp ,Chicago DC,3771,3771,272,Delivered
+40591,2024-06-14,2024-06-25,Delta Supplies,New York DC,1577,1577,282,Delivered
+40592,2023-07-01,, alpha corp ,Dallas DC,311,0,186,In Transit
+40593,2023-02-09,,Alpha Corp,Chicago DC,4160,0,329,Delayed
+40594,2023-06-25,,Beta Mfg,Dallas DC,4821,0,196,Delayed
+40595,2024-11-02,,Alpha Corp, unknown,3191,0,356,Delayed
+40596,2023-10-03,2023-10-15,Delta Supplies, unknown,1783,1783,233,Delivered
+40597,2023-11-05,, alpha corp ,New York DC,3496,0,442,In Transit
+40598,2024-01-21,,Beta Mfg,New York DC,4144,0,445,Delayed
+40599,2023-01-21,2023-02-13,Beta Mfg,New York DC,1575,1575,249,Delivered
+40600,2024-04-02,,Delta Supplies,Dallas DC,3596,0,428,In Transit
+40601,2024-07-27,,Gamma Logistics,Dallas DC,1011,0,413,In Transit
+40602,2024-06-10,2024-06-26,Delta Supplies,New York DC,2057,2057,,Delivered
+40603,2023-12-19,, alpha corp ,Dallas DC,918,0,307,Delayed
+40604,2024-01-27,,Alpha Corp, unknown,2696,0,,In Transit
+40605,2023-11-12,,Beta Mfg,Dallas DC,1505,0,,Delayed
+40606,2023-11-11,,Gamma Logistics,Los Angeles DC,2175,0,309,In Transit
+40607,2024-09-07,,Beta Mfg, unknown,4293,0,322,Delayed
+40608,2023-11-16,2023-11-24, alpha corp ,New York DC,1137,1137,210,Delivered
+40609,2023-08-31,,Beta Mfg,Dallas DC,3165,0,375,In Transit
+40610,2024-04-11,,Beta Mfg,Los Angeles DC,371,0,247,Delayed
+40611,2023-04-27,,Delta Supplies, unknown,3429,0,,Delayed
+40612,2024-02-16,,Delta Supplies,Los Angeles DC,4973,0,174,Delayed
+40613,2024-02-06,,Alpha Corp,New York DC,290,0,134,Delayed
+40614,2023-08-28,,Delta Supplies,New York DC,755,0,335,In Transit
+40615,2024-03-31,2024-04-27,Gamma Logistics,Dallas DC,4858,4858,291,Delivered
+40616,2024-01-24,2024-02-07,Gamma Logistics,Dallas DC,3815,3815,357,Delivered
+40617,2023-10-15,2023-10-17,Alpha Corp,New York DC,1756,1756,123,Delivered
+40618,2024-07-30,2024-08-27,Alpha Corp, unknown,2773,2606,100,Delivered
+40619,2024-06-22,,Alpha Corp, unknown,4991,0,431,Delayed
+40620,2023-06-14,2023-06-24,Beta Mfg,New York DC,3851,3851,484,Delivered
+40621,2024-01-31,2024-02-20,Alpha Corp,Chicago DC,2261,2125,61,Delivered
+40622,2023-06-22,,Beta Mfg,New York DC,2330,0,412,Delayed
+40623,2024-06-24,, alpha corp ,Dallas DC,2183,0,56,In Transit
+40624,2024-08-28,2024-09-17, alpha corp ,Dallas DC,3097,3004,148,Delivered
+40625,2023-11-02,2023-11-11,Gamma Logistics,Chicago DC,1299,1299,164,Delivered
+40626,2024-01-07,2024-01-16,Delta Supplies,New York DC,2789,2789,192,Delivered
+40627,2023-09-24,2023-10-04,Beta Mfg,Los Angeles DC,471,471,242,Delivered
+40628,2024-01-22,,Alpha Corp,New York DC,3037,0,20,In Transit
+40629,2023-08-05,, alpha corp ,Los Angeles DC,2684,0,135,In Transit
+40630,2023-03-29,, alpha corp ,Chicago DC,3510,0,374,Delayed
+40631,2024-02-24,,Beta Mfg,Dallas DC,1409,0,461,In Transit
+40632,2023-07-27,,Gamma Logistics,Los Angeles DC,3876,0,166,Delayed
+40633,2023-07-12,2023-08-03,Gamma Logistics, unknown,828,695,,Delivered
+40634,2024-09-07,2024-09-22,Alpha Corp,New York DC,1492,1492,299,Delivered
+40635,2023-05-13,, alpha corp ,Dallas DC,188,0,172,In Transit
+40636,2024-03-29,2024-04-26,Alpha Corp,Los Angeles DC,3119,3119,300,Delivered
+40637,2023-08-21,,Gamma Logistics,Dallas DC,3581,0,467,In Transit
+40638,2023-10-24,2023-10-26,Delta Supplies,Dallas DC,4439,4439,499,Delivered
+40639,2023-04-18,,Alpha Corp,New York DC,2869,0,89,Delayed
+40640,2024-04-22,2024-05-05,Alpha Corp,Los Angeles DC,1859,1859,69,Delivered
+40641,2023-11-07,,Beta Mfg, unknown,4138,0,,Delayed
+40642,2023-06-28,,Alpha Corp,Los Angeles DC,1938,0,102,Delayed
+40643,2023-07-05,,Alpha Corp,Los Angeles DC,2366,0,360,In Transit
+40644,2024-07-24,,Beta Mfg,New York DC,4964,0,253,In Transit
+40645,2024-05-09,2024-05-23,Gamma Logistics,Dallas DC,2651,2651,48,Delivered
+40646,2023-02-13,2023-02-22, alpha corp ,New York DC,4393,4393,242,Delivered
+40647,2023-12-12,2024-01-09, alpha corp ,New York DC,4992,4992,208,Delivered
+40648,2024-03-15,,Alpha Corp,Dallas DC,4173,0,277,In Transit
+40649,2024-01-19,,Gamma Logistics,Dallas DC,4286,0,123,In Transit
+40650,2023-05-11,, alpha corp ,Los Angeles DC,1827,0,350,In Transit
+40651,2023-03-17,2023-03-24,Alpha Corp,Dallas DC,2547,2547,244,Delivered
+40652,2023-05-01,,Beta Mfg,New York DC,4086,0,37,In Transit
+40653,2024-05-22,2024-06-10,Alpha Corp,Chicago DC,1707,1707,41,Delivered
+40654,2023-07-02,2023-07-23,Alpha Corp, unknown,3527,3209,231,Delivered
+40655,2023-01-11,2023-01-14,Alpha Corp,Los Angeles DC,4449,4449,22,Delivered
+40656,2023-02-16,,Delta Supplies,Dallas DC,736,0,334,Delayed
+40657,2023-07-29,,Delta Supplies,Los Angeles DC,4756,0,199,In Transit
+40658,2023-07-02,2023-07-07,Beta Mfg,Chicago DC,1045,1045,383,Delivered
+40659,2023-03-27,2023-04-16,Beta Mfg,New York DC,2028,2028,420,Delivered
+40660,2023-04-03,2023-04-27,Alpha Corp, unknown,3060,3060,315,Delivered
+40661,2024-06-07,,Delta Supplies,Los Angeles DC,2892,0,318,Delayed
+40662,2023-02-20,2023-03-04,Alpha Corp,Los Angeles DC,4390,4390,159,Delivered
+40663,2024-01-10,,Delta Supplies,New York DC,981,0,265,In Transit
+40664,2024-01-07,2024-01-26,Beta Mfg, unknown,3203,3203,246,Delivered
+40665,2024-02-03,,Delta Supplies,Los Angeles DC,404,0,143,Delayed
+40666,2023-10-16,,Delta Supplies,Los Angeles DC,1960,0,312,Delayed
+40667,2024-10-14,,Delta Supplies,Dallas DC,441,0,228,Delayed
+40668,2023-04-15,, alpha corp ,Los Angeles DC,4072,0,259,Delayed
+40669,2023-09-19,, alpha corp , unknown,4087,0,379,In Transit
+40670,2023-12-18,2024-01-07, alpha corp ,Los Angeles DC,1387,1387,373,Delivered
+40671,2024-08-10,,Delta Supplies, unknown,4441,0,247,Delayed
+40672,2024-02-16,,Gamma Logistics,New York DC,2157,0,378,Delayed
+40673,2023-07-25,,Beta Mfg,Dallas DC,289,0,455,Delayed
+40674,2023-06-06,2023-06-18,Gamma Logistics, unknown,2201,2201,203,Delivered
+40675,2023-12-21,2024-01-17,Alpha Corp,Chicago DC,1988,1988,280,Delivered
+40676,2024-09-13,, alpha corp ,Los Angeles DC,3912,0,11,Delayed
+40677,2024-06-09,2024-06-28, alpha corp ,New York DC,2552,2552,418,Delivered
+40678,2024-03-07,,Alpha Corp,New York DC,2340,0,351,Delayed
+40679,2023-05-16,,Delta Supplies,Chicago DC,158,0,335,Delayed
+40680,2023-09-03,2023-09-14,Beta Mfg,Los Angeles DC,839,713,396,Delivered
+40681,2023-05-15,2023-06-01,Delta Supplies, unknown,1931,1931,206,Delivered
+40682,2024-05-31,,Delta Supplies,Dallas DC,3389,0,210,Delayed
+40683,2023-08-01,2023-08-05,Alpha Corp,New York DC,1530,1530,38,Delivered
+40684,2024-04-12,,Beta Mfg, unknown,4062,0,43,In Transit
+40685,2023-09-24,,Alpha Corp,Dallas DC,3713,0,137,Delayed
+40686,2023-11-12,, alpha corp ,Los Angeles DC,4631,0,499,In Transit
+40687,2023-12-21,,Gamma Logistics,Dallas DC,3636,0,131,Delayed
+40688,2024-01-13,,Gamma Logistics,Los Angeles DC,4516,0,320,In Transit
+40689,2023-01-12,,Delta Supplies, unknown,3382,0,246,Delayed
+40690,2024-04-06,, alpha corp ,Dallas DC,315,0,114,In Transit
+40691,2023-06-28,2023-07-04, alpha corp ,Chicago DC,389,389,377,Delivered
+40692,2024-01-04,2024-01-16,Alpha Corp, unknown,4222,4222,102,Delivered
+40693,2024-03-14,2024-03-23,Alpha Corp,Chicago DC,2038,2038,263,Delivered
+40694,2024-08-16,,Gamma Logistics,New York DC,3420,0,26,In Transit
+40695,2023-07-18,,Gamma Logistics, unknown,4227,0,265,In Transit
+40696,2023-07-06,,Gamma Logistics,Los Angeles DC,4263,0,199,Delayed
+40697,2023-01-29,,Delta Supplies,Chicago DC,2148,0,59,In Transit
+40698,2024-10-17,,Gamma Logistics,Dallas DC,2753,0,464,Delayed
+40699,2023-05-16,,Alpha Corp,New York DC,3949,0,297,In Transit
+40700,2023-01-23,,Gamma Logistics,Dallas DC,606,0,287,Delayed
+40701,2024-07-23,,Alpha Corp, unknown,736,0,319,In Transit
+40702,2024-10-23,2024-11-03,Delta Supplies, unknown,4674,4674,10,Delivered
+40703,2023-12-30,2024-01-11,Beta Mfg,Chicago DC,459,459,142,Delivered
+40704,2024-07-14,2024-07-24, alpha corp ,New York DC,3423,3423,271,Delivered
+40705,2023-03-27,,Gamma Logistics,Dallas DC,2117,0,155,In Transit
+40706,2023-06-23,2023-06-30,Gamma Logistics,New York DC,4274,4274,25,Delivered
+40707,2023-06-19,,Delta Supplies,Chicago DC,564,0,209,In Transit
+40708,2024-05-20,,Beta Mfg,Los Angeles DC,4016,0,414,In Transit
+40709,2023-07-08,2023-07-19, alpha corp ,Los Angeles DC,1204,1204,17,Delivered
+40710,2023-07-28,,Delta Supplies, unknown,1304,0,68,Delayed
+40711,2023-11-25,,Delta Supplies, unknown,2233,0,465,Delayed
+40712,2023-05-20,, alpha corp ,Dallas DC,347,0,89,Delayed
+40713,2024-04-07,,Delta Supplies,Chicago DC,4293,0,110,In Transit
+40714,2023-04-20,2023-04-27, alpha corp ,Dallas DC,1210,1210,307,Delivered
+40715,2023-11-29,2023-12-24,Beta Mfg,Dallas DC,4318,4318,48,Delivered
+40716,2023-08-27,2023-09-06,Alpha Corp,Los Angeles DC,2599,2599,428,Delivered
+40717,2024-03-22,,Alpha Corp,Chicago DC,2011,0,458,In Transit
+40718,2023-08-07,, alpha corp ,Los Angeles DC,1123,0,71,Delayed
+40719,2024-02-19,,Delta Supplies,Los Angeles DC,2295,0,26,In Transit
+40720,2024-07-20,2024-08-18, alpha corp ,Los Angeles DC,2626,2205,242,Delivered
+40721,2024-06-03,,Beta Mfg, unknown,2982,0,434,In Transit
+40722,2024-11-30,,Delta Supplies,Los Angeles DC,346,0,233,In Transit
+40723,2023-08-01,,Beta Mfg,Chicago DC,2396,0,141,In Transit
+40724,2024-08-13,, alpha corp ,Chicago DC,765,0,39,Delayed
+40725,2024-09-04,, alpha corp ,Chicago DC,1702,0,124,In Transit
+40726,2024-08-08,2024-08-25,Alpha Corp,New York DC,4275,4275,383,Delivered
+40727,2024-04-15,,Delta Supplies,Chicago DC,3565,0,157,Delayed
+40728,2024-03-26,2024-04-08,Gamma Logistics,Los Angeles DC,4501,4501,374,Delivered
+40729,2024-07-18,,Delta Supplies,New York DC,4320,0,111,Delayed
+40730,2023-06-06,2023-06-25,Beta Mfg,Chicago DC,2654,2654,56,Delivered
+40731,2023-02-27,2023-03-17,Alpha Corp, unknown,3572,3321,171,Delivered
+40732,2024-08-11,2024-08-20,Alpha Corp,New York DC,1493,1493,279,Delivered
+40733,2023-12-21,,Gamma Logistics, unknown,2381,0,27,Delayed
+40734,2024-02-09,2024-02-14,Beta Mfg,Los Angeles DC,288,288,421,Delivered
+40735,2023-10-05,,Gamma Logistics,Dallas DC,3641,0,489,Delayed
+40736,2023-12-22,, alpha corp ,Los Angeles DC,1080,0,169,In Transit
+40737,2023-09-17,,Beta Mfg,New York DC,2982,0,471,In Transit
+40738,2023-09-04,,Gamma Logistics,New York DC,2579,0,230,In Transit
+40739,2023-08-18,2023-09-13, alpha corp , unknown,1002,1002,116,Delivered
+40740,2024-07-18,,Beta Mfg,Chicago DC,2142,0,404,Delayed
+40741,2023-10-31,2023-11-29,Alpha Corp,Los Angeles DC,4227,4227,163,Delivered
+40742,2024-09-21,2024-09-29,Delta Supplies,New York DC,3215,3215,269,Delivered
+40743,2023-05-06,,Alpha Corp,Chicago DC,178,0,44,In Transit
+40744,2023-04-18,2023-05-05,Delta Supplies,Los Angeles DC,402,377,180,Delivered
+40745,2023-12-18,,Beta Mfg,Los Angeles DC,2891,0,422,In Transit
+40746,2023-12-09,,Beta Mfg,Chicago DC,915,0,486,Delayed
+40747,2023-03-16,2023-04-10, alpha corp ,Dallas DC,3200,3200,493,Delivered
+40748,2024-06-16,,Delta Supplies,New York DC,420,0,235,Delayed
+40749,2024-10-04,2024-10-09,Gamma Logistics,Dallas DC,3707,3707,339,Delivered
+40750,2023-08-20,,Delta Supplies,New York DC,2418,0,231,Delayed
+40751,2024-04-08,2024-05-05,Delta Supplies,New York DC,1944,1944,332,Delivered
+40752,2023-12-27,,Alpha Corp,Dallas DC,2281,0,61,Delayed
+40753,2023-01-21,,Gamma Logistics,Dallas DC,2370,0,469,In Transit
+40754,2023-04-11,, alpha corp ,New York DC,1576,0,461,In Transit
+40755,2023-06-29,,Delta Supplies,Los Angeles DC,2364,0,37,Delayed
+40756,2023-10-05,,Gamma Logistics,Chicago DC,318,0,144,In Transit
+40757,2024-09-14,2024-09-18,Gamma Logistics, unknown,1203,1203,147,Delivered
+40758,2023-03-15,,Gamma Logistics,Dallas DC,4994,0,109,Delayed
+40759,2024-09-04,2024-09-15,Delta Supplies,Dallas DC,1368,1368,73,Delivered
+40760,2023-02-05,,Delta Supplies,Dallas DC,1397,0,383,Delayed
+40761,2024-04-09,,Delta Supplies,Los Angeles DC,939,0,237,In Transit
+40762,2024-05-26,,Delta Supplies, unknown,1100,0,96,Delayed
+40763,2023-05-26,2023-06-05, alpha corp ,New York DC,2741,2741,138,Delivered
+40764,2024-01-03,2024-01-17,Alpha Corp,Dallas DC,954,954,151,Delivered
+40765,2023-08-28,2023-09-04,Alpha Corp,New York DC,3752,3752,211,Delivered
+40766,2023-01-04,,Beta Mfg,Los Angeles DC,688,0,476,In Transit
+40767,2024-08-13,,Delta Supplies,Chicago DC,3656,0,397,Delayed
+40768,2023-10-08,2023-11-04,Delta Supplies,Dallas DC,2339,2339,105,Delivered
+40769,2024-04-25,2024-05-02,Beta Mfg, unknown,3418,3418,182,Delivered
+40770,2023-03-30,,Gamma Logistics,Los Angeles DC,3428,0,46,Delayed
+40771,2024-06-18,, alpha corp ,Los Angeles DC,4995,0,203,Delayed
+40772,2024-01-21,, alpha corp ,Dallas DC,184,0,332,In Transit
+40773,2023-04-02,2023-04-28,Delta Supplies, unknown,3020,2536,288,Delivered
+40774,2024-01-21,,Alpha Corp, unknown,1848,0,405,In Transit
+40775,2024-11-09,,Delta Supplies,New York DC,1793,0,289,Delayed
+40776,2023-06-14,2023-06-20,Beta Mfg,Chicago DC,479,416,349,Delivered
+40777,2024-11-28,,Delta Supplies,Chicago DC,508,0,15,Delayed
+40778,2024-09-10,2024-09-17,Beta Mfg,Chicago DC,4564,4564,105,Delivered
+40779,2023-05-06,,Delta Supplies,Los Angeles DC,294,0,394,In Transit
+40780,2023-10-24,, alpha corp ,Los Angeles DC,4740,0,402,In Transit
+40781,2023-12-11,,Beta Mfg,Los Angeles DC,3049,0,282,Delayed
+40782,2024-04-11,2024-04-16, alpha corp ,Dallas DC,4072,4072,73,Delivered
+40783,2024-09-11,,Beta Mfg,New York DC,4207,0,384,Delayed
+40784,2023-04-23,,Alpha Corp,Los Angeles DC,434,0,471,Delayed
+40785,2024-01-05,, alpha corp ,New York DC,4831,0,435,Delayed
+40786,2024-02-18,,Delta Supplies,Dallas DC,2610,0,368,Delayed
+40787,2023-05-24,,Beta Mfg, unknown,1545,0,278,Delayed
+40788,2023-03-15,, alpha corp , unknown,3669,0,299,Delayed
+40789,2024-04-23,2024-04-28,Beta Mfg, unknown,3652,3652,243,Delivered
+40790,2023-04-21,,Alpha Corp,Los Angeles DC,1545,0,389,Delayed
+40791,2023-01-13,2023-01-26,Beta Mfg,New York DC,4789,4789,394,Delivered
+40792,2023-10-03,2023-10-11,Beta Mfg,Chicago DC,932,932,146,Delivered
+40793,2024-09-26,,Beta Mfg, unknown,3957,0,316,In Transit
+40794,2024-05-25,,Gamma Logistics,Dallas DC,270,0,372,Delayed
+40795,2023-08-19,,Beta Mfg, unknown,3517,0,263,In Transit
+40796,2024-06-30,, alpha corp ,New York DC,1722,0,376,In Transit
+40797,2023-11-14,,Gamma Logistics,New York DC,4914,0,266,Delayed
+40798,2024-01-29,,Delta Supplies,Los Angeles DC,2087,0,238,In Transit
+40799,2023-10-10,,Delta Supplies, unknown,3301,0,125,Delayed
+40800,2024-04-15,,Beta Mfg,Dallas DC,3829,0,13,In Transit
+40801,2023-06-10,,Delta Supplies,New York DC,4403,0,459,In Transit
+40802,2024-10-20,2024-11-12,Gamma Logistics, unknown,1160,1160,345,Delivered
+40803,2024-08-16,2024-08-19,Beta Mfg,New York DC,1949,1949,370,Delivered
+40804,2023-12-24,2024-01-01,Gamma Logistics,Dallas DC,1724,1724,263,Delivered
+40805,2023-08-22,2023-09-19, alpha corp ,Los Angeles DC,2684,2684,236,Delivered
+40806,2023-03-04,,Delta Supplies,Chicago DC,1701,0,494,In Transit
+40807,2024-09-03,,Beta Mfg,Dallas DC,3765,0,10,Delayed
+40808,2023-10-20,2023-10-29,Delta Supplies,Los Angeles DC,2523,2523,265,Delivered
+40809,2024-05-04,,Gamma Logistics,Chicago DC,1380,0,384,Delayed
+40810,2023-12-18,2023-12-20,Alpha Corp, unknown,4825,4053,141,Delivered
+40811,2023-12-22,,Gamma Logistics,New York DC,2834,0,262,In Transit
+40812,2023-04-23,2023-05-17, alpha corp ,Los Angeles DC,1207,1207,447,Delivered
+40813,2024-08-21,,Delta Supplies,New York DC,1026,0,261,Delayed
+40814,2023-12-05,,Beta Mfg, unknown,4662,0,382,Delayed
+40815,2024-01-12,,Beta Mfg,New York DC,830,0,405,Delayed
+40816,2023-08-13,2023-08-27,Alpha Corp, unknown,3223,3223,306,Delivered
+40817,2024-03-21,,Alpha Corp,New York DC,1049,0,256,In Transit
+40818,2023-09-21,,Delta Supplies, unknown,3235,0,157,In Transit
+40819,2024-04-22,,Gamma Logistics,Chicago DC,3857,0,403,In Transit
+40820,2024-06-13,2024-06-17,Delta Supplies,New York DC,2718,2718,397,Delivered
+40821,2023-02-22,,Delta Supplies, unknown,1211,0,364,Delayed
+40822,2023-09-13,,Alpha Corp,New York DC,3412,0,57,In Transit
+40823,2023-11-16,,Delta Supplies,New York DC,1445,0,352,In Transit
+40824,2024-11-19,2024-11-23,Delta Supplies, unknown,4412,4412,120,Delivered
+40825,2024-09-26,2024-10-19, alpha corp ,Chicago DC,4607,4607,190,Delivered
+40826,2024-11-02,2024-11-17,Delta Supplies,New York DC,3691,3691,332,Delivered
+40827,2024-03-17,2024-03-21,Gamma Logistics,Chicago DC,4007,3405,477,Delivered
+40828,2024-08-04,,Beta Mfg,Los Angeles DC,785,0,262,In Transit
+40829,2023-11-23,2023-12-13,Alpha Corp,New York DC,3793,3793,489,Delivered
+40830,2023-02-07,,Alpha Corp,Dallas DC,1926,0,306,Delayed
+40831,2024-10-28,2024-11-12,Gamma Logistics, unknown,3810,3810,371,Delivered
+40832,2024-06-08,2024-07-05,Delta Supplies,Chicago DC,3478,3478,384,Delivered
+40833,2024-11-04,2024-11-30,Gamma Logistics,Dallas DC,4393,4393,93,Delivered
+40834,2023-01-28,,Alpha Corp,Los Angeles DC,3556,0,120,Delayed
+40835,2023-08-11,,Beta Mfg,Los Angeles DC,1912,0,183,In Transit
+40836,2023-08-05,2023-08-24,Gamma Logistics,New York DC,646,646,46,Delivered
+40837,2024-10-19,2024-11-06,Beta Mfg,Chicago DC,3078,3078,203,Delivered
+40838,2024-02-15,,Delta Supplies,Chicago DC,2265,0,380,In Transit
+40839,2023-08-08,, alpha corp ,Los Angeles DC,2884,0,202,Delayed
+40840,2024-03-01,, alpha corp ,Los Angeles DC,4370,0,59,Delayed
+40841,2023-08-07,, alpha corp , unknown,2289,0,322,Delayed
+40842,2023-01-19,,Gamma Logistics,Dallas DC,4670,0,55,In Transit
+40843,2024-05-21,,Alpha Corp,Dallas DC,1316,0,175,Delayed
+40844,2024-08-27,,Beta Mfg,Los Angeles DC,2782,0,68,Delayed
+40845,2023-10-01,,Beta Mfg, unknown,1541,0,267,Delayed
+40846,2024-06-25,,Gamma Logistics, unknown,681,0,344,Delayed
+40847,2023-12-01,,Delta Supplies,New York DC,1568,0,231,In Transit
+40848,2024-04-09,,Delta Supplies, unknown,3843,0,478,In Transit
+40849,2024-02-26,,Delta Supplies,New York DC,2640,0,251,Delayed
+40850,2023-05-31,, alpha corp , unknown,2881,0,259,In Transit
+40851,2024-04-04,2024-04-16, alpha corp , unknown,3310,3310,262,Delivered
+40852,2023-03-11,,Beta Mfg,Dallas DC,3666,0,346,Delayed
+40853,2023-03-03,,Gamma Logistics,Chicago DC,944,0,414,Delayed
+40854,2023-03-08,,Delta Supplies,New York DC,1389,0,463,In Transit
+40855,2024-11-28,,Delta Supplies, unknown,133,0,371,Delayed
+40856,2023-12-12,2024-01-10,Alpha Corp,Chicago DC,521,521,329,Delivered
+40857,2024-02-06,, alpha corp ,Chicago DC,4145,0,63,Delayed
+40858,2024-04-22,2024-05-07,Delta Supplies, unknown,4374,4374,430,Delivered
+40859,2024-02-17,, alpha corp ,New York DC,3634,0,492,In Transit
+40860,2024-10-25,, alpha corp ,Chicago DC,704,0,383,In Transit
+40861,2023-08-09,,Delta Supplies,Chicago DC,3116,0,375,Delayed
+40862,2023-01-26,,Gamma Logistics, unknown,1386,0,86,Delayed
+40863,2024-02-18,,Alpha Corp, unknown,2983,0,470,In Transit
+40864,2024-02-17,2024-03-06, alpha corp ,New York DC,2993,2993,451,Delivered
+40865,2024-04-25,, alpha corp , unknown,2626,0,202,Delayed
+40866,2024-07-01,, alpha corp ,New York DC,2813,0,261,In Transit
+40867,2024-07-01,,Gamma Logistics, unknown,1846,0,466,In Transit
+40868,2024-06-28,,Gamma Logistics, unknown,3661,0,440,In Transit
+40869,2024-03-07,2024-03-14,Alpha Corp,Chicago DC,765,765,430,Delivered
+40870,2023-11-23,,Delta Supplies,New York DC,993,0,398,In Transit
+40871,2024-01-23,, alpha corp ,New York DC,1830,0,339,In Transit
+40872,2024-03-24,,Beta Mfg, unknown,4553,0,176,In Transit
+40873,2023-03-12,2023-03-29,Delta Supplies,Chicago DC,908,908,124,Delivered
+40874,2023-08-23,2023-08-29,Alpha Corp, unknown,1867,1867,157,Delivered
+40875,2024-11-20,,Alpha Corp,Los Angeles DC,3287,0,116,In Transit
+40876,2024-10-23,,Beta Mfg, unknown,919,0,292,Delayed
+40877,2023-12-29,,Beta Mfg,Los Angeles DC,3444,0,,Delayed
+40878,2024-11-09,, alpha corp ,Los Angeles DC,3731,0,327,In Transit
+40879,2024-01-25,2024-02-21,Gamma Logistics,Dallas DC,3373,3373,147,Delivered
+40880,2023-11-14,2023-12-03,Alpha Corp,Los Angeles DC,1179,1179,158,Delivered
+40881,2024-06-15,,Delta Supplies,Chicago DC,4978,0,16,Delayed
+40882,2024-07-06,2024-08-02,Gamma Logistics,New York DC,4749,4749,289,Delivered
+40883,2023-09-29,, alpha corp ,New York DC,2545,0,217,Delayed
+40884,2023-06-16,,Gamma Logistics, unknown,1988,0,179,Delayed
+40885,2023-10-12,2023-10-14,Beta Mfg,New York DC,4911,4911,346,Delivered
+40886,2024-06-03,,Gamma Logistics, unknown,4555,0,81,Delayed
+40887,2023-08-21,,Beta Mfg,Dallas DC,4178,0,355,In Transit
+40888,2023-11-03,,Delta Supplies,Los Angeles DC,925,0,231,In Transit
+40889,2023-07-16,,Alpha Corp,Chicago DC,3085,0,424,In Transit
+40890,2024-08-16,, alpha corp ,Dallas DC,3534,0,230,In Transit
+40891,2023-07-13,,Delta Supplies,Dallas DC,544,0,273,In Transit
+40892,2023-12-20,,Delta Supplies,Dallas DC,3536,0,411,Delayed
+40893,2024-01-01,,Delta Supplies,Chicago DC,1253,0,168,Delayed
+40894,2023-12-16,2023-12-31,Gamma Logistics,New York DC,1576,1576,157,Delivered
+40895,2023-04-05,2023-04-24,Alpha Corp,Los Angeles DC,890,890,447,Delivered
+40896,2024-09-30,,Gamma Logistics,Dallas DC,3706,0,337,In Transit
+40897,2023-01-19,2023-02-03,Beta Mfg,Los Angeles DC,432,432,72,Delivered
+40898,2024-06-28,2024-07-02,Alpha Corp,Dallas DC,3967,3967,109,Delivered
+40899,2024-02-05,, alpha corp ,Chicago DC,2154,0,,Delayed
+40900,2024-04-22,,Delta Supplies,Los Angeles DC,3453,0,42,Delayed
+40901,2023-10-22,,Beta Mfg,Los Angeles DC,876,0,,In Transit
+40902,2023-12-07,2023-12-09,Delta Supplies,New York DC,1982,1982,369,Delivered
+40903,2023-08-14,,Gamma Logistics,Chicago DC,900,0,419,Delayed
+40904,2023-06-29,2023-07-05, alpha corp , unknown,1987,1987,162,Delivered
+40905,2024-05-12,,Gamma Logistics,New York DC,2618,0,496,Delayed
+40906,2023-05-09,2023-05-11,Gamma Logistics,New York DC,1677,1677,230,Delivered
+40907,2024-10-26,,Gamma Logistics,New York DC,644,0,113,In Transit
+40908,2024-02-15,, alpha corp ,New York DC,1203,0,376,In Transit
+40909,2024-03-06,,Gamma Logistics, unknown,3402,0,232,Delayed
+40910,2024-11-07,,Delta Supplies,Los Angeles DC,2007,0,155,In Transit
+40911,2024-04-11,,Alpha Corp,Chicago DC,2472,0,150,Delayed
+40912,2023-09-26,2023-10-14,Alpha Corp, unknown,2547,2547,419,Delivered
+40913,2023-08-17,,Delta Supplies,Chicago DC,2406,0,326,Delayed
+40914,2024-08-31,2024-09-20,Beta Mfg, unknown,4911,4911,467,Delivered
+40915,2024-10-01,,Gamma Logistics, unknown,2267,0,387,Delayed
+40916,2023-11-20,,Alpha Corp,Los Angeles DC,4564,0,327,In Transit
+40917,2023-12-16,2024-01-13,Beta Mfg,New York DC,116,116,189,Delivered
+40918,2023-01-16,,Delta Supplies,Dallas DC,2497,0,76,In Transit
+40919,2024-04-13,,Gamma Logistics, unknown,2967,0,253,In Transit
+40920,2023-01-30,,Alpha Corp,Chicago DC,4873,0,370,Delayed
+40921,2023-07-05,2023-07-30,Gamma Logistics,Los Angeles DC,2525,2525,223,Delivered
+40922,2023-05-01,,Delta Supplies,Chicago DC,4497,0,89,Delayed
+40923,2023-06-14,,Beta Mfg,Los Angeles DC,2860,0,454,Delayed
+40924,2023-05-23,,Gamma Logistics,New York DC,538,0,120,In Transit
+40925,2024-07-07,, alpha corp ,Dallas DC,3807,0,27,In Transit
+40926,2023-09-01,, alpha corp ,Los Angeles DC,1246,0,404,In Transit
+40927,2024-04-17,,Alpha Corp,Dallas DC,4411,0,165,Delayed
+40928,2024-05-18,,Delta Supplies, unknown,1853,0,,Delayed
+40929,2024-02-23,,Gamma Logistics,Los Angeles DC,1126,0,117,Delayed
+40930,2024-07-06,2024-08-01, alpha corp ,Chicago DC,723,723,136,Delivered
+40931,2023-04-05,2023-04-16,Beta Mfg,New York DC,2690,2690,383,Delivered
+40932,2024-09-27,2024-10-10,Alpha Corp,New York DC,3215,3215,196,Delivered
+40933,2024-06-09,,Gamma Logistics, unknown,219,0,296,Delayed
+40934,2024-09-11,,Alpha Corp,New York DC,3788,0,43,In Transit
+40935,2023-11-19,,Gamma Logistics, unknown,1350,0,259,In Transit
+40936,2023-02-02,,Alpha Corp,Dallas DC,1579,0,55,In Transit
+40937,2023-11-18,,Beta Mfg,Dallas DC,3759,0,393,Delayed
+40938,2024-06-13,2024-07-03,Beta Mfg,Los Angeles DC,2634,2634,219,Delivered
+40939,2023-03-23,,Gamma Logistics, unknown,3095,0,398,Delayed
+40940,2023-09-01,,Alpha Corp, unknown,3551,0,189,Delayed
+40941,2023-07-24,2023-08-05,Delta Supplies,Chicago DC,2190,2190,,Delivered
+40942,2023-07-20,2023-08-12,Beta Mfg,Dallas DC,2884,2710,424,Delivered
+40943,2024-10-20,,Gamma Logistics,New York DC,2057,0,352,In Transit
+40944,2023-12-19,,Gamma Logistics,Chicago DC,4038,0,221,Delayed
+40945,2023-01-19,2023-02-06,Alpha Corp,Chicago DC,3165,3165,411,Delivered
+40946,2023-11-12,,Gamma Logistics,Los Angeles DC,2635,0,111,Delayed
+40947,2023-10-11,2023-10-18,Alpha Corp,New York DC,2185,2185,136,Delivered
+40948,2023-10-12,,Delta Supplies,Los Angeles DC,1595,0,73,Delayed
+40949,2024-08-29,,Beta Mfg,Los Angeles DC,2345,0,359,In Transit
+40950,2024-03-16,2024-03-18,Alpha Corp,New York DC,3254,3254,398,Delivered
+40951,2023-07-27,,Alpha Corp,New York DC,3393,0,179,Delayed
+40952,2023-07-17,, alpha corp ,Los Angeles DC,1172,0,233,Delayed
+40953,2024-09-13,2024-09-22, alpha corp ,Los Angeles DC,2689,2689,323,Delivered
+40954,2024-04-29,2024-05-16, alpha corp ,Chicago DC,1591,1591,180,Delivered
+40955,2024-03-06,,Delta Supplies,New York DC,650,0,179,Delayed
+40956,2023-12-31,,Beta Mfg, unknown,761,0,393,Delayed
+40957,2023-05-02,,Delta Supplies,Los Angeles DC,1680,0,423,In Transit
+40958,2023-05-22,2023-05-28, alpha corp ,Dallas DC,2551,2551,154,Delivered
+40959,2024-07-27,,Beta Mfg, unknown,3061,0,423,Delayed
+40960,2023-03-05,2023-03-15,Delta Supplies, unknown,138,138,438,Delivered
+40961,2024-09-29,2024-10-15,Alpha Corp,Los Angeles DC,449,377,310,Delivered
+40962,2024-05-27,,Beta Mfg,Chicago DC,2541,0,323,In Transit
+40963,2024-04-30,2024-05-11,Alpha Corp,Chicago DC,4700,4700,298,Delivered
+40964,2024-02-10,,Beta Mfg,Chicago DC,4827,0,293,In Transit
+40965,2024-02-05,,Gamma Logistics, unknown,269,0,297,Delayed
+40966,2023-01-14,2023-02-01,Gamma Logistics,Los Angeles DC,645,645,99,Delivered
+40967,2024-03-07,2024-04-05,Delta Supplies,Chicago DC,1867,1867,339,Delivered
+40968,2024-04-15,, alpha corp ,Chicago DC,4601,0,81,Delayed
+40969,2023-04-18,2023-04-25,Delta Supplies, unknown,3307,3307,62,Delivered
+40970,2023-12-13,2023-12-30,Delta Supplies,Dallas DC,1172,1172,204,Delivered
+40971,2024-11-08,,Delta Supplies,Chicago DC,2167,0,18,In Transit
+40972,2023-04-30,, alpha corp ,Los Angeles DC,1181,0,76,In Transit
+40973,2023-03-01,2023-03-26,Delta Supplies, unknown,3237,3237,411,Delivered
+40974,2023-11-02,,Delta Supplies, unknown,1386,0,271,Delayed
+40975,2024-09-20,2024-09-22,Beta Mfg,New York DC,4756,4756,368,Delivered
+40976,2024-10-07,,Gamma Logistics,Chicago DC,4157,0,229,Delayed
+40977,2023-09-10,,Alpha Corp,Dallas DC,1382,0,284,In Transit
+40978,2023-06-15,2023-07-02,Alpha Corp,New York DC,4931,4931,83,Delivered
+40979,2024-03-21,2024-04-08,Alpha Corp,Chicago DC,627,627,316,Delivered
+40980,2023-06-08,,Alpha Corp,Dallas DC,1764,0,434,Delayed
+40981,2024-11-22,,Gamma Logistics,Chicago DC,3226,0,78,Delayed
+40982,2023-08-26,,Gamma Logistics, unknown,4024,0,,Delayed
+40983,2023-02-02,2023-02-14,Delta Supplies,Dallas DC,4248,4248,86,Delivered
+40984,2023-06-18,,Gamma Logistics, unknown,276,0,268,Delayed
+40985,2023-12-03,2023-12-06,Delta Supplies,Los Angeles DC,4992,4992,214,Delivered
+40986,2023-12-15,,Gamma Logistics,New York DC,1229,0,83,Delayed
+40987,2023-07-03,,Delta Supplies,New York DC,4741,0,356,In Transit
+40988,2024-11-15,,Beta Mfg, unknown,1392,0,108,In Transit
+40989,2023-11-21,2023-12-07,Gamma Logistics, unknown,2043,2043,25,Delivered
+40990,2024-09-25,2024-10-03,Gamma Logistics,Los Angeles DC,1812,1812,160,Delivered
+40991,2023-03-05,,Delta Supplies,Dallas DC,4299,0,68,Delayed
+40992,2024-06-25,,Beta Mfg,Los Angeles DC,917,0,346,Delayed
+40993,2023-06-01,2023-06-26,Alpha Corp,New York DC,1639,1639,444,Delivered
+40994,2023-06-10,,Delta Supplies,Los Angeles DC,3007,0,193,Delayed
+40995,2024-03-23,,Alpha Corp,Chicago DC,945,0,240,In Transit
+40996,2023-11-22,,Delta Supplies,Dallas DC,3152,0,34,Delayed
+40997,2023-03-10,, alpha corp ,Los Angeles DC,772,0,134,Delayed
+40998,2023-07-09,2023-07-25, alpha corp ,Dallas DC,1106,1106,186,Delivered
+40999,2023-07-18,2023-08-06,Delta Supplies,Los Angeles DC,3363,3363,54,Delivered
+41000,2024-06-06,,Alpha Corp,Chicago DC,3147,0,317,In Transit
+41001,2024-08-07,,Alpha Corp,New York DC,375,0,34,Delayed
+41002,2023-03-26,2023-04-24, alpha corp ,Los Angeles DC,4156,4156,22,Delivered
+41003,2023-03-15,2023-04-01,Alpha Corp,Chicago DC,1198,1198,170,Delivered
+41004,2023-03-31,2023-04-10,Alpha Corp,Los Angeles DC,3760,3760,43,Delivered
+41005,2023-09-17,,Beta Mfg,Los Angeles DC,2680,0,124,In Transit
+41006,2023-07-14,,Beta Mfg,Los Angeles DC,4090,0,263,In Transit
+41007,2024-05-19,,Delta Supplies,Chicago DC,1146,0,161,In Transit
+41008,2024-08-20,,Gamma Logistics, unknown,4651,0,441,In Transit
+41009,2023-01-31,,Alpha Corp,Chicago DC,3817,0,382,Delayed
+41010,2024-04-01,,Alpha Corp,Chicago DC,955,0,64,In Transit
+41011,2024-06-02,,Beta Mfg,Dallas DC,3091,0,265,In Transit
+41012,2023-07-26,2023-08-11,Beta Mfg,Chicago DC,3824,3824,424,Delivered
+41013,2023-02-15,2023-03-10,Gamma Logistics,Los Angeles DC,1243,1243,303,Delivered
+41014,2024-06-13,,Alpha Corp,New York DC,4778,0,,Delayed
+41015,2023-05-19,2023-05-29,Alpha Corp,New York DC,161,161,185,Delivered
+41016,2024-06-08,,Delta Supplies,New York DC,4992,0,468,Delayed
+41017,2024-07-18,,Gamma Logistics,Chicago DC,4125,0,484,Delayed
+41018,2024-02-11,,Gamma Logistics,New York DC,4285,0,240,In Transit
+41019,2024-01-08,2024-01-21,Beta Mfg,Chicago DC,2855,2855,287,Delivered
+41020,2024-10-28,,Beta Mfg, unknown,2474,0,187,Delayed
+41021,2024-06-09,,Alpha Corp, unknown,1380,0,164,Delayed
+41022,2024-11-10,2024-12-04,Beta Mfg,Los Angeles DC,2707,2707,378,Delivered
+41023,2024-09-14,,Delta Supplies,Los Angeles DC,2937,0,401,In Transit
+41024,2023-04-15,,Delta Supplies,Los Angeles DC,2505,0,322,Delayed
+41025,2023-06-03,,Beta Mfg,Los Angeles DC,2276,0,,Delayed
+41026,2023-12-15,,Beta Mfg,Los Angeles DC,2873,0,417,Delayed
+41027,2023-11-18,, alpha corp ,Dallas DC,1079,0,409,Delayed
+41028,2024-10-31,2024-11-20,Beta Mfg, unknown,4762,4762,,Delivered
+41029,2023-10-25,,Alpha Corp,Los Angeles DC,146,0,58,In Transit
+41030,2024-10-16,,Beta Mfg,Chicago DC,2019,0,230,In Transit
+41031,2024-03-31,2024-04-14,Alpha Corp, unknown,3482,3482,83,Delivered
+41032,2024-07-28,,Delta Supplies,Los Angeles DC,1685,0,397,Delayed
+41033,2024-04-23,2024-05-01,Beta Mfg,Los Angeles DC,3979,3979,226,Delivered
+41034,2023-09-10,,Gamma Logistics, unknown,3785,0,198,In Transit
+41035,2023-12-21,2024-01-19,Beta Mfg,Los Angeles DC,4924,4924,251,Delivered
+41036,2023-07-12,,Delta Supplies,Chicago DC,3757,0,77,Delayed
+41037,2023-04-11,2023-04-18, alpha corp ,Dallas DC,1034,1034,428,Delivered
+41038,2024-01-03,2024-01-20,Delta Supplies,Los Angeles DC,3130,3130,,Delivered
+41039,2024-06-13,,Delta Supplies,New York DC,2590,0,90,Delayed
+41040,2024-05-10,2024-05-28,Delta Supplies,Chicago DC,3623,3623,119,Delivered
+41041,2024-05-04,2024-05-07,Gamma Logistics, unknown,2658,2658,200,Delivered
+41042,2023-11-18,2023-11-25,Delta Supplies,Dallas DC,4705,4705,47,Delivered
+41043,2024-11-23,,Gamma Logistics, unknown,1927,0,303,In Transit
+41044,2023-12-05,,Beta Mfg,Dallas DC,404,0,377,Delayed
+41045,2023-03-16,2023-03-31,Delta Supplies, unknown,2801,2801,196,Delivered
+41046,2024-04-28,,Gamma Logistics,New York DC,3655,0,235,In Transit
+41047,2023-01-17,2023-02-06, alpha corp ,Dallas DC,2980,2980,156,Delivered
+41048,2023-09-29,2023-10-06,Delta Supplies,New York DC,1901,1901,357,Delivered
+41049,2024-01-18,2024-01-24,Gamma Logistics,New York DC,3234,3234,308,Delivered
+41050,2023-06-03,2023-06-23, alpha corp ,Los Angeles DC,4839,4355,457,Delivered
+41051,2024-03-17,2024-03-23,Delta Supplies,Los Angeles DC,3142,3142,256,Delivered
+41052,2023-09-19,2023-09-26,Beta Mfg,New York DC,1759,1759,446,Delivered
+41053,2024-08-03,,Beta Mfg,Dallas DC,4900,0,483,Delayed
+41054,2023-09-19,,Delta Supplies,Los Angeles DC,173,0,236,In Transit
+41055,2024-04-27,,Delta Supplies,New York DC,1164,0,278,Delayed
+41056,2023-01-06,,Gamma Logistics,Chicago DC,1250,0,277,Delayed
+41057,2024-04-02,, alpha corp ,Los Angeles DC,755,0,374,Delayed
+41058,2024-04-18,,Delta Supplies,Dallas DC,1872,0,297,In Transit
+41059,2023-10-06,, alpha corp , unknown,4565,0,287,In Transit
+41060,2023-12-06,,Beta Mfg, unknown,1780,0,207,Delayed
+41061,2024-06-15,,Beta Mfg,Los Angeles DC,2159,0,160,Delayed
+41062,2024-07-15,, alpha corp , unknown,3620,0,,Delayed
+41063,2023-02-11,,Beta Mfg,Los Angeles DC,4810,0,84,Delayed
+41064,2024-01-04,2024-01-10,Gamma Logistics,Los Angeles DC,4902,4902,365,Delivered
+41065,2024-07-31,2024-08-14,Delta Supplies,Los Angeles DC,4589,4589,445,Delivered
+41066,2023-07-15,2023-07-22,Gamma Logistics,Chicago DC,4922,4922,355,Delivered
+41067,2023-10-26,2023-11-02, alpha corp ,Dallas DC,1970,1970,124,Delivered
+41068,2024-10-23,,Gamma Logistics,Chicago DC,2806,0,47,In Transit
+41069,2023-01-29,,Alpha Corp,Los Angeles DC,571,0,292,Delayed
+41070,2023-10-06,, alpha corp ,Dallas DC,177,0,258,In Transit
+41071,2024-05-27,,Alpha Corp,Los Angeles DC,3733,0,432,In Transit
+41072,2024-05-17,,Gamma Logistics,New York DC,3449,0,420,Delayed
+41073,2023-11-24,,Gamma Logistics,Dallas DC,2637,0,210,Delayed
+41074,2023-11-20,2023-11-29, alpha corp , unknown,4267,4267,104,Delivered
+41075,2024-03-13,2024-03-19,Alpha Corp,Dallas DC,1142,1142,126,Delivered
+41076,2023-05-30,, alpha corp ,Los Angeles DC,1495,0,27,Delayed
+41077,2024-05-31,,Gamma Logistics, unknown,4904,0,328,In Transit
+41078,2023-03-10,2023-04-07,Delta Supplies,Los Angeles DC,2123,2038,185,Delivered
+41079,2024-05-11,,Gamma Logistics,Dallas DC,4052,0,153,Delayed
+41080,2023-08-24,2023-09-16,Gamma Logistics,New York DC,2242,2242,270,Delivered
+41081,2024-09-07,,Alpha Corp,Chicago DC,3922,0,362,In Transit
+41082,2024-05-02,,Delta Supplies,Los Angeles DC,4883,0,378,Delayed
+41083,2024-10-05,,Beta Mfg,Dallas DC,4863,0,410,Delayed
+41084,2023-11-15,, alpha corp ,New York DC,477,0,263,Delayed
+41085,2023-05-16,,Delta Supplies,New York DC,3938,0,298,In Transit
+41086,2024-06-28,,Gamma Logistics,New York DC,4951,0,251,Delayed
+41087,2023-08-19,2023-08-27,Gamma Logistics,Los Angeles DC,2959,2959,28,Delivered
+41088,2024-07-27,, alpha corp ,Dallas DC,2179,0,99,In Transit
+41089,2024-02-24,,Delta Supplies,Los Angeles DC,2562,0,483,In Transit
+41090,2023-11-14,2023-12-02,Alpha Corp,New York DC,794,794,37,Delivered
+41091,2023-08-17,,Gamma Logistics,New York DC,4010,0,279,In Transit
+41092,2023-06-20,,Beta Mfg,New York DC,1241,0,343,Delayed
+41093,2023-05-11,2023-05-13,Delta Supplies,Chicago DC,2100,1974,212,Delivered
+41094,2023-04-07,, alpha corp ,New York DC,1332,0,60,In Transit
+41095,2023-06-02,,Delta Supplies, unknown,4473,0,156,In Transit
+41096,2024-01-05,,Alpha Corp,Los Angeles DC,1314,0,179,Delayed
+41097,2023-02-22,,Delta Supplies,New York DC,1462,0,277,Delayed
+41098,2023-05-19,2023-05-30,Alpha Corp,New York DC,566,566,451,Delivered
+41099,2023-02-21,, alpha corp ,New York DC,3131,0,239,Delayed
+41100,2024-04-22,,Beta Mfg,Chicago DC,3136,0,186,Delayed
+41101,2024-08-03,2024-08-29,Delta Supplies,New York DC,410,410,226,Delivered
+41102,2024-01-25,,Delta Supplies,New York DC,3201,0,41,Delayed
+41103,2024-01-11,,Beta Mfg,Dallas DC,764,0,483,In Transit
+41104,2023-11-01,,Gamma Logistics,Dallas DC,2260,0,344,Delayed
+41105,2024-03-28,2024-03-30,Alpha Corp, unknown,1884,1884,269,Delivered
+41106,2024-06-29,2024-07-17,Delta Supplies,Dallas DC,2951,2951,361,Delivered
+41107,2024-03-08,,Gamma Logistics, unknown,4967,0,428,In Transit
+41108,2024-08-27,,Delta Supplies,Dallas DC,2339,0,109,Delayed
+41109,2024-06-14,,Alpha Corp, unknown,994,0,288,In Transit
+41110,2023-12-14,2023-12-30,Delta Supplies,New York DC,4253,4253,474,Delivered
+41111,2023-03-29,, alpha corp , unknown,4135,0,101,Delayed
+41112,2023-03-11,,Alpha Corp, unknown,2553,0,461,In Transit
+41113,2024-07-20,2024-08-09, alpha corp ,Chicago DC,4384,4384,370,Delivered
+41114,2023-04-16,, alpha corp ,New York DC,4515,0,244,Delayed
+41115,2023-01-04,2023-01-21,Alpha Corp, unknown,2582,2582,256,Delivered
+41116,2024-02-05,,Beta Mfg, unknown,1075,0,49,In Transit
+41117,2024-02-06,2024-02-25,Beta Mfg,New York DC,1429,1429,43,Delivered
+41118,2023-09-30,,Gamma Logistics,Dallas DC,3542,0,,Delayed
+41119,2024-03-09,2024-04-04, alpha corp , unknown,2966,2966,10,Delivered
+41120,2023-02-21,,Gamma Logistics,Los Angeles DC,4319,0,104,In Transit
+41121,2023-02-18,,Alpha Corp,Chicago DC,3547,0,125,In Transit
+41122,2023-09-16,2023-10-11,Gamma Logistics, unknown,677,677,379,Delivered
+41123,2023-03-21,,Alpha Corp,New York DC,1182,0,395,In Transit
+41124,2024-06-23,,Gamma Logistics,New York DC,1065,0,31,Delayed
+41125,2023-10-12,2023-10-18, alpha corp ,New York DC,3372,3372,60,Delivered
+41126,2023-09-26,,Alpha Corp,Dallas DC,3720,0,274,Delayed
+41127,2024-04-28,,Gamma Logistics,Los Angeles DC,1025,0,241,Delayed
+41128,2024-01-11,2024-01-27, alpha corp ,Los Angeles DC,3901,3901,132,Delivered
+41129,2023-08-16,2023-08-23,Beta Mfg,Chicago DC,4619,3833,,Delivered
+41130,2024-09-01,, alpha corp ,Dallas DC,379,0,227,In Transit
+41131,2024-05-12,,Gamma Logistics,Chicago DC,1917,0,77,Delayed
+41132,2023-08-15,,Delta Supplies,Los Angeles DC,2870,0,196,In Transit
+41133,2024-07-23,2024-08-01,Alpha Corp,Los Angeles DC,2511,2511,426,Delivered
+41134,2023-07-03,2023-07-29,Alpha Corp, unknown,3051,3051,198,Delivered
+41135,2024-01-25,2024-02-22,Gamma Logistics,New York DC,3484,3484,59,Delivered
+41136,2024-10-24,,Beta Mfg,Dallas DC,3148,0,197,Delayed
+41137,2023-02-10,2023-03-10,Delta Supplies,Los Angeles DC,2868,2868,431,Delivered
+41138,2023-07-28,,Delta Supplies,Chicago DC,1721,0,235,Delayed
+41139,2024-09-22,,Alpha Corp,New York DC,428,0,407,Delayed
+41140,2024-01-09,,Beta Mfg,Los Angeles DC,1683,0,297,Delayed
+41141,2023-12-05,,Gamma Logistics,Chicago DC,2770,0,101,In Transit
+41142,2023-02-09,,Delta Supplies,Chicago DC,1581,0,87,In Transit
+41143,2023-02-10,2023-03-07,Gamma Logistics,New York DC,2476,2476,312,Delivered
+41144,2024-01-18,2024-01-24,Delta Supplies,Los Angeles DC,3910,3910,183,Delivered
+41145,2023-07-12,2023-08-05, alpha corp , unknown,4663,4663,144,Delivered
+41146,2024-08-13,2024-08-16,Gamma Logistics,Chicago DC,3846,3846,242,Delivered
+41147,2023-06-25,2023-07-22,Delta Supplies, unknown,448,448,490,Delivered
+41148,2023-07-28,2023-07-30, alpha corp , unknown,2488,2413,123,Delivered
+41149,2024-08-01,,Gamma Logistics,Chicago DC,1136,0,,In Transit
+41150,2023-03-25,,Alpha Corp,Los Angeles DC,3018,0,100,Delayed
+41151,2023-04-23,, alpha corp ,Dallas DC,1009,0,429,Delayed
+41152,2023-08-22,, alpha corp , unknown,1666,0,196,In Transit
+41153,2023-01-09,,Gamma Logistics,Los Angeles DC,2156,0,241,Delayed
+41154,2023-07-11,,Delta Supplies,Los Angeles DC,3906,0,44,In Transit
+41155,2024-09-11,,Delta Supplies,Dallas DC,3872,0,255,Delayed
+41156,2024-01-31,,Beta Mfg,New York DC,1939,0,317,Delayed
+41157,2024-03-04,,Delta Supplies, unknown,4662,0,116,Delayed
+41158,2023-11-25,2023-12-21, alpha corp ,Los Angeles DC,3587,3587,133,Delivered
+41159,2023-05-03,2023-05-08,Gamma Logistics,Dallas DC,2300,2300,394,Delivered
+41160,2024-09-07,2024-09-10, alpha corp ,Chicago DC,930,930,423,Delivered
+41161,2024-04-08,, alpha corp ,Los Angeles DC,4244,0,428,Delayed
+41162,2023-10-18,,Delta Supplies,Chicago DC,384,0,,In Transit
+41163,2023-08-07,, alpha corp , unknown,2988,0,217,In Transit
+41164,2023-09-03,,Gamma Logistics,New York DC,350,0,172,In Transit
+41165,2023-06-18,2023-06-26, alpha corp ,Los Angeles DC,4348,4348,150,Delivered
+41166,2023-11-04,,Gamma Logistics, unknown,263,0,282,In Transit
+41167,2023-07-01,,Gamma Logistics,New York DC,758,0,219,Delayed
+41168,2023-11-20,2023-11-27,Gamma Logistics,Chicago DC,1622,1622,202,Delivered
+41169,2024-01-01,, alpha corp ,New York DC,1109,0,203,Delayed
+41170,2023-09-01,,Delta Supplies,New York DC,2684,0,436,In Transit
+41171,2024-08-25,,Alpha Corp,Dallas DC,4311,0,,Delayed
+41172,2023-11-18,,Gamma Logistics, unknown,4293,0,341,In Transit
+41173,2023-09-28,, alpha corp , unknown,331,0,386,Delayed
+41174,2024-02-13,, alpha corp ,Dallas DC,4333,0,157,In Transit
+41175,2023-02-27,,Alpha Corp, unknown,2996,0,400,Delayed
+41176,2023-03-13,,Gamma Logistics,Chicago DC,2756,0,390,In Transit
+41177,2023-11-14,,Beta Mfg,Los Angeles DC,3615,0,374,In Transit
+41178,2024-09-05,,Alpha Corp,Dallas DC,599,0,131,In Transit
+41179,2023-04-16,,Alpha Corp,Chicago DC,2794,0,172,Delayed
+41180,2023-10-20,2023-10-29, alpha corp , unknown,4410,4410,205,Delivered
+41181,2024-03-29,,Gamma Logistics, unknown,737,0,253,In Transit
+41182,2023-02-13,,Alpha Corp,Chicago DC,1111,0,481,Delayed
+41183,2023-05-17,2023-06-13,Gamma Logistics,Chicago DC,4763,4763,180,Delivered
+41184,2023-11-08,,Delta Supplies,New York DC,1803,0,51,In Transit
+41185,2024-08-23,,Delta Supplies,Chicago DC,4840,0,487,Delayed
+41186,2024-09-22,,Alpha Corp,Dallas DC,2405,0,426,Delayed
+41187,2024-03-02,,Alpha Corp,Chicago DC,3730,0,389,Delayed
+41188,2024-02-27,,Beta Mfg,New York DC,1564,0,261,In Transit
+41189,2024-04-08,2024-04-29,Alpha Corp,New York DC,4884,4884,31,Delivered
+41190,2023-06-16,,Beta Mfg,Los Angeles DC,3279,0,77,In Transit
+41191,2024-03-13,,Gamma Logistics,Chicago DC,4192,0,261,Delayed
+41192,2024-02-17,,Delta Supplies,Los Angeles DC,1349,0,180,In Transit
+41193,2023-06-10,,Delta Supplies,Chicago DC,1267,0,35,In Transit
+41194,2024-05-22,2024-05-30,Gamma Logistics,Chicago DC,2872,2872,275,Delivered
+41195,2023-10-05,2023-10-21,Delta Supplies,Chicago DC,2019,1918,358,Delivered
+41196,2023-12-26,,Gamma Logistics,Chicago DC,4024,0,227,In Transit
+41197,2023-07-08,,Alpha Corp,Chicago DC,4092,0,211,Delayed
+41198,2024-06-22,, alpha corp , unknown,3545,0,141,Delayed
+41199,2023-09-12,,Alpha Corp,New York DC,4149,0,396,Delayed
+41200,2023-02-17,,Alpha Corp, unknown,4275,0,53,Delayed
+41201,2024-11-25,,Beta Mfg, unknown,4274,0,436,Delayed
+41202,2023-05-26,, alpha corp ,Dallas DC,1426,0,196,In Transit
+41203,2023-12-10,,Alpha Corp, unknown,2267,0,48,Delayed
+41204,2023-12-10,,Beta Mfg,Dallas DC,3304,0,196,Delayed
+41205,2024-07-26,,Delta Supplies, unknown,1674,0,277,Delayed
+41206,2024-02-25,,Alpha Corp,Los Angeles DC,2055,0,449,Delayed
+41207,2023-02-23,,Beta Mfg,Los Angeles DC,2101,0,34,In Transit
+41208,2023-03-23,,Alpha Corp,New York DC,153,0,200,In Transit
+41209,2024-11-04,2024-11-16,Alpha Corp,Dallas DC,2496,2496,141,Delivered
+41210,2024-03-09,, alpha corp , unknown,4461,0,470,In Transit
+41211,2024-11-02,,Alpha Corp,New York DC,2130,0,18,Delayed
+41212,2023-10-20,,Beta Mfg,Los Angeles DC,3530,0,340,In Transit
+41213,2024-01-22,2024-02-11,Beta Mfg,New York DC,3231,2843,455,Delivered
+41214,2024-06-18,, alpha corp ,Los Angeles DC,3071,0,290,Delayed
+41215,2024-04-26,2024-05-09,Alpha Corp,Chicago DC,1896,1896,52,Delivered
+41216,2024-03-31,2024-04-18,Beta Mfg, unknown,1814,1814,147,Delivered
+41217,2024-03-23,2024-04-02,Delta Supplies,Los Angeles DC,4405,4405,75,Delivered
+41218,2023-06-12,,Delta Supplies,Dallas DC,4078,0,339,Delayed
+41219,2024-10-16,,Gamma Logistics,Los Angeles DC,1011,0,245,In Transit
+41220,2023-05-13,2023-05-31,Delta Supplies,Chicago DC,3534,3534,45,Delivered
+41221,2023-03-02,,Delta Supplies, unknown,1823,0,223,Delayed
+41222,2023-06-18,, alpha corp ,Los Angeles DC,891,0,245,In Transit
+41223,2024-10-19,,Gamma Logistics,Los Angeles DC,2129,0,92,In Transit
+41224,2024-07-03,, alpha corp ,New York DC,204,0,282,Delayed
+41225,2023-02-11,,Delta Supplies,Los Angeles DC,878,0,201,Delayed
+41226,2023-02-17,, alpha corp ,Dallas DC,2546,0,,In Transit
+41227,2024-03-13,, alpha corp , unknown,3572,0,206,In Transit
+41228,2024-02-05,2024-02-15,Gamma Logistics,Los Angeles DC,4532,4532,383,Delivered
+41229,2024-11-17,,Beta Mfg, unknown,986,0,139,Delayed
+41230,2024-09-15,,Alpha Corp,New York DC,4375,0,348,Delayed
+41231,2024-11-10,2024-11-19, alpha corp , unknown,886,886,163,Delivered
+41232,2023-04-19,2023-04-28, alpha corp ,Chicago DC,180,180,255,Delivered
+41233,2023-08-01,2023-08-26,Alpha Corp,Dallas DC,3132,3132,186,Delivered
+41234,2023-01-11,,Gamma Logistics,Dallas DC,3026,0,442,Delayed
+41235,2023-10-03,,Beta Mfg, unknown,784,0,419,In Transit
+41236,2024-04-12,,Alpha Corp,Dallas DC,3502,0,49,Delayed
+41237,2023-09-16,,Delta Supplies,Chicago DC,2886,0,330,In Transit
+41238,2024-09-10,,Beta Mfg,Chicago DC,4021,0,415,In Transit
+41239,2024-05-14,,Delta Supplies,Chicago DC,3059,0,140,In Transit
+41240,2023-07-13,2023-07-18,Beta Mfg, unknown,2398,2398,43,Delivered
+41241,2024-01-30,2024-02-01,Alpha Corp,Los Angeles DC,3266,3266,,Delivered
+41242,2023-06-09,,Beta Mfg,Chicago DC,2111,0,77,Delayed
+41243,2023-01-05,2023-01-09,Beta Mfg, unknown,1271,1271,408,Delivered
+41244,2023-03-06,,Gamma Logistics,Dallas DC,587,0,96,In Transit
+41245,2024-07-24,2024-08-11,Gamma Logistics, unknown,2649,2649,432,Delivered
+41246,2023-07-17,2023-08-12,Beta Mfg,Los Angeles DC,659,659,388,Delivered
+41247,2023-11-20,,Alpha Corp,New York DC,3310,0,76,Delayed
+41248,2023-11-23,,Alpha Corp,Chicago DC,1804,0,431,In Transit
+41249,2023-02-06,,Delta Supplies,Dallas DC,2180,0,419,In Transit
+41250,2023-11-06,,Delta Supplies,New York DC,4786,0,36,In Transit
+41251,2024-06-16,,Alpha Corp,Dallas DC,4547,0,283,In Transit
+41252,2023-01-14,,Gamma Logistics,New York DC,4266,0,128,Delayed
+41253,2023-12-26,2024-01-06,Alpha Corp,Chicago DC,2170,2170,214,Delivered
+41254,2024-06-30,,Gamma Logistics, unknown,198,0,218,Delayed
+41255,2023-03-04,,Delta Supplies,New York DC,3556,0,476,In Transit
+41256,2024-07-31,2024-08-19,Gamma Logistics,Los Angeles DC,261,261,402,Delivered
+41257,2024-02-21,,Delta Supplies, unknown,3165,0,175,Delayed
+41258,2024-03-03,,Beta Mfg,Los Angeles DC,4923,0,65,Delayed
+41259,2024-02-20,2024-03-18,Delta Supplies,Chicago DC,4903,4608,181,Delivered
+41260,2023-06-22,2023-06-29,Delta Supplies, unknown,849,849,400,Delivered
+41261,2024-09-11,2024-10-04,Beta Mfg,Los Angeles DC,3683,3683,90,Delivered
+41262,2024-10-30,,Beta Mfg,Los Angeles DC,3592,0,240,Delayed
+41263,2024-04-17,,Gamma Logistics, unknown,3789,0,404,In Transit
+41264,2023-10-18,,Beta Mfg,Chicago DC,2349,0,212,Delayed
+41265,2023-03-11,2023-03-23,Alpha Corp, unknown,1215,1215,267,Delivered
+41266,2024-08-26,2024-09-05,Beta Mfg, unknown,4703,4703,226,Delivered
+41267,2023-10-14,,Gamma Logistics,Chicago DC,1404,0,84,Delayed
+41268,2023-02-25,,Delta Supplies,Dallas DC,1487,0,241,Delayed
+41269,2024-06-10,2024-06-25,Alpha Corp, unknown,2018,2018,422,Delivered
+41270,2023-04-15,,Gamma Logistics,New York DC,4361,0,257,In Transit
+41271,2023-10-28,2023-11-05,Alpha Corp,New York DC,346,339,448,Delivered
+41272,2024-06-29,,Alpha Corp, unknown,4022,0,293,In Transit
+41273,2024-10-17,2024-11-05,Alpha Corp,Los Angeles DC,3951,3951,227,Delivered
+41274,2023-03-10,2023-03-28,Beta Mfg,Los Angeles DC,3710,3710,443,Delivered
+41275,2024-03-28,2024-04-07,Beta Mfg,Chicago DC,3782,3441,,Delivered
+41276,2023-08-24,, alpha corp ,Dallas DC,109,0,336,In Transit
+41277,2024-05-31,,Beta Mfg,Dallas DC,988,0,188,In Transit
+41278,2023-12-05,, alpha corp ,Dallas DC,3445,0,496,Delayed
+41279,2024-02-06,2024-02-27,Alpha Corp,Los Angeles DC,1574,1574,196,Delivered
+41280,2023-11-30,,Gamma Logistics,Los Angeles DC,623,0,357,In Transit
+41281,2024-11-18,2024-11-25,Beta Mfg,Chicago DC,3129,3129,359,Delivered
+41282,2024-10-01,, alpha corp ,Dallas DC,1986,0,318,Delayed
+41283,2024-04-12,,Gamma Logistics,Dallas DC,2338,0,105,Delayed
+41284,2024-05-01,,Delta Supplies,Los Angeles DC,1077,0,89,Delayed
+41285,2024-06-03,,Gamma Logistics,Dallas DC,3372,0,357,In Transit
+41286,2024-05-30,, alpha corp ,Los Angeles DC,2731,0,347,Delayed
+41287,2023-04-26,, alpha corp ,Chicago DC,4254,0,429,Delayed
+41288,2023-01-17,,Beta Mfg, unknown,3955,0,288,Delayed
+41289,2023-11-27,2023-12-03,Beta Mfg,Los Angeles DC,2802,2802,157,Delivered
+41290,2023-08-24,,Delta Supplies, unknown,4670,0,399,In Transit
+41291,2024-08-28,2024-09-22, alpha corp ,Chicago DC,2692,2692,60,Delivered
+41292,2023-08-02,2023-08-28,Beta Mfg,Dallas DC,4134,4134,79,Delivered
+41293,2023-07-04,,Gamma Logistics, unknown,4929,0,92,Delayed
+41294,2024-08-27,2024-09-15, alpha corp ,New York DC,4650,4650,122,Delivered
+41295,2023-03-02,2023-03-16,Alpha Corp,Los Angeles DC,1682,1682,148,Delivered
+41296,2023-06-22,2023-07-17,Alpha Corp,Chicago DC,886,886,390,Delivered
+41297,2024-04-13,,Beta Mfg,Dallas DC,4677,0,175,Delayed
+41298,2024-04-10,, alpha corp ,Dallas DC,2172,0,468,Delayed
+41299,2023-12-10,,Beta Mfg,Dallas DC,3043,0,444,In Transit
+41300,2024-03-25,2024-04-16,Alpha Corp,Chicago DC,3724,3500,397,Delivered
+41301,2023-08-08,,Alpha Corp,New York DC,4892,0,56,Delayed
+41302,2023-02-24,, alpha corp ,New York DC,3643,0,402,In Transit
+41303,2023-06-13,,Beta Mfg,Los Angeles DC,3932,0,217,Delayed
+41304,2023-06-14,2023-07-07, alpha corp ,Los Angeles DC,785,785,105,Delivered
+41305,2023-08-20,2023-09-12, alpha corp ,New York DC,3235,3235,392,Delivered
+41306,2023-07-03,,Delta Supplies,Chicago DC,3675,0,158,In Transit
+41307,2023-08-05,,Beta Mfg, unknown,3206,0,403,In Transit
+41308,2023-09-14,2023-10-09,Beta Mfg,New York DC,4637,4637,471,Delivered
+41309,2024-09-10,,Delta Supplies, unknown,3115,0,308,Delayed
+41310,2024-11-04,,Gamma Logistics,Dallas DC,2646,0,399,In Transit
+41311,2024-02-08,2024-03-02,Alpha Corp, unknown,4169,4169,384,Delivered
+41312,2024-01-05,, alpha corp ,Dallas DC,2856,0,15,Delayed
+41313,2024-08-12,2024-08-30,Delta Supplies,Los Angeles DC,3066,2974,158,Delivered
+41314,2024-01-08,2024-01-25,Alpha Corp, unknown,1838,1838,281,Delivered
+41315,2023-03-12,2023-03-17, alpha corp , unknown,156,156,478,Delivered
+41316,2024-05-17,2024-06-09, alpha corp ,Dallas DC,4761,4761,389,Delivered
+41317,2024-01-01,2024-01-06,Alpha Corp,Chicago DC,1825,1825,204,Delivered
+41318,2024-09-06,,Delta Supplies,New York DC,931,0,198,In Transit
+41319,2024-09-28,, alpha corp ,New York DC,1612,0,340,In Transit
+41320,2023-02-18,,Delta Supplies, unknown,240,0,208,In Transit
+41321,2023-05-12,2023-06-09,Beta Mfg,Chicago DC,338,338,423,Delivered
+41322,2023-01-19,, alpha corp ,Dallas DC,1279,0,157,Delayed
+41323,2023-04-08,2023-05-01,Delta Supplies,Los Angeles DC,305,305,63,Delivered
+41324,2024-08-17,,Delta Supplies,Chicago DC,2467,0,193,In Transit
+41325,2024-11-25,,Delta Supplies,Dallas DC,3005,0,184,In Transit
+41326,2024-10-07,2024-10-28,Alpha Corp,New York DC,4933,4933,401,Delivered
+41327,2024-06-22,,Gamma Logistics,Dallas DC,3737,0,,Delayed
+41328,2023-08-29,2023-09-13,Gamma Logistics,Chicago DC,1079,1079,103,Delivered
+41329,2024-03-31,2024-04-16,Delta Supplies,Dallas DC,2797,2797,394,Delivered
+41330,2023-09-12,, alpha corp , unknown,3888,0,165,In Transit
+41331,2023-02-05,2023-02-17,Beta Mfg,Dallas DC,3792,3792,329,Delivered
+41332,2023-08-31,2023-09-26, alpha corp ,New York DC,4614,4244,42,Delivered
+41333,2023-01-12,,Alpha Corp,Chicago DC,4396,0,473,Delayed
+41334,2023-04-09,2023-04-15,Beta Mfg,Los Angeles DC,3615,3615,76,Delivered
+41335,2023-12-14,,Delta Supplies,New York DC,100,0,212,In Transit
+41336,2024-03-18,,Beta Mfg, unknown,3828,0,334,In Transit
+41337,2023-08-07,,Alpha Corp,Chicago DC,1579,0,69,In Transit
+41338,2024-04-09,, alpha corp ,Los Angeles DC,2595,0,490,Delayed
+41339,2024-01-13,,Delta Supplies,Los Angeles DC,4446,0,388,Delayed
+41340,2024-09-10,, alpha corp ,Dallas DC,3048,0,61,In Transit
+41341,2023-12-11,2024-01-08, alpha corp ,Chicago DC,2446,1981,87,Delivered
+41342,2024-08-19,,Alpha Corp,Dallas DC,4627,0,396,Delayed
+41343,2023-12-10,2023-12-24,Gamma Logistics,Dallas DC,2911,2911,438,Delivered
+41344,2024-05-22,,Gamma Logistics,Los Angeles DC,597,0,,Delayed
+41345,2024-01-23,,Alpha Corp, unknown,3156,0,24,Delayed
+41346,2023-05-15,,Gamma Logistics,Chicago DC,669,0,437,Delayed
+41347,2024-06-01,2024-06-14, alpha corp ,New York DC,4239,4239,421,Delivered
+41348,2023-04-05,,Alpha Corp,Los Angeles DC,1848,0,326,In Transit
+41349,2023-07-08,,Alpha Corp,New York DC,632,0,333,Delayed
+41350,2023-03-07,, alpha corp ,Chicago DC,2596,0,262,In Transit
+41351,2024-08-12,,Beta Mfg,New York DC,4936,0,239,Delayed
+41352,2024-07-22,,Beta Mfg,Chicago DC,3598,0,134,In Transit
+41353,2024-02-28,,Beta Mfg,Chicago DC,2779,0,432,In Transit
+41354,2024-06-08,2024-07-07, alpha corp , unknown,483,483,64,Delivered
+41355,2024-03-19,, alpha corp ,Los Angeles DC,1537,0,383,Delayed
+41356,2024-07-19,,Beta Mfg,New York DC,2342,0,460,In Transit
+41357,2023-09-27,2023-09-29,Beta Mfg,Chicago DC,2495,2495,496,Delivered
+41358,2024-04-02,, alpha corp ,New York DC,720,0,391,In Transit
+41359,2023-12-19,,Beta Mfg,Dallas DC,4500,0,362,Delayed
+41360,2023-11-03,2023-11-15,Gamma Logistics, unknown,3202,3202,167,Delivered
+41361,2024-08-04,,Beta Mfg,Chicago DC,3390,0,386,In Transit
+41362,2023-11-17,,Beta Mfg,Dallas DC,3386,0,457,Delayed
+41363,2023-10-07,,Alpha Corp,New York DC,3401,0,176,In Transit
+41364,2023-02-03,2023-02-23,Delta Supplies,Dallas DC,4844,4844,328,Delivered
+41365,2024-07-29,2024-08-04,Gamma Logistics,Los Angeles DC,1383,1272,126,Delivered
+41366,2024-05-14,2024-05-30,Beta Mfg,Chicago DC,3963,3963,157,Delivered
+41367,2024-07-28,,Delta Supplies,Dallas DC,4918,0,493,Delayed
+41368,2024-03-12,, alpha corp ,Dallas DC,444,0,421,Delayed
+41369,2024-11-17,, alpha corp ,Los Angeles DC,3797,0,470,In Transit
+41370,2024-01-18,, alpha corp ,Los Angeles DC,3160,0,262,Delayed
+41371,2023-11-21,, alpha corp ,Los Angeles DC,2045,0,110,In Transit
+41372,2024-07-01,,Alpha Corp, unknown,942,0,244,In Transit
+41373,2024-07-22,,Gamma Logistics,Chicago DC,4385,0,223,In Transit
+41374,2023-11-04,,Gamma Logistics,Los Angeles DC,1868,0,39,Delayed
+41375,2024-06-07,,Gamma Logistics,Dallas DC,2408,0,128,In Transit
+41376,2024-10-25,,Beta Mfg,Los Angeles DC,3209,0,488,Delayed
+41377,2024-05-10,,Gamma Logistics, unknown,2353,0,494,In Transit
+41378,2023-07-19,,Delta Supplies,Los Angeles DC,493,0,,Delayed
+41379,2023-10-26,2023-10-28, alpha corp ,Dallas DC,811,811,316,Delivered
+41380,2024-11-23,2024-12-02,Delta Supplies,Los Angeles DC,4328,4328,496,Delivered
+41381,2023-11-17,2023-12-14,Beta Mfg,Dallas DC,2005,2005,45,Delivered
+41382,2023-11-20,,Delta Supplies,Chicago DC,2015,0,120,In Transit
+41383,2024-01-01,,Gamma Logistics,Chicago DC,2498,0,216,In Transit
+41384,2023-02-28,,Beta Mfg,New York DC,1186,0,379,Delayed
+41385,2023-01-20,,Gamma Logistics,Los Angeles DC,3152,0,347,In Transit
+41386,2023-10-22,2023-11-16,Gamma Logistics,Chicago DC,458,412,329,Delivered
+41387,2023-08-05,,Alpha Corp,New York DC,4257,0,345,In Transit
+41388,2024-06-09,,Alpha Corp,New York DC,3529,0,199,In Transit
+41389,2024-04-20,,Beta Mfg,Dallas DC,1954,0,110,In Transit
+41390,2024-06-21,2024-07-07,Gamma Logistics, unknown,4461,4461,213,Delivered
+41391,2024-02-19,,Beta Mfg,Dallas DC,2902,0,112,In Transit
+41392,2024-01-07,,Alpha Corp,Dallas DC,3820,0,297,Delayed
+41393,2024-03-27,2024-04-07,Delta Supplies,New York DC,2332,2332,77,Delivered
+41394,2023-11-09,,Beta Mfg,Chicago DC,1366,0,127,In Transit
+41395,2024-02-09,, alpha corp ,Los Angeles DC,2892,0,202,In Transit
+41396,2024-06-21,,Delta Supplies,Chicago DC,775,0,134,In Transit
+41397,2023-07-15,2023-08-07,Beta Mfg,New York DC,1058,1058,464,Delivered
+41398,2024-04-08,,Alpha Corp,Chicago DC,1123,0,,Delayed
+41399,2024-05-29,2024-06-26,Beta Mfg,Los Angeles DC,859,755,478,Delivered
+41400,2024-04-18,,Beta Mfg,Chicago DC,540,0,113,Delayed
+41401,2024-07-17,,Alpha Corp, unknown,2372,0,40,In Transit
+41402,2023-05-19,,Delta Supplies, unknown,2904,0,66,Delayed
+41403,2024-08-08,,Gamma Logistics,Dallas DC,1419,0,,Delayed
+41404,2023-12-10,2023-12-31,Beta Mfg, unknown,369,369,204,Delivered
+41405,2023-02-12,,Gamma Logistics, unknown,4995,0,30,In Transit
+41406,2024-04-12,,Beta Mfg,Los Angeles DC,212,0,257,In Transit
+41407,2024-06-10,,Beta Mfg, unknown,4213,0,467,In Transit
+41408,2023-06-25,, alpha corp ,Los Angeles DC,1642,0,,Delayed
+41409,2023-04-07,2023-04-29,Gamma Logistics,New York DC,4028,4028,59,Delivered
+41410,2024-01-16,2024-02-13,Gamma Logistics,Dallas DC,277,277,,Delivered
+41411,2024-11-20,, alpha corp ,New York DC,1147,0,148,Delayed
+41412,2023-11-20,,Delta Supplies, unknown,2479,0,363,Delayed
+41413,2023-02-28,,Beta Mfg,Chicago DC,1146,0,143,Delayed
+41414,2023-08-27,,Gamma Logistics,Dallas DC,1556,0,45,In Transit
+41415,2024-09-22,,Delta Supplies,Dallas DC,4716,0,422,Delayed
+41416,2023-01-14,2023-01-25, alpha corp ,Los Angeles DC,4202,4202,214,Delivered
+41417,2023-09-02,,Beta Mfg, unknown,3583,0,335,Delayed
+41418,2024-02-26,,Delta Supplies,New York DC,3262,0,215,Delayed
+41419,2023-05-05,, alpha corp ,Los Angeles DC,2852,0,,Delayed
+41420,2024-08-30,,Gamma Logistics, unknown,411,0,256,In Transit
+41421,2024-04-11,,Beta Mfg, unknown,4621,0,297,Delayed
+41422,2023-10-22,,Gamma Logistics,New York DC,1258,0,105,In Transit
+41423,2023-04-23,,Delta Supplies,New York DC,3044,0,183,Delayed
+41424,2023-07-15,,Delta Supplies,Chicago DC,1921,0,455,Delayed
+41425,2024-05-02,, alpha corp ,Chicago DC,890,0,145,In Transit
+41426,2023-09-01,,Alpha Corp, unknown,4174,0,112,Delayed
+41427,2023-11-06,2023-11-27,Alpha Corp,Chicago DC,4263,4263,377,Delivered
+41428,2024-04-14,2024-04-30,Gamma Logistics,New York DC,2000,2000,61,Delivered
+41429,2024-04-19,, alpha corp ,Dallas DC,3106,0,346,In Transit
+41430,2024-10-06,,Beta Mfg, unknown,813,0,480,In Transit
+41431,2023-04-12,,Beta Mfg, unknown,4940,0,231,In Transit
+41432,2023-02-17,2023-02-19,Delta Supplies, unknown,4415,4415,92,Delivered
+41433,2024-02-23,2024-02-25,Delta Supplies, unknown,854,854,457,Delivered
+41434,2024-07-12,,Beta Mfg, unknown,4481,0,70,In Transit
+41435,2024-05-11,,Delta Supplies,New York DC,2803,0,91,Delayed
+41436,2024-04-01,2024-04-23,Alpha Corp,Dallas DC,3913,3913,256,Delivered
+41437,2024-06-10,,Delta Supplies,Los Angeles DC,1784,0,396,Delayed
+41438,2024-06-12,2024-06-30,Beta Mfg, unknown,1031,1031,241,Delivered
+41439,2024-07-30,,Gamma Logistics,New York DC,138,0,218,In Transit
+41440,2023-10-30,2023-11-08,Alpha Corp,New York DC,2765,2765,254,Delivered
+41441,2023-07-26,,Alpha Corp,New York DC,3428,0,86,Delayed
+41442,2024-10-06,,Alpha Corp,Los Angeles DC,3178,0,17,In Transit
+41443,2023-11-12,2023-11-29,Gamma Logistics,New York DC,4776,4776,15,Delivered
+41444,2023-08-18,,Delta Supplies,Dallas DC,1053,0,326,Delayed
+41445,2023-10-16,,Alpha Corp,Chicago DC,4482,0,17,In Transit
+41446,2024-02-07,2024-03-01,Beta Mfg,Dallas DC,1328,1328,17,Delivered
+41447,2023-10-19,, alpha corp ,Dallas DC,2092,0,97,Delayed
+41448,2023-12-31,2024-01-27,Alpha Corp,Los Angeles DC,4263,4263,172,Delivered
+41449,2023-07-11,2023-07-25,Alpha Corp, unknown,1101,1101,,Delivered
+41450,2024-01-29,, alpha corp ,Los Angeles DC,1624,0,302,Delayed
+41451,2023-08-08,2023-08-28,Beta Mfg,Los Angeles DC,2530,2530,123,Delivered
+41452,2024-09-23,,Beta Mfg,Dallas DC,2871,0,196,Delayed
+41453,2023-08-24,, alpha corp , unknown,4618,0,344,In Transit
+41454,2024-08-19,,Beta Mfg,Los Angeles DC,4239,0,,Delayed
+41455,2024-03-23,, alpha corp ,Dallas DC,2729,0,432,Delayed
+41456,2023-08-11,,Delta Supplies,Los Angeles DC,3062,0,280,In Transit
+41457,2023-06-23,, alpha corp ,Chicago DC,986,0,332,In Transit
+41458,2024-10-11,,Beta Mfg,New York DC,3189,0,93,In Transit
+41459,2024-03-22,,Beta Mfg,Los Angeles DC,180,0,385,Delayed
+41460,2023-12-09,2023-12-11, alpha corp ,New York DC,2644,2644,159,Delivered
+41461,2023-02-16,,Beta Mfg,New York DC,3064,0,279,Delayed
+41462,2023-06-10,2023-06-25,Delta Supplies,Chicago DC,3589,3589,237,Delivered
+41463,2024-04-29,,Alpha Corp,Dallas DC,480,0,265,In Transit
+41464,2024-07-04,,Alpha Corp,Dallas DC,2595,0,218,Delayed
+41465,2024-09-08,, alpha corp ,Dallas DC,702,0,37,Delayed
+41466,2023-08-04,, alpha corp ,New York DC,224,0,86,In Transit
+41467,2024-05-08,,Gamma Logistics, unknown,2951,0,70,In Transit
+41468,2024-06-17,,Beta Mfg, unknown,2767,0,367,In Transit
+41469,2024-07-30,2024-08-04, alpha corp ,Dallas DC,4036,3713,54,Delivered
+41470,2023-09-21,,Gamma Logistics,Chicago DC,613,0,301,In Transit
+41471,2023-02-06,2023-02-21,Beta Mfg,New York DC,2495,2495,464,Delivered
+41472,2024-08-07,,Alpha Corp,Chicago DC,700,0,293,Delayed
+41473,2023-04-20,,Gamma Logistics,New York DC,1705,0,118,In Transit
+41474,2024-07-01,2024-07-23,Gamma Logistics,Chicago DC,313,313,226,Delivered
+41475,2024-06-04,2024-06-15,Alpha Corp,Chicago DC,3038,3038,52,Delivered
+41476,2023-07-09,,Gamma Logistics,New York DC,2723,0,186,In Transit
+41477,2024-07-12,,Alpha Corp,Los Angeles DC,305,0,85,Delayed
+41478,2024-08-04,,Beta Mfg,Los Angeles DC,240,0,287,In Transit
+41479,2024-06-10,,Gamma Logistics,Los Angeles DC,4263,0,364,In Transit
+41480,2023-10-07,2023-10-10,Delta Supplies, unknown,4884,4884,363,Delivered
+41481,2023-06-07,,Alpha Corp,New York DC,1302,0,56,In Transit
+41482,2024-01-15,,Delta Supplies,Chicago DC,3453,0,484,In Transit
+41483,2024-06-12,,Beta Mfg,Chicago DC,2640,0,457,Delayed
+41484,2023-03-09,2023-03-20,Delta Supplies,Dallas DC,2052,2052,377,Delivered
+41485,2024-09-03,2024-10-01,Gamma Logistics,New York DC,704,704,34,Delivered
+41486,2024-04-06,,Alpha Corp, unknown,1369,0,146,Delayed
+41487,2023-10-30,,Gamma Logistics,New York DC,2332,0,284,Delayed
+41488,2024-07-20,,Beta Mfg,New York DC,2365,0,227,In Transit
+41489,2024-06-02,,Alpha Corp,Dallas DC,3614,0,471,In Transit
+41490,2024-06-04,,Alpha Corp,Los Angeles DC,2404,0,266,In Transit
+41491,2024-07-10,, alpha corp ,Los Angeles DC,1854,0,82,In Transit
+41492,2024-09-06,,Beta Mfg, unknown,1630,0,482,In Transit
+41493,2023-01-10,, alpha corp ,New York DC,3076,0,181,In Transit
+41494,2023-01-04,,Alpha Corp,Los Angeles DC,1747,0,180,In Transit
+41495,2023-08-31,, alpha corp ,Chicago DC,288,0,,Delayed
+41496,2023-07-19,2023-08-14, alpha corp , unknown,1545,1545,450,Delivered
+41497,2024-10-19,2024-10-25,Gamma Logistics, unknown,3671,3671,455,Delivered
+41498,2023-05-02,, alpha corp ,Dallas DC,4776,0,,Delayed
+41499,2024-07-14,,Beta Mfg,Chicago DC,2240,0,316,In Transit
+41500,2023-07-20,2023-07-30,Beta Mfg,Dallas DC,1004,1004,239,Delivered
+

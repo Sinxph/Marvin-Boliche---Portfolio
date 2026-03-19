@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalesIQ Pro | Sales Intelligence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            /* Light theme based on user reference */
+            --bg-color: #f3f4f6;
+            --panel-bg: #ffffff;
+            --text-main: #1f2937;
+            --text-muted: #6b7280;
+            --primary: #8b5cf6; /* Purple accent */
+            --primary-light: #ddd6fe;
+            --secondary: #06b6d4; /* Teal accent */
+            --success: #10b981;
+            --danger: #ef4444;
+            --border: #e5e7eb;
+            --sidebar-bg: #f8fafc;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            background-color: var(--panel-bg);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            z-index: 10;
+        }
+
+        .brand {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .brand span { color: var(--primary); }
+
+        .filter-group { margin-bottom: 1.5rem; }
+        .filter-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--sidebar-bg);
+            font-family: 'Inter', sans-serif;
+            color: var(--text-main);
+            font-size: 0.875rem;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .sidebar-metric {
+            margin-top: auto;
+            background: var(--sidebar-bg);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        .sidebar-metric .title { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600;}
+        .sidebar-metric .value { font-size: 1.5rem; font-weight: 700; color: var(--primary); margin-top: 5px;}
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 1.5rem 2rem;
+            overflow-y: auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .header-title { font-size: 1.5rem; font-weight: 700;}
+        .header-subtitle { font-size: 0.875rem; color: var(--text-muted); margin-top: 0.25rem;}
+
+        /* KPI Row */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .kpi-card {
+            background: var(--panel-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            position: relative;
+        }
+
+        .kpi-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 3px;
+            border-radius: 12px 12px 0 0;
+            background: var(--primary);
+        }
+
+        .kpi-card:nth-child(2)::before { background: var(--secondary); }
+        .kpi-card:nth-child(3)::before { background: #f59e0b; }
+        .kpi-card:nth-child(4)::before { background: #3b82f6; }
+
+        .kpi-title { font-size: 0.75rem; text-transform: uppercase; font-weight: 600; color: var(--text-muted); margin-bottom: 0.5rem;}
+        .kpi-value { font-size: 1.75rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;}
+        .kpi-trend { font-size: 0.75rem; font-weight: 500; display: flex; align-items: center; gap: 4px; }
+        .trend-up { color: var(--success); }
+        .trend-down { color: var(--danger); }
+
+        /* Chart Grids */
+        .charts-row-1 {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .charts-row-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .chart-card {
+            background: var(--panel-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .chart-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-main);
+        }
+
+        canvas {
+            width: 100% !important;
+            height: 250px !important;
+        }
+
+    </style>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="brand">SalesIQ <span>Pro</span></div>
+        
+        <div class="filter-group">
+            <span class="filter-label">Year</span>
+            <select id="yearFilter" onchange="updateDashboard()">
+                <option value="All">All Years (2023-2026)</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <span class="filter-label">Region</span>
+            <select id="regionFilter" onchange="updateDashboard()">
+                <option value="All">All Regions</option>
+                <option value="North">North</option>
+                <option value="South">South</option>
+                <option value="East">East</option>
+                <option value="West">West</option>
+            </select>
+        </div>
+
+        <div class="sidebar-metric">
+            <div class="title">Avg Monthly Revenue</div>
+            <div class="value" id="avgMonthlyRev">$0.00</div>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="header">
+            <div>
+                <h1 class="header-title">Retail Sales Intelligence Dashboard</h1>
+                <div class="header-subtitle" id="subtitle">Data analyzing generated simulation (2023 - 2026)</div>
+            </div>
+        </header>
+
+        <section class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-title">Total Revenue</div>
+                <div class="kpi-value" id="kpi-rev">$0.00</div>
+                <div class="kpi-trend trend-up" id="kpi-rev-trend">▲ 12.4% vs Prev</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Total Profit (Est. 40% Margin)</div>
+                <div class="kpi-value" id="kpi-profit">$0.00</div>
+                <div class="kpi-trend trend-up" id="kpi-profit-trend">▲ 8.1% vs Prev</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Total Orders</div>
+                <div class="kpi-value" id="kpi-orders">0</div>
+                <div class="kpi-trend trend-up" id="kpi-orders-trend">▲ 15.2% vs Prev</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Avg Order Value</div>
+                <div class="kpi-value" id="kpi-aov">$0.00</div>
+                <div class="kpi-trend trend-down" id="kpi-aov-trend">▼ 2.1% vs Prev</div>
+            </div>
+        </section>
+
+        <section class="charts-row-1">
+            <div class="chart-card">
+                <div class="chart-title">Monthly Revenue Trend</div>
+                <canvas id="trendChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Sales by Region</div>
+                <canvas id="regionChart"></canvas>
+            </div>
+        </section>
+
+        <section class="charts-row-2">
+            <div class="chart-card">
+                <div class="chart-title">Revenue by Category</div>
+                <canvas id="categoryChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Top 5 Products</div>
+                <canvas id="productsChart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Set Chart.js Defaults
+        Chart.defaults.font.family = "'Inter', sans-serif";
+        Chart.defaults.color = '#6b7280';
+        Chart.defaults.scale.grid.color = '#f3f4f6';
+
+        // 1. Generate 1500 rows of mock data (spanning 2023-2026) matching the CSV schema
+        const generateData = () => {
+            const data = [];
+            const products = [
+                {name: "Laptop", cat: "Electronics", price: 1200},
+                {name: "Monitor", cat: "Electronics", price: 300},
+                {name: "Smartphone", cat: "Electronics", price: 800},
+                {name: "Desk Chair", cat: "Furniture", price: 150},
+                {name: "Standing Desk", cat: "Furniture", price: 450},
+                {name: "Sofa", cat: "Furniture", price: 600},
+                {name: "Coffee Maker", cat: "Appliances", price: 75},
+                {name: "Blender", cat: "Appliances", price: 50},
+                {name: "Headphones", cat: "Electronics", price: 100}
+            ];
+            const regions = ["North", "South", "East", "West"];
+            
+            let currentDate = new Date('2023-01-01');
+            const endDate = new Date('2026-12-31');
+            const totalDays = (endDate - currentDate) / (1000 * 60 * 60 * 24);
+
+            for(let i=0; i<3000; i++) {
+                const randDays = Math.floor(Math.random() * totalDays);
+                const orderDate = new Date('2023-01-01');
+                orderDate.setDate(orderDate.getDate() + randDays);
+                
+                const p = products[Math.floor(Math.random() * products.length)];
+                const r = regions[Math.floor(Math.random() * regions.length)];
+                const qty = Math.floor(Math.random() * 5) + 1;
+                
+                // Add some seasonality / trend bias: higher sales in later years and Q4
+                const isQ4 = orderDate.getMonth() >= 9;
+                const yearMultiplier = (orderDate.getFullYear() - 2022) * 1.1;
+                if(Math.random() > (0.5 * yearMultiplier) && !isQ4) continue; // skip some to create variance
+                
+                data.push({
+                    date: orderDate,
+                    year: orderDate.getFullYear(),
+                    month: orderDate.getMonth(), // 0-11
+                    monthName: orderDate.toLocaleString('default', { month: 'short' }),
+                    product: p.name,
+                    category: p.cat,
+                    region: r,
+                    quantity: qty,
+                    revenue: qty * p.price,
+                    profit: (qty * p.price) * 0.4 // 40% margin
+                });
+            }
+            return data.sort((a,b) => a.date - b.date);
+        };
+
+        const rawData = generateData();
+        let chartInstances = {}; // Store chart references
+
+        // Number formatter
+        const formatCurrency = (val) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumSignificantDigits: 3 }).format(val);
+        const formatNumber = (val) => new Intl.NumberFormat('en-US').format(val);
+
+        const updateDashboard = () => {
+            const yearFilter = document.getElementById('yearFilter').value;
+            const regionFilter = document.getElementById('regionFilter').value;
+
+            // Filter data
+            let filtered = rawData.filter(d => {
+                let match = true;
+                if(yearFilter !== 'All') match = match && d.year == yearFilter;
+                if(regionFilter !== 'All') match = match && d.region == regionFilter;
+                return match;
+            });
+
+            if(filtered.length === 0) return;
+
+            // Calculate KPIs
+            const totalRev = filtered.reduce((sum, d) => sum + d.revenue, 0);
+            const totalProfit = filtered.reduce((sum, d) => sum + d.profit, 0);
+            const totalOrders = filtered.length;
+            const aov = totalRev / totalOrders;
+
+            document.getElementById('kpi-rev').innerText = formatCurrency(totalRev);
+            document.getElementById('kpi-profit').innerText = formatCurrency(totalProfit);
+            document.getElementById('kpi-orders').innerText = formatNumber(totalOrders);
+            document.getElementById('kpi-aov').innerText = formatCurrency(aov);
+            
+            // Unique months in dataset
+            const monthsCovered = new Set(filtered.map(d => `${d.year}-${d.month}`)).size || 1;
+            document.getElementById('avgMonthlyRev').innerText = formatCurrency(totalRev / monthsCovered);
+
+            // AGGREGATIONS FOR CHARTS
+            
+            // 1. Monthly Trend
+            const trendMap = {};
+            const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+            months.forEach(m => trendMap[m] = 0);
+            
+            filtered.forEach(d => {
+                trendMap[d.monthName] += d.revenue;
+            });
+
+            // 2. Region Doughnut
+            const regionMap = {};
+            filtered.forEach(d => { regionMap[d.region] = (regionMap[d.region]||0) + d.revenue; });
+
+            // 3. Category Horizontal Bar
+            const catMap = {};
+            filtered.forEach(d => { catMap[d.category] = (catMap[d.category]||0) + d.revenue; });
+
+            // 4. Top Products
+            const prodMap = {};
+            filtered.forEach(d => { prodMap[d.product] = (prodMap[d.product]||0) + d.revenue; });
+            const topProducts = Object.entries(prodMap).sort((a,b) => b[1] - a[1]).slice(0, 5);
+
+            // RENDER CHARTS
+            renderTrendChart(Object.keys(trendMap), Object.values(trendMap));
+            renderRegionChart(Object.keys(regionMap), Object.values(regionMap));
+            renderCategoryChart(Object.keys(catMap), Object.values(catMap));
+            renderProductsChart(topProducts.map(p=>p[0]), topProducts.map(p=>p[1]));
+            
+            document.getElementById('subtitle').innerText = `${filtered.length} transactions analyzed based on current filters.`;
+        };
+
+        const renderTrendChart = (labels, data) => {
+            if(chartInstances.trend) chartInstances.trend.destroy();
+            const ctx = document.getElementById('trendChart').getContext('2d');
+            
+            let gradient = ctx.createLinearGradient(0, 0, 0, 400);
+            gradient.addColorStop(0, 'rgba(139, 92, 246, 0.5)'); // primary var
+            gradient.addColorStop(1, 'rgba(139, 92, 246, 0.0)');
+
+            chartInstances.trend = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Revenue',
+                        data: data,
+                        borderColor: '#8b5cf6',
+                        backgroundColor: gradient,
+                        borderWidth: 3,
+                        pointBackgroundColor: '#fff',
+                        pointBorderColor: '#8b5cf6',
+                        pointBorderWidth: 2,
+                        pointRadius: 4,
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        y: { beginAtZero: true, border: {display: false} },
+                        x: { grid: {display: false}, border: {display: false} }
+                    }
+                }
+            });
+        };
+
+        const renderRegionChart = (labels, data) => {
+            if(chartInstances.region) chartInstances.region.destroy();
+            chartInstances.region = new Chart(document.getElementById('regionChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: data,
+                        backgroundColor: ['#8b5cf6', '#06b6d4', '#f59e0b', '#ec4899', '#10b981'],
+                        borderWidth: 0,
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '65%',
+                    plugins: { legend: { position: 'right', labels: { usePointStyle: true, boxWidth: 8 } } }
+                }
+            });
+        };
+
+        const renderCategoryChart = (labels, data) => {
+            if(chartInstances.category) chartInstances.category.destroy();
+            chartInstances.category = new Chart(document.getElementById('categoryChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Revenue',
+                        data: data,
+                        backgroundColor: '#06b6d4',
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { beginAtZero: true, grid: {color: '#f3f4f6'}, border: {display: false} },
+                        y: { grid: {display: false}, border: {display: false} }
+                    }
+                }
+            });
+        };
+
+        const renderProductsChart = (labels, data) => {
+            if(chartInstances.products) chartInstances.products.destroy();
+            chartInstances.products = new Chart(document.getElementById('productsChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Revenue',
+                        data: data,
+                        backgroundColor: '#8b5cf6',
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { beginAtZero: true, grid: {color: '#f3f4f6'}, border: {display: false} },
+                        y: { grid: {display: false}, border: {display: false} }
+                    }
+                }
+            });
+        };
+
+        // Initialize dashboard on load
+        updateDashboard();
+    </script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify marketing funnel dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-page: #eef2ff; --text-main: #334155;
+            --c-1: #6366f1; --c-2: #1e40af; --c-3: #0ea5e9; --c-4: #10b981; --c-5: #f43f5e; --c-6: #a855f7;
+        }
+
+        * { font-family: 'Segoe UI', sans-serif; box-sizing: border-box; }
+        body { margin: 0; background: var(--bg-page); color: var(--text-main); }
+        
+        .top-nav {
+            background-color: #f8fafc; padding: 0.75rem 1.5rem;
+            display: flex; justify-content: space-between; align-items: center; border-bottom: 5px solid #1e3a8a;
+        }
+        .header-brand { display: flex; align-items: center; gap: 10px; }
+        .logo-box { background: #0ea5e9; color: white; width: 30px; height: 30px; border-radius: 50%; display:flex; justify-content:center; align-items:center; font-weight:bold; }
+        .h-title { font-size: 1.25rem; font-weight: 700; color: #1e293b; margin: 0; }
+        .h-sub { font-size: 0.65rem; color: #3b82f6; font-weight: 600; letter-spacing:0.5px; }
+
+        .nav-links { display: flex; gap: 1px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }
+        .nav-l { background: #f8fafc; color: #475569; padding: 0.5rem 1.5rem; font-size: 0.85rem; font-weight: 600; cursor:pointer;}
+        .nav-l.active { background: #3b82f6; color: white; }
+
+        .profile-badge { display:flex; align-items:center; gap:8px; font-weight: 700; color: #334155; font-size:0.9rem;}
+        .avatar { width:32px; height:32px; background: #6366f1; color:white; border-radius:50%; display:flex; justify-content:center; align-items:center; font-size:0.8rem;}
+
+        .dash-container { padding: 1rem 1.5rem; }
+
+        .kpi-row { display: grid; grid-template-columns: repeat(6, 1fr) 200px; gap: 0.75rem; margin-bottom: 1rem; }
+        .kpi { padding: 1rem; border-radius: 8px; color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .k-title { font-size: 0.75rem; font-weight: 600; opacity: 0.9; margin-bottom: 0.25rem; }
+        .k-val { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; }
+        .k-sub { font-size: 0.7rem; font-weight: 600; }
+        
+        .bg-1 { background: linear-gradient(135deg, #818cf8, var(--c-1)); }
+        .bg-2 { background: linear-gradient(135deg, #3b82f6, var(--c-2)); }
+        .bg-3 { background: linear-gradient(135deg, #38bdf8, var(--c-3)); }
+        .bg-4 { background: linear-gradient(135deg, #34d399, var(--c-4)); }
+        .bg-5 { background: linear-gradient(135deg, #fb7185, var(--c-5)); }
+        .bg-6 { background: linear-gradient(135deg, #c084fc, var(--c-6)); }
+
+        .date-picker { background: white; border-radius: 8px; padding: 0.5rem; border: 1px solid #cbd5e1; display:flex; flex-direction:column; justify-content:center; cursor:pointer;}
+        .date-picker:hover { background: #f1f5f9; }
+        .dp-lbl { font-size:0.6rem; color:#64748b; font-weight:600; text-transform:uppercase;}
+        .dp-val { font-size:0.8rem; font-weight:600; color:#334155;}
+        
+        .chart-row { display: grid; grid-template-columns: 1fr 1fr 1.2fr; gap: 1rem; margin-bottom: 1rem; }
+        .card { background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); display: flex; flex-direction: column; }
+        .card-t { font-size: 0.9rem; font-weight: 600; color: #334155; margin-bottom: 0.5rem; }
+        .c-wrap { flex-grow: 1; position: relative; min-height: 200px; display:flex; justify-content:center; align-items:center; }
+
+        .funnel-container { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 4px; padding-top: 10px; }
+        .f-step { height: 40px; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.1rem; clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%); transition: 0.3s; }
+        .f-s1 { width: 100%; background: #4f46e5; clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%); z-index:4; }
+        .f-s2 { width: 80%; background: #0ea5e9; z-index:3; margin-top:-8px; padding-top:8px;}
+        .f-s3 { width: 60%; background: #06b6d4; z-index:2; margin-top:-8px; padding-top:8px;}
+        .f-s4 { width: 40%; background: #14b8a6; clip-path: polygon(0 0, 100% 0, 50% 100%, 50% 100%); z-index:1; margin-top:-8px; padding-top:8px;}
+
+        .table-card { background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); overflow:hidden; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
+        th { text-align: left; padding: 0.6rem; color: #334155; font-weight: 600; border-bottom: 2px solid #e2e8f0; background: white; }
+        td { padding: 0.4rem 0.6rem; color: #475569; font-weight: 500; border-bottom: 1px solid #f1f5f9; }
+        
+        .col-1 { background: rgba(99, 102, 241, 0.1); }
+        .tot-row { background: white !important; font-weight: 700 !important; color: #1e293b !important; border-top: 2px solid #cbd5e1; }
+    </style>
+</head>
+<body>
+
+    <div class="top-nav">
+        <div class="header-brand">
+            <div class="logo-box">c</div>
+            <div>
+                <h1 class="h-title">Shopify marketing funnel dashboard</h1>
+                <div class="h-sub">COUPLER.IO</div>
+            </div>
+        </div>
+        <div class="nav-links">
+            <div class="nav-l active" onclick="switchNav(this)">Overview</div>
+            <div class="nav-l" onclick="switchNav(this)">Analytics</div>
+        </div>
+        <div class="profile-badge">
+            <div class="avatar">MB</div>
+            Marvin Boliche
+        </div>
+    </div>
+
+    <div class="dash-container">
+        <div class="kpi-row">
+            <div class="kpi bg-1"><div class="k-title">Amount spend</div><div class="k-val v-d">$7.0K</div><div class="k-sub s-d">+0.13%</div></div>
+            <div class="kpi bg-2"><div class="k-title">Revenue</div><div class="k-val v-d">$42.5K</div><div class="k-sub s-d">-2.86%</div></div>
+            <div class="kpi bg-3"><div class="k-title">ROI</div><div class="k-val v-d">508%</div><div class="k-sub s-d">-3.55%</div></div>
+            <div class="kpi bg-4"><div class="k-title">Orders</div><div class="k-val v-d">960</div><div class="k-sub s-d">-5.60%</div></div>
+            <div class="kpi bg-5"><div class="k-title">Cost per order</div><div class="k-val v-d">$7.3</div><div class="k-sub s-d">+6.07%</div></div>
+            <div class="kpi bg-6"><div class="k-title">Avg order amount</div><div class="k-val v-d">$44</div><div class="k-sub s-d">+2.98%</div></div>
+
+            <div class="date-picker" onclick="randomizeData()">
+                <span class="dp-lbl">Filter (Click to Randomize)</span>
+                <span class="dp-val">4/23/2025 - 5/22/2025</span>
+            </div>
+        </div>
+
+        <div class="chart-row">
+            <div class="card"><div class="card-t">Amount spend & Revenue</div><div class="c-wrap"><canvas id="c1"></canvas></div></div>
+            <div class="card"><div class="card-t">Orders & Avg order price</div><div class="c-wrap"><canvas id="c2"></canvas></div></div>
+            <div class="card" style="display:flex; flex-direction:row; gap:1rem;">
+                <div style="flex:1;">
+                    <div class="card-t">Acquisition Funnel</div>
+                    <div class="funnel-container">
+                        <div class="f-step f-s1 f-d">238.0K</div>
+                        <div class="f-step f-s2 f-d">9.4K</div>
+                        <div class="f-step f-s3 f-d">1.3K</div>
+                        <div class="f-step f-s4 f-d">99</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-card" style="overflow-x:auto;">
+            <table>
+                <thead>
+                    <tr><th>Week</th><th>Spend</th><th>Impressions</th><th>Clicks</th><th>Total users</th><th>Revenue</th><th>Orders</th></tr>
+                </thead>
+                <tbody id="tb">
+                    <tr><td>May 19, 2025</td><td class="col-1">$935</td><td>34.4K</td><td>1.3K</td><td>655</td><td>$6.1K</td><td>129</td></tr>
+                    <tr><td>May 12, 2025</td><td class="col-1">$1.7K</td><td>54.7K</td><td>2.2K</td><td>1.3K</td><td>$9.7K</td><td>213</td></tr>
+                    <tr class="tot-row"><td>Total</td><td class="col-1">$7.0K</td><td>238.0K</td><td>9.4K</td><td>5.3K</td><td>$42.5K</td><td>960</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        Chart.defaults.font.family = "'Segoe UI', sans-serif";
+        const rArr = (min, max, count) => Array.from({length:count}, ()=> Math.floor(Math.random()*(max-min)+min));
+        const charts = {};
+
+        charts.c1 = new Chart(document.getElementById('c1'), {
+            type: 'line', data: { labels: ['A','B','C','D','E','F'], datasets: [
+                { label:'Spend', data: rArr(100, 300, 6), borderColor: '#3b82f6'},
+                { label:'Revenue', data: rArr(600, 1800, 6), borderColor: '#10b981'}
+            ]}, options: { responsive:true, maintainAspectRatio:false }
+        });
+
+        charts.c2 = new Chart(document.getElementById('c2'), {
+            type: 'line', data: { labels: ['A','B','C','D','E','F'], datasets: [
+                { label:'Orders', data: rArr(20, 80, 6), borderColor: '#3b82f6'},
+                { label:'AOV', data: rArr(35, 100, 6), borderColor: '#f59e0b'}
+            ]}, options: { responsive:true, maintainAspectRatio:false }
+        });
+
+        function switchNav(btn) {
+            document.querySelectorAll('.nav-l').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            randomizeData();
+        }
+
+        function randomizeData() {
+            document.querySelectorAll('.v-d').forEach(el => {
+                let pre = el.innerText.includes('$') ? '$' : '';
+                let post = el.innerText.includes('%') ? '%' : (el.innerText.includes('K') ? 'K' : '');
+                el.innerText = pre + (Math.random() * 50 + 10).toFixed(1) + post;
+            });
+            document.querySelectorAll('.s-d').forEach(el => {
+                let sign = Math.random() > 0.5 ? '+' : '-';
+                el.innerText = sign + (Math.random() * 10).toFixed(2) + '%';
+            });
+            document.querySelectorAll('.f-d').forEach(el => {
+                let post = el.innerText.includes('K') ? 'K' : '';
+                el.innerText = (Math.random() * 100 + 5).toFixed(1) + post;
+            });
+
+            Object.values(charts).forEach(c => {
+                c.data.datasets.forEach(d => {
+                    d.data = d.data.map(() => Math.floor(Math.random() * (Math.max(...d.data) * 1.5 + 50)));
+                });
+                c.update();
+            });
+        }
+    </script>
+</body>
+</html>

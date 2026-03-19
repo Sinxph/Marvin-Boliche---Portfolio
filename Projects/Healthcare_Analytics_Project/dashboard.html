@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Revenue Cycle Analytics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-body: #f8fafc;
+            --bg-header: #064e3b; /* Dark Teal Forest Green */
+            --bg-card: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --brand: #0d9488;
+            --border: #f1f5f9;
+        }
+
+        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg-body); color: var(--text-main); }
+        
+        /* Modern Header */
+        .header {
+            background-color: var(--bg-header); color: #fff; padding: 1.25rem 2.5rem;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .header h1 { margin: 0; font-size: 1.25rem; font-weight: 600; }
+        .header .sub { font-size: 0.8rem; color: #a7f3d0; margin-top:2px; }
+
+        .filters { display: flex; gap: 15px; }
+        select {
+            padding: 0.5rem 1rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(0,0,0,0.2); color: white; font-family: 'Inter'; outline: none; appearance: none;
+        }
+
+        .container { padding: 1.5rem 2.5rem; }
+
+        /* KPI Cards */
+        .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 1.5rem; }
+        .kpi-card {
+            background: var(--bg-card); padding: 1.25rem; border-radius: 8px; border: 1px solid #e2e8f0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02); display: flex; justify-content: space-between;
+        }
+        
+        .kpi-left h3 { margin: 0; font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 600;}
+        .kpi-left .val { font-size: 1.8rem; font-weight: 700; margin: 4px 0; }
+        .kpi-left .sub { font-size: 0.75rem; font-weight: 500; display:flex; gap:4px; align-items:center; }
+        .icon-circle { width: 24px; height: 24px; border-radius: 50%; opacity: 0.2; }
+
+        /* Chart Grids */
+        .grid-main { display: grid; grid-template-columns: 2fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+        .grid-subs { display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+
+        .card { background: var(--bg-card); padding: 1.25rem; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.02); }
+        .card-title { font-size: 0.85rem; font-weight: 600; color: var(--text-main); margin-bottom: 1.25rem; display:flex; align-items:center; gap: 8px;}
+        .card-title::before { content:''; display:inline-block; width: 4px; height: 16px; background: var(--brand); border-radius: 2px;}
+
+        canvas { width: 100% !important; height: 260px !important; }
+        .small-canvas { height: 200px !important; }
+        
+        /* Table Styles for Denials */
+        table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+        th { text-align: left; padding: 0.75rem; color: var(--text-muted); font-weight: 600; border-bottom: 1px solid #e2e8f0; text-transform: uppercase; font-size: 0.7rem; }
+        td { padding: 0.75rem; border-bottom: 1px solid #f8fafc; color: var(--text-main); font-weight: 500;}
+        .td-val { color: var(--danger); }
+        
+        /* Inline mini bar */
+        .bar-wrap { width: 100%; height: 6px; background: #fee2e2; border-radius: 3px; overflow:hidden;}
+        .bar-fill { height: 100%; background: var(--danger); }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div>
+            <h1>Healthcare Revenue Cycle Analytics</h1>
+            <div class="sub">Simulated Data Environment - 2023 Dashboard</div>
+        </div>
+        <div class="filters">
+            <select id="payerFilter" onchange="renderDash()">
+                <option value="All">All Payers</option>
+                <option value="Medicare">Medicare</option>
+                <option value="Medicaid">Medicaid</option>
+                <option value="Commercial">Commercial</option>
+                <option value="Self-Pay">Self-Pay</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- KPIs -->
+        <div class="kpi-row">
+            <div class="kpi-card">
+                <div class="kpi-left">
+                    <h3>Total Charges</h3>
+                    <div class="val" id="kpi-charges">$0.00</div>
+                    <div class="sub" style="color:var(--success)">▲ +8% YoY</div>
+                </div>
+                <div class="icon-circle" style="background:var(--success)"></div>
+            </div>
+            <div class="kpi-card" style="border-top: 3px solid var(--danger)">
+                <div class="kpi-left">
+                    <h3>Denial Rate</h3>
+                    <div class="val" id="kpi-denial">0%</div>
+                    <div class="sub" style="color:var(--danger)">Target: < 10%</div>
+                </div>
+                <div class="icon-circle" style="background:var(--danger)"></div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-left">
+                    <h3>Days in AR</h3>
+                    <div class="val" id="kpi-ar">0 days</div>
+                    <div class="sub" style="color:var(--warning)">Target: < 30d</div>
+                </div>
+                <div class="icon-circle" style="background:var(--warning)"></div>
+            </div>
+            <div class="kpi-card" style="border-top: 3px solid var(--success)">
+                <div class="kpi-left">
+                    <h3>Collection Rate</h3>
+                    <div class="val" id="kpi-coll">0%</div>
+                    <div class="sub" style="color:var(--success)">▲ +3% YoY</div>
+                </div>
+                <div class="icon-circle" style="background:var(--success)"></div>
+            </div>
+        </div>
+
+        <!-- ROW 1 -->
+        <div class="grid-main">
+            <div class="card">
+                <div class="card-title">Monthly Collections vs Charges</div>
+                <canvas id="trendChart"></canvas>
+            </div>
+            <div class="card">
+                <div class="card-title">AR Aging Buckets</div>
+                <canvas id="arChart"></canvas>
+            </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="grid-subs">
+            <div class="card">
+                <div class="card-title">Payer Mix</div>
+                <canvas id="payerChart" class="small-canvas"></canvas>
+            </div>
+            <div class="card">
+                <div class="card-title">Denials by Reason</div>
+                <canvas id="reasonChart" class="small-canvas"></canvas>
+            </div>
+            <div class="card" style="overflow-y:auto">
+                <div class="card-title" style="margin-bottom:0.5rem">Denial Breakdown</div>
+                <table>
+                    <thead><tr><th>Reason</th><th>$$$</th><th>Share</th></tr></thead>
+                    <tbody id="denialTable"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        Chart.defaults.font.family = "'Inter', sans-serif";
+        Chart.defaults.color = '#64748b';
+
+        // Fake Data Generation
+        const generateHealthData = () => {
+            const data = [];
+            const payers = ["Medicare", "Medicaid", "Commercial", "Self-Pay"];
+            const pWeights = [0.4, 0.2, 0.35, 0.05]; // Medicare heaviest
+            const reasons = ["Missing Auth", "Duplicate Claim", "Coding Error", "Eligibility", "Timely Filing", "Bundling"];
+
+            const getPayer = () => {
+                let r = Math.random();
+                if(r < 0.4) return "Medicare";
+                if(r < 0.6) return "Medicaid";
+                if(r < 0.95) return "Commercial";
+                return "Self-Pay";
+            };
+
+            for(let i=0; i<2000; i++) {
+                const monthStr = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                const mIdx = Math.floor(Math.random() * 12);
+                
+                const billed = Math.floor(Math.random() * 4000) + 100;
+                
+                let statRnd = Math.random();
+                let status = "Paid";
+                let coll = billed * (0.8 + Math.random()*0.2); // collected 80-100% of billed if paid
+                let reasonStr = "";
+                let arDays = Math.floor(Math.random()*45) + 5;
+
+                // 15% denial rate approx
+                if(statRnd < 0.15) {
+                    status = "Denied";
+                    coll = 0;
+                    reasonStr = reasons[Math.floor(Math.random()*reasons.length)];
+                    arDays = Math.floor(Math.random()*120) + 30; // Denials take longer
+                } else if(statRnd < 0.20) {
+                    status = "Pending";
+                    coll = 0;
+                    arDays = Math.floor(Math.random()*90) + 15;
+                }
+
+                data.push({
+                    month: monthStr[mIdx],
+                    mIdx: mIdx,
+                    payer: getPayer(),
+                    billed: billed,
+                    collected: coll,
+                    status: status,
+                    reason: reasonStr,
+                    arDays: arDays
+                });
+            }
+            return data.sort((a,b) => a.mIdx - b.mIdx);
+        };
+
+        const healthData = generateHealthData();
+        let charts = {};
+
+        const fmt$ = (val) => new Intl.NumberFormat('en-US', { style:'currency', currency:'USD', notation: "compact"}).format(val);
+
+        const renderDash = () => {
+            const payerFilter = document.getElementById('payerFilter').value;
+            const d = healthData.filter(x => payerFilter === "All" || x.payer === payerFilter);
+
+            // KPIs
+            const totalBilled = d.reduce((s, x) => s + x.billed, 0);
+            const totalColl = d.reduce((s, x) => s + x.collected, 0);
+            const totalClaims = d.length;
+            const deniedClaims = d.filter(x => x.status === "Denied").length;
+            const avgAR = d.reduce((s, x) => s + x.arDays, 0) / totalClaims;
+            
+            document.getElementById('kpi-charges').innerText = fmt$(totalBilled);
+            document.getElementById('kpi-coll').innerText = ((totalColl/totalBilled)*100).toFixed(1) + "%";
+            document.getElementById('kpi-denial').innerText = ((deniedClaims/totalClaims)*100).toFixed(1) + "%";
+            document.getElementById('kpi-ar').innerText = avgAR.toFixed(0) + " days";
+
+            // 1. Line Chart: Trend
+            const trendMap = {};
+            healthData.forEach(x => { // Use base data for months map to keep order
+                if(!trendMap[x.month]) trendMap[x.month] = {b:0, c:0};
+            });
+            d.forEach(x => {
+                trendMap[x.month].b += x.billed;
+                trendMap[x.month].c += x.collected;
+            });
+            
+            if(charts.trend) charts.trend.destroy();
+            const ctxT = document.getElementById('trendChart').getContext('2d');
+            charts.trend = new Chart(ctxT, {
+                type: 'line',
+                data: {
+                    labels: Object.keys(trendMap),
+                    datasets: [
+                        { label: 'Charges', data: Object.values(trendMap).map(v=>v.b), borderColor: '#94a3b8', borderDash: [5,5], fill: false, tension: 0.4 },
+                        { label: 'Collections', data: Object.values(trendMap).map(v=>v.c), borderColor: '#0d9488', backgroundColor: 'rgba(13, 148, 136, 0.1)', fill: true, tension: 0.4, borderWidth: 3 }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: false, scales: {y:{beginAtZero:true}}, plugins:{legend:{position:'top'}} }
+            });
+
+            // 2. AR Aging Horizontal Bar
+            const arBuckets = {"0-30d":0, "31-60d":0, "61-90d":0, "90d+":0};
+            d.forEach(x => {
+                if(x.arDays <= 30) arBuckets["0-30d"]+=x.billed;
+                else if(x.arDays <= 60) arBuckets["31-60d"]+=x.billed;
+                else if(x.arDays <= 90) arBuckets["61-90d"]+=x.billed;
+                else arBuckets["90d+"]+=x.billed;
+            });
+            
+            if(charts.ar) charts.ar.destroy();
+            charts.ar = new Chart(document.getElementById('arChart'), {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(arBuckets),
+                    datasets: [{ data: Object.values(arBuckets), backgroundColor: ['#10b981', '#f59e0b', '#ef4444', '#8b5cf6'], borderRadius: 4 }]
+                },
+                options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins:{legend:{display:false}}, scales:{x:{display:false}, y:{grid:{display:false}, border:{display:false}}} }
+            });
+
+            // 3. Payer Mix Doughnut
+            const pMap = {};
+            d.forEach(x => { pMap[x.payer] = (pMap[x.payer]||0) + x.billed; });
+            if(charts.payer) charts.payer.destroy();
+            charts.payer = new Chart(document.getElementById('payerChart'), {
+                type: 'doughnut',
+                data: { labels: Object.keys(pMap), datasets: [{ data: Object.values(pMap), backgroundColor: ['#3b82f6', '#0ea5e9', '#6366f1', '#e2e8f0'], borderWidth: 0 }] },
+                options: { responsive: true, maintainAspectRatio: false, cutout:'65%', plugins:{legend:{position:'bottom'}} }
+            });
+
+            // 4. Denials by Reason Horizontal Bar
+            const rMap = {};
+            d.filter(x=>x.status==="Denied").forEach(x => { rMap[x.reason] = (rMap[x.reason]||0) + x.billed; });
+            const reasonsSorted = Object.entries(rMap).sort((a,b)=>b[1]-a[1]);
+            
+            if(charts.reason) charts.reason.destroy();
+            charts.reason = new Chart(document.getElementById('reasonChart'), {
+                type: 'bar',
+                data: {
+                    labels: reasonsSorted.map(v=>v[0]),
+                    datasets: [{ data: reasonsSorted.map(v=>v[1]), backgroundColor: '#fca5a5', borderRadius: 4 }]
+                },
+                options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins:{legend:{display:false}}, scales:{x:{display:false}, y:{grid:{display:false}, border:{display:false}}} }
+            });
+
+            // 5. Reasons Table
+            const tb = document.getElementById('denialTable');
+            tb.innerHTML = '';
+            const totalDenialDollars = reasonsSorted.reduce((s, x) => s + x[1], 0);
+            
+            reasonsSorted.forEach(r => {
+                const tr = document.createElement('tr');
+                const share = ((r[1]/totalDenialDollars)*100).toFixed(0);
+                tr.innerHTML = `
+                    <td>${r[0]}</td>
+                    <td class="td-val">${fmt$(r[1])}</td>
+                    <td><div class="bar-wrap"><div class="bar-fill" style="width:${share}%"></div></div></td>
+                `;
+                tb.appendChild(tr);
+            });
+        };
+
+        renderDash();
+    </script>
+</body>
+</html>

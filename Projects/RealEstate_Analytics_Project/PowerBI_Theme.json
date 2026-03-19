@@ -1,0 +1,42 @@
+{
+    "name": "Coupler Real Estate Theme",
+    "dataColors": [
+        "#0f766e",
+        "#0d9488",
+        "#14b8a6",
+        "#d97706",
+        "#f59e0b",
+        "#fbbf24",
+        "#78716c"
+    ],
+    "background": "#fafaf9",
+    "foreground": "#292524",
+    "tableAccent": "#0f766e",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "fontFamily": "Segoe UI, sans-serif",
+                        "fontSize": 11,
+                        "color": { "solid": { "color": "#44403c" } }
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#ffffff" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#e7e5e4" } },
+                        "radius": 4
+                    }
+                ]
+            }
+        }
+    }
+}

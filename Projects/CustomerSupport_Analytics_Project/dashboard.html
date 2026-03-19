@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Helpdesk Analytics Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-page: #f8fafc; --text-dark: #1e293b;
+            --c-red: #ef4444; --c-orange: #f59e0b; --c-blue: #3b82f6; --c-green: #10b981; 
+        }
+
+        * { font-family: 'Inter', sans-serif; box-sizing: border-box; }
+        body { margin: 0; background: var(--bg-page); color: var(--text-dark); }
+        
+        .top-nav {
+            background-color: #ffffff; padding: 1rem 2rem;
+            display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0;
+        }
+        .header-brand { display: flex; align-items: center; gap: 12px; }
+        .logo-box { background: var(--c-orange); color: white; width: 36px; height: 36px; border-radius: 8px; display:flex; justify-content:center; align-items:center; font-weight:800; font-size:1.2rem;}
+        .h-title { font-size: 1.35rem; font-weight: 700; color: #0f172a; margin: 0; }
+        .h-sub { font-size: 0.75rem; color: #64748b; font-weight: 500; }
+
+        .profile-badge { display:flex; align-items:center; gap:8px; font-weight: 700; color: #334155; font-size:0.9rem;}
+        .avatar { width:32px; height:32px; background: #6366f1; color:white; border-radius:50%; display:flex; justify-content:center; align-items:center; font-size:0.8rem;}
+
+        .dash-container { padding: 1.5rem 2rem; max-width: 1400px; margin: 0 auto;}
+
+        .filter-ribbon { padding-bottom: 1.5rem; display:flex; gap:10px; }
+        .f-btn { background: white; border: 1px solid #cbd5e1; padding: 0.5rem 1.5rem; border-radius: 6px; cursor: pointer; font-weight: 600; color: #475569; transition:0.2s;}
+        .f-btn:hover { background: #f1f5f9; }
+        .f-btn.active { background: #0f172a; color: white; border-color: #0f172a;}
+
+        .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 2rem; }
+        .kpi { padding: 1.5rem; border-radius: 12px; background: white; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border-top: 4px solid #cbd5e1; }
+        .k-title { font-size: 0.85rem; font-weight: 600; color: #64748b; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.5px;}
+        .k-val { font-size: 2.2rem; font-weight: 700; color: #0f172a; display:flex; align-items:baseline; gap:10px;}
+        
+        .kpi-r { border-top-color: var(--c-red); }
+        .kpi-o { border-top-color: var(--c-orange); }
+        .kpi-b { border-top-color: var(--c-blue); }
+        .kpi-g { border-top-color: var(--c-green); }
+
+        .chart-row { display: grid; grid-template-columns: 2fr 1.5fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+        .card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); display: flex; flex-direction: column; }
+        .card-t { font-size: 1.1rem; font-weight: 600; color: #1e293b; margin-bottom: 1.5rem; border-bottom: 1px solid #f1f5f9; padding-bottom: 0.5rem;}
+        .c-wrap { flex-grow: 1; position: relative; min-height: 280px; }
+    </style>
+</head>
+<body>
+
+    <div class="top-nav">
+        <div class="header-brand">
+            <div class="logo-box">Z</div>
+            <div>
+                <h1 class="h-title">Zendesk Operational Overview</h1>
+                <div class="h-sub">Last sync: Just now</div>
+            </div>
+        </div>
+        <div class="profile-badge">
+            <div class="avatar">MB</div>
+            Marvin Boliche
+        </div>
+    </div>
+
+    <div class="dash-container">
+        <div class="filter-ribbon">
+            <button class="f-btn active" onclick="setFilter(this)">All Segments</button>
+            <button class="f-btn" onclick="setFilter(this)">Enterprise</button>
+            <button class="f-btn" onclick="setFilter(this)">SMB</button>
+            <button class="f-btn" onclick="setFilter(this)">B2C</button>
+        </div>
+
+        <div class="kpi-row">
+            <div class="kpi kpi-r"><div class="k-title">Open Urgent Tickets</div><div class="k-val v-d">24</div></div>
+            <div class="kpi kpi-b"><div class="k-title">Total Active Backlog</div><div class="k-val v-d">412</div></div>
+            <div class="kpi kpi-o"><div class="k-title">Avg Resolution Time</div><div class="k-val v-d">22.4<span style="font-size:1rem; color:#64748b;">hrs</span></div></div>
+            <div class="kpi kpi-g"><div class="k-title">Avg CSAT Score</div><div class="k-val v-d">4.6<span style="font-size:1rem; color:#10b981;">★★★★★</span></div></div>
+        </div>
+
+        <div class="chart-row">
+            <div class="card"><div class="card-t">Ticket Volume by Category</div><div class="c-wrap"><canvas id="c1"></canvas></div></div>
+            <div class="card"><div class="card-t">Agent Leaderboard</div><div class="c-wrap"><canvas id="c2"></canvas></div></div>
+        </div>
+    </div>
+
+    <script>
+        Chart.defaults.font.family = "'Inter', sans-serif";
+        const charts = {};
+
+        charts.c1 = new Chart(document.getElementById('c1'), {
+            type: 'bar',
+            data: { labels: ['Technical', 'Billing', 'Account', 'General', 'Security'], datasets: [{ data: [1420, 850, 620, 410, 150], backgroundColor: ['#3b82f6', '#0ea5e9', '#8b5cf6', '#64748b', '#ef4444'] }] },
+            options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}} }
+        });
+
+        charts.c2 = new Chart(document.getElementById('c2'), {
+            type: 'bar',
+            data: { labels: ['Sarah K.', 'Mike T.', 'Jessica L.', 'David W.', 'Tom B.'], datasets: [{ data: [215, 198, 185, 142, 120], backgroundColor: '#10b981' }] },
+            options: { indexAxis: 'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}} }
+        });
+
+        function setFilter(btn) {
+            document.querySelectorAll('.f-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            document.querySelectorAll('.v-d').forEach((el, index) => {
+                if(index === 3) el.innerHTML = (Math.random() * 1.5 + 3.5).toFixed(1) + '<span style="font-size:1rem; color:#10b981;">★★★★★</span>';
+                else if(index === 2) el.innerHTML = (Math.random() * 40 + 5).toFixed(1) + '<span style="font-size:1rem; color:#64748b;">hrs</span>';
+                else el.innerHTML = Math.floor(Math.random() * 500 + 10);
+            });
+
+            Object.values(charts).forEach(c => {
+                c.data.datasets[0].data = c.data.datasets[0].data.map(() => Math.floor(Math.random() * 1500 + 50));
+                c.update();
+            });
+        }
+    </script>
+</body>
+</html>

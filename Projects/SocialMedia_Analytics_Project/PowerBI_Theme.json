@@ -1,0 +1,43 @@
+{
+    "name": "Coupler Social Theme",
+    "dataColors": [
+        "#3b82f6",
+        "#8b5cf6",
+        "#10b981",
+        "#f43f5e",
+        "#0ea5e9",
+        "#6366f1",
+        "#ec4899",
+        "#14b8a6"
+    ],
+    "background": "#f0f2f5",
+    "foreground": "#1f2937",
+    "tableAccent": "#4f46e5",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "fontFamily": "Segoe UI, sans-serif",
+                        "fontSize": 11,
+                        "color": { "solid": { "color": "#4b5563" } }
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#ffffff" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#e5e7eb" } },
+                        "radius": 8
+                    }
+                ]
+            }
+        }
+    }
+}

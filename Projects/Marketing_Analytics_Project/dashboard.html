@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Performance Analytics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-body: #111827; /* Dark Mode Theme */
+            --bg-card: #1f2937;
+            --text-main: #f9fafb;
+            --text-muted: #9ca3af;
+            --primary: #f97316; /* Orange */
+            --secondary: #3b82f6; /* Blue */
+            --tertiary: #8b5cf6; /* Purple */
+            --border: #374151;
+        }
+
+        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg-body); color: var(--text-main); }
+        
+        .header {
+            background-color: #030712; padding: 1.25rem 2rem;
+            display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border);
+        }
+        .header h1 { margin: 0; font-size: 1.25rem; font-weight: 600; color:var(--primary); }
+        .header .sub { font-size: 0.8rem; color: var(--text-muted); margin-top:4px; font-weight:400;}
+
+        .filters { display: flex; gap: 15px; align-items:center;}
+        select {
+            padding: 0.5rem 0.8rem; border-radius: 4px; border: 1px solid var(--border);
+            background: #1f2937; color: white; font-family: 'Inter'; outline: none; appearance: none;
+        }
+
+        .container { padding: 1.5rem 2rem; }
+
+        /* KPIs */
+        .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+        .kpi-card {
+            background: var(--bg-card); padding: 1.25rem; border-radius: 8px; border: 1px solid var(--border);
+            position: relative; overflow: hidden;
+        }
+        .kpi-card::before { content:''; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--primary); }
+        .kpi-card:nth-child(2)::before { background: var(--secondary); }
+        .kpi-card:nth-child(3)::before { background: var(--tertiary); }
+        .kpi-card:nth-child(4)::before { background: #10b981; }
+
+        .kpi-title { font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 600; margin-bottom:0.5rem;}
+        .kpi-val { font-size: 1.8rem; font-weight: 700; color: var(--text-main); }
+        .kpi-trend { font-size: 0.75rem; color: #10b981; margin-top: 0.25rem;}
+
+        /* Charts */
+        .grid-main { display: grid; grid-template-columns: 2fr 1fr; gap: 1.25rem; margin-bottom: 1.5rem; }
+        .grid-subs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.25rem; margin-bottom: 1.5rem; }
+
+        .card { background: var(--bg-card); padding: 1.25rem; border-radius: 8px; border: 1px solid var(--border); }
+        .card-title { font-size: 0.85rem; font-weight: 600; color: var(--text-main); margin-bottom: 1rem; }
+
+        canvas { width: 100% !important; height: 260px !important; }
+        .small-canvas { height: 220px !important; }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div>
+            <h1>Marketing Performance Analytics</h1>
+            <div class="sub">Campaign ROI & Conversion Tracking</div>
+        </div>
+        <div class="filters">
+            <select id="channelFilter" onchange="renderDash()">
+                <option value="All">All Channels</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Search Engine">Search Engine</option>
+                <option value="Email">Email</option>
+                <option value="Affiliate">Affiliate</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- KPIs -->
+        <div class="kpi-row">
+            <div class="kpi-card">
+                <div class="kpi-title">Total Spend</div>
+                <div class="kpi-val" id="kpi-spend">$0</div>
+                <div class="kpi-trend">Budget consumed</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Cost Per Acq (CPA)</div>
+                <div class="kpi-val" id="kpi-cpa">$0</div>
+                <div class="kpi-trend" style="color:var(--text-muted)">Target < $50</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Avg CTR</div>
+                <div class="kpi-val" id="kpi-ctr">0%</div>
+                <div class="kpi-trend">▲ +0.5% MoM</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Total Conversions</div>
+                <div class="kpi-val" id="kpi-conv">0</div>
+                <div class="kpi-trend">▲ +12% MoM</div>
+            </div>
+        </div>
+
+        <div class="grid-main">
+            <div class="card">
+                <div class="card-title">Monthly Spend vs Conversions</div>
+                <canvas id="trendChart"></canvas>
+            </div>
+            <div class="card">
+                <div class="card-title">Channel ROI (CPA)</div>
+                <canvas id="cpaChart"></canvas>
+            </div>
+        </div>
+
+        <div class="grid-subs">
+            <div class="card">
+                <div class="card-title">Spend by Channel</div>
+                <canvas id="spendChart" class="small-canvas"></canvas>
+            </div>
+            <div class="card">
+                <div class="card-title">Conversions by Audience</div>
+                <canvas id="audChart" class="small-canvas"></canvas>
+            </div>
+            <div class="card">
+                <div class="card-title">Funnel Drop-off</div>
+                <canvas id="funnelChart" class="small-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        Chart.defaults.font.family = "'Inter', sans-serif";
+        Chart.defaults.color = '#9ca3af';
+
+        // Fake Data
+        const generateMktData = () => {
+            const data = [];
+            const channels = ["Social Media", "Search Engine", "Email", "Affiliate"];
+            const audiences = ["Gen Z", "Millennials", "B2B", "General"];
+
+            for(let m=0; m<12; m++) {
+                channels.forEach(ch => {
+                    audiences.forEach(aud => {
+                        let spend = Math.floor(Math.random()*5000) + 1000;
+                        if(ch==="Search Engine") spend *= 2;
+                        
+                        let imp = spend * (Math.random()*50 + 20); // Imp per dollar
+                        let ctr = ch==="Email" ? 0.05 : 0.02; 
+                        let clk = imp * ctr * (Math.random()*0.5 + 0.7);
+                        let cvr = aud==="B2B" ? 0.08 : 0.03;
+                        let conv = clk * cvr;
+
+                        data.push({ month: m, channel: ch, aud: aud, spend: spend, imp: imp, clicks: clk, conv: conv });
+                    });
+                });
+            }
+            return data;
+        };
+
+        const mktData = generateMktData();
+        let charts = {};
+
+        const fmt$ = (val) => new Intl.NumberFormat('en-US', { style:'currency', currency:'USD', maximumFractionDigits: 0}).format(val);
+        const fmtNum = (val, max=1) => new Intl.NumberFormat('en-US', { maximumFractionDigits: max}).format(val);
+
+        const renderDash = () => {
+            const chFilter = document.getElementById('channelFilter').value;
+            const d = mktData.filter(x => chFilter === "All" || x.channel === chFilter);
+
+            const spd = d.reduce((s,x)=>s+x.spend,0);
+            const cvs = d.reduce((s,x)=>s+x.conv,0);
+            const imp = d.reduce((s,x)=>s+x.imp,0);
+            const clk = d.reduce((s,x)=>s+x.clicks,0);
+
+            document.getElementById('kpi-spend').innerText = fmt$(spd);
+            document.getElementById('kpi-cpa').innerText = fmt$(cvs > 0 ? spd/cvs : 0);
+            document.getElementById('kpi-ctr').innerText = fmtNum(imp > 0 ? (clk/imp)*100 : 0, 2) + "%";
+            document.getElementById('kpi-conv').innerText = fmtNum(cvs, 0);
+
+            // 1. Trend
+            const mNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+            const trend = mNames.map(()=>({s:0, c:0}));
+            d.forEach(x => { trend[x.month].s+=x.spend; trend[x.month].c+=x.conv; });
+
+            if(charts.trend) charts.trend.destroy();
+            charts.trend = new Chart(document.getElementById('trendChart'), {
+                type: 'line',
+                data: {
+                    labels: mNames,
+                    datasets: [
+                        { label: 'Spend ($)', data: trend.map(t=>t.s), borderColor: '#f97316', backgroundColor: 'rgba(249,115,22,0.1)', fill:true, yAxisID: 'y' },
+                        { label: 'Conversions', data: trend.map(t=>t.c), borderColor: '#3b82f6', type: 'bar', backgroundColor: '#3b82f6', yAxisID: 'y1' }
+                    ]
+                },
+                options: { responsive:true, maintainAspectRatio:false, scales: { x:{grid:{color:'#374151'}}, y:{type:'linear',position:'left',grid:{color:'#374151'}}, y1:{type:'linear',position:'right',grid:{display:false}} } }
+            });
+
+            // 2. CPA by Channel
+            const chMap = {};
+            d.forEach(x => { if(!chMap[x.channel]) grid={s:0,c:0}; else grid=chMap[x.channel]; grid.s+=x.spend; grid.c+=x.conv; chMap[x.channel]=grid; });
+            const cpaData = Object.keys(chMap).map(k => chMap[k].c > 0 ? chMap[k].s/chMap[k].c : 0);
+            
+            if(charts.cpa) charts.cpa.destroy();
+            charts.cpa = new Chart(document.getElementById('cpaChart'), {
+                type: 'bar', data: { labels: Object.keys(chMap), datasets: [{ data: cpaData, backgroundColor: '#8b5cf6', borderRadius:4 }] },
+                options: { indexAxis: 'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{grid:{color:'#374151'}},y:{grid:{display:false}}} }
+            });
+
+            // 3. Spend Doughnut
+            const spendData = Object.values(chMap).map(v=>v.s);
+            if(charts.spend) charts.spend.destroy();
+            charts.spend = new Chart(document.getElementById('spendChart'), {
+                type: 'doughnut', data: { labels: Object.keys(chMap), datasets: [{ data: spendData, backgroundColor: ['#f97316','#3b82f6','#8b5cf6','#10b981'], borderWidth:0 }] },
+                options: { responsive:true, maintainAspectRatio:false, cutout:'70%', plugins:{legend:{position:'bottom', labels:{color:'#9ca3af'}}} }
+            });
+
+            // 4. Aud Bar
+            const aMap = {}; d.forEach(x=>{aMap[x.aud]=(aMap[x.aud]||0)+x.conv;});
+            if(charts.aud) charts.aud.destroy();
+            charts.aud = new Chart(document.getElementById('audChart'), {
+                type: 'bar', data: { labels: Object.keys(aMap), datasets: [{ data: Object.values(aMap), backgroundColor: '#3b82f6', borderRadius:4 }] },
+                options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{grid:{display:false}},y:{grid:{color:'#374151'}}} }
+            });
+
+            // 5. Funnel (Bar)
+            if(charts.fun) charts.fun.destroy();
+            charts.fun = new Chart(document.getElementById('funnelChart'), {
+                type: 'bar', data: { labels: ['Impressions (k)', 'Clicks', 'Conversions'], datasets: [{ data: [imp/1000, clk, cvs], backgroundColor: ['#10b981','#f59e0b','#ef4444'] }] },
+                options: { indexAxis: 'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{type:'logarithmic', grid:{color:'#374151'}},y:{grid:{display:false}}} }
+            });
+        };
+        renderDash();
+    </script>
+</body>
+</html>

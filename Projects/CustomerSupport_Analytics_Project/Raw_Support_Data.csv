@@ -1,0 +1,2002 @@
+TicketID,DateOpened,DateClosed,Category,Priority,AgentName,ResolutionTimeHrs,CSAT_Score
+80001,2024-10-13,2024-10-16,General,Medium,Sarah K.,89,4
+80002,2024-08-02,,Billing,Low,Tom B.,,
+80003,12/20/2024,,General,Medium,Jessica L.,,
+80004,2024-03-20,2024-03-20,Account,High,Tom B.,12,3
+80005,2024-09-24,,BILLING,Low,Tom B.,,
+80006,2024-09-13,2024-09-15,Technical,Low,Jessica L.,58,3
+80007,2024-11-22,2024-11-22,Account,Urgent,Sarah K.,20,
+80008,2024-12-28,2024-12-30, technical ,High,Sarah K.,54,3
+80009,2024-10-06,2024-10-08,Billing,High,Jessica L.,64,5
+80010,2024-04-30,2024-05-02,Technical,Medium,Jessica L.,51,3
+80011,2024-04-08,2024-04-12,BILLING,High,Tom B.,118,3
+80012,2024-09-19,,General,Medium,Sarah K.,,
+80013,2024-09-12,2024-09-15,General,Low,Jessica L.,80,5
+80014,06/21/2024,2024-06-25, technical ,Medium,Mike T.,101,5
+80015,2024-06-10,2024-06-10,General,Low,Tom B.,5,5
+80016,2024-11-01,2024-11-02, technical ,Medium,Mike T.,39,3
+80017,2024-06-24,2024-06-26,Billing,High,Tom B.,66,4
+80018,2024-05-26,2024-05-30,Technical,High,David W.,102,3
+80019,2024-03-16,2024-03-17,Technical,Low,David W.,29,2
+80020,2024-09-25,2024-09-28,Technical,High,Jessica L.,92,1
+80021,2024-10-11,2024-10-11,Account,Urgent,Sarah K.,6,1
+80022,2024-10-08,2024-10-09,Technical,Urgent,Sarah K.,34,
+80023,04/23/2024,2024-04-26, technical ,High,Sarah K.,76,
+80024,2024-02-12,2024-02-12,Technical,Urgent,Tom B.,20,
+80025,2024-03-26,2024-03-26,Account,Medium,Sarah K.,6,2
+80026,2024-05-05,,BILLING,Medium,Sarah K.,,
+80027,2024-10-15,2024-10-15,General,High,Mike T.,10,3
+80028,06/15/2024,2024-06-16,General,Urgent,Sarah K.,33,3
+80029,2024-05-08,2024-05-09,BILLING,Low,Sarah K.,32,3
+80030,2024-10-09,2024-10-10,Billing,High,Mike T.,47,4
+80031,04/10/2024,,BILLING,High,Sarah K.,,
+80032,2024-12-29,2025-01-02,BILLING,Medium,Sarah K.,104,3
+80033,2024-05-24,2024-05-24,Billing,Urgent,Jessica L.,5,4
+80034,2024-11-15,2024-11-17, technical ,Medium,Sarah K.,63,2
+80035,2024-05-19,2024-05-20, technical ,Medium,Mike T.,26,1
+80036,2024-01-08,,Billing,Medium,Sarah K.,,
+80037,2024-03-30,2024-03-31,BILLING,Low,Tom B.,45,1
+80038,2024-06-22,2024-06-22,Account,Urgent,Jessica L.,8,3
+80039,2024-09-01,2024-09-05,Account,High,David W.,107,5
+80040,2024-04-10,2024-04-13,BILLING,High,Tom B.,91,3
+80041,2024-03-28,2024-04-01,General,High,Tom B.,105,1
+80042,2024-04-22,2024-04-25, technical ,Low,Mike T.,83,1
+80043,2024-08-24,2024-08-24,Technical,Medium,Mike T.,12,5
+80044,2024-10-24,,Billing,High,Jessica L.,,
+80045,2024-09-15,2024-09-17, technical ,High,David W.,68,1
+80046,2024-11-30,2024-12-04,Billing,High,Mike T.,115,1
+80047,2024-04-25,2024-04-26, technical ,High,David W.,32,
+80048,2024-04-10,2024-04-10,BILLING,Urgent,David W.,13,
+80049,2024-07-14,2024-07-16,BILLING,High,David W.,58,3
+80050,2024-09-09,2024-09-10,Billing,Medium,David W.,24,1
+80051,2024-04-03,2024-04-05,BILLING,High,Mike T.,64,
+80052,2024-02-19,2024-02-23,Billing,High,David W.,119,2
+80053,2024-07-08,2024-07-09,General,Urgent,Sarah K.,31,4
+80054,2024-04-21,2024-04-22,Technical,Urgent,Jessica L.,33,2
+80055,2024-01-05,2024-01-08,Technical,High,Sarah K.,86,3
+80056,2024-07-13,2024-07-14,BILLING,Low,Jessica L.,42,1
+80057,2024-03-22,2024-03-22,Technical,Urgent,David W.,17,2
+80058,2024-08-17,2024-08-17,Billing,Medium,Tom B.,19,4
+80059,2024-06-20,2024-06-22, technical ,High,Jessica L.,67,
+80060,2024-10-18,2024-10-18,BILLING,Urgent,Jessica L.,6,3
+80061,2024-01-12,2024-01-12, technical ,Low,Tom B.,20,4
+80062,2024-09-30,2024-10-02,General,Low,Tom B.,-51,
+80063,2024-10-02,2024-10-04,Technical,Medium,Jessica L.,51,2
+80064,2024-12-24,2024-12-24,General,Urgent,Mike T.,11,3
+80065,2024-11-18,2024-11-20,BILLING,Medium,Jessica L.,58,4
+80066,2024-01-28,,Account,Low,Tom B.,,
+80067,2024-06-01,2024-06-01,General,High,Mike T.,10,4
+80068,2024-08-18,2024-08-18, technical ,Medium,David W.,1,1
+80069,2024-10-10,2024-10-10,Technical,Urgent,Jessica L.,19,4
+80070,2024-06-08,2024-06-08,BILLING,Medium,Jessica L.,20,5
+80071,2024-06-05,2024-06-05,Billing,Urgent,Sarah K.,4,5
+80072,2024-12-10,2024-12-13,Technical,High,Mike T.,95,4
+80073,2024-09-01,2024-09-02,Technical,Urgent,Mike T.,24,2
+80074,2024-12-10,2024-12-10,General,Urgent,Mike T.,1,3
+80075,2024-05-21,2024-05-21,Billing,Urgent,Jessica L.,15,
+80076,2024-01-23,2024-01-26,Billing,High,Mike T.,87,1
+80077,2024-05-03,2024-05-05,Billing,Medium,Jessica L.,50,2
+80078,2024-03-23,2024-03-23,Billing,Medium,David W.,15,2
+80079,2024-11-10,2024-11-11,Technical,Urgent,Mike T.,24,5
+80080,2024-06-10,2024-06-13,Billing,Medium,Mike T.,80,5
+80081,2024-12-10,2024-12-10, technical ,Urgent,Jessica L.,18,5
+80082,2024-03-01,2024-03-04,BILLING,High,David W.,92,
+80083,2024-12-17,2024-12-18,General,Urgent,Jessica L.,27,4
+80084,2024-09-15,2024-09-15,Billing,Urgent,Tom B.,13,3
+80085,2024-05-10,2024-05-11, technical ,High,David W.,25,3
+80086,2024-04-10,,BILLING,Medium,Mike T.,,
+80087,2024-12-07,2024-12-08,BILLING,Urgent,Jessica L.,31,2
+80088,2024-11-26,2024-11-26,Billing,Urgent,Tom B.,1,3
+80089,2024-02-01,2024-02-04,General,Low,Sarah K.,84,3
+80090,2024-09-19,2024-09-20,Account,Medium,Tom B.,47,5
+80091,2024-05-27,2024-05-30,BILLING,Low,Jessica L.,85,3
+80092,2024-08-19,2024-08-21,Billing,High,Jessica L.,60,5
+80093,2024-06-01,2024-06-02,BILLING,High,David W.,39,4
+80094,2024-08-24,2024-08-28,BILLING,High,Mike T.,112,3
+80095,2024-12-10,2024-12-14,Technical,Medium,Sarah K.,119,4
+80096,2024-11-16,2024-11-18,BILLING,High,Mike T.,67,2
+80097,2024-07-03,2024-07-03,Account,Urgent,David W.,8,3
+80098,2024-12-25,2024-12-27,Account,Medium,Sarah K.,62,3
+80099,2024-10-07,2024-10-07,BILLING,Urgent,Jessica L.,4,2
+80100,2024-08-13,2024-08-14,Billing,Urgent,Tom B.,31,2
+80101,2024-03-10,2024-03-11,Technical,Urgent,Mike T.,34,4
+80102,2024-11-20,2024-11-20, technical ,Low,Jessica L.,5,4
+80103,2024-10-07,,Account,High,Mike T.,,
+80104,2024-07-27,2024-07-29,Technical,Low,Mike T.,56,2
+80105,2024-02-07,2024-02-09, technical ,Low,Tom B.,65,5
+80106,2024-12-24,2024-12-24,BILLING,High,Tom B.,18,2
+80107,2024-08-11,2024-08-11,General,Urgent,David W.,6,5
+80108,2024-03-25,2024-03-25,BILLING,Urgent,Sarah K.,8,2
+80109,2024-01-17,2024-01-18,General,Low,Tom B.,39,3
+80110,2024-12-02,2024-12-04, technical ,Low,David W.,58,4
+80111,2024-01-23,2024-01-24,Technical,Medium,Mike T.,28,1
+80112,2024-09-04,2024-09-07,Technical,High,Jessica L.,94,
+80113,2024-07-23,2024-07-27, technical ,Medium,David W.,109,5
+80114,2024-06-03,2024-06-05,BILLING,Low,Tom B.,69,2
+80115,2024-01-05,2024-01-08,BILLING,Medium,David W.,92,1
+80116,2024-05-19,2024-05-19, technical ,Medium,Sarah K.,12,5
+80117,2024-03-03,2024-03-07, technical ,Low,Mike T.,112,1
+80118,2024-04-02,2024-04-02,Account,Medium,Sarah K.,1,2
+80119,2024-11-09,2024-11-09,General,High,Sarah K.,9,3
+80120,2024-10-21,,General,High,David W.,,
+80121,2024-10-19,2024-10-21,General,High,Sarah K.,68,3
+80122,2024-05-09,,Billing,Urgent,David W.,,
+80123,2024-07-01,, technical ,Low,Tom B.,,
+80124,2024-08-27,, technical ,Medium,Jessica L.,,
+80125,2024-10-11,2024-10-12,Billing,Medium,Sarah K.,35,5
+80126,2024-01-10,,Technical,High,David W.,,
+80127,2024-04-13,2024-04-17,General,Low,Mike T.,104,5
+80128,2024-11-11,,BILLING,Urgent,Tom B.,,
+80129,2024-07-28,2024-07-31,BILLING,High,David W.,93,4
+80130,2024-02-19,2024-02-23,Billing,Low,Sarah K.,115,5
+80131,2024-10-15,2024-10-15,General,Medium,Mike T.,9,2
+80132,2024-05-17,,Account,Low,Sarah K.,,
+80133,2024-03-12,2024-03-14, technical ,High,David W.,48,3
+80134,2024-07-06,2024-07-09,Billing,Low,Tom B.,89,
+80135,2024-07-12,2024-07-16,Account,Low,David W.,110,1
+80136,10/21/2024,2024-10-21,Technical,Urgent,David W.,7,1
+80137,2024-03-20,2024-03-23, technical ,Low,Sarah K.,82,2
+80138,2024-01-24,2024-01-25,Billing,Urgent,David W.,32,3
+80139,2024-12-21,2024-12-21,General,Urgent,Sarah K.,17,1
+80140,2024-05-14,2024-05-17,BILLING,Low,Jessica L.,75,
+80141,2024-04-25,2024-04-29,General,High,Jessica L.,98,2
+80142,2024-09-22,2024-09-23, technical ,Urgent,Sarah K.,30,5
+80143,2024-04-21,2024-04-24,BILLING,High,Sarah K.,91,1
+80144,2024-04-08,2024-04-12,Account,High,Sarah K.,110,1
+80145,06/17/2024,2024-06-17,General,Urgent,Sarah K.,21,5
+80146,2024-04-21,2024-04-25,Account,Medium,David W.,104,1
+80147,2024-09-03,2024-09-05,Billing,High,David W.,70,1
+80148,2024-01-25,2024-01-26,General,High,Sarah K.,33,1
+80149,2024-03-13,2024-03-15,Billing,Medium,David W.,57,1
+80150,2024-09-21,,General,Low,Jessica L.,,
+80151,2024-12-08,2024-12-09,Account,Medium,David W.,37,
+80152,2024-11-06,2024-11-08,Billing,Low,Sarah K.,63,4
+80153,2024-09-29,2024-09-30,BILLING,Urgent,Mike T.,34,3
+80154,2024-06-19,2024-06-22, technical ,Medium,Tom B.,84,2
+80155,2024-06-05,2024-06-08,General,Medium,Tom B.,88,2
+80156,2024-06-28,2024-07-01,Technical,High,Sarah K.,90,
+80157,2024-12-14,2024-12-18,Account,Low,Jessica L.,119,5
+80158,2024-06-29,2024-06-30,BILLING,High,David W.,26,4
+80159,2024-11-21,2024-11-21,BILLING,Low,Mike T.,6,1
+80160,2024-04-21,2024-04-21,Technical,Medium,Tom B.,23,2
+80161,2024-02-10,2024-02-13,Billing,Low,Jessica L.,81,3
+80162,2024-02-01,2024-02-05, technical ,Medium,David W.,103,2
+80163,2024-04-23,2024-04-23,General,Low,Sarah K.,16,4
+80164,2024-02-22,2024-02-25,BILLING,Low,David W.,77,4
+80165,2024-08-11,2024-08-13, technical ,Low,Sarah K.,64,4
+80166,2024-10-25,2024-10-27,Account,Low,Jessica L.,60,
+80167,2024-01-24,2024-01-27, technical ,Low,Tom B.,84,
+80168,2024-11-01,2024-11-01, technical ,Medium,Sarah K.,17,
+80169,2024-07-05,2024-07-06,Billing,High,Mike T.,43,5
+80170,01/16/2024,2024-01-17,General,Urgent,David W.,32,4
+80171,2024-09-17,2024-09-17,General,Urgent,Mike T.,6,
+80172,2024-08-25,2024-08-25,BILLING,Medium,Sarah K.,21,1
+80173,2024-09-01,2024-09-05,Technical,Low,Tom B.,99,5
+80174,2024-09-21,2024-09-24,Billing,High,Tom B.,74,2
+80175,2024-05-06,2024-05-07,BILLING,Urgent,Mike T.,33,1
+80176,2024-02-29,2024-03-01,Billing,Urgent,Jessica L.,29,3
+80177,2024-02-06,2024-02-06,Technical,Urgent,Jessica L.,20,2
+80178,2024-12-08,2024-12-11,General,Medium,Sarah K.,-80,2
+80179,2024-10-12,2024-10-13,BILLING,Medium,Tom B.,41,
+80180,2024-01-15,2024-01-15,Account,Low,Sarah K.,22,5
+80181,2024-11-07,,General,Medium,David W.,,
+80182,2024-09-17,2024-09-17,BILLING,Urgent,Mike T.,23,3
+80183,2024-11-13,2024-11-14,Account,High,Tom B.,28,2
+80184,2024-05-17,2024-05-17,BILLING,Urgent,Sarah K.,6,
+80185,2024-06-17,2024-06-19,Technical,Medium,Mike T.,55,2
+80186,2024-07-22,2024-07-22,BILLING,Urgent,Tom B.,3,
+80187,2024-01-10,2024-01-12,Technical,High,David W.,59,1
+80188,2024-06-23,2024-06-24,General,Urgent,Jessica L.,34,5
+80189,2024-03-07,2024-03-11,General,Low,David W.,100,
+80190,2024-04-22,2024-04-23,Billing,Medium,Mike T.,44,4
+80191,2024-08-20,,General,High,Jessica L.,,
+80192,2024-01-12,2024-01-12,BILLING,Medium,Tom B.,1,2
+80193,2024-02-10,2024-02-14,General,Low,Tom B.,118,4
+80194,2024-02-11,2024-02-15,Account,Low,Tom B.,112,4
+80195,2024-10-24,2024-10-25,General,Urgent,Mike T.,29,3
+80196,2024-06-19,2024-06-19,General,Urgent,Jessica L.,21,4
+80197,2024-09-14,2024-09-16,Billing,Medium,Tom B.,50,4
+80198,2024-08-10,2024-08-13,Billing,Low,Jessica L.,74,4
+80199,2024-11-12,2024-11-12,Account,High,Sarah K.,1,3
+80200,2024-08-12,2024-08-16,BILLING,Low,Sarah K.,101,
+80201,2024-12-30,,Billing,Medium,Mike T.,,
+80202,2024-06-29,2024-07-02,BILLING,Low,David W.,82,1
+80203,2024-06-19,2024-06-19,BILLING,Medium,Mike T.,22,2
+80204,2024-12-20,2024-12-23,BILLING,Low,Sarah K.,91,1
+80205,2024-12-15,2024-12-17,General,Low,David W.,58,
+80206,2024-03-01,2024-03-01,General,Medium,Tom B.,18,3
+80207,2024-01-31,2024-02-02,Account,High,Tom B.,61,4
+80208,2024-08-02,2024-08-02,General,Low,Jessica L.,22,4
+80209,2024-08-08,2024-08-12,Technical,High,Tom B.,108,4
+80210,2024-07-26,2024-07-30,Technical,Medium,Sarah K.,107,
+80211,2024-04-07,2024-04-09,Technical,Medium,David W.,54,2
+80212,2024-07-04,2024-07-06, technical ,Low,David W.,48,4
+80213,2024-02-18,2024-02-18,General,Low,Mike T.,2,2
+80214,2024-05-17,2024-05-21, technical ,High,David W.,98,5
+80215,06/18/2024,2024-06-18,BILLING,Medium,David W.,19,1
+80216,2024-02-13,2024-02-16,Technical,Low,Tom B.,80,
+80217,2024-12-22,2024-12-23,Technical,Urgent,Mike T.,32,1
+80218,2024-01-16,2024-01-16,Account,Medium,Jessica L.,16,1
+80219,2024-03-26,2024-03-27,General,Medium,Jessica L.,38,4
+80220,2024-07-31,2024-07-31,BILLING,Urgent,David W.,13,
+80221,2024-06-01,2024-06-01,General,Urgent,Jessica L.,12,5
+80222,2024-01-28,2024-01-31, technical ,Low,Mike T.,83,4
+80223,2024-07-14,,Account,Urgent,Sarah K.,,
+80224,2024-09-27,2024-10-01,Technical,Medium,David W.,118,4
+80225,2024-08-07,2024-08-07,Technical,Urgent,Mike T.,9,4
+80226,2024-11-03,2024-11-04, technical ,Urgent,Sarah K.,31,1
+80227,2024-09-28,2024-09-28, technical ,Medium,Tom B.,5,3
+80228,2024-09-14,,General,Urgent,Tom B.,,
+80229,2024-04-27,2024-04-30,BILLING,High,Sarah K.,92,1
+80230,2024-06-24,2024-06-24,General,Urgent,Tom B.,11,5
+80231,2024-12-02,2024-12-02,Account,Low,Mike T.,15,4
+80232,2024-09-22,2024-09-23,BILLING,Urgent,Jessica L.,32,3
+80233,2024-01-15,,General,Urgent,Jessica L.,,
+80234,2024-03-16,,Billing,Low,Sarah K.,,
+80235,2024-01-17,2024-01-18, technical ,Urgent,Mike T.,36,5
+80236,2024-06-25,2024-06-25,Account,Urgent,Mike T.,4,5
+80237,2024-01-21,2024-01-22,Account,High,David W.,26,1
+80238,2024-09-14,2024-09-15, technical ,Low,Tom B.,36,4
+80239,06/23/2024,2024-06-23,General,Low,Mike T.,4,1
+80240,2024-04-26,2024-04-28, technical ,Medium,Tom B.,51,2
+80241,2024-10-27,,Billing,Medium,Jessica L.,,
+80242,2024-04-05,2024-04-08,Billing,Low,Sarah K.,90,
+80243,2024-02-24,2024-02-24,Account,Medium,Tom B.,13,1
+80244,2024-05-01,2024-05-02,Account,Medium,Jessica L.,47,5
+80245,2024-05-06,,General,Low,David W.,,
+80246,2024-08-21,2024-08-22,Account,Urgent,Sarah K.,31,5
+80247,2024-08-21,2024-08-21,Account,Urgent,Mike T.,6,
+80248,2024-09-26,2024-09-27,General,High,Tom B.,43,4
+80249,2024-04-17,2024-04-20, technical ,Low,Jessica L.,88,1
+80250,2024-12-15,2024-12-19,General,Medium,David W.,117,
+80251,2024-11-02,2024-11-03,General,High,Sarah K.,47,
+80252,2024-10-07,2024-10-10,Technical,High,Jessica L.,91,2
+80253,2024-01-17,2024-01-18,Account,High,David W.,43,
+80254,2024-10-31,2024-11-04,General,Low,Jessica L.,101,
+80255,2024-02-11,2024-02-11,Billing,High,Jessica L.,16,1
+80256,2024-11-26,2024-11-26,BILLING,High,Mike T.,23,5
+80257,2024-10-18,2024-10-21, technical ,Low,Tom B.,95,1
+80258,05/19/2024,2024-05-22,Technical,Low,David W.,95,
+80259,2024-03-29,2024-03-31,General,Medium,Sarah K.,64,1
+80260,2024-09-24,2024-09-27,BILLING,Low,David W.,89,5
+80261,2024-11-16,2024-11-17,Account,Urgent,Mike T.,32,
+80262,2024-07-28,2024-07-29,BILLING,High,David W.,40,
+80263,2024-09-01,2024-09-05,Technical,Low,Sarah K.,105,5
+80264,2024-05-09,2024-05-09,Billing,Low,David W.,22,4
+80265,2024-05-31,2024-06-01,BILLING,Medium,Sarah K.,46,2
+80266,2024-12-03,,BILLING,Medium,Sarah K.,,
+80267,2024-03-13,2024-03-13,General,Urgent,Sarah K.,9,1
+80268,2024-09-06,,Account,Low,Sarah K.,,
+80269,2024-11-28,2024-11-29,Technical,Urgent,Sarah K.,27,5
+80270,2024-10-09,2024-10-13, technical ,High,Sarah K.,104,5
+80271,2024-05-17,2024-05-17,Billing,High,Sarah K.,14,
+80272,2024-11-08,2024-11-09,Technical,Urgent,David W.,29,
+80273,2024-04-13,2024-04-16,BILLING,High,David W.,89,4
+80274,2024-01-29,2024-02-01,Billing,Medium,David W.,78,3
+80275,2024-09-10,2024-09-14, technical ,Low,Jessica L.,115,5
+80276,2024-05-16,2024-05-18,BILLING,Low,Sarah K.,60,
+80277,2024-01-19,2024-01-19,Technical,Urgent,Sarah K.,19,5
+80278,2024-06-25,2024-06-25,Technical,Urgent,Mike T.,1,
+80279,2024-07-11,2024-07-14,General,Medium,Tom B.,93,1
+80280,2024-03-28,,General,Medium,Sarah K.,,
+80281,2024-01-13,2024-01-15,Billing,Medium,Mike T.,60,4
+80282,2024-11-26,2024-11-27,Billing,Medium,Jessica L.,41,5
+80283,2024-11-02,2024-11-05,Account,Low,David W.,83,4
+80284,2024-11-09,,BILLING,Low,Sarah K.,,
+80285,2024-05-13,2024-05-15, technical ,Medium,Jessica L.,55,3
+80286,2024-07-30,2024-07-30,General,Low,David W.,16,1
+80287,2024-02-01,2024-02-01,General,Low,Jessica L.,22,1
+80288,2024-01-08,2024-01-11,General,Medium,Sarah K.,72,3
+80289,2024-09-12,,Billing,High,Jessica L.,,
+80290,2024-04-02,2024-04-06, technical ,Medium,Tom B.,104,5
+80291,2024-07-10,2024-07-13,General,Medium,David W.,74,1
+80292,2024-02-17,2024-02-17,BILLING,Urgent,Mike T.,1,4
+80293,2024-01-28,2024-02-01, technical ,Low,Jessica L.,105,3
+80294,2024-02-14,2024-02-15,Account,Urgent,Jessica L.,28,1
+80295,2024-07-13,2024-07-13,General,Urgent,Tom B.,6,
+80296,2024-03-03,,Technical,Low,David W.,,
+80297,2024-04-28,2024-04-28,General,Medium,Sarah K.,4,5
+80298,2024-12-23,2024-12-25,Account,Medium,Jessica L.,66,1
+80299,2024-09-26,2024-09-28,General,High,Mike T.,51,3
+80300,2024-04-03,2024-04-03,General,Urgent,Mike T.,15,2
+80301,2024-02-06,2024-02-09,Account,Medium,David W.,76,3
+80302,2024-07-06,,BILLING,Medium,Sarah K.,,
+80303,2024-02-18,2024-02-18, technical ,Urgent,Sarah K.,20,3
+80304,2024-08-14,2024-08-14,Technical,Urgent,Mike T.,-22,4
+80305,2024-04-10,2024-04-11,General,Urgent,Jessica L.,33,5
+80306,2024-02-20,2024-02-20,Technical,Medium,David W.,14,3
+80307,2024-04-27,2024-04-27, technical ,Urgent,Tom B.,11,2
+80308,2024-06-21,2024-06-21,General,Urgent,Jessica L.,2,5
+80309,2024-06-13,2024-06-17,Technical,Low,David W.,117,5
+80310,2024-11-19,2024-11-20, technical ,Low,Jessica L.,46,4
+80311,2024-09-01,2024-09-02, technical ,High,Sarah K.,46,2
+80312,2024-06-03,2024-06-03,General,Urgent,Sarah K.,-8,4
+80313,2024-06-13,2024-06-16, technical ,Low,David W.,77,3
+80314,09/28/2024,2024-10-01,Billing,Medium,David W.,73,
+80315,2024-11-25,2024-11-25,Billing,Low,Jessica L.,6,5
+80316,2024-10-27,2024-10-27,Account,Urgent,Sarah K.,9,
+80317,2024-04-16,2024-04-18,Billing,Medium,Jessica L.,49,1
+80318,2024-10-26,2024-10-30, technical ,Low,Sarah K.,115,3
+80319,2024-05-19,2024-05-19,General,Urgent,David W.,8,2
+80320,2024-06-08,2024-06-09,General,High,Tom B.,38,3
+80321,2024-04-12,2024-04-16, technical ,Medium,Jessica L.,108,2
+80322,2024-11-04,2024-11-04,General,High,Sarah K.,14,2
+80323,2024-09-24,2024-09-24,General,Urgent,Sarah K.,6,1
+80324,2024-07-17,2024-07-17,BILLING,Urgent,Mike T.,8,1
+80325,2024-05-21,2024-05-24,General,Medium,David W.,88,1
+80326,2024-04-03,2024-04-06,General,Low,Jessica L.,94,4
+80327,2024-07-20,2024-07-20,Billing,Urgent,David W.,2,4
+80328,2024-08-13,,Billing,Medium,Sarah K.,,
+80329,2024-04-13,2024-04-13,Technical,Urgent,Mike T.,22,3
+80330,2024-10-23,2024-10-26,Account,High,Jessica L.,82,1
+80331,2024-09-15,2024-09-16,Account,Urgent,David W.,-28,1
+80332,2024-03-02,2024-03-02,Account,Urgent,Mike T.,13,3
+80333,2024-08-09,2024-08-09,Billing,Urgent,Tom B.,16,1
+80334,2024-06-19,2024-06-19,Technical,Urgent,Sarah K.,17,2
+80335,2024-11-16,,Technical,Medium,Sarah K.,,
+80336,2024-08-08,2024-08-11,Account,High,Sarah K.,95,5
+80337,2024-08-17,,Billing,Urgent,David W.,,
+80338,2024-07-19,2024-07-22, technical ,High,Jessica L.,94,
+80339,2024-03-02,2024-03-02,Billing,Urgent,Jessica L.,8,1
+80340,2024-09-03,2024-09-07,General,High,Sarah K.,100,2
+80341,2024-08-04,2024-08-05,BILLING,Medium,Tom B.,35,2
+80342,2024-01-22,2024-01-24,Billing,Low,David W.,54,5
+80343,2024-07-04,2024-07-05, technical ,High,Mike T.,28,1
+80344,2024-12-29,2025-01-02,Technical,High,Sarah K.,103,4
+80345,2024-03-04,2024-03-07,Technical,Low,David W.,88,3
+80346,2024-07-16,2024-07-19,General,High,Tom B.,95,2
+80347,2024-02-17,2024-02-17, technical ,Low,Jessica L.,16,
+80348,2024-01-04,2024-01-05,Billing,Medium,Jessica L.,32,4
+80349,2024-01-15,2024-01-15,BILLING,Urgent,Mike T.,5,4
+80350,2024-05-16,2024-05-17, technical ,Medium,Mike T.,29,1
+80351,2024-02-06,2024-02-06,Account,Medium,David W.,4,
+80352,2024-03-31,,BILLING,Medium,David W.,,
+80353,2024-11-06,2024-11-09,General,High,Tom B.,87,2
+80354,2024-09-16,,Account,Urgent,Mike T.,,
+80355,2024-06-15,2024-06-16,Account,High,David W.,34,2
+80356,2024-01-05,2024-01-09,Technical,Medium,Jessica L.,107,3
+80357,2024-08-22,2024-08-25,BILLING,High,Sarah K.,93,1
+80358,2024-10-11,2024-10-12,General,Low,Tom B.,29,3
+80359,2024-03-20,2024-03-23,Technical,High,Tom B.,82,3
+80360,2024-01-27,2024-01-28,BILLING,Medium,Mike T.,36,5
+80361,2024-12-27,2024-12-27,Account,Low,Mike T.,15,2
+80362,2024-10-23,,Billing,Urgent,Jessica L.,,
+80363,2024-05-26,2024-05-26,Account,Medium,Tom B.,20,3
+80364,2024-04-07,2024-04-07, technical ,Urgent,Mike T.,3,
+80365,2024-03-13,2024-03-13, technical ,High,Sarah K.,7,3
+80366,2024-12-28,,BILLING,Medium,Tom B.,,
+80367,2024-05-02,2024-05-06,BILLING,High,David W.,101,5
+80368,2024-08-10,2024-08-13, technical ,Medium,David W.,82,4
+80369,2024-11-12,2024-11-13,BILLING,High,Mike T.,44,5
+80370,2024-04-13,2024-04-14,Technical,Low,David W.,47,2
+80371,2024-07-07,2024-07-11,General,Medium,Tom B.,104,4
+80372,2024-07-30,2024-07-31, technical ,Low,Sarah K.,24,2
+80373,2024-06-09,2024-06-10,Billing,Urgent,Mike T.,25,4
+80374,2024-08-07,2024-08-07,BILLING,Urgent,David W.,3,3
+80375,2024-12-27,2024-12-27,Account,Urgent,Sarah K.,22,1
+80376,2024-02-17,2024-02-18,BILLING,High,Tom B.,36,4
+80377,2024-07-05,2024-07-07,BILLING,Medium,Mike T.,49,5
+80378,2024-08-24,2024-08-25,Account,Urgent,Sarah K.,29,1
+80379,2024-06-26,2024-06-30,General,High,Tom B.,98,3
+80380,2024-04-15,2024-04-16,Account,High,Tom B.,33,5
+80381,2024-11-16,2024-11-17,General,Low,Jessica L.,39,5
+80382,2024-06-27,2024-06-28,Billing,Low,Jessica L.,32,1
+80383,2024-01-25,2024-01-29,Billing,Medium,Jessica L.,106,5
+80384,2024-12-18,2024-12-18,Account,Urgent,Tom B.,10,
+80385,2024-07-04,2024-07-07,BILLING,High,Jessica L.,75,2
+80386,2024-01-25,2024-01-27,Account,Medium,Jessica L.,69,1
+80387,2024-12-23,2024-12-26,BILLING,High,Sarah K.,74,2
+80388,2024-07-25,2024-07-25,Billing,Urgent,Tom B.,23,2
+80389,2024-04-12,2024-04-13,BILLING,Medium,Jessica L.,38,1
+80390,2024-02-18,2024-02-18, technical ,Medium,Jessica L.,8,2
+80391,2024-05-12,2024-05-12,BILLING,Medium,Sarah K.,23,3
+80392,2024-03-25,2024-03-29,General,Medium,David W.,107,3
+80393,2024-02-24,2024-02-24,Billing,Urgent,Mike T.,3,4
+80394,2024-02-08,2024-02-12, technical ,High,Jessica L.,115,3
+80395,10/12/2024,, technical ,Low,Sarah K.,,
+80396,2024-05-05,2024-05-07, technical ,High,Tom B.,69,5
+80397,2024-01-17,2024-01-17,Billing,Low,Jessica L.,20,5
+80398,2024-01-15,2024-01-15,Account,Urgent,Sarah K.,13,1
+80399,2024-01-22,2024-01-26,BILLING,Low,Jessica L.,104,2
+80400,2024-02-26,2024-02-26,Account,Urgent,Sarah K.,13,
+80401,2024-02-10,2024-02-12,BILLING,Medium,Tom B.,66,5
+80402,2024-05-25,2024-05-26, technical ,High,Sarah K.,27,5
+80403,2024-08-05,2024-08-05, technical ,Urgent,Jessica L.,17,4
+80404,2024-03-05,,Billing,Medium,Mike T.,,
+80405,2024-07-04,2024-07-07,Technical,Medium,Jessica L.,86,1
+80406,2024-10-24,2024-10-24,BILLING,Low,Mike T.,9,2
+80407,2024-01-01,,Account,Medium,Jessica L.,,
+80408,2024-06-02,2024-06-02,General,High,Mike T.,21,4
+80409,2024-06-19,2024-06-20,General,Medium,Tom B.,27,
+80410,2024-07-01,2024-07-01,General,Urgent,Sarah K.,21,5
+80411,2024-11-28,2024-11-28,Account,Urgent,Sarah K.,11,2
+80412,2024-08-02,2024-08-02,General,Urgent,Jessica L.,10,1
+80413,2024-09-24,2024-09-26, technical ,Medium,David W.,60,3
+80414,2024-07-09,2024-07-10,BILLING,Urgent,Mike T.,29,4
+80415,2024-03-12,2024-03-12,BILLING,High,Mike T.,4,4
+80416,2024-04-30,, technical ,Medium,Sarah K.,,
+80417,2024-01-12,2024-01-15,General,Low,David W.,95,5
+80418,2024-08-24,2024-08-28,BILLING,High,David W.,111,2
+80419,2024-03-17,2024-03-18,Account,Low,Mike T.,36,2
+80420,2024-06-02,2024-06-02,Technical,Urgent,David W.,13,2
+80421,2024-02-25,2024-02-26,BILLING,Medium,Jessica L.,34,1
+80422,2024-03-25,2024-03-29, technical ,Medium,Jessica L.,116,3
+80423,2024-02-13,2024-02-14,Billing,Urgent,Mike T.,29,
+80424,2024-06-12,2024-06-15,Account,High,Jessica L.,-79,5
+80425,2024-11-12,2024-11-13,General,Low,Mike T.,30,
+80426,2024-04-27,2024-04-30,Account,High,David W.,88,1
+80427,2024-12-16,2024-12-20,Billing,High,Mike T.,115,1
+80428,2024-11-27,,Billing,Urgent,Mike T.,,
+80429,2024-10-27,2024-10-31,BILLING,High,David W.,111,5
+80430,2024-11-13,2024-11-16,BILLING,Low,Tom B.,93,1
+80431,2024-10-22,2024-10-23,Technical,High,Tom B.,29,4
+80432,2024-06-14,2024-06-14,BILLING,Urgent,Jessica L.,21,1
+80433,2024-07-10,2024-07-14, technical ,Low,Tom B.,118,
+80434,2024-08-12,2024-08-16, technical ,Low,Sarah K.,98,3
+80435,2024-11-27,2024-11-29,General,High,David W.,64,1
+80436,2024-07-16,2024-07-17,General,Urgent,Sarah K.,32,1
+80437,2024-07-13,2024-07-13, technical ,Urgent,Mike T.,21,5
+80438,2024-03-25,2024-03-28,Account,Medium,David W.,86,1
+80439,2024-10-29,2024-10-30,Account,High,Jessica L.,39,5
+80440,2024-07-27,2024-07-28, technical ,Urgent,Jessica L.,29,3
+80441,2024-01-01,,Technical,High,Sarah K.,,
+80442,2024-03-13,2024-03-15,Technical,High,Sarah K.,63,1
+80443,2024-01-08,2024-01-12,BILLING,Low,Jessica L.,115,
+80444,2024-08-26,2024-08-29, technical ,High,Jessica L.,86,2
+80445,2024-10-09,2024-10-10,Billing,Medium,Sarah K.,45,4
+80446,2024-03-22,2024-03-23, technical ,Low,Sarah K.,45,4
+80447,2024-08-26,2024-08-28,Billing,High,Mike T.,64,4
+80448,2024-09-24,2024-09-26,General,High,Tom B.,57,
+80449,2024-04-10,,BILLING,Medium,Tom B.,,
+80450,2024-08-26,2024-08-26,Account,Low,Sarah K.,1,4
+80451,2024-06-18,2024-06-22,General,High,Tom B.,117,
+80452,2024-03-27,,General,Low,Sarah K.,,
+80453,2024-12-18,2024-12-18,General,High,Jessica L.,23,1
+80454,2024-03-02,,Billing,Low,Tom B.,,
+80455,2024-09-16,2024-09-20,Account,High,Mike T.,114,3
+80456,2024-08-28,2024-08-30,BILLING,Low,Mike T.,66,3
+80457,2024-12-18,2024-12-19,Billing,Urgent,Jessica L.,28,5
+80458,2024-12-17,2024-12-21, technical ,High,David W.,96,2
+80459,2024-09-11,2024-09-13, technical ,Medium,Tom B.,67,1
+80460,2024-01-29,2024-02-02, technical ,High,Tom B.,106,3
+80461,2024-04-08,2024-04-08,Technical,Urgent,Tom B.,9,1
+80462,2024-05-17,2024-05-21, technical ,Low,Sarah K.,118,4
+80463,2024-05-21,2024-05-22,BILLING,Medium,Tom B.,28,1
+80464,2024-08-24,2024-08-27,Technical,Low,David W.,86,4
+80465,2024-10-11,,Account,High,Jessica L.,,
+80466,2024-07-30,,BILLING,Urgent,Mike T.,,
+80467,2024-02-27,2024-03-01,Billing,Low,Sarah K.,86,4
+80468,2024-10-13,2024-10-15,Account,High,Jessica L.,56,2
+80469,2024-05-03,2024-05-05,Technical,Medium,David W.,65,1
+80470,2024-10-10,2024-10-14,Technical,Medium,Tom B.,100,4
+80471,2024-02-13,2024-02-13, technical ,Low,Jessica L.,2,2
+80472,2024-09-08,2024-09-12,BILLING,Low,David W.,115,4
+80473,2024-06-20,2024-06-20,Billing,Urgent,Mike T.,19,1
+80474,2024-10-23,2024-10-23,General,Urgent,Sarah K.,11,1
+80475,2024-09-28,2024-09-29,Technical,High,Sarah K.,25,1
+80476,06/12/2024,,Technical,Low,Sarah K.,,
+80477,2024-12-18,,Technical,High,Jessica L.,,
+80478,02/28/2024,2024-02-29,BILLING,Low,Sarah K.,28,2
+80479,2024-11-09,2024-11-09,Account,Medium,Jessica L.,17,
+80480,2024-06-19,2024-06-22,Account,High,Jessica L.,74,3
+80481,2024-12-17,2024-12-21,Technical,Medium,David W.,116,
+80482,2024-07-01,2024-07-03,Billing,Medium,Sarah K.,67,3
+80483,2024-01-14,2024-01-15, technical ,Low,David W.,43,3
+80484,2024-11-15,2024-11-19,Billing,Medium,Tom B.,107,
+80485,2024-11-23,2024-11-24,Technical,Medium,Sarah K.,42,5
+80486,2024-06-30,2024-07-03,Technical,Medium,David W.,77,1
+80487,2024-04-28,,BILLING,High,Tom B.,,
+80488,2024-07-23,2024-07-25,Technical,Low,Tom B.,53,5
+80489,2024-05-10,2024-05-10,Billing,High,Jessica L.,8,5
+80490,09/05/2024,,Technical,High,Mike T.,,
+80491,2024-06-08,2024-06-11,Billing,High,David W.,78,2
+80492,2024-12-21,2024-12-21,Account,Urgent,Jessica L.,12,5
+80493,2024-07-14,2024-07-18, technical ,High,Jessica L.,104,2
+80494,2024-09-02,2024-09-05, technical ,High,Sarah K.,91,2
+80495,2024-09-18,2024-09-20,Technical,Low,Mike T.,53,
+80496,2024-08-10,2024-08-13,BILLING,High,Mike T.,92,3
+80497,2024-11-12,2024-11-12, technical ,Low,Mike T.,7,5
+80498,2024-04-05,2024-04-05,Billing,Low,Sarah K.,19,4
+80499,2024-05-09,,Technical,Urgent,Jessica L.,,
+80500,2024-02-09,2024-02-09,Technical,Medium,Jessica L.,18,2
+80501,2024-01-20,2024-01-20,Technical,High,Jessica L.,16,3
+80502,2024-11-28,,Technical,Medium,David W.,,
+80503,2024-04-10,2024-04-10,BILLING,Urgent,David W.,16,4
+80504,2024-06-07,2024-06-07,Technical,Urgent,Jessica L.,15,
+80505,2024-07-13,2024-07-15, technical ,Low,Mike T.,52,1
+80506,2024-12-13,2024-12-14,Account,Low,Tom B.,44,5
+80507,2024-02-15,2024-02-18,BILLING,High,Jessica L.,94,5
+80508,2024-09-27,2024-09-29,Account,Low,David W.,-65,4
+80509,2024-02-29,2024-03-02,Technical,High,David W.,66,1
+80510,2024-08-12,2024-08-12, technical ,Urgent,Tom B.,23,1
+80511,2024-05-10,2024-05-10, technical ,Medium,Mike T.,8,3
+80512,02/13/2024,2024-02-13,Account,High,Sarah K.,8,
+80513,08/08/2024,2024-08-08,BILLING,Urgent,David W.,5,
+80514,2024-10-01,2024-10-02,Account,Urgent,Jessica L.,28,5
+80515,2024-02-17,2024-02-20,Technical,Medium,Mike T.,72,2
+80516,2024-11-17,2024-11-18,Billing,Low,Tom B.,38,5
+80517,2024-12-24,2024-12-24,Account,Urgent,Jessica L.,2,3
+80518,2024-10-30,2024-11-03,BILLING,High,Sarah K.,101,3
+80519,2024-11-14,, technical ,Low,Tom B.,,
+80520,2024-03-15,2024-03-15,Account,Medium,Mike T.,6,3
+80521,2024-06-02,2024-06-02,Technical,Urgent,Tom B.,11,1
+80522,2024-08-04,2024-08-05,Billing,High,Tom B.,38,2
+80523,2024-03-10,2024-03-12,Account,Low,David W.,63,1
+80524,2024-09-01,2024-09-04, technical ,Medium,Mike T.,81,
+80525,2024-04-05,2024-04-05,BILLING,High,Mike T.,8,4
+80526,2024-03-25,2024-03-27,Account,Medium,Mike T.,57,1
+80527,2024-09-12,2024-09-15,General,Low,Tom B.,72,4
+80528,2024-11-12,,Technical,High,Jessica L.,,
+80529,2024-10-11,2024-10-14,Account,High,Tom B.,76,4
+80530,2024-06-29,2024-07-01,BILLING,Medium,Mike T.,52,5
+80531,2024-11-18,2024-11-20, technical ,High,Sarah K.,57,1
+80532,2024-11-13,2024-11-15,Billing,Medium,Jessica L.,58,3
+80533,2024-11-23,2024-11-25,Technical,Low,Tom B.,54,5
+80534,2024-06-06,,Billing,High,Sarah K.,,
+80535,2024-09-05,,Account,High,David W.,,
+80536,09/17/2024,2024-09-21,Billing,Medium,Jessica L.,98,
+80537,2024-09-03,2024-09-04,Account,Urgent,Jessica L.,24,1
+80538,2024-04-20,2024-04-22,Account,High,David W.,65,3
+80539,2024-05-05,2024-05-09,Technical,Low,Mike T.,103,1
+80540,2024-02-26,2024-02-29,General,Low,Tom B.,79,1
+80541,2024-04-28,2024-04-30,Billing,Low,Jessica L.,61,3
+80542,2024-03-20,2024-03-21,Technical,Medium,David W.,38,2
+80543,2024-05-03,2024-05-03, technical ,Urgent,Tom B.,4,2
+80544,2024-11-30,2024-12-01,General,Urgent,Sarah K.,34,1
+80545,2024-04-03,,Technical,Low,David W.,,
+80546,2024-02-27,,General,Medium,Mike T.,,
+80547,2024-08-18,,General,Medium,Mike T.,,
+80548,2024-05-04,2024-05-04,Technical,Low,Jessica L.,10,2
+80549,2024-02-27,2024-03-01,General,High,David W.,90,2
+80550,2024-05-24,2024-05-28,Technical,Medium,David W.,101,2
+80551,2024-02-01,,BILLING,Urgent,Tom B.,,
+80552,2024-01-22,2024-01-22,Account,High,Tom B.,2,2
+80553,2024-05-07,2024-05-11,General,Low,Sarah K.,106,3
+80554,2024-11-23,2024-11-25,BILLING,Medium,Sarah K.,62,5
+80555,2024-10-25,2024-10-25,General,Urgent,David W.,17,4
+80556,2024-08-12,2024-08-12, technical ,Urgent,Mike T.,10,
+80557,2024-08-07,,Technical,Low,Sarah K.,,
+80558,2024-11-27,2024-12-01,Technical,High,Jessica L.,105,1
+80559,2024-11-23,2024-11-23,General,Urgent,Jessica L.,1,1
+80560,2024-01-07,2024-01-11, technical ,Medium,Sarah K.,97,1
+80561,2024-06-01,2024-06-01,Billing,High,Sarah K.,13,5
+80562,2024-10-17,2024-10-17,General,Urgent,Mike T.,17,1
+80563,2024-02-28,2024-03-02,Technical,High,Tom B.,86,5
+80564,2024-04-18,2024-04-19,General,Low,Tom B.,29,1
+80565,2024-10-17,2024-10-17,Billing,Urgent,Sarah K.,12,5
+80566,2024-04-13,2024-04-14,Technical,Low,Mike T.,27,3
+80567,2024-04-21,2024-04-25,Account,Low,Tom B.,-105,3
+80568,2024-11-04,2024-11-04,Technical,Medium,David W.,7,2
+80569,2024-03-06,2024-03-07, technical ,Urgent,David W.,27,2
+80570,2024-10-05,2024-10-07,Account,Medium,Mike T.,64,
+80571,2024-04-01,2024-04-04,BILLING,Low,Tom B.,93,5
+80572,2024-02-20,2024-02-21,Billing,Low,Mike T.,42,4
+80573,2024-03-08,2024-03-11, technical ,Low,Mike T.,90,1
+80574,2024-05-30,2024-05-31,Account,Medium,Mike T.,25,4
+80575,2024-06-24,2024-06-27,General,Medium,Jessica L.,77,
+80576,2024-02-04,2024-02-04,Account,Urgent,Tom B.,22,4
+80577,2024-08-25,2024-08-25,Billing,Urgent,Tom B.,3,4
+80578,2024-05-02,2024-05-04,BILLING,High,David W.,54,2
+80579,2024-09-10,2024-09-10,Billing,Urgent,Tom B.,18,2
+80580,2024-01-16,2024-01-17, technical ,High,Sarah K.,36,5
+80581,2024-11-06,2024-11-06,General,Urgent,Jessica L.,13,4
+80582,2024-07-24,2024-07-28,Technical,Medium,David W.,102,1
+80583,2024-06-30,,Account,Urgent,Sarah K.,,
+80584,2024-02-17,2024-02-21,Technical,High,Sarah K.,99,4
+80585,2024-02-05,2024-02-05,General,Medium,Jessica L.,6,1
+80586,2024-07-06,2024-07-10,Technical,Low,Jessica L.,108,1
+80587,2024-08-21,2024-08-22,General,Medium,Tom B.,26,5
+80588,2024-03-12,2024-03-15,Billing,High,Sarah K.,78,5
+80589,2024-08-24,2024-08-28, technical ,Low,David W.,102,
+80590,2024-09-03,2024-09-03,Technical,Medium,David W.,17,1
+80591,2024-12-27,2024-12-31, technical ,Medium,Tom B.,117,4
+80592,2024-06-25,2024-06-29,Account,Low,Mike T.,102,3
+80593,2024-12-11,2024-12-12, technical ,Low,Mike T.,27,4
+80594,2024-10-23,,Account,Low,Mike T.,,
+80595,2024-06-13,,Account,High,Jessica L.,,
+80596,2024-10-14,,General,Low,Mike T.,,
+80597,2024-05-14,2024-05-14,Account,High,Sarah K.,18,1
+80598,2024-08-05,2024-08-08,Technical,Low,Sarah K.,85,4
+80599,2024-10-04,,Account,Medium,Mike T.,,
+80600,2024-04-29,,General,Low,David W.,,
+80601,2024-06-10,2024-06-12,Billing,High,Mike T.,65,3
+80602,2024-01-17,2024-01-20, technical ,High,David W.,94,3
+80603,2024-03-01,2024-03-01, technical ,Urgent,Mike T.,4,2
+80604,2024-09-15,2024-09-15,Billing,Medium,Tom B.,9,4
+80605,2024-07-31,2024-07-31,General,Urgent,Mike T.,-5,1
+80606,2024-02-20,2024-02-21, technical ,High,Jessica L.,38,1
+80607,2024-03-29,2024-04-02,Technical,High,Sarah K.,102,2
+80608,2024-02-18,2024-02-22,Billing,High,Mike T.,101,5
+80609,2024-10-23,2024-10-23,General,Low,Tom B.,18,2
+80610,2024-08-20,2024-08-23,General,Low,Jessica L.,78,1
+80611,2024-12-30,2024-12-31,Technical,Low,Tom B.,46,1
+80612,2024-10-23,2024-10-23,General,Urgent,David W.,4,1
+80613,2024-06-04,2024-06-06,BILLING,Medium,Tom B.,68,5
+80614,2024-09-26,,Billing,Low,Mike T.,,
+80615,2024-06-07,2024-06-11,General,High,Mike T.,118,4
+80616,2024-07-11,, technical ,Medium,Sarah K.,,
+80617,2024-02-11,2024-02-11,Billing,Urgent,Mike T.,12,4
+80618,2024-03-19,2024-03-21,Account,Medium,Jessica L.,58,5
+80619,2024-03-31,2024-04-03, technical ,Medium,Jessica L.,92,
+80620,2024-03-24,,Billing,Medium,Tom B.,,
+80621,2024-01-22,2024-01-26,Billing,Medium,Tom B.,116,2
+80622,2024-08-08,2024-08-10,Technical,High,David W.,52,4
+80623,2024-09-11,2024-09-12,General,Urgent,David W.,24,4
+80624,2024-01-27,2024-01-30,BILLING,High,Sarah K.,89,4
+80625,2024-08-07,2024-08-11,Account,Low,Tom B.,116,4
+80626,2024-11-12,2024-11-16,BILLING,Medium,Mike T.,113,2
+80627,2024-10-23,, technical ,Low,Jessica L.,,
+80628,2024-10-02,2024-10-02, technical ,Urgent,David W.,12,5
+80629,2024-07-12,2024-07-13,Account,Urgent,David W.,31,3
+80630,2024-05-30,2024-06-03,Technical,Low,David W.,100,
+80631,2024-05-16,, technical ,Low,Tom B.,,
+80632,2024-05-29,2024-05-31,Technical,Low,David W.,59,1
+80633,2024-04-23,2024-04-24, technical ,Medium,Jessica L.,32,3
+80634,2024-08-06,2024-08-10,General,Medium,David W.,102,2
+80635,05/19/2024,2024-05-20,Technical,Urgent,Tom B.,35,3
+80636,2024-12-15,2024-12-15,Billing,Medium,Jessica L.,8,5
+80637,2024-04-28,,General,Low,Mike T.,,
+80638,2024-01-18,2024-01-19, technical ,Urgent,Tom B.,31,1
+80639,2024-10-25,2024-10-28,General,Low,Sarah K.,72,2
+80640,2024-04-06,2024-04-08,Account,Medium,Jessica L.,69,4
+80641,2024-02-22,2024-02-25,BILLING,Low,Sarah K.,80,
+80642,2024-10-30,2024-10-30,Account,Urgent,David W.,14,5
+80643,2024-01-05,2024-01-07,BILLING,High,David W.,61,1
+80644,2024-08-30,2024-08-30,Technical,Urgent,Tom B.,13,
+80645,2024-05-18,2024-05-18,Billing,Medium,David W.,8,2
+80646,2024-06-14,2024-06-14,General,Urgent,David W.,11,2
+80647,04/18/2024,,General,High,David W.,,
+80648,2024-07-30,2024-07-31,Technical,Urgent,David W.,29,3
+80649,2024-08-13,,General,Medium,Tom B.,,
+80650,2024-11-11,2024-11-14,BILLING,Medium,David W.,77,
+80651,2024-02-17,2024-02-17,Billing,Medium,Jessica L.,18,3
+80652,2024-06-27,2024-06-27,General,High,Mike T.,9,
+80653,2024-02-21,2024-02-22, technical ,High,Tom B.,25,3
+80654,2024-06-04,2024-06-05,General,Low,Jessica L.,30,2
+80655,2024-05-08,, technical ,High,David W.,,
+80656,2024-03-31,2024-04-01,Account,Low,Tom B.,30,3
+80657,2024-04-05,,Account,Urgent,Jessica L.,,
+80658,2024-04-19,2024-04-19,Technical,Medium,Sarah K.,3,
+80659,2024-08-22,2024-08-26,General,Low,Mike T.,105,1
+80660,2024-05-19,2024-05-23,Account,High,Tom B.,101,1
+80661,2024-04-15,2024-04-15,General,Urgent,Mike T.,19,3
+80662,2024-08-19,2024-08-19, technical ,Medium,Mike T.,18,2
+80663,2024-02-21,2024-02-24,General,High,David W.,82,4
+80664,2024-05-03,2024-05-03,General,High,Jessica L.,5,4
+80665,2024-02-16,2024-02-19,BILLING,Low,Sarah K.,76,1
+80666,2024-08-10,2024-08-13,Technical,Low,Mike T.,75,5
+80667,2024-12-25,2024-12-25,Billing,Urgent,Tom B.,2,1
+80668,2024-05-27,2024-05-28,Technical,Low,David W.,47,3
+80669,2024-11-08,2024-11-09,Account,Urgent,David W.,36,3
+80670,2024-12-12,2024-12-12,Account,Medium,Tom B.,8,5
+80671,2024-06-11,2024-06-11,Account,Urgent,Mike T.,5,1
+80672,2024-11-15,2024-11-17, technical ,High,Jessica L.,59,2
+80673,2024-08-09,2024-08-12,BILLING,High,Mike T.,79,5
+80674,2024-10-10,2024-10-11,Technical,Low,Mike T.,25,3
+80675,2024-12-19,2024-12-20,BILLING,Medium,Sarah K.,38,5
+80676,2024-06-16,2024-06-19,General,Medium,David W.,86,4
+80677,2024-01-19,2024-01-19, technical ,Low,Sarah K.,6,3
+80678,05/27/2024,2024-05-27,BILLING,Urgent,Tom B.,9,3
+80679,2024-07-31,2024-07-31,Billing,Urgent,Sarah K.,20,5
+80680,2024-06-09,2024-06-10,Billing,Urgent,David W.,30,5
+80681,2024-11-30,2024-12-02, technical ,Medium,Tom B.,53,4
+80682,2024-11-25,2024-11-29,Technical,Medium,Sarah K.,102,
+80683,2024-10-03,,BILLING,Medium,Sarah K.,,
+80684,2024-12-23,2024-12-24,Billing,High,Sarah K.,29,
+80685,2024-11-11,2024-11-12,General,Low,Jessica L.,46,4
+80686,2024-08-22,2024-08-23,General,Urgent,Tom B.,27,2
+80687,2024-04-26,2024-04-26, technical ,Medium,Mike T.,11,4
+80688,2024-12-22,2024-12-25,Billing,Medium,Sarah K.,85,
+80689,2024-08-08,,BILLING,Low,Mike T.,,
+80690,2024-03-23,2024-03-26,Technical,High,Sarah K.,91,1
+80691,2024-01-26,2024-01-27,General,Urgent,David W.,32,1
+80692,2024-02-24,2024-02-25,Technical,Low,Mike T.,34,1
+80693,2024-09-12,2024-09-12,Technical,Low,Mike T.,6,3
+80694,2024-09-12,2024-09-15,Account,Medium,David W.,81,
+80695,2024-09-27,2024-09-29,BILLING,Medium,Tom B.,65,1
+80696,2024-07-08,2024-07-12,Account,Medium,David W.,104,3
+80697,2024-04-09,2024-04-10,Billing,Urgent,Sarah K.,31,4
+80698,10/23/2024,2024-10-23,Billing,Urgent,David W.,22,5
+80699,2024-07-07,2024-07-09,Billing,Medium,Sarah K.,56,1
+80700,03/10/2024,2024-03-10,Account,High,David W.,5,1
+80701,2024-05-07,2024-05-07,Technical,Urgent,Tom B.,18,4
+80702,2024-08-13,2024-08-16,Billing,Low,Tom B.,88,4
+80703,01/13/2024,2024-01-17, technical ,Low,Mike T.,96,3
+80704,2024-06-26,2024-06-29,BILLING,Medium,Mike T.,81,2
+80705,2024-03-27,,Account,Urgent,Tom B.,,
+80706,2024-05-23,2024-05-24, technical ,Medium,Mike T.,36,5
+80707,2024-02-07,2024-02-07,Billing,Urgent,Jessica L.,10,3
+80708,2024-09-23,2024-09-25,Technical,Medium,Mike T.,50,3
+80709,2024-09-28,2024-09-29,General,Urgent,Sarah K.,30,1
+80710,2024-05-23,2024-05-26,BILLING,High,Sarah K.,91,4
+80711,2024-04-08,2024-04-11,Account,Low,Sarah K.,77,
+80712,01/07/2024,2024-01-11,Billing,High,Mike T.,103,1
+80713,09/17/2024,2024-09-18,Technical,High,Mike T.,31,4
+80714,2024-03-03,2024-03-03,BILLING,Urgent,Mike T.,8,3
+80715,2024-07-08,2024-07-09,Billing,Medium,Tom B.,45,2
+80716,2024-12-02,2024-12-03,BILLING,Medium,Mike T.,29,5
+80717,2024-11-16,2024-11-17,BILLING,Medium,Jessica L.,45,1
+80718,2024-02-01,,Account,Low,David W.,,
+80719,2024-01-16,2024-01-16,BILLING,Urgent,David W.,18,4
+80720,2024-07-06,2024-07-07,Billing,Urgent,Tom B.,27,4
+80721,2024-09-21,2024-09-25,Account,Medium,Sarah K.,97,1
+80722,10/05/2024,, technical ,Medium,Sarah K.,,
+80723,2024-01-17,2024-01-17,Billing,Urgent,Jessica L.,23,3
+80724,2024-03-02,2024-03-04,General,High,David W.,63,1
+80725,2024-07-10,2024-07-10, technical ,Medium,Tom B.,6,5
+80726,2024-10-01,2024-10-01,BILLING,Urgent,Tom B.,12,
+80727,2024-10-17,2024-10-17,General,Medium,Tom B.,7,1
+80728,2024-09-10,2024-09-11, technical ,High,David W.,45,4
+80729,2024-02-23,2024-02-24,Billing,High,Jessica L.,47,4
+80730,2024-09-28,2024-10-01,Billing,High,David W.,83,2
+80731,2024-11-27,2024-11-27, technical ,Urgent,Sarah K.,23,2
+80732,08/24/2024,2024-08-24,General,Medium,Jessica L.,13,1
+80733,2024-11-17,,Technical,Low,Jessica L.,,
+80734,01/20/2024,2024-01-21, technical ,Medium,Mike T.,-38,4
+80735,2024-01-23,2024-01-25,BILLING,Medium,Tom B.,50,3
+80736,2024-09-25,,Account,Urgent,Sarah K.,,
+80737,2024-12-20,2024-12-20,Billing,High,Mike T.,8,1
+80738,2024-01-26,2024-01-26, technical ,High,Jessica L.,4,4
+80739,2024-04-02,2024-04-02,BILLING,Urgent,David W.,2,2
+80740,2024-11-04,2024-11-05,BILLING,Medium,Sarah K.,26,2
+80741,2024-05-06,,Account,Urgent,Mike T.,,
+80742,06/22/2024,2024-06-24,BILLING,Medium,Sarah K.,54,4
+80743,2024-03-26,,Billing,Urgent,Mike T.,,
+80744,2024-09-24,2024-09-26,Technical,Medium,David W.,57,4
+80745,06/28/2024,2024-06-29,General,Low,Jessica L.,30,4
+80746,2024-02-19,2024-02-20,BILLING,Medium,Jessica L.,26,2
+80747,2024-06-22,2024-06-24,Account,High,Sarah K.,68,
+80748,2024-05-13,2024-05-16,Technical,Medium,Sarah K.,76,2
+80749,2024-02-10,2024-02-10,Technical,High,Jessica L.,7,5
+80750,2024-10-15,2024-10-17,Account,Low,Jessica L.,65,
+80751,2024-03-29,2024-03-31,General,High,Tom B.,56,4
+80752,2024-12-18,2024-12-19, technical ,High,David W.,26,5
+80753,2024-10-08,2024-10-08,Billing,Urgent,Jessica L.,8,1
+80754,2024-12-26,2024-12-29,Account,High,David W.,90,3
+80755,2024-09-03,2024-09-05,General,Medium,Mike T.,59,5
+80756,2024-10-18,2024-10-18,Technical,Urgent,Mike T.,6,4
+80757,2024-03-07,,BILLING,High,Sarah K.,,
+80758,2024-03-27,2024-03-28, technical ,High,Sarah K.,33,2
+80759,2024-09-25,2024-09-25,Technical,Urgent,David W.,19,4
+80760,2024-05-06,2024-05-09,Account,High,Tom B.,87,1
+80761,2024-11-28,2024-12-02,Account,High,Sarah K.,109,5
+80762,2024-07-27,2024-07-27, technical ,High,David W.,3,5
+80763,2024-10-25,2024-10-25,BILLING,Urgent,Jessica L.,2,2
+80764,2024-06-20,2024-06-22,BILLING,Medium,David W.,55,4
+80765,2024-09-17,2024-09-20,Billing,High,David W.,86,
+80766,2024-03-04,2024-03-08,Technical,High,Mike T.,113,4
+80767,2024-05-21,2024-05-21,Account,Low,Sarah K.,-3,2
+80768,2024-10-14,2024-10-16,Account,Low,Sarah K.,69,2
+80769,2024-07-31,2024-08-03,Technical,High,Mike T.,75,2
+80770,2024-02-24,,BILLING,Medium,Sarah K.,,
+80771,2024-12-07,2024-12-10,Account,Low,Sarah K.,77,1
+80772,2024-01-20,2024-01-21, technical ,Low,Tom B.,36,3
+80773,2024-10-01,2024-10-01,Account,Urgent,Mike T.,14,5
+80774,2024-11-03,,BILLING,High,Tom B.,,
+80775,2024-10-24,2024-10-28,Billing,Low,David W.,106,1
+80776,2024-07-07,,Technical,Urgent,Tom B.,,
+80777,02/17/2024,2024-02-20,Billing,High,Jessica L.,88,2
+80778,2024-09-01,2024-09-02, technical ,Low,Sarah K.,26,
+80779,2024-03-19,2024-03-21,Billing,Medium,David W.,55,5
+80780,2024-02-27,2024-02-28,General,Urgent,David W.,33,
+80781,2024-12-18,2024-12-19,Account,Medium,David W.,33,1
+80782,2024-12-03,,BILLING,Low,Jessica L.,,
+80783,2024-10-10,2024-10-12,Account,High,Sarah K.,64,2
+80784,2024-09-11,2024-09-12,Technical,High,Sarah K.,24,3
+80785,2024-07-26,2024-07-29,Technical,Medium,Sarah K.,78,1
+80786,2024-08-16,2024-08-16, technical ,Urgent,Tom B.,9,2
+80787,2024-06-18,2024-06-18, technical ,Urgent,David W.,18,2
+80788,2024-07-13,2024-07-14,Account,Urgent,David W.,32,1
+80789,10/15/2024,2024-10-16, technical ,High,Jessica L.,47,2
+80790,2024-07-02,2024-07-02, technical ,Urgent,Mike T.,14,2
+80791,2024-08-19,,Billing,Low,David W.,,
+80792,2024-10-03,2024-10-07,BILLING,Medium,Jessica L.,99,3
+80793,2024-12-06,2024-12-09,Billing,High,Jessica L.,82,5
+80794,2024-05-11,2024-05-11,Billing,High,David W.,22,5
+80795,2024-07-01,2024-07-05,General,Medium,Sarah K.,106,2
+80796,2024-06-26,2024-06-26,BILLING,Urgent,Mike T.,2,
+80797,2024-01-15,2024-01-15,Billing,Medium,Jessica L.,17,
+80798,2024-02-21,2024-02-24,Billing,High,Sarah K.,83,4
+80799,2024-12-23,2024-12-27,Billing,Low,Mike T.,112,2
+80800,2024-05-26,2024-05-26,BILLING,Urgent,Tom B.,8,1
+80801,2024-06-04,2024-06-04,Technical,Medium,Sarah K.,15,2
+80802,2024-04-06,2024-04-07,Account,Medium,Jessica L.,33,1
+80803,2024-06-06,2024-06-08,BILLING,High,Sarah K.,58,2
+80804,2024-07-23,2024-07-26,BILLING,High,Mike T.,74,4
+80805,2024-08-24,2024-08-24,Account,Urgent,Sarah K.,10,
+80806,2024-12-09,2024-12-09,BILLING,Low,David W.,21,4
+80807,2024-08-24,2024-08-26,General,Low,Sarah K.,68,4
+80808,2024-10-10,,Billing,Low,Sarah K.,,
+80809,2024-03-26,2024-03-27, technical ,Medium,Tom B.,37,5
+80810,2024-09-18,2024-09-19,Billing,Low,Tom B.,46,3
+80811,2024-05-17,,General,Urgent,David W.,,
+80812,2024-10-13,2024-10-13,Billing,Urgent,Sarah K.,17,1
+80813,2024-05-30,2024-06-02,General,Medium,Sarah K.,73,3
+80814,2024-11-01,2024-11-01,Technical,Urgent,Jessica L.,11,3
+80815,2024-10-19,2024-10-21,Billing,Medium,Mike T.,63,1
+80816,2024-11-06,2024-11-07, technical ,Urgent,Tom B.,24,3
+80817,2024-10-22,2024-10-23, technical ,Urgent,Sarah K.,32,2
+80818,2024-03-17,2024-03-19,General,Low,Jessica L.,70,2
+80819,2024-03-25,2024-03-26,BILLING,Urgent,Tom B.,27,2
+80820,2024-03-08,2024-03-09,Technical,Medium,Sarah K.,44,2
+80821,2024-05-12,2024-05-12,BILLING,Urgent,David W.,3,4
+80822,2024-12-28,2024-12-28,Account,High,Tom B.,11,5
+80823,2024-09-27,2024-09-28,Technical,Low,Jessica L.,46,1
+80824,2024-07-28,,Billing,Medium,Mike T.,,
+80825,2024-03-01,2024-03-01,BILLING,Low,David W.,12,5
+80826,2024-08-04,2024-08-04,Billing,Urgent,Sarah K.,10,4
+80827,2024-09-01,,Billing,High,Mike T.,,
+80828,2024-09-06,2024-09-07, technical ,Urgent,David W.,29,2
+80829,2024-03-01,, technical ,High,Mike T.,,
+80830,2024-12-15,2024-12-15,BILLING,Medium,David W.,21,4
+80831,03/09/2024,2024-03-13,Technical,Medium,Tom B.,104,1
+80832,2024-06-17,2024-06-17, technical ,Urgent,David W.,19,3
+80833,2024-05-28,2024-05-31,BILLING,Low,David W.,77,3
+80834,2024-05-01,2024-05-02, technical ,High,Sarah K.,37,4
+80835,2024-07-23,, technical ,High,David W.,,
+80836,2024-02-07,,Billing,Low,Jessica L.,,
+80837,2024-10-03,2024-10-04,Billing,Low,Tom B.,38,4
+80838,2024-05-05,2024-05-06,Account,Low,Jessica L.,32,3
+80839,2024-03-06,2024-03-09,General,Medium,Jessica L.,91,4
+80840,2024-05-18,2024-05-19,Billing,High,Tom B.,37,2
+80841,2024-03-12,2024-03-12,General,Urgent,Mike T.,11,4
+80842,2024-10-23,2024-10-24,Account,Urgent,Tom B.,30,4
+80843,2024-07-22,2024-07-25,Billing,High,Jessica L.,93,4
+80844,2024-01-21,2024-01-22,General,High,Tom B.,44,
+80845,06/22/2024,2024-06-26,Technical,Low,Mike T.,99,1
+80846,2024-03-17,2024-03-17, technical ,Urgent,Mike T.,23,5
+80847,2024-03-06,,Account,Urgent,David W.,,
+80848,2024-11-15,2024-11-18,Account,Medium,Mike T.,82,3
+80849,2024-02-12,2024-02-16, technical ,High,Tom B.,110,2
+80850,2024-10-05,2024-10-08,Account,High,David W.,87,1
+80851,2024-06-10,2024-06-10,General,Urgent,Mike T.,7,3
+80852,2024-07-28,2024-07-30, technical ,Medium,David W.,66,5
+80853,2024-04-06,2024-04-09,BILLING,High,Mike T.,84,4
+80854,01/18/2024,2024-01-21,General,Low,Tom B.,74,5
+80855,2024-06-24,2024-06-24,Technical,Urgent,Jessica L.,20,5
+80856,2024-06-02,2024-06-06,BILLING,Medium,Mike T.,104,5
+80857,2024-07-23,2024-07-25,General,Medium,Jessica L.,67,4
+80858,2024-10-01,2024-10-04,General,Medium,Sarah K.,77,1
+80859,2024-04-23,2024-04-24,General,Low,Sarah K.,34,1
+80860,2024-01-14,2024-01-17,Account,High,Mike T.,95,5
+80861,2024-12-07,2024-12-07,Account,Low,Sarah K.,11,3
+80862,2024-08-02,2024-08-03,Billing,Urgent,Mike T.,34,3
+80863,2024-07-01,,Billing,High,Tom B.,,
+80864,2024-11-30,2024-12-04,Technical,High,David W.,109,4
+80865,2024-05-28,2024-06-01,BILLING,Low,David W.,104,2
+80866,2024-05-28,2024-05-30,Technical,High,David W.,55,4
+80867,2024-11-16,2024-11-18,Technical,Low,Mike T.,52,1
+80868,2024-04-21,2024-04-21,General,Urgent,Jessica L.,21,
+80869,2024-11-17,2024-11-19,Account,Low,David W.,66,
+80870,2024-03-14,2024-03-14,Technical,Low,Mike T.,13,5
+80871,2024-11-04,2024-11-04,Technical,Urgent,David W.,8,
+80872,2024-01-27,,General,Urgent,Jessica L.,,
+80873,2024-02-07,2024-02-11, technical ,High,David W.,110,3
+80874,2024-07-15,,General,Urgent,David W.,,
+80875,2024-09-10,2024-09-11,BILLING,Medium,Jessica L.,44,2
+80876,2024-12-01,2024-12-04,General,Low,Mike T.,73,3
+80877,2024-06-11,2024-06-12,Technical,Low,David W.,37,
+80878,2024-01-24,2024-01-28,BILLING,High,Mike T.,117,3
+80879,2024-12-03,2024-12-03,BILLING,Urgent,Mike T.,22,4
+80880,2024-05-18,2024-05-19,Technical,Medium,David W.,37,5
+80881,2024-02-27,,Technical,Low,Sarah K.,,
+80882,2024-11-08,2024-11-08,Account,Urgent,Jessica L.,7,1
+80883,2024-06-03,2024-06-03,BILLING,High,David W.,3,1
+80884,2024-06-25,2024-06-27,BILLING,Medium,Tom B.,52,1
+80885,2024-12-04,2024-12-08,BILLING,High,Jessica L.,96,5
+80886,2024-01-19,2024-01-19,Account,Urgent,Sarah K.,1,4
+80887,2024-02-01,,Technical,Urgent,David W.,,
+80888,2024-12-10,2024-12-14,Technical,Low,Sarah K.,100,3
+80889,2024-04-08,2024-04-10,General,Low,Sarah K.,59,2
+80890,2024-02-12,2024-02-13,BILLING,Medium,Mike T.,40,
+80891,2024-11-26,2024-11-27,Billing,Urgent,Tom B.,34,1
+80892,2024-05-01,2024-05-04,Account,Low,Tom B.,92,2
+80893,2024-09-08,2024-09-09,Technical,Urgent,Tom B.,24,5
+80894,01/16/2024,2024-01-16,Account,Medium,Sarah K.,12,5
+80895,2024-03-10,,Account,Urgent,David W.,,
+80896,2024-10-29,2024-10-29,General,Medium,David W.,10,4
+80897,2024-03-21,2024-03-22,Technical,High,Mike T.,33,2
+80898,2024-02-05,2024-02-05, technical ,Urgent,Mike T.,4,
+80899,2024-04-15,2024-04-15,Billing,Urgent,Mike T.,17,3
+80900,2024-11-13,2024-11-17, technical ,Low,Jessica L.,102,3
+80901,2024-03-15,2024-03-16,Technical,Urgent,Jessica L.,33,
+80902,2024-05-31,,General,Low,Jessica L.,,
+80903,2024-06-11,2024-06-14,BILLING,Low,Jessica L.,84,5
+80904,2024-08-10,2024-08-11,Account,Low,Sarah K.,42,1
+80905,03/07/2024,2024-03-09,Account,High,David W.,48,3
+80906,2024-10-16,, technical ,Urgent,Jessica L.,,
+80907,2024-03-19,2024-03-19,BILLING,Urgent,Tom B.,11,1
+80908,2024-04-14,2024-04-15,Billing,Urgent,Tom B.,36,4
+80909,2024-03-21,2024-03-23,Technical,Medium,Jessica L.,63,2
+80910,2024-05-24,2024-05-26,BILLING,Medium,David W.,65,2
+80911,2024-09-03,2024-09-04,Technical,High,Sarah K.,33,1
+80912,2024-03-04,2024-03-07,Technical,Medium,Jessica L.,74,3
+80913,2024-10-21,2024-10-22,Billing,Urgent,Mike T.,31,4
+80914,2024-02-22,2024-02-25,Account,High,Sarah K.,91,4
+80915,2024-02-07,2024-02-07,Account,Urgent,Mike T.,6,3
+80916,2024-05-01,2024-05-01,Technical,Urgent,Tom B.,7,3
+80917,2024-12-02,2024-12-06,BILLING,Medium,Mike T.,-107,3
+80918,2024-03-13,,Billing,High,Mike T.,,
+80919,2024-03-31,2024-03-31,Technical,High,Jessica L.,14,1
+80920,2024-07-23,2024-07-24,BILLING,Medium,Sarah K.,29,3
+80921,2024-02-17,2024-02-18,Account,Medium,Jessica L.,47,4
+80922,2024-08-14,2024-08-18,Account,Low,Mike T.,119,3
+80923,2024-06-21,2024-06-22,General,Urgent,Mike T.,26,4
+80924,11/26/2024,,BILLING,Urgent,Tom B.,,
+80925,2024-11-13,2024-11-14,Account,High,Jessica L.,45,3
+80926,2024-10-20,2024-10-22,Billing,Low,Jessica L.,50,1
+80927,2024-08-13,2024-08-15,Billing,Low,Tom B.,66,2
+80928,2024-06-18,2024-06-21,Account,Low,Mike T.,82,1
+80929,2024-12-11,2024-12-14,Technical,Medium,Mike T.,74,2
+80930,2024-02-22,2024-02-23,BILLING,Urgent,Mike T.,30,1
+80931,2024-12-26,2024-12-28,BILLING,Medium,Tom B.,58,5
+80932,2024-08-24,2024-08-24,Technical,Urgent,Sarah K.,7,4
+80933,2024-05-18,2024-05-18,Billing,Urgent,David W.,18,3
+80934,2024-11-14,2024-11-17,Account,High,Tom B.,86,1
+80935,2024-12-10,2024-12-12,General,Medium,Tom B.,54,1
+80936,2024-01-17,2024-01-21,Account,Medium,Jessica L.,108,5
+80937,2024-02-28,2024-02-28,Technical,Low,Sarah K.,8,
+80938,2024-08-03,2024-08-03,Billing,Urgent,Mike T.,7,5
+80939,2024-09-15,2024-09-18, technical ,High,David W.,-86,
+80940,2024-07-31,,Technical,Low,Jessica L.,,
+80941,2024-04-25,2024-04-29,BILLING,Low,Mike T.,-112,3
+80942,2024-06-19,2024-06-23,General,Medium,Mike T.,107,4
+80943,2024-08-15,2024-08-15,Account,Urgent,Mike T.,15,4
+80944,2024-12-29,2025-01-01,Account,Low,Mike T.,80,5
+80945,2024-03-15,2024-03-19,Technical,High,Jessica L.,97,4
+80946,2024-08-10,2024-08-12,BILLING,High,Mike T.,64,1
+80947,2024-11-10,2024-11-10,General,Urgent,Sarah K.,12,2
+80948,2024-10-28,2024-10-30,Technical,Medium,Sarah K.,68,
+80949,2024-11-26,2024-11-28,Account,Low,Tom B.,61,5
+80950,11/24/2024,2024-11-25,Billing,Medium,David W.,44,2
+80951,2024-02-11,2024-02-15,Account,High,Tom B.,108,3
+80952,2024-12-02,2024-12-04,BILLING,Medium,Sarah K.,50,3
+80953,2024-01-12,2024-01-16,General,Medium,Jessica L.,98,5
+80954,2024-03-04,,BILLING,High,David W.,,
+80955,2024-10-16,2024-10-18,BILLING,Medium,Tom B.,70,4
+80956,2024-11-24,2024-11-24,Billing,Urgent,Tom B.,18,3
+80957,2024-01-01,2024-01-03,Billing,Medium,Mike T.,52,4
+80958,2024-04-30,,Technical,Medium,Jessica L.,,
+80959,2024-03-05,2024-03-09,Billing,Medium,Jessica L.,112,4
+80960,2024-10-29,2024-10-29, technical ,Urgent,Mike T.,3,5
+80961,2024-08-17,2024-08-17,Account,Low,David W.,8,
+80962,2024-08-27,2024-08-28,Technical,High,Sarah K.,31,1
+80963,2024-05-14,, technical ,High,Jessica L.,,
+80964,2024-05-03,2024-05-06, technical ,Low,David W.,86,2
+80965,02/27/2024,2024-02-29,General,Medium,Sarah K.,69,2
+80966,2024-02-26,,BILLING,Urgent,Tom B.,,
+80967,2024-07-23,2024-07-23,Account,Urgent,Mike T.,7,2
+80968,2024-11-27,2024-12-01,General,High,Mike T.,108,1
+80969,2024-09-18,2024-09-19,Billing,Low,Mike T.,31,5
+80970,2024-11-23,2024-11-23, technical ,Urgent,Sarah K.,13,5
+80971,2024-07-21,,Account,Medium,David W.,,
+80972,2024-04-21,2024-04-25,BILLING,Medium,Tom B.,106,2
+80973,2024-02-20,2024-02-21,BILLING,Urgent,Mike T.,28,3
+80974,2024-10-29,2024-10-29,BILLING,Low,Jessica L.,17,1
+80975,2024-11-11,2024-11-15,Technical,Medium,Tom B.,114,
+80976,2024-10-01,, technical ,High,Jessica L.,,
+80977,2024-11-14,2024-11-18,Billing,Low,Tom B.,102,1
+80978,2024-09-24,2024-09-26, technical ,High,Tom B.,49,5
+80979,2024-08-10,2024-08-11,Technical,Low,Tom B.,42,4
+80980,2024-05-20,2024-05-24,Account,Low,Mike T.,97,
+80981,2024-08-22,2024-08-26,Technical,Low,Tom B.,108,4
+80982,2024-03-23,,Billing,Low,Mike T.,,
+80983,2024-01-26,2024-01-29,General,Medium,Sarah K.,95,3
+80984,2024-06-11,2024-06-15,Billing,High,Jessica L.,110,4
+80985,2024-04-19,2024-04-20,BILLING,Urgent,Tom B.,31,4
+80986,2024-05-04,2024-05-04,General,Urgent,Jessica L.,21,2
+80987,2024-10-16,2024-10-17, technical ,High,Tom B.,43,3
+80988,2024-05-12,2024-05-13,Billing,Urgent,Jessica L.,36,3
+80989,2024-09-16,2024-09-16, technical ,Urgent,Sarah K.,18,2
+80990,2024-05-29,2024-06-02,BILLING,High,Tom B.,96,
+80991,2024-03-13,,Technical,Low,Sarah K.,,
+80992,2024-08-07,2024-08-11,General,Low,Tom B.,98,
+80993,2024-11-27,2024-11-28,Account,High,Mike T.,38,2
+80994,04/24/2024,2024-04-26,BILLING,High,Tom B.,63,
+80995,2024-09-13,2024-09-13,Billing,High,Sarah K.,6,5
+80996,2024-07-06,2024-07-10,BILLING,Low,David W.,110,4
+80997,2024-12-18,2024-12-20,Billing,Medium,Jessica L.,70,5
+80998,2024-09-17,2024-09-17, technical ,High,Sarah K.,13,5
+80999,2024-10-22,2024-10-24,BILLING,Medium,Tom B.,-54,4
+81000,2024-12-13,2024-12-17,Billing,High,David W.,110,4
+81001,2024-08-25,2024-08-25,General,Urgent,Tom B.,1,
+81002,2024-08-02,,Technical,High,David W.,,
+81003,2024-07-31,2024-08-03,Billing,Medium,Jessica L.,95,3
+81004,2024-01-13,2024-01-17,Billing,Medium,Jessica L.,111,4
+81005,2024-11-05,,BILLING,Medium,Jessica L.,,
+81006,2024-05-31,,Billing,High,Mike T.,,
+81007,2024-03-11,2024-03-12, technical ,Urgent,Sarah K.,26,3
+81008,2024-01-20,2024-01-23,BILLING,Low,Tom B.,91,5
+81009,2024-01-31,,General,Urgent,Jessica L.,,
+81010,2024-11-24,2024-11-25,Technical,High,Tom B.,26,1
+81011,2024-02-14,2024-02-14,General,High,Mike T.,21,2
+81012,2024-11-07,2024-11-07,General,Low,Tom B.,1,5
+81013,2024-12-27,2024-12-27,Billing,Urgent,Mike T.,11,5
+81014,2024-10-28,2024-10-28,Account,High,Tom B.,20,1
+81015,2024-05-09,2024-05-11,Billing,Low,Sarah K.,48,1
+81016,2024-01-09,2024-01-13,BILLING,Low,Sarah K.,101,4
+81017,2024-12-19,2024-12-23,Billing,High,Tom B.,117,5
+81018,2024-05-10,2024-05-12,Billing,Medium,Sarah K.,60,5
+81019,2024-07-22,,Billing,Medium,Tom B.,,
+81020,2024-04-24,2024-04-24,Billing,High,Tom B.,6,
+81021,2024-06-21,2024-06-25,Billing,Medium,Tom B.,119,
+81022,2024-06-22,2024-06-22,General,High,David W.,12,3
+81023,2024-08-18,2024-08-20,Account,Low,Tom B.,50,1
+81024,2024-06-24,2024-06-28,Billing,Low,Jessica L.,96,4
+81025,2024-10-05,2024-10-07,BILLING,High,David W.,49,
+81026,2024-11-12,2024-11-15,BILLING,High,Jessica L.,91,1
+81027,2024-12-07,2024-12-11,BILLING,Low,David W.,104,
+81028,2024-06-30,2024-07-01, technical ,Urgent,David W.,24,4
+81029,2024-08-05,2024-08-05,BILLING,Urgent,Sarah K.,11,3
+81030,2024-12-13,2024-12-15,Technical,Medium,Sarah K.,63,
+81031,2024-08-17,2024-08-19,Account,Medium,Mike T.,48,1
+81032,2024-12-14,2024-12-15,General,Low,Tom B.,32,1
+81033,2024-03-06,2024-03-10,Technical,Low,Tom B.,119,3
+81034,2024-08-11,2024-08-11, technical ,Urgent,Jessica L.,13,4
+81035,2024-11-26,,Technical,Low,Tom B.,,
+81036,2024-03-19,2024-03-23,BILLING,Medium,Tom B.,99,3
+81037,2024-04-15,2024-04-16,Technical,Low,Tom B.,36,3
+81038,2024-09-04,2024-09-05,Account,Urgent,Jessica L.,25,2
+81039,2024-02-18,,BILLING,Low,Tom B.,,
+81040,2024-10-08,2024-10-10,Billing,Low,David W.,60,5
+81041,2024-06-30,2024-07-04,Account,Low,Jessica L.,118,2
+81042,2024-11-11,2024-11-15,Technical,High,Mike T.,109,5
+81043,2024-03-13,2024-03-16,BILLING,Medium,Mike T.,91,2
+81044,2024-02-09,2024-02-10,Account,Medium,Tom B.,43,5
+81045,2024-05-25,2024-05-25,Billing,Low,Sarah K.,14,4
+81046,2024-04-14,2024-04-15,BILLING,High,Sarah K.,36,5
+81047,2024-03-02,2024-03-06,Billing,Low,Tom B.,105,4
+81048,2024-09-24,2024-09-25,Technical,Low,Sarah K.,47,5
+81049,2024-03-02,2024-03-04, technical ,High,David W.,68,4
+81050,2024-04-02,2024-04-02,Billing,High,Tom B.,21,5
+81051,2024-11-13,2024-11-17,BILLING,High,Tom B.,115,5
+81052,2024-02-21,2024-02-25,General,High,Jessica L.,117,2
+81053,2024-09-22,2024-09-24,Account,Low,Jessica L.,61,
+81054,2024-08-11,2024-08-12, technical ,Low,Mike T.,36,1
+81055,2024-05-10,2024-05-10,Technical,High,Mike T.,2,3
+81056,2024-08-26,2024-08-26,Billing,Urgent,David W.,15,4
+81057,2024-09-10,2024-09-14, technical ,High,Sarah K.,97,2
+81058,2024-09-13,2024-09-15,Account,Low,Tom B.,48,3
+81059,2024-11-17,2024-11-17, technical ,Low,Mike T.,22,5
+81060,2024-10-06,2024-10-10,Technical,High,Tom B.,97,4
+81061,2024-06-25,,Technical,High,Mike T.,,
+81062,2024-11-14,2024-11-18,Billing,Low,Tom B.,107,3
+81063,2024-09-22,2024-09-25,BILLING,High,Jessica L.,75,4
+81064,2024-11-24,2024-11-25,Billing,Urgent,David W.,33,2
+81065,2024-02-17,2024-02-21,Billing,Low,Mike T.,116,5
+81066,2024-04-11,2024-04-11,BILLING,Urgent,Tom B.,18,5
+81067,2024-12-21,2024-12-23,Billing,Low,Sarah K.,56,1
+81068,2024-08-16,2024-08-20, technical ,Medium,Jessica L.,116,4
+81069,2024-11-20,2024-11-23, technical ,Medium,Tom B.,89,
+81070,2024-01-22,2024-01-22,Account,Low,David W.,22,5
+81071,2024-03-18,2024-03-18,Billing,Urgent,Sarah K.,19,3
+81072,2024-04-29,2024-05-01, technical ,Low,Jessica L.,62,4
+81073,2024-12-18,2024-12-19,Technical,High,Tom B.,40,4
+81074,2024-05-14,2024-05-15,Account,Medium,David W.,42,1
+81075,2024-05-13,2024-05-17,BILLING,Low,Jessica L.,101,2
+81076,2024-01-10,2024-01-10,General,Urgent,Tom B.,23,3
+81077,2024-03-25,2024-03-25, technical ,High,David W.,8,3
+81078,2024-03-20,2024-03-20,Technical,Low,Tom B.,4,1
+81079,2024-10-14,2024-10-16,Account,High,David W.,51,3
+81080,2024-12-27,2024-12-28,Technical,Urgent,Sarah K.,27,2
+81081,2024-01-27,2024-01-28, technical ,Urgent,Tom B.,32,3
+81082,2024-12-19,2024-12-20,General,High,Tom B.,35,1
+81083,2024-05-06,,Billing,Urgent,Mike T.,,
+81084,06/12/2024,2024-06-12,Technical,Urgent,David W.,13,1
+81085,2024-07-02,2024-07-05,General,High,Mike T.,77,5
+81086,2024-07-12,2024-07-16, technical ,High,Sarah K.,119,2
+81087,2024-12-06,2024-12-06,Account,Urgent,Mike T.,17,1
+81088,2024-04-17,2024-04-18,Technical,Low,Jessica L.,26,2
+81089,2024-07-08,2024-07-11, technical ,Medium,David W.,73,4
+81090,09/25/2024,2024-09-29,Technical,High,Mike T.,114,4
+81091,2024-12-04,2024-12-08,Account,High,Tom B.,111,4
+81092,2024-06-03,2024-06-03,Technical,Medium,David W.,5,1
+81093,03/18/2024,2024-03-19,Technical,Low,Mike T.,33,4
+81094,2024-09-25,2024-09-25,Billing,Medium,Jessica L.,4,1
+81095,2024-01-07,2024-01-07,BILLING,Urgent,Sarah K.,19,5
+81096,2024-02-15,2024-02-19,Technical,High,David W.,107,2
+81097,2024-07-06,2024-07-08,BILLING,Low,Sarah K.,66,5
+81098,2024-07-08,2024-07-11, technical ,Low,Jessica L.,81,
+81099,2024-06-09,2024-06-10, technical ,High,Jessica L.,46,2
+81100,2024-09-17,2024-09-17,General,Urgent,Tom B.,5,4
+81101,2024-04-18,2024-04-19,Billing,Medium,Jessica L.,44,
+81102,2024-09-17,2024-09-21,Technical,High,Sarah K.,114,3
+81103,2024-11-12,2024-11-12,Billing,Urgent,Tom B.,13,
+81104,2024-01-29,2024-01-31,Technical,High,David W.,57,2
+81105,2024-10-09,,Technical,Urgent,Sarah K.,,
+81106,2024-12-30,2024-12-30,Billing,Urgent,Sarah K.,11,4
+81107,2024-03-04,2024-03-04,Account,Medium,Jessica L.,14,5
+81108,2024-10-16,2024-10-19, technical ,High,Tom B.,82,5
+81109,2024-04-15,2024-04-16,Technical,Medium,Sarah K.,42,4
+81110,2024-02-24,2024-02-27,Billing,High,Mike T.,86,5
+81111,10/23/2024,, technical ,Urgent,Sarah K.,,
+81112,06/20/2024,2024-06-21,Account,Low,Mike T.,33,3
+81113,2024-12-15,2024-12-19,Technical,Low,Tom B.,107,4
+81114,2024-01-22,,Technical,Medium,Mike T.,,
+81115,2024-10-20,2024-10-21,Technical,Medium,Mike T.,39,3
+81116,2024-01-21,2024-01-21,General,Medium,Sarah K.,3,2
+81117,2024-04-30,2024-04-30,Billing,High,Sarah K.,23,5
+81118,2024-02-11,,Account,Medium,Tom B.,,
+81119,2024-10-31,2024-10-31,BILLING,Urgent,David W.,10,1
+81120,2024-11-22,2024-11-22,Technical,Urgent,Tom B.,16,4
+81121,2024-09-03,2024-09-05,Technical,High,David W.,49,2
+81122,2024-04-16,, technical ,Low,David W.,,
+81123,2024-12-10,, technical ,High,David W.,,
+81124,2024-09-17,2024-09-18,BILLING,Low,Sarah K.,47,4
+81125,2024-04-16,2024-04-16,Account,Low,Mike T.,14,1
+81126,2024-12-18,2024-12-18,Technical,Low,Mike T.,19,1
+81127,2024-06-08,2024-06-11,Billing,Medium,Sarah K.,82,4
+81128,2024-03-01,2024-03-01,Technical,High,Jessica L.,14,5
+81129,2024-02-19,2024-02-19,General,Low,Tom B.,-15,4
+81130,2024-11-22,2024-11-22,BILLING,Urgent,Jessica L.,4,1
+81131,2024-07-23,2024-07-25,BILLING,Low,Sarah K.,49,3
+81132,2024-09-25,2024-09-28,Account,Low,Sarah K.,95,5
+81133,2024-12-22,2024-12-26, technical ,Low,Tom B.,100,2
+81134,2024-09-11,2024-09-12,General,Low,Sarah K.,28,3
+81135,2024-09-19,,Billing,High,Mike T.,,
+81136,2024-10-30,2024-11-03,BILLING,Medium,David W.,99,4
+81137,2024-08-28,2024-08-28,Technical,Urgent,Sarah K.,20,3
+81138,2024-06-01,2024-06-04, technical ,Low,Sarah K.,78,1
+81139,2024-01-24,2024-01-24, technical ,Urgent,Jessica L.,11,2
+81140,2024-05-23,2024-05-25,General,Low,Sarah K.,50,4
+81141,2024-05-09,2024-05-13, technical ,Low,David W.,103,5
+81142,2024-01-31,2024-02-01,BILLING,Urgent,Sarah K.,27,2
+81143,2024-06-23,2024-06-23,Technical,Urgent,Jessica L.,3,4
+81144,2024-08-26,2024-08-29,General,Low,David W.,89,3
+81145,2024-02-17,2024-02-18,BILLING,Low,Mike T.,34,
+81146,2024-01-14,2024-01-18, technical ,High,Sarah K.,97,5
+81147,2024-05-24,2024-05-24,Billing,High,Mike T.,13,4
+81148,2024-08-11,2024-08-12, technical ,Low,Jessica L.,38,1
+81149,2024-07-31,2024-08-04,General,Medium,Jessica L.,107,1
+81150,2024-09-22,2024-09-25,Billing,Low,David W.,76,2
+81151,2024-10-18,,Technical,Urgent,Jessica L.,,
+81152,2024-09-16,2024-09-17,BILLING,Low,Tom B.,30,5
+81153,07/20/2024,2024-07-21,Account,Urgent,David W.,29,3
+81154,2024-10-10,2024-10-11,Billing,Low,David W.,28,3
+81155,2024-10-06,2024-10-06,Account,Urgent,David W.,6,3
+81156,2024-11-19,2024-11-20,BILLING,High,David W.,27,2
+81157,2024-07-17,2024-07-17,Account,Medium,Sarah K.,22,4
+81158,2024-12-02,2024-12-06,BILLING,Low,Sarah K.,105,3
+81159,2024-09-10,2024-09-12, technical ,Medium,Tom B.,71,3
+81160,2024-09-17,2024-09-17,Technical,Urgent,Tom B.,20,5
+81161,2024-06-15,2024-06-16, technical ,Low,Sarah K.,34,4
+81162,2024-08-14,2024-08-14,BILLING,Urgent,Mike T.,10,1
+81163,2024-07-26,2024-07-30,Billing,High,Tom B.,116,1
+81164,2024-08-27,2024-08-28, technical ,Low,Tom B.,34,3
+81165,2024-05-27,,BILLING,Urgent,David W.,,
+81166,2024-03-31,2024-04-01, technical ,Low,Sarah K.,43,4
+81167,2024-02-22,,Billing,Urgent,Sarah K.,,
+81168,2024-01-21,2024-01-22,Account,Urgent,Sarah K.,-35,5
+81169,2024-03-07,,Account,Low,Tom B.,,
+81170,2024-02-11,2024-02-12,General,High,David W.,35,2
+81171,2024-06-07,,Billing,High,Mike T.,,
+81172,2024-10-26,,Technical,Low,Sarah K.,,
+81173,2024-02-03,2024-02-04,Account,Urgent,Sarah K.,29,1
+81174,2024-10-22,,Billing,Medium,David W.,,
+81175,2024-07-02,2024-07-06,Billing,Low,Jessica L.,99,5
+81176,2024-05-27,2024-05-28,Billing,Urgent,Tom B.,28,3
+81177,2024-07-11,,BILLING,Urgent,Mike T.,,
+81178,2024-11-09,2024-11-13,Technical,High,Mike T.,109,4
+81179,2024-10-01,2024-10-03,Account,Low,Sarah K.,62,4
+81180,2024-04-26,2024-04-26,BILLING,High,Tom B.,13,2
+81181,2024-02-16,2024-02-16,Technical,Urgent,David W.,8,
+81182,2024-08-11,2024-08-11,Technical,Low,Jessica L.,3,5
+81183,2024-07-29,2024-07-29,General,Medium,Jessica L.,5,4
+81184,2024-02-28,2024-03-02,Account,Low,David W.,95,3
+81185,2024-03-22,2024-03-22,General,Low,Mike T.,14,4
+81186,2024-01-29,2024-02-02,BILLING,Medium,Tom B.,112,4
+81187,2024-06-06,2024-06-06,Billing,Urgent,Mike T.,19,1
+81188,2024-10-08,2024-10-08,Account,High,Jessica L.,11,2
+81189,07/12/2024,2024-07-12,BILLING,Urgent,Sarah K.,13,1
+81190,2024-05-17,2024-05-19,Billing,Low,David W.,70,4
+81191,2024-05-19,2024-05-19,Technical,Urgent,Sarah K.,19,3
+81192,2024-05-10,2024-05-10,General,Urgent,Tom B.,-15,1
+81193,2024-05-11,2024-05-11,BILLING,Urgent,Jessica L.,10,
+81194,2024-09-07,2024-09-07,Account,Medium,Sarah K.,23,1
+81195,2024-11-12,,Account,Medium,Mike T.,,
+81196,2024-05-11,,Billing,Urgent,Mike T.,,
+81197,2024-05-26,2024-05-29,Account,Low,Sarah K.,95,2
+81198,2024-03-07,2024-03-10, technical ,Low,Jessica L.,86,4
+81199,2024-02-19,2024-02-20,Billing,High,Jessica L.,41,
+81200,2024-03-06,2024-03-07, technical ,Medium,Sarah K.,35,3
+81201,2024-07-22,2024-07-23,Account,Urgent,Sarah K.,26,5
+81202,2024-06-21,2024-06-22,Billing,Urgent,Jessica L.,30,4
+81203,07/17/2024,2024-07-20,Billing,Medium,David W.,93,
+81204,2024-11-23,2024-11-25, technical ,Low,David W.,-57,2
+81205,2024-10-27,2024-10-31,Account,High,David W.,117,4
+81206,2024-07-24,2024-07-26,Billing,Low,David W.,64,1
+81207,2024-12-11,2024-12-13,BILLING,Medium,David W.,57,5
+81208,2024-08-15,2024-08-16,Technical,High,Sarah K.,25,3
+81209,2024-06-11,,General,Urgent,Tom B.,,
+81210,2024-08-19,2024-08-19,BILLING,Urgent,Sarah K.,1,1
+81211,2024-02-01,2024-02-02,Billing,Medium,Mike T.,40,4
+81212,2024-07-17,2024-07-17,Account,Urgent,Tom B.,7,5
+81213,2024-01-19,2024-01-21, technical ,High,Tom B.,53,2
+81214,2024-01-02,2024-01-05,Account,High,David W.,76,
+81215,2024-03-04,2024-03-04, technical ,Urgent,Mike T.,21,
+81216,2024-03-28,2024-03-28,Billing,Urgent,David W.,23,3
+81217,2024-11-06,2024-11-06,Billing,High,Tom B.,9,4
+81218,2024-05-16,2024-05-20, technical ,Medium,David W.,101,5
+81219,2024-04-11,2024-04-14,Technical,High,Sarah K.,89,3
+81220,2024-06-24,2024-06-24,Account,Low,Jessica L.,14,5
+81221,2024-12-11,2024-12-11, technical ,Urgent,David W.,19,4
+81222,2024-11-06,2024-11-08,Account,Medium,Jessica L.,57,4
+81223,2024-09-05,2024-09-05,Technical,Medium,Tom B.,7,4
+81224,2024-10-04,2024-10-05,Billing,Urgent,Mike T.,27,3
+81225,2024-04-24,,Technical,Urgent,Sarah K.,,
+81226,2024-01-22,2024-01-24,Technical,Medium,David W.,51,4
+81227,2024-05-27,,General,Low,Jessica L.,,
+81228,2024-10-23,,Billing,Medium,Sarah K.,,
+81229,2024-03-25,2024-03-26,BILLING,Urgent,Sarah K.,32,2
+81230,2024-04-08,2024-04-09,Technical,Low,Mike T.,45,2
+81231,2024-03-10,2024-03-12,Account,Medium,David W.,57,
+81232,2024-06-25,2024-06-28,General,Medium,Sarah K.,-94,5
+81233,2024-09-21,,Account,Medium,Tom B.,,
+81234,2024-12-08,2024-12-08, technical ,Urgent,Mike T.,20,4
+81235,2024-05-20,2024-05-21,General,High,David W.,31,3
+81236,2024-10-19,2024-10-19,General,Urgent,David W.,22,
+81237,2024-12-13,2024-12-15,BILLING,High,Mike T.,51,2
+81238,2024-03-04,2024-03-06,Account,High,Sarah K.,62,2
+81239,2024-02-08,2024-02-08, technical ,Low,Sarah K.,3,5
+81240,2024-02-11,2024-02-15,General,High,Mike T.,96,1
+81241,2024-11-21,2024-11-21,Account,High,Mike T.,7,1
+81242,2024-07-21,,General,Low,Sarah K.,,
+81243,2024-11-13,2024-11-13,Technical,Medium,David W.,7,2
+81244,2024-11-30,,Account,Low,Sarah K.,,
+81245,2024-12-20,2024-12-20,Account,Urgent,Jessica L.,4,1
+81246,02/08/2024,,Billing,Medium,David W.,,
+81247,2024-07-06,2024-07-07,Billing,Urgent,Mike T.,34,2
+81248,2024-07-16,2024-07-16,Technical,Urgent,David W.,5,2
+81249,2024-11-26,2024-11-27,Technical,High,Mike T.,39,3
+81250,2024-09-27,2024-09-29,BILLING,Medium,Jessica L.,50,2
+81251,2024-08-16,, technical ,Low,Sarah K.,,
+81252,2024-07-01,2024-07-04,BILLING,Medium,Sarah K.,76,1
+81253,2024-06-16,2024-06-20,Billing,Low,Mike T.,113,1
+81254,2024-11-05,2024-11-08,Billing,Medium,David W.,78,1
+81255,2024-02-16,2024-02-20,Technical,Medium,Mike T.,102,5
+81256,2024-05-04,2024-05-08,Technical,Low,Mike T.,98,5
+81257,05/09/2024,2024-05-10,BILLING,Medium,Sarah K.,34,3
+81258,2024-12-08,2024-12-11, technical ,Low,Sarah K.,95,4
+81259,2024-06-22,,General,Medium,David W.,,
+81260,2024-01-06,2024-01-09,General,Low,Jessica L.,94,5
+81261,2024-12-02,2024-12-06,BILLING,Medium,Tom B.,116,5
+81262,2024-03-26,2024-03-30,General,High,Tom B.,119,2
+81263,2024-06-18,2024-06-21,General,Medium,David W.,72,2
+81264,2024-04-02,2024-04-02,Billing,Urgent,Mike T.,8,1
+81265,2024-07-01,2024-07-01, technical ,High,Jessica L.,16,5
+81266,2024-02-03,2024-02-04,Billing,High,Mike T.,24,4
+81267,2024-08-07,2024-08-07,General,Urgent,David W.,7,3
+81268,2024-12-10,,General,Medium,Tom B.,,
+81269,2024-12-02,2024-12-03,Account,Low,Mike T.,24,4
+81270,2024-05-17,2024-05-18,Billing,Medium,David W.,33,5
+81271,2024-11-04,2024-11-06,General,Medium,Tom B.,70,4
+81272,2024-10-26,2024-10-26,Account,Medium,Tom B.,1,1
+81273,2024-02-01,2024-02-05,Account,Low,David W.,108,2
+81274,2024-05-17,2024-05-17,Billing,Urgent,Sarah K.,23,1
+81275,2024-09-17,2024-09-20,Billing,Medium,Sarah K.,72,4
+81276,2024-09-15,2024-09-18, technical ,Medium,Tom B.,72,2
+81277,2024-03-30,2024-04-01,Technical,Medium,Mike T.,54,3
+81278,2024-12-11,2024-12-12, technical ,Medium,Jessica L.,43,1
+81279,2024-09-15,2024-09-15,General,Low,David W.,23,5
+81280,2024-10-16,2024-10-18,Billing,Medium,David W.,57,5
+81281,2024-12-09,2024-12-09,General,Medium,David W.,22,2
+81282,2024-06-27,2024-06-30,Technical,Low,Mike T.,83,1
+81283,2024-10-21,2024-10-21,General,High,David W.,23,2
+81284,2024-11-22,,BILLING,Medium,Tom B.,,
+81285,2024-03-21,2024-03-21,Account,Urgent,Mike T.,10,
+81286,2024-02-09,2024-02-09,BILLING,Urgent,Mike T.,-2,
+81287,2024-11-17,2024-11-17,Technical,Urgent,Sarah K.,19,4
+81288,2024-09-15,2024-09-18,Billing,High,Mike T.,73,2
+81289,2024-03-16,,Account,High,Mike T.,,
+81290,2024-06-07,2024-06-08,Technical,Urgent,Jessica L.,30,1
+81291,2024-07-25,2024-07-29, technical ,Low,Jessica L.,96,5
+81292,2024-02-16,2024-02-17,General,High,Tom B.,43,4
+81293,2024-09-04,,BILLING,High,Tom B.,,
+81294,2024-01-21,2024-01-21,Account,Low,Jessica L.,20,5
+81295,2024-07-25,2024-07-26,BILLING,Low,Jessica L.,37,5
+81296,2024-08-30,2024-09-03,Technical,Medium,Mike T.,109,
+81297,2024-04-08,2024-04-09, technical ,Urgent,Sarah K.,28,5
+81298,2024-05-08,2024-05-09,Technical,High,Tom B.,40,2
+81299,2024-09-18,2024-09-18,BILLING,Low,Mike T.,12,1
+81300,2024-07-17,2024-07-17, technical ,Urgent,David W.,13,1
+81301,2024-09-07,2024-09-11,Account,High,Jessica L.,109,3
+81302,2024-09-04,2024-09-04, technical ,Urgent,Sarah K.,-21,4
+81303,2024-12-04,,Technical,High,Jessica L.,,
+81304,2024-06-19,,General,High,Sarah K.,,
+81305,2024-07-12,2024-07-13,Technical,Low,David W.,41,2
+81306,2024-01-27,,Billing,Urgent,Jessica L.,,
+81307,2024-02-09,2024-02-09,Billing,Low,Sarah K.,2,5
+81308,2024-03-26,2024-03-30, technical ,Medium,David W.,118,2
+81309,2024-03-08,2024-03-12,Technical,High,Jessica L.,117,4
+81310,2024-12-06,2024-12-09,Account,High,David W.,92,5
+81311,2024-08-29,2024-09-02,General,Medium,Sarah K.,109,3
+81312,2024-04-18,2024-04-22,Billing,High,Jessica L.,110,3
+81313,08/22/2024,,Account,Medium,Sarah K.,,
+81314,2024-03-05,2024-03-06, technical ,Urgent,Jessica L.,31,3
+81315,2024-12-04,2024-12-04, technical ,Low,Tom B.,6,2
+81316,2024-10-10,2024-10-12,General,High,Jessica L.,68,5
+81317,2024-03-17,, technical ,Urgent,Jessica L.,,
+81318,2024-06-27,2024-07-01,BILLING,Low,Sarah K.,109,
+81319,2024-12-07,2024-12-11,BILLING,Medium,Tom B.,98,1
+81320,2024-01-29,,Technical,Medium,Mike T.,,
+81321,2024-06-24,2024-06-24, technical ,Urgent,David W.,14,4
+81322,2024-08-01,,BILLING,Medium,David W.,,
+81323,2024-05-31,,General,High,Mike T.,,
+81324,2024-10-11,2024-10-11,Technical,Urgent,Mike T.,12,
+81325,2024-09-29,2024-09-29,Technical,Urgent,David W.,13,
+81326,2024-03-30,2024-04-01,Account,Low,Jessica L.,62,
+81327,2024-04-14,2024-04-14,Billing,Urgent,Sarah K.,8,2
+81328,2024-12-29,2024-12-30,General,Urgent,David W.,31,
+81329,2024-11-04,,Technical,Low,Jessica L.,,
+81330,2024-03-12,2024-03-15, technical ,Low,Mike T.,89,4
+81331,2024-05-12,2024-05-13,Technical,Low,David W.,32,3
+81332,2024-05-16,2024-05-16, technical ,Low,Sarah K.,9,3
+81333,2024-02-08,2024-02-09, technical ,Low,Tom B.,-30,3
+81334,2024-11-20,2024-11-21,Billing,Medium,Sarah K.,43,4
+81335,2024-08-27,2024-08-30,Billing,High,David W.,92,4
+81336,2024-06-13,2024-06-13,Account,High,Mike T.,10,5
+81337,2024-10-01,2024-10-01, technical ,Medium,Tom B.,8,3
+81338,2024-04-09,2024-04-11,Billing,Medium,Mike T.,64,1
+81339,2024-11-24,,General,Medium,David W.,,
+81340,2024-06-22,2024-06-24,BILLING,Low,Tom B.,52,1
+81341,2024-08-28,2024-08-30,General,Medium,Tom B.,65,5
+81342,2024-01-16,, technical ,Urgent,Sarah K.,,
+81343,2024-04-07,2024-04-08,General,Medium,Tom B.,38,5
+81344,2024-07-06,2024-07-07,Technical,Urgent,Mike T.,27,3
+81345,2024-11-01,2024-11-04,Technical,Medium,David W.,93,5
+81346,2024-01-06,2024-01-06,General,Medium,Tom B.,17,3
+81347,2024-04-28,2024-04-30,General,Medium,Jessica L.,61,3
+81348,2024-02-02,2024-02-03,General,Low,Sarah K.,37,1
+81349,2024-01-13,,General,Low,Sarah K.,,
+81350,2024-10-15,2024-10-18,Technical,High,Sarah K.,89,5
+81351,2024-12-09,2024-12-09,Billing,Low,Jessica L.,16,1
+81352,2024-05-01,2024-05-05, technical ,High,Tom B.,99,2
+81353,2024-06-19,2024-06-22,Account,High,Jessica L.,92,5
+81354,2024-07-28,2024-07-28, technical ,Urgent,Jessica L.,16,5
+81355,2024-11-14,2024-11-16,General,High,David W.,60,4
+81356,2024-02-13,2024-02-16,BILLING,High,Tom B.,92,3
+81357,2024-09-06,2024-09-07,Technical,Urgent,Sarah K.,34,4
+81358,2024-02-19,2024-02-21,Billing,High,Tom B.,61,
+81359,2024-09-13,2024-09-17,Billing,High,David W.,106,
+81360,2024-02-14,2024-02-18,Account,Medium,David W.,109,4
+81361,2024-12-21,2024-12-23,BILLING,Low,Mike T.,49,2
+81362,2024-03-09,2024-03-13,Account,Low,Mike T.,113,4
+81363,2024-06-04,2024-06-05, technical ,Urgent,Mike T.,-32,
+81364,2024-10-13,,Billing,Medium,Mike T.,,
+81365,2024-12-24,2024-12-26,Billing,Medium,Mike T.,58,4
+81366,04/07/2024,2024-04-08,General,Low,Sarah K.,42,2
+81367,2024-12-08,2024-12-08,Technical,Low,Tom B.,14,4
+81368,2024-01-25,2024-01-26,BILLING,Low,Tom B.,37,5
+81369,2024-03-02,2024-03-05,BILLING,Low,Tom B.,85,5
+81370,2024-08-25,2024-08-25, technical ,Urgent,Tom B.,9,1
+81371,2024-10-18,2024-10-19,Account,Low,Jessica L.,45,3
+81372,2024-03-02,,Billing,High,Mike T.,,
+81373,2024-03-30,2024-04-03,Technical,High,Jessica L.,107,5
+81374,2024-12-22,,General,Medium,Sarah K.,,
+81375,2024-02-02,2024-02-02, technical ,Urgent,Mike T.,23,5
+81376,2024-05-19,2024-05-19,Billing,Urgent,David W.,8,4
+81377,07/20/2024,2024-07-24,Billing,High,Mike T.,99,2
+81378,06/27/2024,,Billing,Low,Jessica L.,,
+81379,2024-01-25,,General,High,Jessica L.,,
+81380,2024-05-12,2024-05-16,BILLING,Low,David W.,111,3
+81381,2024-05-07,2024-05-09,Billing,Low,Jessica L.,60,2
+81382,2024-06-25,2024-06-25,Billing,Urgent,Mike T.,13,2
+81383,2024-07-29,,BILLING,Low,Mike T.,,
+81384,2024-11-29,2024-12-02,Account,Medium,Sarah K.,83,5
+81385,2024-10-29,2024-10-30,Account,Low,Mike T.,37,3
+81386,2024-01-13,,Billing,High,Sarah K.,,
+81387,2024-09-20,2024-09-20,Technical,Urgent,Jessica L.,7,3
+81388,2024-07-26,2024-07-29, technical ,Medium,Tom B.,93,3
+81389,2024-03-25,2024-03-26,Account,High,Jessica L.,40,5
+81390,2024-11-01,2024-11-02,Account,High,Sarah K.,36,
+81391,2024-11-14,2024-11-18, technical ,Medium,Jessica L.,116,
+81392,2024-10-18,2024-10-20,Technical,Low,Jessica L.,54,3
+81393,2024-05-23,2024-05-23,General,Urgent,Sarah K.,8,5
+81394,2024-06-09,2024-06-12,Account,High,David W.,83,
+81395,2024-01-12,2024-01-12,BILLING,Urgent,Tom B.,23,2
+81396,2024-03-18,2024-03-19,BILLING,High,Tom B.,31,5
+81397,2024-12-11,2024-12-14,Billing,Medium,Jessica L.,75,4
+81398,2024-11-28,2024-11-28,General,Medium,David W.,3,
+81399,2024-01-24,2024-01-27,Billing,High,David W.,82,5
+81400,2024-09-08,2024-09-11,BILLING,High,Tom B.,86,3
+81401,2024-10-17,2024-10-17, technical ,Urgent,Jessica L.,10,3
+81402,2024-07-02,2024-07-03, technical ,High,Mike T.,-27,3
+81403,2024-05-15,2024-05-15,Billing,Low,Mike T.,22,1
+81404,2024-10-08,,General,Urgent,Jessica L.,,
+81405,03/02/2024,2024-03-05,Technical,High,Jessica L.,82,5
+81406,2024-03-06,2024-03-08,General,Medium,Tom B.,69,5
+81407,2024-07-31,2024-08-04,Account,Low,Sarah K.,97,1
+81408,12/08/2024,2024-12-09, technical ,Medium,Sarah K.,46,3
+81409,2024-04-11,2024-04-14,Billing,Low,Tom B.,95,2
+81410,2024-05-24,2024-05-27,BILLING,Low,Mike T.,81,1
+81411,2024-04-06,2024-04-06,General,High,Sarah K.,20,2
+81412,2024-11-16,2024-11-17,Technical,High,Sarah K.,27,2
+81413,2024-09-30,2024-10-04,Billing,High,Mike T.,118,3
+81414,2024-10-26,2024-10-29,Technical,High,Sarah K.,73,3
+81415,2024-05-05,2024-05-08,BILLING,Medium,Tom B.,92,
+81416,2024-03-09,2024-03-09, technical ,Urgent,Mike T.,5,1
+81417,2024-01-22,2024-01-22,Account,Urgent,Jessica L.,7,4
+81418,2024-06-13,2024-06-17,Billing,High,Sarah K.,118,4
+81419,2024-04-29,2024-04-29,General,Urgent,Mike T.,20,2
+81420,2024-02-04,2024-02-06,Technical,Low,Jessica L.,58,1
+81421,2024-04-24,2024-04-24,BILLING,High,Jessica L.,15,1
+81422,2024-12-01,2024-12-02,Technical,High,Jessica L.,42,3
+81423,2024-03-02,,Account,High,David W.,,
+81424,2024-12-22,2024-12-26,General,High,Sarah K.,98,2
+81425,2024-01-14,2024-01-15,Billing,Medium,Tom B.,37,5
+81426,2024-08-14,2024-08-15,Technical,Low,Tom B.,47,
+81427,2024-05-22,2024-05-22,BILLING,Medium,Mike T.,-8,4
+81428,2024-02-28,2024-03-01,Account,High,Mike T.,59,4
+81429,2024-04-11,2024-04-13,Technical,Medium,Mike T.,69,2
+81430,2024-01-27,2024-01-28,Technical,Urgent,Mike T.,35,5
+81431,2024-12-12,2024-12-13,Technical,Low,Mike T.,40,4
+81432,11/09/2024,,Technical,Low,Mike T.,,
+81433,09/10/2024,,General,Medium,Tom B.,,
+81434,2024-12-10,2024-12-11,Billing,High,Mike T.,37,4
+81435,2024-12-22,2024-12-23,Technical,Urgent,Tom B.,33,5
+81436,2024-11-28,2024-11-30,Account,Low,David W.,64,3
+81437,2024-07-12,2024-07-16,General,Low,Mike T.,96,3
+81438,2024-12-11,2024-12-11,Account,Urgent,Sarah K.,17,5
+81439,2024-02-15,2024-02-19,Account,Medium,Sarah K.,105,
+81440,2024-03-19,2024-03-23, technical ,Low,Jessica L.,119,1
+81441,2024-08-19,2024-08-20,Account,Urgent,David W.,26,3
+81442,2024-12-30,2024-12-30, technical ,High,Mike T.,16,1
+81443,2024-09-27,2024-09-27,Account,Urgent,Mike T.,1,2
+81444,2024-03-08,,Technical,High,David W.,,
+81445,2024-07-20,,Account,Low,Jessica L.,,
+81446,2024-09-01,2024-09-04,Technical,Low,Jessica L.,76,1
+81447,2024-06-13,2024-06-15,Account,High,David W.,63,2
+81448,2024-11-10,2024-11-11,BILLING,Low,Mike T.,30,5
+81449,2024-03-20,2024-03-21,Technical,High,Sarah K.,38,2
+81450,2024-09-06,2024-09-06,General,Low,Sarah K.,17,2
+81451,2024-01-17,2024-01-17,Account,Medium,Sarah K.,17,5
+81452,2024-06-09,2024-06-10, technical ,Low,Sarah K.,38,5
+81453,2024-09-18,, technical ,High,Sarah K.,,
+81454,2024-11-08,2024-11-12,Billing,High,Tom B.,114,4
+81455,2024-11-19,2024-11-21,Billing,Low,Tom B.,66,1
+81456,06/19/2024,2024-06-23, technical ,Low,Jessica L.,101,
+81457,2024-09-10,2024-09-14,Account,Low,Mike T.,99,5
+81458,2024-09-16,2024-09-19,General,High,Mike T.,75,1
+81459,2024-09-26,2024-09-30,BILLING,Medium,David W.,101,1
+81460,2024-03-12,2024-03-15, technical ,Medium,Sarah K.,72,5
+81461,2024-11-30,2024-11-30,General,High,Jessica L.,14,2
+81462,2024-05-30,2024-05-30, technical ,High,Mike T.,21,5
+81463,2024-06-03,2024-06-04,BILLING,High,Mike T.,34,1
+81464,2024-08-14,,Technical,Urgent,David W.,,
+81465,2024-04-27,,Account,Medium,Sarah K.,,
+81466,2024-08-15,2024-08-19, technical ,Low,Sarah K.,109,1
+81467,2024-07-24,2024-07-25,Technical,Low,Sarah K.,44,2
+81468,2024-05-27,2024-05-28,Account,Urgent,Sarah K.,26,1
+81469,2024-01-10,2024-01-11,Technical,Urgent,Tom B.,31,
+81470,2024-06-01,2024-06-01,Account,Urgent,Mike T.,5,5
+81471,2024-12-04,2024-12-08,Account,Low,David W.,96,5
+81472,2024-09-06,2024-09-06, technical ,Urgent,Mike T.,13,2
+81473,2024-10-20,2024-10-24,Billing,Low,Jessica L.,97,3
+81474,2024-06-22,2024-06-23,BILLING,Urgent,Mike T.,29,1
+81475,2024-10-13,2024-10-14,General,High,Tom B.,-33,3
+81476,2024-11-30,2024-11-30, technical ,Urgent,David W.,3,2
+81477,2024-05-26,2024-05-26,Account,Urgent,Tom B.,13,5
+81478,2024-07-23,2024-07-23,BILLING,Low,David W.,21,3
+81479,2024-01-07,2024-01-09,Billing,Medium,Sarah K.,63,1
+81480,2024-09-15,2024-09-16,General,High,Jessica L.,35,4
+81481,2024-01-28,2024-01-29,Billing,Urgent,David W.,27,4
+81482,2024-10-27,2024-10-27,BILLING,Urgent,Jessica L.,22,1
+81483,2024-09-08,2024-09-08,General,Low,Tom B.,3,1
+81484,2024-01-13,2024-01-13,BILLING,Urgent,David W.,7,1
+81485,06/01/2024,2024-06-01,BILLING,Urgent,David W.,8,
+81486,2024-11-13,2024-11-13, technical ,Low,Tom B.,3,
+81487,03/13/2024,2024-03-13,Technical,Urgent,Mike T.,9,1
+81488,2024-11-12,2024-11-15,Billing,High,Sarah K.,80,4
+81489,2024-05-18,,Billing,Medium,Mike T.,,
+81490,2024-10-02,2024-10-02,Account,Urgent,Jessica L.,3,1
+81491,2024-11-28,2024-11-28,Technical,High,David W.,-19,2
+81492,2024-02-24,2024-02-24,Technical,Urgent,David W.,11,1
+81493,2024-12-21,2024-12-21,Account,Medium,Tom B.,14,3
+81494,2024-07-05,2024-07-05,General,Urgent,Mike T.,10,1
+81495,07/15/2024,2024-07-15, technical ,Urgent,Jessica L.,22,3
+81496,2024-08-29,2024-08-30, technical ,Medium,Tom B.,37,5
+81497,2024-01-01,2024-01-04,Billing,Medium,David W.,82,2
+81498,2024-11-29,2024-12-03,Technical,High,David W.,113,3
+81499,2024-04-22,2024-04-26,BILLING,High,David W.,119,
+81500,2024-02-23,,Technical,Medium,Jessica L.,,
+81501,2024-05-19,2024-05-23,Billing,Low,David W.,104,3
+81502,02/21/2024,2024-02-22,BILLING,Medium,Jessica L.,-28,1
+81503,2024-06-27,2024-06-27,General,Low,Mike T.,22,1
+81504,2024-11-10,2024-11-10,BILLING,Low,David W.,5,1
+81505,2024-07-12,2024-07-12,Technical,High,David W.,20,3
+81506,2024-07-24,,Account,High,Mike T.,,
+81507,2024-01-04,2024-01-04,Account,Low,David W.,15,3
+81508,2024-10-16,2024-10-17,General,High,David W.,43,3
+81509,2024-10-17,2024-10-17,Technical,Urgent,Mike T.,19,4
+81510,2024-04-28,2024-04-30,BILLING,Low,Jessica L.,60,4
+81511,2024-03-22,,Account,Low,David W.,,
+81512,2024-09-02,,BILLING,Urgent,Sarah K.,,
+81513,2024-02-19,,Account,Medium,Tom B.,,
+81514,2024-05-23,2024-05-23,General,Urgent,Sarah K.,6,5
+81515,2024-12-15,2024-12-15,Account,Medium,David W.,17,3
+81516,2024-06-27,2024-06-28, technical ,Urgent,Mike T.,24,
+81517,2024-01-08,2024-01-10,Technical,Low,Tom B.,60,1
+81518,2024-05-29,2024-05-30,Technical,Urgent,Tom B.,25,3
+81519,2024-04-19,2024-04-23,BILLING,Medium,David W.,103,4
+81520,2024-02-19,2024-02-19,BILLING,Urgent,Tom B.,-9,3
+81521,2024-05-23,2024-05-26,Technical,High,Sarah K.,92,
+81522,2024-01-18,2024-01-18,Account,High,Jessica L.,12,5
+81523,2024-06-26,,General,Urgent,Sarah K.,,
+81524,04/13/2024,2024-04-17,General,Medium,Sarah K.,118,1
+81525,2024-05-02,, technical ,High,Sarah K.,,
+81526,2024-06-08,2024-06-12,Technical,Low,Sarah K.,96,2
+81527,2024-07-09,,Account,Medium,David W.,,
+81528,2024-01-19,2024-01-21,Account,Low,Tom B.,58,4
+81529,2024-05-22,2024-05-23, technical ,Medium,Mike T.,28,2
+81530,2024-09-16,2024-09-17,Technical,Low,Sarah K.,40,1
+81531,2024-05-24,2024-05-24,BILLING,Urgent,David W.,15,5
+81532,2024-06-17,2024-06-20, technical ,Medium,Sarah K.,78,1
+81533,2024-08-22,2024-08-26,Billing,High,Sarah K.,114,
+81534,2024-01-27,2024-01-30,Billing,Medium,Tom B.,74,1
+81535,2024-12-03,2024-12-04, technical ,Medium,Mike T.,31,4
+81536,2024-04-18,2024-04-20,BILLING,Medium,Mike T.,52,2
+81537,2024-10-24,2024-10-28, technical ,Low,Sarah K.,100,2
+81538,10/23/2024,2024-10-26,Technical,Medium,Mike T.,91,5
+81539,2024-08-15,2024-08-19,Account,High,Mike T.,97,
+81540,2024-12-24,2024-12-28,Account,Medium,Sarah K.,117,4
+81541,2024-11-25,2024-11-26,Technical,Medium,Jessica L.,34,3
+81542,2024-04-11,2024-04-11,BILLING,High,Tom B.,2,2
+81543,2024-02-03,2024-02-03,Technical,Urgent,David W.,9,4
+81544,2024-09-01,2024-09-01, technical ,Urgent,Sarah K.,23,5
+81545,2024-09-23,2024-09-24,General,High,Mike T.,27,4
+81546,2024-06-11,2024-06-11,BILLING,Urgent,Mike T.,9,2
+81547,2024-09-10,2024-09-11,Account,Urgent,Tom B.,31,5
+81548,2024-07-01,2024-07-02,Account,Urgent,David W.,34,4
+81549,2024-07-12,2024-07-16,Technical,Low,Tom B.,98,5
+81550,2024-11-23,2024-11-25,Billing,Medium,Mike T.,48,4
+81551,2024-03-13,2024-03-17,Billing,Medium,David W.,103,5
+81552,02/10/2024,2024-02-14,General,High,Tom B.,103,
+81553,2024-04-15,2024-04-15,Technical,Urgent,Mike T.,11,5
+81554,2024-02-06,2024-02-09,Billing,Medium,Sarah K.,92,5
+81555,2024-04-20,2024-04-24,General,Medium,Jessica L.,105,2
+81556,2024-04-20,2024-04-20,General,High,Sarah K.,10,2
+81557,2024-04-10,,Technical,Low,Mike T.,,
+81558,2024-04-07,2024-04-10,Billing,Low,Sarah K.,83,4
+81559,2024-01-10,2024-01-11,Account,High,Mike T.,32,5
+81560,2024-08-06,2024-08-06,Billing,Medium,David W.,9,4
+81561,2024-07-13,2024-07-14,Billing,Urgent,Mike T.,29,2
+81562,2024-06-24,2024-06-24,Account,High,David W.,20,
+81563,2024-12-18,2024-12-18, technical ,High,Mike T.,6,5
+81564,2024-06-05,2024-06-05,Billing,Medium,Tom B.,8,3
+81565,2024-10-18,2024-10-22, technical ,High,David W.,103,3
+81566,2024-09-03,2024-09-04,General,Low,Mike T.,36,2
+81567,2024-04-03,2024-04-03,Account,Low,David W.,9,1
+81568,2024-01-30,2024-02-03,Technical,High,Jessica L.,107,1
+81569,2024-04-04,2024-04-07,BILLING,Medium,Mike T.,91,5
+81570,2024-11-14,2024-11-14, technical ,Low,Sarah K.,20,3
+81571,2024-04-11,2024-04-14, technical ,Medium,Sarah K.,93,1
+81572,10/07/2024,2024-10-07,Billing,Low,Sarah K.,17,5
+81573,2024-04-24,2024-04-24,Billing,Urgent,David W.,13,1
+81574,2024-04-26,2024-04-26,BILLING,Urgent,Sarah K.,20,3
+81575,2024-05-07,2024-05-11,Technical,Medium,Tom B.,100,
+81576,2024-07-03,2024-07-06,BILLING,Medium,Sarah K.,72,5
+81577,2024-09-14,2024-09-18,General,Low,Sarah K.,100,
+81578,2024-10-25,2024-10-27, technical ,Low,Mike T.,71,4
+81579,2024-09-11,2024-09-14,Technical,Medium,Tom B.,88,3
+81580,2024-12-09,2024-12-09,General,High,Tom B.,16,1
+81581,2024-10-19,,Account,High,Mike T.,,
+81582,2024-10-09,2024-10-12,Account,Low,Sarah K.,84,1
+81583,2024-03-26,2024-03-26,Account,Urgent,David W.,10,3
+81584,2024-02-25,2024-02-26,Technical,Medium,Mike T.,-32,5
+81585,2024-08-24,2024-08-24,General,Urgent,Mike T.,16,2
+81586,2024-04-24,, technical ,Low,Tom B.,,
+81587,2024-04-08,2024-04-09,Technical,Urgent,Tom B.,34,4
+81588,2024-12-15,2024-12-19, technical ,High,Mike T.,112,
+81589,2024-08-04,2024-08-04,Billing,Urgent,Sarah K.,22,2
+81590,2024-02-18,,Account,Medium,Jessica L.,,
+81591,2024-01-24,2024-01-27,Technical,High,Sarah K.,85,3
+81592,2024-02-27,2024-03-02,Account,High,Jessica L.,96,2
+81593,2024-06-11,2024-06-11,Account,Medium,David W.,1,4
+81594,2024-05-24,2024-05-27, technical ,Low,Sarah K.,87,5
+81595,2024-07-12,2024-07-13, technical ,Medium,Mike T.,38,1
+81596,05/04/2024,2024-05-05,Billing,Medium,David W.,36,5
+81597,2024-08-25,2024-08-26,Billing,Low,Tom B.,34,3
+81598,2024-12-18,2024-12-18, technical ,Urgent,Jessica L.,5,5
+81599,2024-09-21,,Technical,High,Sarah K.,,
+81600,2024-06-18,2024-06-22, technical ,Medium,Sarah K.,98,1
+81601,2024-08-27,2024-08-30,Billing,Low,Tom B.,76,5
+81602,2024-01-10,,Account,Low,Mike T.,,
+81603,2024-05-01,2024-05-03,Account,High,Tom B.,51,4
+81604,2024-07-07,,Account,Medium,Tom B.,,
+81605,2024-05-24,2024-05-26,Billing,Low,Tom B.,50,4
+81606,2024-11-03,,Technical,High,Sarah K.,,
+81607,2024-02-18,2024-02-18,Technical,High,Jessica L.,21,3
+81608,2024-12-13,2024-12-14, technical ,Urgent,Sarah K.,25,5
+81609,2024-10-11,2024-10-11,Technical,High,Tom B.,11,3
+81610,2024-12-12,2024-12-13,General,Medium,Mike T.,37,2
+81611,2024-06-05,2024-06-08,BILLING,Medium,Tom B.,89,2
+81612,2024-09-26,2024-09-29,Technical,High,Sarah K.,83,4
+81613,2024-12-03,2024-12-05, technical ,Low,Sarah K.,70,2
+81614,2024-01-04,2024-01-05,Billing,High,Mike T.,32,5
+81615,2024-12-20,2024-12-21,BILLING,High,Tom B.,25,5
+81616,12/14/2024,2024-12-15, technical ,Low,Mike T.,45,4
+81617,2024-06-02,2024-06-03,General,Urgent,Sarah K.,24,3
+81618,2024-03-27,2024-03-31,BILLING,Medium,Jessica L.,117,1
+81619,2024-06-05,2024-06-09,Technical,Low,Tom B.,116,5
+81620,2024-06-28,2024-06-29, technical ,Medium,Tom B.,30,1
+81621,2024-07-28,2024-07-30,Account,Medium,Mike T.,56,3
+81622,2024-03-23,2024-03-23,General,Low,Tom B.,2,3
+81623,2024-05-08,2024-05-10,Billing,High,David W.,69,3
+81624,08/27/2024,,Account,Urgent,Mike T.,,
+81625,2024-11-12,2024-11-12,Account,Urgent,Tom B.,15,4
+81626,2024-06-15,2024-06-16, technical ,High,Tom B.,29,5
+81627,2024-10-09,2024-10-13, technical ,High,David W.,101,4
+81628,2024-10-03,2024-10-05,Billing,Low,Jessica L.,68,2
+81629,12/20/2024,2024-12-20, technical ,High,Mike T.,1,4
+81630,2024-12-11,2024-12-15,Account,Low,Mike T.,118,4
+81631,2024-03-17,2024-03-19,Account,Medium,Mike T.,70,
+81632,2024-10-23,2024-10-26,General,High,David W.,88,1
+81633,2024-02-01,2024-02-05,BILLING,Medium,Mike T.,107,5
+81634,2024-05-15,2024-05-17,BILLING,Medium,Sarah K.,62,2
+81635,2024-08-01,2024-08-04,General,High,Tom B.,88,5
+81636,10/13/2024,2024-10-16,Account,High,Tom B.,80,
+81637,2024-03-09,2024-03-09,BILLING,Medium,Tom B.,19,1
+81638,2024-02-11,,BILLING,High,Tom B.,,
+81639,2024-05-04,2024-05-05,General,High,David W.,25,5
+81640,2024-04-08,2024-04-08,Account,Urgent,Jessica L.,-10,
+81641,2024-04-19,2024-04-20, technical ,High,Sarah K.,34,2
+81642,2024-11-13,2024-11-13,BILLING,Urgent,Mike T.,21,5
+81643,2024-08-20,2024-08-21,General,Urgent,Tom B.,26,1
+81644,02/15/2024,2024-02-18,BILLING,Low,Jessica L.,88,1
+81645,2024-08-14,2024-08-16,Billing,Medium,Mike T.,66,4
+81646,2024-11-23,2024-11-27,BILLING,High,Mike T.,105,5
+81647,2024-02-11,2024-02-15,BILLING,Low,Tom B.,103,4
+81648,2024-12-13,2024-12-16,Account,Medium,Jessica L.,81,2
+81649,2024-02-20,2024-02-20,General,Medium,Jessica L.,18,2
+81650,2024-09-14,2024-09-14,General,Urgent,Sarah K.,8,5
+81651,2024-10-18,2024-10-21,Account,Low,Sarah K.,80,3
+81652,2024-07-02,,Technical,Low,Mike T.,,
+81653,2024-06-01,2024-06-01, technical ,Urgent,David W.,4,5
+81654,2024-08-13,2024-08-17,General,High,David W.,118,4
+81655,2024-05-21,,Billing,High,David W.,,
+81656,2024-03-24,2024-03-26,General,Medium,David W.,69,4
+81657,2024-09-13,2024-09-17, technical ,Low,Mike T.,107,5
+81658,2024-02-18,2024-02-18, technical ,Low,David W.,1,
+81659,2024-02-23,2024-02-27,Billing,Low,Sarah K.,101,1
+81660,2024-04-02,2024-04-03,Technical,Medium,David W.,33,
+81661,2024-01-22,2024-01-22,Billing,Urgent,Tom B.,10,2
+81662,2024-01-07,2024-01-09,General,Low,Mike T.,52,4
+81663,2024-03-17,2024-03-18, technical ,High,Sarah K.,28,2
+81664,2024-05-08,2024-05-09,Account,High,Mike T.,43,1
+81665,2024-08-11,2024-08-13,Technical,High,Jessica L.,60,1
+81666,01/17/2024,2024-01-18,Billing,High,Mike T.,26,3
+81667,2024-06-30,2024-07-02, technical ,High,Sarah K.,-50,1
+81668,2024-04-23,2024-04-24,Account,Urgent,Tom B.,33,1
+81669,2024-12-12,2024-12-13,Billing,High,Mike T.,39,5
+81670,2024-05-03,2024-05-06,Account,High,David W.,76,3
+81671,2024-03-07,2024-03-11,Account,Low,Jessica L.,118,1
+81672,2024-08-20,2024-08-24,Technical,Low,Jessica L.,107,1
+81673,2024-11-06,2024-11-08,General,High,Jessica L.,71,5
+81674,2024-05-02,2024-05-03, technical ,Urgent,David W.,25,1
+81675,2024-09-09,2024-09-11,Billing,Low,David W.,58,2
+81676,2024-10-15,2024-10-18,Billing,High,Mike T.,82,5
+81677,2024-04-18,2024-04-21,Account,High,Tom B.,-79,2
+81678,2024-10-06,2024-10-07,Billing,Low,Sarah K.,42,4
+81679,2024-02-29,2024-03-03,BILLING,Low,David W.,95,1
+81680,2024-01-19,2024-01-20,General,Urgent,Tom B.,32,
+81681,2024-05-08,2024-05-09,General,Urgent,Jessica L.,-35,5
+81682,2024-03-20,, technical ,Medium,Tom B.,,
+81683,2024-05-31,,Technical,Urgent,Sarah K.,,
+81684,2024-12-14,2024-12-15,Technical,Low,Mike T.,33,5
+81685,2024-10-28,2024-10-28,BILLING,Urgent,Mike T.,17,5
+81686,2024-07-27,,General,Medium,Tom B.,,
+81687,2024-08-12,2024-08-12, technical ,Urgent,Mike T.,11,5
+81688,2024-05-11,2024-05-12,Technical,High,Mike T.,47,3
+81689,2024-12-05,2024-12-05, technical ,Urgent,Tom B.,-14,2
+81690,2024-12-28,2024-12-31,Technical,Medium,Jessica L.,81,2
+81691,03/05/2024,2024-03-05,Billing,Urgent,Tom B.,13,5
+81692,2024-02-18,2024-02-20,Billing,Low,Sarah K.,61,5
+81693,2024-01-24,2024-01-24,Billing,Low,Jessica L.,22,5
+81694,08/07/2024,2024-08-11,BILLING,Low,Jessica L.,105,5
+81695,2024-12-01,2024-12-01,BILLING,Low,Tom B.,20,1
+81696,2024-01-15,2024-01-18,Technical,High,Jessica L.,93,
+81697,2024-12-22,,BILLING,Urgent,Sarah K.,,
+81698,2024-02-03,2024-02-07,Billing,Medium,Jessica L.,107,1
+81699,2024-10-25,2024-10-27,General,Low,Mike T.,64,3
+81700,2024-06-05,2024-06-06,Billing,Urgent,Mike T.,31,3
+81701,2024-02-23,2024-02-27, technical ,Medium,Tom B.,97,4
+81702,2024-09-08,2024-09-10,Billing,Medium,Sarah K.,57,4
+81703,2024-02-02,2024-02-06,Account,Medium,David W.,96,2
+81704,08/22/2024,2024-08-25, technical ,Medium,Mike T.,79,2
+81705,2024-05-03,2024-05-07,Technical,High,Sarah K.,112,4
+81706,2024-04-15,2024-04-19, technical ,Medium,Mike T.,101,2
+81707,2024-07-08,2024-07-11,Account,Medium,Mike T.,80,
+81708,2024-11-12,2024-11-12,Account,Medium,Jessica L.,3,4
+81709,2024-07-13,2024-07-17,General,High,Jessica L.,119,3
+81710,2024-11-09,2024-11-10,Account,Low,Tom B.,47,4
+81711,2024-03-01,2024-03-05,General,Low,Tom B.,118,3
+81712,2024-09-27,2024-10-01,Billing,Medium,Jessica L.,108,5
+81713,2024-06-21,, technical ,High,Jessica L.,,
+81714,2024-06-02,,Account,Medium,Mike T.,,
+81715,05/03/2024,2024-05-06,BILLING,Medium,Jessica L.,74,4
+81716,2024-09-16,,Billing,Low,Mike T.,,
+81717,2024-08-31,2024-09-01,Billing,Urgent,Tom B.,26,3
+81718,2024-10-13,2024-10-14,Technical,Urgent,David W.,32,1
+81719,2024-01-07,2024-01-08,Technical,High,Jessica L.,46,5
+81720,11/13/2024,2024-11-14,Account,Medium,Jessica L.,46,5
+81721,2024-11-26,2024-11-28,Account,High,Sarah K.,68,4
+81722,11/23/2024,2024-11-25, technical ,Low,Tom B.,49,3
+81723,2024-06-10,2024-06-13,General,High,Sarah K.,91,5
+81724,2024-08-09,2024-08-09,General,Medium,Sarah K.,19,4
+81725,2024-08-22,2024-08-26,General,Low,Jessica L.,100,2
+81726,2024-08-13,2024-08-16,BILLING,Low,Tom B.,86,5
+81727,2024-11-01,2024-11-04,Account,Medium,Mike T.,79,
+81728,2024-08-09,2024-08-10,BILLING,Urgent,Tom B.,30,
+81729,2024-07-06,2024-07-07,General,Urgent,David W.,29,3
+81730,2024-10-31,2024-11-03,Technical,Medium,Mike T.,91,2
+81731,2024-04-25,,Technical,High,Jessica L.,,
+81732,2024-12-05,,Billing,Low,Tom B.,,
+81733,2024-09-23,2024-09-25,Account,High,Tom B.,51,1
+81734,2024-12-29,2024-12-29, technical ,High,David W.,9,2
+81735,2024-01-19,,Billing,Urgent,Sarah K.,,
+81736,2024-06-21,2024-06-22,Account,Low,Tom B.,25,3
+81737,2024-07-10,2024-07-13,Account,High,Mike T.,95,3
+81738,2024-04-26,2024-04-28,Billing,Medium,Jessica L.,49,
+81739,2024-05-27,2024-05-30,BILLING,High,Jessica L.,79,
+81740,07/12/2024,2024-07-16,General,High,Sarah K.,110,2
+81741,2024-06-29,2024-06-29,BILLING,Low,David W.,8,1
+81742,2024-06-13,2024-06-17,General,High,Tom B.,119,5
+81743,2024-03-22,2024-03-23,Account,High,Sarah K.,37,3
+81744,2024-05-23,2024-05-27,Technical,Low,Tom B.,115,4
+81745,2024-06-02,2024-06-02,Billing,High,Tom B.,20,5
+81746,2024-06-20,,Account,Low,Jessica L.,,
+81747,2024-03-31,2024-04-04,Technical,Low,Tom B.,102,1
+81748,2024-06-29,2024-07-03,Billing,Medium,Jessica L.,117,2
+81749,2024-12-02,2024-12-03,BILLING,Urgent,Tom B.,26,2
+81750,2024-02-11,2024-02-11,Account,Urgent,Mike T.,22,3
+81751,2024-06-17,2024-06-17,BILLING,Urgent,Tom B.,9,4
+81752,2024-02-17,2024-02-19,BILLING,Medium,Sarah K.,57,2
+81753,2024-10-15,2024-10-15, technical ,Urgent,Sarah K.,5,1
+81754,2024-04-07,2024-04-09,General,Low,David W.,61,5
+81755,2024-01-01,2024-01-02,General,Medium,Tom B.,31,1
+81756,2024-06-20,2024-06-21,Billing,Medium,Tom B.,31,1
+81757,2024-12-17,2024-12-19,General,High,Tom B.,49,5
+81758,2024-08-30,2024-09-01,Account,High,Sarah K.,54,3
+81759,2024-09-26,2024-09-30,Billing,Medium,Jessica L.,114,1
+81760,2024-11-20,2024-11-21,Billing,Low,Jessica L.,40,1
+81761,2024-01-17,2024-01-18,Account,Medium,Sarah K.,38,3
+81762,2024-09-08,2024-09-12,Billing,Low,Sarah K.,98,2
+81763,10/30/2024,2024-11-03, technical ,Medium,Jessica L.,110,
+81764,2024-09-20,2024-09-21,Billing,Medium,Jessica L.,31,
+81765,2024-02-15,2024-02-16,BILLING,Urgent,Jessica L.,30,
+81766,2024-10-05,2024-10-05,Billing,High,Jessica L.,2,5
+81767,2024-03-12,,Account,High,Jessica L.,,
+81768,2024-10-22,2024-10-23, technical ,Low,Tom B.,28,4
+81769,2024-11-12,2024-11-14,BILLING,Medium,Mike T.,48,1
+81770,2024-07-10,2024-07-14, technical ,Medium,Tom B.,117,1
+81771,2024-04-26,2024-04-26,Account,Urgent,Jessica L.,19,4
+81772,2024-06-04,,Billing,Urgent,Tom B.,,
+81773,2024-11-30,2024-12-01,Billing,Low,David W.,43,3
+81774,2024-05-17,2024-05-17,BILLING,Medium,David W.,5,5
+81775,2024-12-25,2024-12-25, technical ,Low,David W.,16,1
+81776,2024-11-30,2024-11-30,General,Low,Tom B.,20,4
+81777,2024-11-01,2024-11-01,General,Urgent,Jessica L.,20,4
+81778,2024-03-22,2024-03-22,Technical,Urgent,Tom B.,13,5
+81779,2024-03-08,2024-03-12, technical ,High,Jessica L.,102,4
+81780,2024-05-20,,Billing,Urgent,David W.,,
+81781,2024-10-28,,BILLING,Low,Mike T.,,
+81782,2024-04-27,,Technical,High,Sarah K.,,
+81783,2024-11-05,,Account,High,Mike T.,,
+81784,2024-02-22,2024-02-25,BILLING,Low,Mike T.,74,1
+81785,2024-06-24,2024-06-28,Account,Medium,Mike T.,99,4
+81786,2024-04-29,2024-04-30,General,Urgent,David W.,32,3
+81787,2024-05-15,,BILLING,Low,Jessica L.,,
+81788,2024-11-08,2024-11-08,General,Medium,Mike T.,5,2
+81789,2024-06-03,2024-06-06,Billing,Low,Tom B.,91,4
+81790,2024-12-22,2024-12-26,Account,Low,Tom B.,107,5
+81791,2024-04-28,,BILLING,Urgent,David W.,,
+81792,2024-06-14,2024-06-17, technical ,Medium,Jessica L.,-88,
+81793,2024-06-12,2024-06-13,Account,Low,David W.,38,5
+81794,2024-04-29,2024-05-03,Account,High,Mike T.,112,5
+81795,2024-04-17,2024-04-17,Billing,Urgent,Mike T.,20,1
+81796,2024-09-26,2024-09-26, technical ,Urgent,Tom B.,11,2
+81797,2024-10-24,2024-10-28,Technical,Low,Jessica L.,107,1
+81798,2024-04-08,2024-04-11,Account,Medium,Jessica L.,84,4
+81799,2024-09-05,2024-09-05, technical ,Medium,Tom B.,21,3
+81800,2024-02-02,2024-02-04,BILLING,Low,Jessica L.,51,1
+81801,2024-10-26,2024-10-30, technical ,Medium,Jessica L.,111,2
+81802,2024-10-30,2024-10-31,Account,Urgent,Jessica L.,28,5
+81803,2024-02-28,2024-02-28,Billing,Low,Jessica L.,4,1
+81804,2024-03-03,2024-03-03,General,Medium,Sarah K.,-7,2
+81805,2024-05-24,,Account,High,Sarah K.,,
+81806,2024-01-12,2024-01-16,Billing,Medium,Jessica L.,115,2
+81807,2024-08-05,,General,Low,Jessica L.,,
+81808,2024-12-23,2024-12-24,General,Urgent,Tom B.,27,5
+81809,2024-01-29,2024-02-01,BILLING,Medium,Sarah K.,95,4
+81810,2024-01-03,2024-01-03,Account,Urgent,Mike T.,18,4
+81811,2024-11-20,2024-11-23, technical ,Medium,Jessica L.,81,1
+81812,2024-06-23,2024-06-23,Technical,Urgent,David W.,17,1
+81813,2024-06-28,,BILLING,Urgent,Tom B.,,
+81814,2024-10-17,2024-10-18,Account,Low,Tom B.,44,2
+81815,2024-05-20,2024-05-23,Account,High,Sarah K.,75,1
+81816,2024-07-31,2024-07-31, technical ,Urgent,David W.,6,3
+81817,2024-09-25,2024-09-27,Technical,High,David W.,53,3
+81818,2024-01-22,2024-01-24,Technical,Medium,Mike T.,53,3
+81819,2024-10-02,2024-10-04,Technical,Low,David W.,62,4
+81820,2024-11-01,2024-11-04,General,Medium,Mike T.,88,4
+81821,2024-11-03,,General,High,Sarah K.,,
+81822,2024-05-21,,Billing,Low,Sarah K.,,
+81823,2024-03-15,2024-03-19,Account,Low,Mike T.,111,1
+81824,2024-03-22,2024-03-22,BILLING,Urgent,Sarah K.,22,2
+81825,2024-11-08,2024-11-10,Billing,High,Tom B.,57,3
+81826,2024-08-19,2024-08-19,General,Urgent,Sarah K.,14,1
+81827,2024-01-07,, technical ,Urgent,Mike T.,,
+81828,2024-01-04,2024-01-05, technical ,Urgent,Tom B.,29,
+81829,2024-08-24,2024-08-28, technical ,Medium,Sarah K.,119,1
+81830,2024-03-13,2024-03-16, technical ,Low,Tom B.,91,4
+81831,2024-04-24,2024-04-24,Billing,High,David W.,15,4
+81832,2024-04-08,2024-04-08,Billing,High,Jessica L.,4,4
+81833,2024-08-17,2024-08-17, technical ,Low,Jessica L.,19,3
+81834,2024-08-28,2024-08-29, technical ,High,David W.,25,2
+81835,2024-08-27,2024-08-29,Account,High,David W.,50,1
+81836,2024-01-20,2024-01-23,BILLING,High,Tom B.,78,5
+81837,2024-07-09,, technical ,High,Mike T.,,
+81838,2024-07-24,2024-07-28,Account,Low,David W.,109,1
+81839,2024-03-31,2024-03-31,Account,Medium,David W.,5,1
+81840,2024-04-18,2024-04-20,BILLING,High,Sarah K.,62,3
+81841,2024-09-19,2024-09-19, technical ,Medium,Sarah K.,8,5
+81842,2024-02-25,2024-02-26,General,Medium,Mike T.,34,
+81843,2024-09-16,2024-09-20,BILLING,Low,Jessica L.,100,5
+81844,2024-05-31,,Billing,High,David W.,,
+81845,2024-11-20,,Account,Urgent,Sarah K.,,
+81846,2024-07-06,2024-07-09,Technical,Medium,Sarah K.,88,3
+81847,2024-10-30,2024-10-31,Technical,High,Jessica L.,40,1
+81848,2024-01-09,2024-01-09,Account,Urgent,Tom B.,16,3
+81849,2024-09-30,2024-10-04,Technical,Low,David W.,105,4
+81850,2024-10-25,2024-10-25, technical ,Urgent,Tom B.,17,2
+81851,2024-07-29,2024-07-31,Technical,High,Tom B.,71,3
+81852,2024-05-27,,BILLING,Urgent,David W.,,
+81853,2024-03-17,2024-03-19,BILLING,High,Sarah K.,50,5
+81854,2024-06-04,2024-06-04,Account,Urgent,Sarah K.,16,1
+81855,2024-06-23,,BILLING,Medium,Mike T.,,
+81856,2024-11-07,2024-11-07,Billing,Urgent,David W.,22,3
+81857,2024-03-21,2024-03-24,Account,High,Tom B.,82,5
+81858,2024-01-04,2024-01-06,Billing,Low,Jessica L.,60,3
+81859,2024-06-05,2024-06-08,BILLING,Medium,Jessica L.,76,2
+81860,2024-10-13,2024-10-15,Billing,Low,David W.,66,3
+81861,2024-06-29,2024-06-29, technical ,Urgent,Tom B.,21,5
+81862,2024-07-05,2024-07-08,Account,High,Jessica L.,92,5
+81863,2024-07-16,2024-07-19,Billing,Medium,David W.,82,5
+81864,2024-01-07,2024-01-11, technical ,Medium,Tom B.,111,1
+81865,2024-07-19,2024-07-19,Billing,Urgent,Jessica L.,22,3
+81866,2024-11-28,2024-11-29, technical ,Medium,Sarah K.,39,3
+81867,2024-06-09,2024-06-10,Account,Urgent,Sarah K.,36,1
+81868,2024-01-09,2024-01-10,Account,High,Jessica L.,42,2
+81869,2024-11-07,2024-11-09,Account,High,Mike T.,57,2
+81870,2024-07-07,2024-07-09,General,Medium,Jessica L.,48,1
+81871,2024-03-19,2024-03-20, technical ,High,Jessica L.,36,1
+81872,2024-03-19,2024-03-23,BILLING,High,Mike T.,98,4
+81873,03/10/2024,, technical ,Medium,Mike T.,,
+81874,2024-02-08,2024-02-10,Technical,High,Sarah K.,53,4
+81875,2024-11-23,2024-11-26,BILLING,Medium,Jessica L.,72,2
+81876,2024-02-10,2024-02-11,BILLING,High,Tom B.,43,3
+81877,2024-06-01,2024-06-02,Billing,Medium,Sarah K.,26,1
+81878,2024-04-04,2024-04-05,Technical,Urgent,Jessica L.,30,2
+81879,2024-02-03,,BILLING,Medium,Tom B.,,
+81880,2024-07-10,2024-07-12, technical ,Low,Sarah K.,58,3
+81881,2024-09-03,2024-09-03,General,Low,David W.,16,1
+81882,2024-01-21,2024-01-21,Billing,High,Sarah K.,16,5
+81883,2024-08-14,2024-08-16, technical ,Medium,Tom B.,56,3
+81884,2024-02-06,,Billing,Urgent,Sarah K.,,
+81885,2024-04-26,2024-04-29,BILLING,Medium,Mike T.,75,5
+81886,2024-01-22,2024-01-22,Billing,High,Mike T.,9,2
+81887,2024-03-15,,Billing,High,Sarah K.,,
+81888,2024-07-15,2024-07-15,BILLING,Low,David W.,16,3
+81889,2024-12-28,2024-12-30, technical ,Medium,David W.,51,3
+81890,2024-08-19,2024-08-20,Account,Urgent,Jessica L.,29,4
+81891,2024-03-22,2024-03-22,Account,Urgent,Sarah K.,-8,2
+81892,2024-10-22,2024-10-22,BILLING,High,Mike T.,2,2
+81893,2024-02-11,2024-02-12, technical ,Urgent,Mike T.,27,1
+81894,2024-09-05,2024-09-06,Technical,Urgent,Mike T.,30,1
+81895,2024-09-25,,BILLING,Medium,Mike T.,,
+81896,2024-11-02,2024-11-02, technical ,Medium,Mike T.,1,
+81897,2024-08-25,2024-08-26,Technical,Urgent,Jessica L.,25,2
+81898,2024-12-08,2024-12-12,General,Low,Mike T.,114,5
+81899,2024-05-10,,BILLING,Urgent,David W.,,
+81900,2024-05-26,2024-05-26,Account,Urgent,Jessica L.,13,1
+81901,2024-05-14,2024-05-18,Billing,Low,Sarah K.,116,5
+81902,2024-06-20,2024-06-24,Technical,High,David W.,111,1
+81903,2024-06-06,,Billing,Urgent,Mike T.,,
+81904,2024-04-04,2024-04-08,BILLING,Low,Sarah K.,99,1
+81905,2024-01-11,2024-01-14,General,High,Tom B.,94,3
+81906,2024-11-23,, technical ,High,Mike T.,,
+81907,2024-07-09,2024-07-09,Billing,Medium,Tom B.,20,5
+81908,2024-10-16,2024-10-18,Billing,Medium,David W.,67,4
+81909,2024-12-01,2024-12-05, technical ,Medium,David W.,107,1
+81910,2024-03-25,2024-03-25,Billing,Urgent,David W.,7,
+81911,2024-06-07,2024-06-08,Technical,Urgent,Tom B.,36,5
+81912,2024-02-06,2024-02-06,General,Medium,Sarah K.,2,4
+81913,2024-05-30,2024-06-03,Billing,Medium,David W.,113,2
+81914,2024-09-19,2024-09-20,General,High,Mike T.,29,4
+81915,2024-08-28,2024-08-29,General,Low,Mike T.,39,4
+81916,2024-12-03,2024-12-04,Billing,Low,Jessica L.,44,5
+81917,2024-08-11,2024-08-12,Billing,Low,Sarah K.,45,
+81918,2024-09-09,2024-09-11,Billing,Medium,Mike T.,62,5
+81919,2024-08-12,2024-08-14,Account,Medium,Mike T.,63,3
+81920,2024-08-21,2024-08-24,Account,High,Tom B.,85,
+81921,2024-01-14,2024-01-15, technical ,Low,Jessica L.,47,4
+81922,2024-11-13,2024-11-13,BILLING,Low,Mike T.,1,4
+81923,2024-10-01,2024-10-02,BILLING,Low,Sarah K.,31,3
+81924,09/01/2024,,BILLING,Low,Mike T.,,
+81925,2024-05-31,2024-06-04,BILLING,Medium,Tom B.,110,
+81926,2024-04-05,2024-04-08, technical ,Low,Sarah K.,84,1
+81927,2024-07-04,,General,Low,David W.,,
+81928,2024-07-16,2024-07-16, technical ,Urgent,Tom B.,5,1
+81929,2024-02-05,2024-02-05, technical ,Medium,Sarah K.,18,5
+81930,2024-06-15,2024-06-19,Account,Medium,Tom B.,109,3
+81931,2024-10-10,2024-10-10, technical ,Urgent,Sarah K.,7,4
+81932,2024-09-24,2024-09-24,BILLING,Urgent,Mike T.,13,1
+81933,2024-10-20,2024-10-20,Account,Medium,David W.,1,2
+81934,2024-06-06,2024-06-07,General,Low,Tom B.,30,5
+81935,11/01/2024,2024-11-01,General,Urgent,Sarah K.,12,
+81936,2024-05-18,2024-05-18,Billing,Urgent,Mike T.,18,3
+81937,09/11/2024,2024-09-11, technical ,Medium,Jessica L.,5,5
+81938,2024-04-28,2024-05-01,Billing,Medium,Tom B.,94,3
+81939,2024-06-13,2024-06-17,Technical,High,David W.,111,4
+81940,2024-11-05,2024-11-06,Account,Urgent,Mike T.,29,1
+81941,2024-09-23,2024-09-24,Account,Urgent,Sarah K.,26,4
+81942,2024-09-20,2024-09-23,Billing,Low,Jessica L.,73,2
+81943,2024-06-01,2024-06-04,BILLING,Medium,Mike T.,86,
+81944,2024-06-23,2024-06-26,Technical,Medium,David W.,92,2
+81945,2024-07-04,2024-07-08, technical ,Medium,Jessica L.,112,2
+81946,2024-12-25,2024-12-29,Billing,Medium,David W.,104,5
+81947,2024-06-14,2024-06-14, technical ,Urgent,Tom B.,1,4
+81948,2024-12-22,2024-12-24,BILLING,Low,Mike T.,64,3
+81949,03/15/2024,2024-03-16,BILLING,Medium,Sarah K.,44,5
+81950,2024-02-01,2024-02-01, technical ,Urgent,David W.,8,5
+81951,2024-05-06,2024-05-08,Account,Medium,Jessica L.,64,
+81952,2024-10-31,2024-11-02,Technical,Low,Mike T.,51,2
+81953,2024-06-07,2024-06-08,BILLING,Low,Tom B.,39,5
+81954,05/06/2024,2024-05-06,Billing,Urgent,Sarah K.,16,3
+81955,2024-02-14,2024-02-15,BILLING,Urgent,Jessica L.,36,3
+81956,2024-09-27,,Technical,Urgent,Mike T.,,
+81957,2024-05-06,,Account,Urgent,Mike T.,,
+81958,2024-09-06,,BILLING,Medium,Mike T.,,
+81959,2024-12-08,2024-12-11,Billing,Medium,Tom B.,80,2
+81960,2024-02-19,2024-02-22,General,Medium,David W.,91,3
+81961,03/12/2024,2024-03-16,Technical,High,Tom B.,117,1
+81962,2024-12-28,2024-12-28, technical ,Low,Tom B.,16,2
+81963,2024-09-18,2024-09-22,General,Medium,Jessica L.,110,3
+81964,2024-09-24,2024-09-28,BILLING,Medium,Jessica L.,108,2
+81965,2024-08-08,2024-08-09,Account,Urgent,Tom B.,29,3
+81966,2024-08-06,2024-08-07,Technical,Low,Tom B.,27,
+81967,2024-02-26,2024-02-26,BILLING,Urgent,Mike T.,9,3
+81968,2024-09-05,2024-09-08, technical ,Medium,David W.,78,4
+81969,2024-05-23,2024-05-24,BILLING,Urgent,David W.,31,4
+81970,2024-06-26,2024-06-26,Account,High,Tom B.,4,3
+81971,05/10/2024,2024-05-14,Billing,High,Jessica L.,99,5
+81972,2024-08-18,2024-08-22,Account,Low,David W.,105,1
+81973,2024-09-11,2024-09-11,Billing,Urgent,David W.,4,1
+81974,2024-07-04,2024-07-05,Billing,High,David W.,46,
+81975,2024-09-04,2024-09-08,BILLING,Medium,Tom B.,96,2
+81976,05/15/2024,,BILLING,Low,Sarah K.,,
+81977,2024-03-17,2024-03-18,General,Medium,Sarah K.,40,4
+81978,2024-09-22,,Billing,Urgent,David W.,,
+81979,09/24/2024,,BILLING,Urgent,Sarah K.,,
+81980,2024-02-26,,General,Low,David W.,,
+81981,2024-08-18,2024-08-18,Account,Urgent,Tom B.,17,3
+81982,2024-08-16,2024-08-20,Technical,Medium,Jessica L.,119,5
+81983,06/30/2024,2024-07-03, technical ,Low,Sarah K.,79,2
+81984,2024-05-05,2024-05-07,Technical,High,Sarah K.,71,5
+81985,2024-09-20,2024-09-23, technical ,Medium,Sarah K.,90,3
+81986,2024-05-20,2024-05-23,Account,Low,Mike T.,73,2
+81987,2024-09-26,2024-09-28,Account,High,Sarah K.,53,3
+81988,2024-04-11,2024-04-12,Account,Medium,Mike T.,40,
+81989,2024-03-30,2024-03-31, technical ,Medium,Mike T.,29,1
+81990,2024-05-01,2024-05-05,Billing,Low,Tom B.,97,1
+81991,2024-09-12,2024-09-12,Billing,Medium,Jessica L.,3,1
+81992,2024-04-16,2024-04-18,Technical,Medium,Sarah K.,52,1
+81993,2024-10-02,2024-10-03,Billing,Urgent,Jessica L.,30,2
+81994,2024-07-09,2024-07-10,Billing,Medium,Jessica L.,36,3
+81995,2024-08-01,2024-08-02,Technical,Medium,Sarah K.,46,3
+81996,2024-09-17,2024-09-20,BILLING,Medium,Tom B.,93,1
+81997,2024-09-10,,Account,Medium,David W.,,
+81998,2024-12-01,, technical ,Low,Jessica L.,,
+81999,2024-04-28,2024-04-28,General,Urgent,Jessica L.,15,4
+82000,2024-10-16,2024-10-20,Technical,High,Mike T.,105,1
+

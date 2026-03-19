@@ -1,0 +1,42 @@
+{
+    "name": "Coupler Support Theme",
+    "dataColors": [
+        "#f59e0b",
+        "#ef4444",
+        "#10b981",
+        "#3b82f6",
+        "#8b5cf6",
+        "#6b7280",
+        "#14b8a6"
+    ],
+    "background": "#f4f4f5",
+    "foreground": "#27272a",
+    "tableAccent": "#f59e0b",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "fontFamily": "Segoe UI, sans-serif",
+                        "fontSize": 11,
+                        "color": { "solid": { "color": "#3f3f46" } }
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#ffffff" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#e4e4e7" } },
+                        "radius": 8
+                    }
+                ]
+            }
+        }
+    }
+}

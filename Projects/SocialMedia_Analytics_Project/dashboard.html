@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-in-one social media analytics dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-page: #eef2f6; 
+            --fb: #3b82f6;
+            --ig: #ec4899;
+            --li: #0284c7;
+            --yt: #ef4444;
+            --text-dark: #1f2937;
+        }
+
+        * { font-family: 'Segoe UI', sans-serif; box-sizing: border-box; }
+        body { margin: 0; background: var(--bg-page); color: var(--text-dark); overflow-x: hidden; }
+        
+        .top-bar {
+            background-color: #f8fafc; display: flex; justify-content: space-between; align-items: center; 
+            padding: 0 1rem; border-bottom: 5px solid #312e81; border-top: 5px solid #312e81;
+        }
+        .header-left {
+            display: flex; align-items: center; gap: 10px; padding: 0.75rem 0;
+            background: #e0f2fe; border-top-right-radius: 20px; border-bottom-right-radius: 20px; padding-right: 2rem;
+        }
+        .header-title { font-size: 1.25rem; font-weight: 700; color: #1e293b; margin: 0; }
+        .header-sub { font-size: 0.65rem; color: #3b82f6; font-weight: 600; text-transform:uppercase; letter-spacing: 1px;}
+        
+        .top-btn {
+            background: linear-gradient(to bottom, #eff6ff, #dbeafe); border: 1px solid #bfdbfe;
+            color: #1e3a8a; padding: 0.4rem 1.5rem; border-radius: 4px; font-weight: 600; font-size:0.8rem; cursor: pointer; transition: 0.2s;
+        }
+        .top-btn:hover { background: #bae6fd; }
+        .top-btn.active { background: #3b82f6; color: white; border: none; }
+
+        .profile-badge { display:flex; align-items:center; gap:8px; font-weight: 700; color: #334155; font-size:0.9rem;}
+        .avatar { width:32px; height:32px; background: #6366f1; color:white; border-radius:50%; display:flex; justify-content:center; align-items:center; font-size:0.8rem;}
+
+        .filter-bar { display:flex; gap:10px; padding: 1rem 1rem 0 1rem; }
+        select { padding: 0.4rem 1rem; border: 1px solid #cbd5e1; border-radius: 4px; cursor: pointer; font-weight: 600; color: #475569;}
+
+        .dashboard { display: grid; grid-template-columns: 350px 1fr; gap: 1rem; padding: 1rem; }
+
+        .left-col { display: flex; flex-direction: column; gap: 1rem; }
+        .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+        
+        .kpi-box { padding: 1rem; border-radius: 8px; color: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition:transform 0.2s;}
+        .kpi-box:hover { transform: translateY(-2px); }
+        .kpi-title { font-size: 0.8rem; opacity: 0.9; margin-bottom: 0.5rem; font-weight: 600; }
+        .kpi-val { font-size: 1.75rem; font-weight: 700; transition: 0.3s; }
+
+        .bg-b1 { background: linear-gradient(135deg, #6366f1, #4f46e5); }
+        .bg-b2 { background: linear-gradient(135deg, #2563eb, #1e40af); }
+        .bg-t1 { background: linear-gradient(135deg, #38bdf8, #0ea5e9); }
+        .bg-t2 { background: linear-gradient(135deg, #34d399, #10b981); }
+        .bg-r1 { background: linear-gradient(135deg, #fb7185, #e11d48); }
+        .bg-p1 { background: linear-gradient(135deg, #a78bfa, #7c3aed); }
+
+        .web-chart-card { background: white; border-radius: 8px; padding: 1rem; flex-grow: 1; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        .card-header { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.5rem; }
+
+        .right-col { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 1rem; }
+        .platform-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02); display: flex; flex-direction: column; position: relative;}
+        .plat-bg { position: absolute; z-index: 0; opacity: 0.1; width: 150px; height: 150px; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;}
+        
+        .p-header { display: flex; justify-content: space-between; padding: 0.4rem 0.5rem; color: white; font-size: 0.7rem; font-weight: 600; z-index: 1;}
+        .p-fb { background: var(--fb); } .p-ig { background: linear-gradient(to right, #f43f5e, #ec4899, #d946ef); }
+        .p-li { background: var(--li); } .p-yt { background: var(--yt); }
+        
+        .p-stats-row { display: flex; justify-content: space-between; padding: 0.25rem 0.5rem; background: #f8fafc; font-size: 0.75rem; font-weight: 700; color: #475569; z-index: 1; border-bottom: 1px solid #e2e8f0; }
+        .chart-wrap { flex-grow: 1; position: relative; padding: 0.5rem; z-index: 1; min-height: 180px;}
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="header-left">
+            <div style="background: #0ea5e9; color: white; width: 30px; height: 30px; border-radius: 4px; display:flex; justify-content:center; align-items:center; font-weight:bold; font-size: 1.2rem;">c</div>
+            <div>
+                <h1 class="header-title">All-in-one social media analytics dashboard</h1>
+                <div class="header-sub">COUPLER.IO</div>
+            </div>
+        </div>
+        <div style="display:flex; gap: 10px; align-items:center;">
+            <button class="top-btn active" onclick="switchTab(this)">Overview</button>
+            <button class="top-btn" onclick="switchTab(this)">Audience</button>
+            <button class="top-btn" onclick="switchTab(this)">Engagement</button>
+            <div style="width: 1px; height: 20px; background: #cbd5e1; margin: 0 10px;"></div>
+            <div class="profile-badge">
+                <div class="avatar">MB</div>
+                Marvin Boliche
+            </div>
+        </div>
+    </div>
+
+    <div class="filter-bar">
+        <select onchange="simulateFilterLoading()">
+            <option>Last 30 Days</option>
+            <option>Last 7 Days</option>
+            <option>Year to Date</option>
+            <option>Custom Range...</option>
+        </select>
+        <select onchange="simulateFilterLoading()">
+            <option>All Regions</option>
+            <option>North America</option>
+            <option>EMEA</option>
+            <option>APAC</option>
+        </select>
+        <button class="top-btn" style="background: #f1f5f9; color: #475569; border-color: #cbd5e1;" onclick="simulateFilterLoading()">Clear Filters</button>
+    </div>
+
+    <div class="dashboard">
+        <div class="left-col">
+            <div class="kpi-grid">
+                <div class="kpi-box bg-b1"><div class="kpi-title">Total users</div><div class="kpi-val k-dyn">1.37K</div></div>
+                <div class="kpi-box bg-b2"><div class="kpi-title">Ecommerce purchases</div><div class="kpi-val k-dyn">46</div></div>
+                <div class="kpi-box bg-t1"><div class="kpi-title">Total revenue</div><div class="kpi-val k-dyn">2.39K</div></div>
+                <div class="kpi-box bg-t2"><div class="kpi-title">Sessions</div><div class="kpi-val k-dyn">1.51K</div></div>
+                <div class="kpi-box bg-r1"><div class="kpi-title">Avg session duration</div><div class="kpi-val k-dyn">128s</div></div>
+                <div class="kpi-box bg-p1"><div class="kpi-title">Session engagement rate</div><div class="kpi-val k-dyn">42.80%</div></div>
+            </div>
+
+            <div class="web-chart-card">
+                <div class="card-header">Total users & Revenue</div>
+                <div style="position: relative; height: 230px;"><canvas id="webChart"></canvas></div>
+            </div>
+        </div>
+
+        <div class="right-col">
+            <!-- FB -->
+            <div class="platform-card">
+                <svg class="plat-bg" viewBox="0 0 24 24" fill="currentColor"><path d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.597 1.323-1.324V1.325C24 .597 23.403 0 22.675 0z"/></svg>
+                <div class="p-header p-fb">
+                    <div style="display:flex; gap:10px; flex-grow:1;"><span>Impr</span><span>Reach</span><span>Page views</span><span>Followers</span><span>Engts</span></div>
+                </div>
+                <div class="p-stats-row"><span class="v-dyn">3.0K</span><span class="v-dyn">1.0K</span><span class="v-dyn">511</span><span class="v-dyn">1946</span><span class="v-dyn">2.0K</span></div>
+                <div class="chart-wrap"><canvas id="fbChart"></canvas></div>
+            </div>
+
+            <!-- IG -->
+            <div class="platform-card">
+                <svg class="plat-bg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                <div class="p-header p-ig">
+                    <div style="display:flex; gap:10px; flex-grow:1;"><span>Reach</span><span>Page views</span><span>Followers</span><span>Engts</span><span>Posts</span></div>
+                </div>
+                <div class="p-stats-row"><span class="v-dyn">4.1K</span><span class="v-dyn">356</span><span class="v-dyn">1892</span><span class="v-dyn">354</span><span class="v-dyn">11</span></div>
+                <div class="chart-wrap"><canvas id="igChart"></canvas></div>
+            </div>
+
+            <!-- LI -->
+            <div class="platform-card">
+                <svg class="plat-bg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                <div class="p-header p-li">
+                    <div style="display:flex; gap:10px; flex-grow:1;"><span>Impr</span><span>Reach</span><span>Page views</span><span>Followers</span><span>Engts</span></div>
+                </div>
+                <div class="p-stats-row"><span class="v-dyn">2.2K</span><span class="v-dyn">627</span><span class="v-dyn">1.1K</span><span class="v-dyn">1094</span><span class="v-dyn">140</span></div>
+                <div class="chart-wrap"><canvas id="liChart"></canvas></div>
+            </div>
+
+            <!-- YT -->
+            <div class="platform-card">
+                <svg class="plat-bg" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                <div class="p-header p-yt">
+                    <div style="display:flex; gap:10px; flex-grow:1;"><span>Views</span><span>Mins watched</span><span>Avg dur</span><span>Engts</span></div>
+                </div>
+                <div class="p-stats-row"><span class="v-dyn">117.4K</span><span class="v-dyn">420.2K</span><span class="v-dyn">214s</span><span class="v-dyn">1.9K</span></div>
+                <div class="chart-wrap"><canvas id="ytChart"></canvas></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        Chart.defaults.font.family = "'Segoe UI', sans-serif";
+        Chart.defaults.color = '#9ca3af';
+
+        const rArr = (min, max, len) => Array.from({length: len}, () => Math.floor(Math.random()*(max-min)+min));
+        const labels = Array.from({length: 21}, (_, i) => `Day ${i+1}`);
+
+        const charts = {};
+
+        const makeLineChart = (id, datasets) => {
+            charts[id] = new Chart(document.getElementById(id), {
+                type: 'line',
+                data: { labels: labels, datasets: datasets },
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    scales: {
+                        x: { display: false },
+                        y: { display: true, position: 'right', grid: { color: '#f1f5f9' }, beginAtZero: true }
+                    },
+                    plugins: { legend: { display: true, position: 'top', labels: {boxWidth:8, usePointStyle:true, font:{size:10}} } },
+                    elements: { point: { radius: 0, hitRadius: 10 } }
+                }
+            });
+        };
+
+        makeLineChart('webChart', [
+            { label: 'Total users', data: rArr(20, 100, 21), borderColor: '#4b5563', borderWidth: 1.5, tension: 0 },
+            { label: 'Total revenue', data: rArr(10, 90, 21), borderColor: '#10b981', borderWidth: 1.5, tension: 0 }
+        ]);
+        makeLineChart('fbChart', [
+            { label: 'Impressions', data: rArr(40, 350, 21), borderColor: '#3b82f6', borderWidth: 1.5, tension: 0.2 },
+            { label: 'Reach', data: rArr(30, 300, 21), borderColor: '#60a5fa', borderWidth: 1.5, tension: 0.2 }
+        ]);
+        makeLineChart('igChart', [
+            { label: 'Reach', data: rArr(150, 1200, 21), borderColor: '#8b5cf6', borderWidth: 1.5, tension: 0.2 }
+        ]);
+        makeLineChart('liChart', [
+            { label: 'Impressions', data: rArr(10, 250, 21), borderColor: '#0284c7', borderWidth: 1.5, tension: 0 },
+            { label: 'Reach', data: rArr(5, 180, 21), borderColor: '#38bdf8', borderWidth: 1.5, tension: 0 }
+        ]);
+        makeLineChart('ytChart', [
+            { label: 'Views', data: rArr(20, 75, 21), borderColor: '#8b5cf6', borderWidth: 1.5, tension: 0 },
+            { label: 'Engagements', data: rArr(10, 60, 21), borderColor: '#ef4444', borderWidth: 1.5, tension: 0 }
+        ]);
+
+        function switchTab(btn) {
+            document.querySelectorAll('.top-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            simulateFilterLoading();
+        }
+
+        function simulateFilterLoading() {
+            // Randomize KPI values
+            document.querySelectorAll('.k-dyn').forEach(el => {
+                if(el.innerText.includes('K')) el.innerText = (Math.random() * 5 + 1).toFixed(2) + 'K';
+                else if(el.innerText.includes('%')) el.innerText = (Math.random() * 40 + 20).toFixed(2) + '%';
+                else if(el.innerText.includes('s')) el.innerText = Math.floor(Math.random() * 200 + 40) + 's';
+                else el.innerText = Math.floor(Math.random() * 100 + 10);
+            });
+            // Update Charts
+            Object.values(charts).forEach(c => {
+                c.data.datasets.forEach(d => {
+                    d.data = d.data.map(() => Math.floor(Math.random() * (Math.max(...d.data) * 1.5)));
+                });
+                c.update();
+            });
+        }
+    </script>
+</body>
+</html>

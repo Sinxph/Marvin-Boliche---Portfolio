@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain Analytics Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-body: #f8fafc; 
+            --bg-header: #0f172a; /* Slate 900 for Industrial/Logistics */
+            --bg-card: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --primary: #2563eb; /* Blue */
+            --warning: #f59e0b; /* Amber */
+            --danger: #ef4444; /* Red */
+            --success: #10b981; /* Green */
+            --border: #e2e8f0;
+        }
+
+        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg-body); color: var(--text-main); }
+        
+        .header {
+            background-color: var(--bg-header); padding: 1.25rem 2.5rem;
+            display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid var(--primary);
+        }
+        .header h1 { margin: 0; font-size: 1.25rem; font-weight: 600; color: #f8fafc; }
+        .header .sub { font-size: 0.8rem; color: #94a3b8; margin-top:4px; font-weight:400;}
+
+        .filters { display: flex; gap: 15px; align-items:center;}
+        select {
+            padding: 0.5rem 1rem; border-radius: 4px; border: 1px solid #334155;
+            background: #1e293b; color: white; font-family: 'Inter'; outline: none; appearance: none;
+        }
+
+        .container { padding: 1.5rem 2.5rem; }
+
+        /* KPIs */
+        .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 1.5rem; }
+        .kpi-card {
+            background: var(--bg-card); padding: 1.25rem; border-radius: 6px; border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05); border-left: 4px solid var(--primary);
+        }
+        .kpi-card:nth-child(2) { border-left-color: var(--success); }
+        .kpi-card:nth-child(3) { border-left-color: var(--danger); }
+        .kpi-card:nth-child(4) { border-left-color: var(--warning); }
+
+        .kpi-title { font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 600; margin-bottom:0.5rem;}
+        .kpi-val { font-size: 1.8rem; font-weight: 700; color: var(--text-main); }
+        .kpi-trend { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;}
+
+        /* Charts */
+        .grid-main { display: grid; grid-template-columns: 2fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+        .grid-subs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+
+        .card { background: var(--bg-card); padding: 1.25rem; border-radius: 6px; border: 1px solid var(--border); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .card-title { font-size: 0.85rem; font-weight: 600; color: var(--text-main); margin-bottom: 1rem; }
+
+        canvas { width: 100% !important; height: 260px !important; }
+        .small-canvas { height: 220px !important; }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div>
+            <h1>Supply Chain & Logistics Dashboard</h1>
+            <div class="sub">Supplier Fulfillment and Inventory Tracking</div>
+        </div>
+        <div class="filters">
+            <select id="supplierFilter" onchange="renderDash()">
+                <option value="All">All Suppliers</option>
+                <option value="Alpha Corp">Alpha Corp</option>
+                <option value="Beta Mfg">Beta Mfg</option>
+                <option value="Gamma Logistics">Gamma Logistics</option>
+                <option value="Delta Supplies">Delta Supplies</option>
+            </select>
+            <select id="locFilter" onchange="renderDash()">
+                <option value="All">All Locations</option>
+                <option value="New York DC">New York DC</option>
+                <option value="Los Angeles DC">Los Angeles DC</option>
+                <option value="Chicago DC">Chicago DC</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- KPIs -->
+        <div class="kpi-row">
+            <div class="kpi-card">
+                <div class="kpi-title">Total Inventory Value</div>
+                <div class="kpi-val" id="kpi-val">$0</div>
+                <div class="kpi-trend">Estimated on-hand</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">On-Time Delivery %</div>
+                <div class="kpi-val" id="kpi-otd">0%</div>
+                <div class="kpi-trend">Target: > 92%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Shortship Rate</div>
+                <div class="kpi-val" id="kpi-short">0%</div>
+                <div class="kpi-trend" style="color:var(--danger)">High Priority</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Avg Lead Time (Days)</div>
+                <div class="kpi-val" id="kpi-lead">0</div>
+                <div class="kpi-trend">Target: < 15 days</div>
+            </div>
+        </div>
+
+        <div class="grid-main">
+            <div class="card">
+                <div class="card-title">Average Lead Time vs Order Volume (Monthly Trend)</div>
+                <canvas id="trendChart"></canvas>
+            </div>
+            <div class="card">
+                <div class="card-title">Inventory Value by Location</div>
+                <canvas id="locChart"></canvas>
+            </div>
+        </div>
+
+        <div class="grid-subs">
+            <div class="card">
+                <div class="card-title">Supplier Volume Share</div>
+                <canvas id="supChart" class="small-canvas"></canvas>
+            </div>
+            <div class="card">
+                <div class="card-title">On-Time Delivery by Supplier</div>
+                <canvas id="otdChart" class="small-canvas"></canvas>
+            </div>
+            <div class="card">
+                <div class="card-title">Status Breakdown</div>
+                <canvas id="statusChart" class="small-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        Chart.defaults.font.family = "'Inter', sans-serif";
+        Chart.defaults.color = '#64748b';
+
+        // Fake Data
+        const generateSupData = () => {
+            const data = [];
+            const suppliers = ["Alpha Corp", "Beta Mfg", "Gamma Logistics", "Delta Supplies"];
+            const locs = ["New York DC", "Los Angeles DC", "Chicago DC", "Dallas DC"];
+            const statuses = ["Delivered", "Delivered", "Delivered", "In Transit", "Delayed"];
+
+            for(let m=0; m<12; m++) {
+                for(let i=0; i<150; i++) {
+                    const status = statuses[Math.floor(Math.random()*statuses.length)];
+                    const sup = suppliers[Math.floor(Math.random()*suppliers.length)];
+                    const qtyO = Math.floor(Math.random()*2000) + 100;
+                    
+                    let qtyR = status === "Delivered" ? qtyO : 0;
+                    let short = false;
+                    let lead = null;
+                    let val = 0;
+
+                    if(status === "Delivered") {
+                        // 12% shortship rate
+                        if(Math.random()<0.12) { qtyR = Math.floor(qtyO * 0.9); short = true; }
+                        
+                        let baseLd = sup==="Alpha Corp" ? 12 : (sup==="Beta Mfg" ? 18 : 10);
+                        lead = Math.floor(Math.random()*8) + baseLd; // 10 to 26
+                        val = qtyR * (Math.floor(Math.random()*50)+10);
+                    }
+
+                    data.push({ month: m, supplier: sup, loc: locs[Math.floor(Math.random()*locs.length)], status: status, qtyO: qtyO, qtyR: qtyR, short: short, lead: lead, val: val });
+                }
+            }
+            return data;
+        };
+
+        const supData = generateSupData();
+        let charts = {};
+
+        const fmt$ = (val) => new Intl.NumberFormat('en-US', { style:'currency', currency:'USD', notation:'compact', maximumFractionDigits: 1}).format(val);
+        const fmtNum = (val, max=1) => new Intl.NumberFormat('en-US', { maximumFractionDigits: max}).format(val);
+
+        const renderDash = () => {
+            const supF = document.getElementById('supplierFilter').value;
+            const locF = document.getElementById('locFilter').value;
+            
+            const d = supData.filter(x => 
+                (supF === "All" || x.supplier === supF) &&
+                (locF === "All" || x.loc === locF)
+            );
+
+            const delivered = d.filter(x => x.status === "Delivered");
+            const val = d.reduce((s,x)=>s+x.val,0);
+            const otd = delivered.filter(x => x.lead <= 15).length;
+            const short = delivered.filter(x => x.short).length;
+            const avgLead = delivered.reduce((s,x)=>s+x.lead,0) / (delivered.length || 1);
+
+            document.getElementById('kpi-val').innerText = fmt$(val);
+            document.getElementById('kpi-otd').innerText = delivered.length > 0 ? fmtNum((otd/delivered.length)*100, 1) + "%" : "0%";
+            document.getElementById('kpi-short').innerText = delivered.length > 0 ? fmtNum((short/delivered.length)*100, 1) + "%" : "0%";
+            document.getElementById('kpi-lead').innerText = fmtNum(avgLead, 1);
+
+            // 1. Trend
+            const mNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+            const trend = mNames.map(()=>({v:0, lSum:0, lCnt:0}));
+            delivered.forEach(x => { trend[x.month].v+=x.val; trend[x.month].lSum+=x.lead; trend[x.month].lCnt++; });
+
+            if(charts.trend) charts.trend.destroy();
+            charts.trend = new Chart(document.getElementById('trendChart'), {
+                type: 'bar',
+                data: {
+                    labels: mNames,
+                    datasets: [
+                        { label: 'Avg Lead Time (Days)', type: 'line', data: trend.map(t=>t.lCnt>0?t.lSum/t.lCnt:0), borderColor: '#ef4444', backgroundColor: '#ef4444', borderWidth: 2, yAxisID:'y1' },
+                        { label: 'Volume Received', data: trend.map(t=>t.v), backgroundColor: '#2563eb', borderRadius: 4, yAxisID:'y' }
+                    ]
+                },
+                options: { responsive:true, maintainAspectRatio:false, scales: { x:{grid:{display:false}}, y:{type:'linear',position:'left',grid:{borderDash:[5,5]}}, y1:{type:'linear',position:'right',grid:{display:false}} } }
+            });
+
+            // 2. Loc Doughnut
+            const lMap = {}; d.forEach(x=>{lMap[x.loc]=(lMap[x.loc]||0)+x.val;});
+            if(charts.loc) charts.loc.destroy();
+            charts.loc = new Chart(document.getElementById('locChart'), {
+                type: 'doughnut', data: { labels: Object.keys(lMap), datasets: [{ data: Object.values(lMap), backgroundColor: ['#2563eb','#f59e0b','#10b981','#8b5cf6'], borderWidth:0 }] },
+                options: { responsive:true, maintainAspectRatio:false, cutout:'65%', plugins:{legend:{position:'right', labels:{usePointStyle:true}}} }
+            });
+
+            // 3. Supplier Vol
+            const sMap = {}; d.forEach(x=>{sMap[x.supplier]=(sMap[x.supplier]||0)+x.val;});
+            if(charts.sup) charts.sup.destroy();
+            charts.sup = new Chart(document.getElementById('supChart'), {
+                type: 'bar', data: { labels: Object.keys(sMap), datasets: [{ data: Object.values(sMap), backgroundColor: '#8b5cf6', borderRadius:4 }] },
+                options: { indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{grid:{display:false}},y:{grid:{display:false}}} }
+            });
+
+            // 4. Supplier OTD
+            const soMap = {}; delivered.forEach(x=>{
+                if(!soMap[x.supplier]) soMap[x.supplier]={o:0, t:0};
+                soMap[x.supplier].t++;
+                if(x.lead<=15) soMap[x.supplier].o++;
+            });
+            const soData = Object.keys(soMap).map(k=>(soMap[k].o/soMap[k].t)*100);
+            if(charts.otd) charts.otd.destroy();
+            charts.otd = new Chart(document.getElementById('otdChart'), {
+                type: 'bar', data: { labels: Object.keys(soMap), datasets: [{ data: soData, backgroundColor: '#10b981', borderRadius:4 }] },
+                options: { indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{max:100, grid:{display:false}},y:{grid:{display:false}}} }
+            });
+
+            // 5. Status
+            const stMap = {}; d.forEach(x=>{stMap[x.status]=(stMap[x.status]||0)+1;});
+            if(charts.stat) charts.stat.destroy();
+            charts.stat = new Chart(document.getElementById('statusChart'), {
+                type: 'doughnut', data: { labels: Object.keys(stMap), datasets: [{ data: Object.values(stMap), backgroundColor: ['#10b981','#3b82f6','#ef4444'], borderWidth:0 }] },
+                options: { responsive:true, maintainAspectRatio:false, cutout:'70%', plugins:{legend:{position:'bottom'}} }
+            });
+        };
+        renderDash();
+    </script>
+</body>
+</html>

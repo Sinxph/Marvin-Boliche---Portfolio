@@ -1,0 +1,1523 @@
+﻿OrderID,Date,CustomerName,Product,Category,Quantity,UnitPrice,Revenue,Region
+1001,2026-01-20,Peter Parker,Sofa,Furniture,3,600,1800,North
+1002,2023-12-30,Bob Johnson,Headphones,electronics,-1,100,-100,West
+1003,2026-07-26,Nathan Drake,Bookshelf,Furniture,9,300,2700, north 
+1004,2024-09-07,Grace Hopper,Smart Watch,Electronics,7,250,1750,south
+1005,2026-06-25,Charlie Davis,Smart Watch,Electronics,2,250,500,West
+1006,2023-06-20,Kathy Bates,Mouse,Electronics,6,25,150,south
+1006,2023-06-20,Kathy Bates,Mouse,Electronics,6,25,150,south
+1007,2023-07-23,Charlie Davis,Headphones,electronics,4,100,400,North
+1008,2024-08-10,Peter Parker,Keyboard,Electronics,1,40,40,EAST
+1009,2026-04-20,Ivy Taylor,Monitor,Electronics,6,300,1800, north 
+1010,2026-06-12,Charlie Davis,Headphones,electronics,2,100,200,south
+1011,02/16/24,Bob Johnson,Bookshelf,Furniture,9,300,2700,EAST
+1012,2023-01-18,Eve White,Desk Chair,Furniture,7,150,1050,West
+1013,2023-08-07,Kathy Bates,Headphones,electronics,1,100,100,East
+1014,2026-01-28,Grace Hopper,Headphones,electronics,6,100,600,North
+1015,2025-01-30,Leo Tolstoy,Desk Chair,Furniture,5,150,750,south
+1016,2026-02-26,Eve White,Laptop,Electronics,9,1200,,North
+1017,2024-10-05,Olivia Munn,Laptop,Electronics,7,1200,, north 
+1018,2024-11-04,Grace Hopper,Laptop,Electronics,6,1200,7200,South
+1019,2024-09-02,Bob Johnson,Monitor,Electronics,6,300,1800,North
+1020,2026-02-04,,Laptop,Electronics,5,1200,6000, north 
+1021,2023-02-22,Frank Green,Keyboard,Electronics,9,40,360,West
+1022,2025-05-21,Kathy Bates,Headphones,electronics,4,100,400,South
+1023,2026-02-20,jane smith,Headphones,electronics,6,100,600, north 
+1024,2025-09-11,John Doe,Mouse,Electronics,4,25,100, north 
+1025,22-03-2024,Eve White,Blender,Appliances,6,50,300,East
+1026,2024-03-26,Mary Shelley,Sofa,Furniture,9,600,5400, north 
+1027,2024-10-07,jane smith,Monitor,Electronics,3,300,900,West
+1028,2025-04-26,jane smith,Bookshelf,Furniture,7,300,2100,EAST
+1029,2023-06-11,Frank Green,Headphones,electronics,8,100,800,East
+1030,2024-12-06,Mary Shelley,Bookshelf,Furniture,3,300,900, north 
+1031,2023-10-31,John Doe,Printer,Electronics,3,200,600,North
+1032,2025-07-03,Grace Hopper,Desk Chair,Furniture,3,150,450,South
+1033,2026-12-18,Leo Tolstoy,Desk Chair,Furniture,1,150,150,south
+1034,2023-05-26,Nathan Drake,Headphones,electronics,4,100,400,West
+1035,2025-05-24,Eve White,Smart Watch,Electronics,8,250,2000,south
+1036,2024-08-26,Kathy Bates,Smart Watch,Electronics,8,250,2000,East
+1037,2025-01-27,John Doe,Sofa,Furniture,4,600,2400,South
+1038,09/02/24,Jack Black,Mouse,Electronics,6,25,150,North
+1039,2024-02-21,jane smith,Keyboard,Electronics,6,40,240,West
+1040,2023-12-07,Alice Brown,Blender,Appliances,9,50,450,South
+1041,2025-06-13,,Monitor,Electronics,7,300,2100,South
+1042,2026-03-14,jane smith,Smart Watch,Electronics,4,250,1000,EAST
+1043,2024-08-24,Grace Hopper,Printer,Electronics,8,200,,EAST
+1044,2026-08-26,Bob Johnson,Keyboard,Electronics,4,40,160,South
+1045,2026-11-16,Peter Parker,Blender,Appliances,1,50,50,East
+1046,2026-06-17,Charlie Davis,Desk Chair,Furniture,4,150,600,South
+1047,2025-06-28,Kathy Bates,Coffee Maker,Appliances,2,75,150,West
+1048,2026-02-21,Grace Hopper,Bookshelf,Furniture,1,300,300,East
+1049,2024-08-22,Grace Hopper,Sofa,Furniture,9,600,,South
+1050,2025-04-06,Eve White,Laptop,Electronics,4,1200,4800,West
+1050,2025-04-06,Eve White,Laptop,Electronics,4,1200,4800,West
+1051,2024-07-10,Frank Green,Sofa,Furniture,7,600,4200,South
+1052,2026-06-05,John Doe,Smart Watch,Electronics,6,250,1500,West
+1053,2024-08-15,Leo Tolstoy,Sofa,Furniture,1,600,600,South
+1054,2024-08-14,Peter Parker,Desk Chair,Furniture,3,150,450,South
+1055,2025-03-08,Hank Williams,Coffee Maker,Appliances,5,75,375,North
+1056,2023-06-08,Ivy Taylor,Mouse,Electronics,2,25,50,south
+1057,2025-05-16,Charlie Davis,Printer,Electronics,2,200,400, north 
+1058,2023-09-30,Peter Parker,Sofa,Furniture,3,600,1800, north 
+1059,2026-06-02,Bob Johnson,Laptop,Electronics,2,1200,2400,North
+1060,2026-03-15,John Doe,Printer,Electronics,1,200,200,South
+1061,2023-05-02,Olivia Munn,Mouse,Electronics,6,25,150, north 
+1062,2024-06-14,Peter Parker,Desk Chair,Furniture,2,150,300,South
+1063,21-02-2026,Leo Tolstoy,Coffee Maker,Appliances,9,75,675,North
+1064,2026-12-19,Frank Green,Bookshelf,Furniture,1,300,300,North
+1065,2025-08-19,Mary Shelley,Mouse,Electronics,7,25,175,EAST
+1066,2023-05-22,Nathan Drake,Mouse,Electronics,8,25,200,East
+1067,13-07-2024,John Doe,Monitor,Electronics,5,300,1500, north 
+1068,2026-12-26,Bob Johnson,Smart Watch,Electronics,8,250,2000,East
+1069,2024-03-15,Olivia Munn,Headphones,electronics,9,100,900,East
+1070,2025-03-29,Mary Shelley,Monitor,Electronics,4,300,1200, north 
+1071,2023-12-16,John Doe,Headphones,electronics,9,100,900,EAST
+1072,2024-07-23,Jack Black,Laptop,Electronics,5,1200,6000,North
+1073,2025-04-30,Alice Brown,Mouse,Electronics,5,25,125,West
+1074,2023-11-11,Bob Johnson,Desk Chair,Furniture,9,150,1350,South
+1075,2026-06-03,Olivia Munn,Desk Chair,Furniture,3,150,,South
+1076,2026-03-10,jane smith,Bookshelf,Furniture,8,300,2400,EAST
+1077,2023-01-25,Leo Tolstoy,Smart Watch,Electronics,1,250,250,south
+1078,2023-08-04,Ivy Taylor,Headphones,electronics,1,100,100,West
+1079,2023-10-06,Grace Hopper,Mouse,Electronics,4,25,100,North
+1080,2025-10-16,Nathan Drake,Bookshelf,Furniture,5,300,1500,EAST
+1081,2025-03-17,Jack Black,Keyboard,Electronics,8,40,320, north 
+1082,31-08-2026,Nathan Drake,Blender,Appliances,1,50,50,South
+1083,21-07-2025,Bob Johnson,Desk,Furniture,5,450,2250,East
+1084,2026-08-30,Peter Parker,Monitor,Electronics,2,300,600,south
+1085,2023-05-03,Nathan Drake,Monitor,Electronics,7,300,2100,EAST
+1086,2024-07-12,Ivy Taylor,Sofa,Furniture,4,600,,South
+1087,03/21/26,Hank Williams,Desk Chair,Furniture,3,150,450,south
+1088,2024-10-22,Hank Williams,Coffee Maker,Appliances,9,75,675,south
+1089,2023-09-24,Peter Parker,Smart Watch,Electronics,6,250,1500,south
+1090,2025-07-27,Hank Williams,Smart Watch,Electronics,9,250,,East
+1091,2026-04-16,Hank Williams,Laptop,Electronics,8,1200,9600,East
+1092,2025-02-06,Frank Green,Desk Chair,Furniture,4,150,600,south
+1093,2026-02-12,Mary Shelley,Desk Chair,Furniture,1,150,150,south
+1094,11/17/26,Alice Brown,Desk,Furniture,8,450,3600, north 
+1095,2024-01-13,jane smith,Headphones,electronics,1,100,,EAST
+1096,2024-12-11,Bob Johnson,Monitor,Electronics,9,300,2700, north 
+1097,2025-06-16,Alice Brown,Keyboard,Electronics,9,40,360,EAST
+1098,2025-12-31,Charlie Davis,Smart Watch,Electronics,4,250,1000,South
+1099,2025-07-03,John Doe,Sofa,Furniture,6,600,3600,South
+1100,2023-04-17,Grace Hopper,Blender,Appliances,9,50,450,West
+1101,2024-05-12,Charlie Davis,Bookshelf,Furniture,1,300,300,EAST
+1102,2026-04-02,Hank Williams,Coffee Maker,Appliances,4,75,300,West
+1103,2025-08-26,Bob Johnson,Blender,Appliances,-1,50,-50, north 
+1104,2026-04-29,Grace Hopper,Smart Watch,Electronics,9,250,2250,south
+1105,2023-04-19,Charlie Davis,Bookshelf,Furniture,2,300,600,south
+1106,2024-09-14,Peter Parker,Desk Chair,Furniture,2,150,300, north 
+1107,23-03-2025,Frank Green,Sofa,Furniture,-1,600,-600,North
+1108,2024-10-13,Jack Black,Monitor,Electronics,9,300,2700,North
+1109,2025-03-26,Alice Brown,Desk Chair,Furniture,5,150,750,West
+1110,2025-12-05,Charlie Davis,Headphones,electronics,6,100,600,south
+1111,2024-05-19,Hank Williams,Desk Chair,Furniture,9,150,1350,West
+1112,2023-07-30,jane smith,Printer,Electronics,1,200,200,North
+1113,2026-05-26,Mary Shelley,Laptop,Electronics,1,1200,1200,West
+1114,2024-08-01,Grace Hopper,Desk,Furniture,1,450,450,EAST
+1115,2024-11-14,Peter Parker,Desk Chair,Furniture,3,150,450,East
+1116,2025-11-03,Eve White,Blender,Appliances,8,50,400,South
+1117,2025-05-03,Eve White,Coffee Maker,Appliances,5,75,375,East
+1118,2026-04-14,Alice Brown,Headphones,electronics,6,100,600,East
+1119,2024-01-19,Charlie Davis,Desk Chair,Furniture,3,150,450,West
+1120,2025-11-11,John Doe,Printer,Electronics,5,200,1000,West
+1121,2026-10-06,Charlie Davis,Laptop,Electronics,8,1200,9600, north 
+1122,2024-08-03,jane smith,Printer,Electronics,2,200,400,EAST
+1123,2023-03-12,Frank Green,Keyboard,Electronics,3,40,120,south
+1124,2024-09-08,Charlie Davis,Desk,Furniture,3,450,1350,North
+1125,2024-07-13,Leo Tolstoy,Sofa,Furniture,2,600,1200,South
+1126,2025-07-27,Mary Shelley,Printer,Electronics,6,200,,South
+1127,2025-09-07,Jack Black,Printer,Electronics,7,200,1400,North
+1128,2026-08-19,jane smith,Desk,Furniture,6,450,2700,North
+1129,2024-10-03,Leo Tolstoy,Smart Watch,Electronics,9,250,2250,EAST
+1130,2026-01-23,Alice Brown,Laptop,Electronics,8,1200,9600,EAST
+1131,2024-06-16,Frank Green,Printer,Electronics,2,200,400, north 
+1132,2023-10-20,Olivia Munn,Laptop,Electronics,8,1200,9600,south
+1133,2026-09-03,Olivia Munn,Desk,Furniture,6,450,2700,East
+1134,2025-04-16,Charlie Davis,Desk Chair,Furniture,5,150,750,South
+1135,2024-01-10,Kathy Bates,Keyboard,Electronics,7,40,280, north 
+1136,2023-04-13,Hank Williams,Sofa,Furniture,6,600,3600,East
+1137,2025-06-15,John Doe,Keyboard,Electronics,4,40,160,East
+1138,2025-04-02,Frank Green,Printer,Electronics,5,200,1000,West
+1139,10-03-2025,jane smith,Smart Watch,Electronics,9,250,2250,EAST
+1140,2023-05-27,Olivia Munn,Sofa,Furniture,6,600,3600,West
+1141,2026-12-09,Nathan Drake,Desk,Furniture,3,450,1350, north 
+1142,2025-11-13,John Doe,Coffee Maker,Appliances,5,75,375,North
+1143,2025-05-15,Peter Parker,Monitor,Electronics,8,300,2400,South
+1144,2026-07-22,Peter Parker,Bookshelf,Furniture,4,300,1200,South
+1145,2025-01-09,Mary Shelley,Mouse,Electronics,8,25,200,south
+1146,2026-02-11,Olivia Munn,Printer,Electronics,1,200,200,EAST
+1147,2024-06-10,Eve White,Monitor,Electronics,8,300,2400,East
+1148,14-12-2023,jane smith,Keyboard,Electronics,7,40,280,East
+1149,2024-02-02,Nathan Drake,Desk Chair,Furniture,-1,150,-150, north 
+1150,2023-07-10,Eve White,Bookshelf,Furniture,6,300,1800,North
+1151,2026-02-21,Nathan Drake,Laptop,Electronics,9,1200,10800,North
+1152,2026-02-09,Grace Hopper,Sofa,Furniture,4,600,2400, north 
+1153,2026-06-20,Nathan Drake,Desk Chair,Furniture,1,150,150, north 
+1154,2023-03-23,jane smith,Keyboard,Electronics,1,40,40,South
+1155,2023-08-13,Leo Tolstoy,Headphones,electronics,9,100,900,East
+1156,2024-07-27,Grace Hopper,Laptop,Electronics,5,1200,6000,south
+1157,2024-02-12,Peter Parker,Smart Watch,Electronics,2,250,500,EAST
+1158,2024-12-28,John Doe,Mouse,Electronics,1,25,25,North
+1159,2024-09-14,Kathy Bates,Smart Watch,Electronics,9,250,2250,East
+1160,2026-06-19,Charlie Davis,Desk Chair,Furniture,2,150,300,EAST
+1161,2023-09-29,Mary Shelley,Blender,Appliances,4,50,200,North
+1162,2023-10-12,Alice Brown,Desk,Furniture,3,450,1350,South
+1163,2026-11-20,Hank Williams,Coffee Maker,Appliances,6,75,450,East
+1164,2025-09-23,Grace Hopper,Sofa,Furniture,2,600,1200,North
+1165,2025-06-13,Grace Hopper,Sofa,Furniture,6,600,3600,North
+1166,2024-05-14,Kathy Bates,Blender,Appliances,6,50,300,West
+1167,2026-12-10,Ivy Taylor,Headphones,electronics,7,100,700,West
+1168,2025-02-06,Olivia Munn,Sofa,Furniture,1,600,600,south
+1169,2023-09-01,Hank Williams,Coffee Maker,Appliances,4,75,300,East
+1170,2026-01-18,Bob Johnson,Keyboard,Electronics,6,40,240,West
+1171,2025-07-15,Nathan Drake,Monitor,Electronics,9,300,2700,south
+1172,2026-02-10,John Doe,Laptop,Electronics,9,1200,10800,North
+1173,2025-04-25,Hank Williams,Laptop,Electronics,9,1200,10800,North
+1174,2023-09-09,Alice Brown,Blender,Appliances,2,50,100,West
+1175,2025-11-16,John Doe,Monitor,Electronics,6,300,1800,West
+1176,2024-03-05,Frank Green,Smart Watch,Electronics,9,250,2250,South
+1176,2024-03-05,Frank Green,Smart Watch,Electronics,9,250,2250,South
+1177,2023-01-01,Alice Brown,Laptop,Electronics,2,1200,2400,EAST
+1178,2024-08-27,Alice Brown,Desk Chair,Furniture,6,150,900, north 
+1179,2024-02-24,Nathan Drake,Desk Chair,Furniture,3,150,450,south
+1180,2025-11-02,Grace Hopper,Bookshelf,Furniture,6,300,1800,East
+1181,2024-08-07,Hank Williams,Desk,Furniture,5,450,2250, north 
+1182,2026-02-05,Grace Hopper,Printer,Electronics,7,200,1400,North
+1183,2024-09-05,Leo Tolstoy,Mouse,Electronics,-1,25,-25,West
+1184,2024-03-24,Leo Tolstoy,Keyboard,Electronics,8,40,320, north 
+1185,2024-06-22,jane smith,Smart Watch,Electronics,2,250,500,EAST
+1186,2023-11-26,Alice Brown,Sofa,Furniture,5,600,3000,North
+1187,2026-09-12,Charlie Davis,Monitor,Electronics,5,300,1500,south
+1188,2023-05-26,Nathan Drake,Mouse,Electronics,1,25,25,East
+1189,2024-05-11,John Doe,Coffee Maker,Appliances,2,75,150,West
+1190,2025-04-16,Jack Black,Blender,Appliances,9,50,450, north 
+1191,2025-08-02,Kathy Bates,Blender,Appliances,3,50,150,south
+1192,2026-11-26,Frank Green,Printer,Electronics,7,200,1400,West
+1193,2026-08-26,Eve White,Desk,Furniture,2,450,900,South
+1194,2023-11-05,Hank Williams,Mouse,Electronics,4,25,100,South
+1195,2023-06-22,Leo Tolstoy,Smart Watch,Electronics,6,250,1500,EAST
+1196,27-03-2025,John Doe,Bookshelf,Furniture,8,300,2400,East
+1197,2025-06-08,Ivy Taylor,Mouse,Electronics,7,25,175,south
+1198,2025-04-22,Kathy Bates,Keyboard,Electronics,4,40,160,North
+1199,2025-02-01,Hank Williams,Coffee Maker,Appliances,7,75,525,south
+1199,2025-02-01,Hank Williams,Coffee Maker,Appliances,7,75,525,south
+1200,2026-08-14,Mary Shelley,Printer,Electronics,5,200,1000, north 
+1201,2025-08-31,Charlie Davis,Keyboard,Electronics,7,40,280,south
+1202,2023-10-10,Peter Parker,Smart Watch,Electronics,9,250,2250, north 
+1203,2025-04-08,Mary Shelley,Desk Chair,Furniture,9,150,1350,East
+1204,2025-06-01,Olivia Munn,Mouse,Electronics,5,25,125, north 
+1205,2025-11-25,Eve White,Printer,Electronics,5,200,1000,EAST
+1206,2025-03-01,Leo Tolstoy,Sofa,Furniture,3,600,1800, north 
+1207,2024-11-10,John Doe,Headphones,electronics,8,100,800, north 
+1208,2024-06-16,jane smith,Bookshelf,Furniture,6,300,1800,East
+1209,2024-03-20,Nathan Drake,Keyboard,Electronics,9,40,360,East
+1210,2026-07-01,Ivy Taylor,Monitor,Electronics,6,300,1800,North
+1211,2023-02-18,Eve White,Monitor,Electronics,6,300,,south
+1212,2025-09-24,Alice Brown,Coffee Maker,Appliances,6,75,450,south
+1213,2026-02-06,John Doe,Headphones,electronics,3,100,300, north 
+1214,2025-07-01,Jack Black,Desk Chair,Furniture,6,150,900,South
+1215,2024-09-02,Peter Parker,Mouse,Electronics,9,25,225, north 
+1216,2026-04-14,Ivy Taylor,Desk,Furniture,7,450,3150, north 
+1217,2026-09-27,John Doe,Blender,Appliances,2,50,100,West
+1218,2023-02-01,Charlie Davis,Desk Chair,Furniture,2,150,300,East
+1219,2025-11-28,Charlie Davis,Bookshelf,Furniture,1,300,300,EAST
+1220,09/11/25,jane smith,Desk,Furniture,5,450,2250, north 
+1221,2024-09-14,Nathan Drake,Desk,Furniture,7,450,3150,West
+1222,2024-06-21,John Doe,Monitor,Electronics,4,300,1200,South
+1223,2023-01-17,Nathan Drake,Keyboard,Electronics,9,40,360,East
+1224,2026-06-12,Eve White,Bookshelf,Furniture,2,300,600,North
+1225,2025-08-20,Bob Johnson,Coffee Maker,Appliances,2,75,150,EAST
+1225,2025-08-20,Bob Johnson,Coffee Maker,Appliances,2,75,150,EAST
+1226,2023-03-24,John Doe,Monitor,Electronics,6,300,1800,EAST
+1227,2025-06-11,Ivy Taylor,Smart Watch,Electronics,7,250,1750,South
+1228,2025-07-11,Kathy Bates,Bookshelf,Furniture,2,300,600,South
+1229,2026-06-01,Eve White,Blender,Appliances,9,50,450,south
+1230,2025-07-22,Hank Williams,Monitor,Electronics,4,300,1200,south
+1231,2026-02-24,Hank Williams,Monitor,Electronics,9,300,2700,EAST
+1232,2026-05-26,Peter Parker,Desk Chair,Furniture,9,150,1350, north 
+1233,2023-07-22,Ivy Taylor,Bookshelf,Furniture,8,300,,South
+1234,2023-04-26,Jack Black,Bookshelf,Furniture,6,300,1800,EAST
+1235,20-02-2026,jane smith,Keyboard,Electronics,9,40,360,South
+1236,2024-03-23,Jack Black,Bookshelf,Furniture,3,300,900,EAST
+1237,2026-03-25,Jack Black,Desk Chair,Furniture,3,150,450,North
+1238,2025-04-05,Hank Williams,Bookshelf,Furniture,6,300,1800,south
+1239,2026-08-09,Hank Williams,Mouse,Electronics,9,25,225,South
+1240,09/16/23,Peter Parker,Printer,Electronics,7,200,1400, north 
+1241,2023-02-23,Charlie Davis,Laptop,Electronics,2,1200,2400, north 
+1242,2026-05-08,Mary Shelley,Headphones,electronics,2,100,200,South
+1243,2024-07-03,Peter Parker,Printer,Electronics,3,200,600,South
+1244,2024-03-19,Leo Tolstoy,Bookshelf,Furniture,1,300,300,West
+1245,2025-11-11,Mary Shelley,Laptop,Electronics,7,1200,8400,EAST
+1246,2023-03-01,Jack Black,Desk,Furniture,8,450,3600,EAST
+1247,2025-12-29,Frank Green,Coffee Maker,Appliances,5,75,,South
+1248,2026-04-15,Olivia Munn,Laptop,Electronics,3,1200,3600,West
+1249,07-09-2026,jane smith,Headphones,electronics,5,100,500,south
+1250,2026-08-26,Hank Williams,Desk Chair,Furniture,1,150,150,south
+1251,2025-02-05,Eve White,Coffee Maker,Appliances,8,75,600,south
+1252,2025-01-28,Frank Green,Mouse,Electronics,5,25,, north 
+1253,2024-01-26,Hank Williams,Mouse,Electronics,8,25,200,EAST
+1254,2026-02-10,Kathy Bates,Mouse,Electronics,8,25,200,North
+1255,2025-04-07,John Doe,Smart Watch,Electronics,8,250,2000,south
+1256,2025-12-07,Ivy Taylor,Desk,Furniture,7,450,3150,West
+1257,2023-07-02,Olivia Munn,Smart Watch,Electronics,4,250,1000,South
+1258,2024-12-28,Nathan Drake,Sofa,Furniture,9,600,5400,EAST
+1259,2024-04-02,Hank Williams,Blender,Appliances,3,50,150, north 
+1260,2023-06-03,Nathan Drake,Laptop,Electronics,1,1200,1200,EAST
+1261,2023-03-18,Olivia Munn,Monitor,Electronics,2,300,600,south
+1262,2025-01-22,Mary Shelley,Mouse,Electronics,6,25,150,North
+1263,2024-01-18,Alice Brown,Headphones,electronics,8,100,800,south
+1264,2023-04-09,John Doe,Printer,Electronics,1,200,200,East
+1265,28-03-2025,Charlie Davis,Coffee Maker,Appliances,9,75,675,West
+1266,2026-12-11,Alice Brown,Smart Watch,Electronics,2,250,,North
+1267,2026-04-24,Frank Green,Printer,Electronics,2,200,400,South
+1268,01/28/26,Charlie Davis,Laptop,Electronics,2,1200,2400,South
+1269,2023-06-27,Nathan Drake,Sofa,Furniture,1,600,600,East
+1270,2024-09-30,Grace Hopper,Desk Chair,Furniture,4,150,600,North
+1271,2023-02-09,Mary Shelley,Mouse,Electronics,8,25,200,south
+1272,2025-06-22,Ivy Taylor,Keyboard,Electronics,7,40,280,south
+1273,2024-07-02,Kathy Bates,Smart Watch,Electronics,6,250,1500,south
+1273,2024-07-02,Kathy Bates,Smart Watch,Electronics,6,250,1500,south
+1274,2025-02-21,jane smith,Bookshelf,Furniture,1,300,300,North
+1275,2025-02-11,Kathy Bates,Smart Watch,Electronics,3,250,750,south
+1276,2023-09-27,Ivy Taylor,Monitor,Electronics,9,300,2700,EAST
+1277,2025-06-08,Eve White,Blender,Appliances,1,50,50, north 
+1278,2026-01-31,Mary Shelley,Monitor,Electronics,7,300,2100, north 
+1279,2025-11-12,Kathy Bates,Desk Chair,Furniture,7,150,1050,East
+1280,2024-09-30,Leo Tolstoy,Desk Chair,Furniture,4,150,600, north 
+1281,2024-05-18,Hank Williams,Keyboard,Electronics,7,40,280,North
+1282,2024-07-18,Peter Parker,Laptop,Electronics,7,1200,8400,south
+1283,2023-07-26,jane smith,Headphones,electronics,3,100,300,West
+1284,2025-01-11,John Doe,Headphones,electronics,5,100,500,East
+1285,2026-11-07,Hank Williams,Bookshelf,Furniture,4,300,1200,EAST
+1286,2026-09-11,Peter Parker,Smart Watch,Electronics,8,250,2000,south
+1287,2026-06-19,Mary Shelley,Coffee Maker,Appliances,7,75,525, north 
+1288,2025-03-19,Mary Shelley,Sofa,Furniture,7,600,4200,EAST
+1289,2023-07-23,Mary Shelley,Desk,Furniture,6,450,2700,East
+1290,2023-02-20,Hank Williams,Blender,Appliances,7,50,350, north 
+1291,2026-06-20,Jack Black,Laptop,Electronics,2,1200,2400, north 
+1292,2024-01-16,,Desk Chair,Furniture,3,150,450,south
+1293,13-03-2026,Grace Hopper,Laptop,Electronics,8,1200,9600,South
+1294,2024-11-14,Olivia Munn,Smart Watch,Electronics,6,250,1500,South
+1295,01/13/23,Hank Williams,Headphones,electronics,8,100,,East
+1296,2026-04-17,Hank Williams,Keyboard,Electronics,7,40,280,South
+1297,2026-04-08,jane smith,Mouse,Electronics,7,25,175,EAST
+1298,2024-12-14,Peter Parker,Desk Chair,Furniture,1,150,150,EAST
+1299,2025-09-16,Bob Johnson,Mouse,Electronics,7,25,175,West
+1300,2024-05-24,Alice Brown,Mouse,Electronics,7,25,175,West
+1301,2023-12-12,Bob Johnson,Keyboard,Electronics,3,40,120,West
+1302,2026-10-28,Nathan Drake,Bookshelf,Furniture,5,300,1500,East
+1303,2025-03-14,Charlie Davis,Bookshelf,Furniture,9,300,2700,South
+1304,2024-03-28,Alice Brown,Sofa,Furniture,5,600,3000,south
+1305,18-11-2024,Hank Williams,Desk Chair,Furniture,1,150,150, north 
+1306,2023-09-25,Peter Parker,Desk Chair,Furniture,6,150,900,South
+1307,2025-08-21,Charlie Davis,Printer,Electronics,9,200,1800,EAST
+1308,2023-04-13,Charlie Davis,Coffee Maker,Appliances,5,75,375,North
+1309,2024-06-10,Jack Black,Monitor,Electronics,1,300,300,West
+1310,2026-01-14,Alice Brown,Smart Watch,Electronics,7,250,1750,East
+1311,2026-11-15,John Doe,Mouse,Electronics,8,25,200,North
+1312,2023-01-28,Olivia Munn,Laptop,Electronics,7,1200,8400, north 
+1313,2026-06-17,Ivy Taylor,Laptop,Electronics,6,1200,7200,EAST
+1314,2024-08-06,Olivia Munn,Keyboard,Electronics,9,40,360,East
+1315,2023-05-24,Bob Johnson,Headphones,electronics,6,100,600,South
+1316,2023-10-15,Kathy Bates,Laptop,Electronics,7,1200,8400,North
+1317,2026-01-14,Kathy Bates,Coffee Maker,Appliances,5,75,375,south
+1318,02/18/26,Mary Shelley,Headphones,electronics,3,100,300,south
+1319,04/10/23,,Monitor,Electronics,6,300,1800,West
+1320,2025-10-15,Mary Shelley,Printer,Electronics,1,200,200,south
+1321,2024-01-05,Grace Hopper,Smart Watch,Electronics,6,250,1500,South
+1322,2023-09-04,Ivy Taylor,Bookshelf,Furniture,7,300,2100,North
+1323,2025-11-03,,Blender,Appliances,6,50,300,North
+1324,2025-11-20,Eve White,Coffee Maker,Appliances,7,75,525,North
+1325,2023-03-14,jane smith,Sofa,Furniture,5,600,3000,North
+1326,2026-03-18,Leo Tolstoy,Smart Watch,Electronics,7,250,1750,East
+1327,2023-06-10,jane smith,Mouse,Electronics,1,25,25,East
+1328,2026-04-30,John Doe,Monitor,Electronics,1,300,300,East
+1329,10/29/25,Ivy Taylor,Blender,Appliances,8,50,400,South
+1330,2025-02-14,Hank Williams,Desk Chair,Furniture,2,150,300,East
+1331,2025-08-25,Alice Brown,Smart Watch,Electronics,9,250,2250,West
+1332,2023-12-20,Nathan Drake,Headphones,electronics,3,100,300,North
+1333,2025-10-10,Peter Parker,Bookshelf,Furniture,8,300,2400,West
+1334,04/26/25,Jack Black,Monitor,Electronics,8,300,2400,EAST
+1335,2023-09-06,Leo Tolstoy,Printer,Electronics,8,200,1600,EAST
+1336,2024-05-24,Mary Shelley,Headphones,electronics,4,100,400, north 
+1337,2023-09-26,Frank Green,Mouse,Electronics,7,25,175, north 
+1338,2024-05-07,John Doe,Desk,Furniture,3,450,1350,South
+1339,2023-06-16,Peter Parker,Printer,Electronics,8,200,1600,East
+1340,2026-09-17,Charlie Davis,Mouse,Electronics,7,25,175, north 
+1341,2023-10-25,Eve White,Coffee Maker,Appliances,8,75,600,North
+1342,2025-05-27,Nathan Drake,Desk Chair,Furniture,4,150,600,EAST
+1343,2023-12-20,,Blender,Appliances,2,50,100, north 
+1344,05/25/26,Charlie Davis,Desk Chair,Furniture,4,150,600, north 
+1345,2023-02-22,Mary Shelley,Blender,Appliances,8,50,,EAST
+1346,2024-02-05,Ivy Taylor,Blender,Appliances,7,50,350,East
+1347,2024-08-16,Alice Brown,Desk Chair,Furniture,-1,150,-150,South
+1348,2023-06-16,Leo Tolstoy,Laptop,Electronics,9,1200,10800,North
+1349,2023-12-16,Charlie Davis,Smart Watch,Electronics,6,250,1500,south
+1350,2023-06-04,Hank Williams,Keyboard,Electronics,4,40,,West
+1351,2026-08-01,Nathan Drake,Sofa,Furniture,7,600,4200,West
+1352,2026-03-09,Jack Black,Keyboard,Electronics,2,40,80, north 
+1353,2026-03-09,Eve White,Monitor,Electronics,7,300,2100,North
+1354,2025-09-26,Hank Williams,Keyboard,Electronics,1,40,40,South
+1355,2024-01-14,Mary Shelley,Smart Watch,Electronics,3,250,750,East
+1356,2024-03-21,Leo Tolstoy,Blender,Appliances,4,50,200,south
+1357,2025-08-30,Charlie Davis,Blender,Appliances,9,50,450,East
+1358,2026-09-16,Charlie Davis,Mouse,Electronics,8,25,200,West
+1359,2026-03-11,Mary Shelley,Coffee Maker,Appliances,2,75,150, north 
+1360,11/10/24,Frank Green,Smart Watch,Electronics,1,250,250,South
+1361,2025-05-16,Nathan Drake,Keyboard,Electronics,8,40,320,North
+1362,2024-05-11,Kathy Bates,Laptop,Electronics,2,1200,2400,North
+1363,2025-11-27,Frank Green,Monitor,Electronics,2,300,600,South
+1364,2026-05-01,Eve White,Desk Chair,Furniture,6,150,900,East
+1365,2025-09-05,Hank Williams,Sofa,Furniture,9,600,,EAST
+1366,2023-12-27,Grace Hopper,Printer,Electronics,6,200,1200,south
+1367,2023-04-17,Charlie Davis,Laptop,Electronics,7,1200,8400,South
+1368,2023-07-08,Charlie Davis,Keyboard,Electronics,6,40,,South
+1369,2023-02-09,Jack Black,Sofa,Furniture,3,600,1800, north 
+1370,2024-12-28,Nathan Drake,Desk,Furniture,9,450,4050,North
+1371,2024-02-04,Alice Brown,Laptop,Electronics,3,1200,3600,south
+1371,2024-02-04,Alice Brown,Laptop,Electronics,3,1200,3600,south
+1372,02/11/26,Leo Tolstoy,Desk Chair,Furniture,5,150,750,North
+1373,2024-05-12,Alice Brown,Desk,Furniture,5,450,2250,West
+1374,2023-08-23,John Doe,Monitor,Electronics,9,300,2700,West
+1375,2023-04-28,jane smith,Bookshelf,Furniture,1,300,300,North
+1376,2024-07-14,,Desk Chair,Furniture,5,150,750,EAST
+1377,2024-02-02,John Doe,Keyboard,Electronics,3,40,120,West
+1378,2025-06-03,Olivia Munn,Printer,Electronics,8,200,1600,South
+1379,2023-03-18,Alice Brown,Monitor,Electronics,5,300,1500,South
+1380,2026-04-08,Frank Green,Sofa,Furniture,8,600,4800,EAST
+1381,2025-03-21,Ivy Taylor,Printer,Electronics,2,200,400,West
+1382,2025-04-22,Charlie Davis,Blender,Appliances,9,50,450,EAST
+1383,17-06-2026,Charlie Davis,Monitor,Electronics,3,300,900,North
+1384,2024-12-11,Jack Black,Keyboard,Electronics,2,40,80,EAST
+1385,2025-11-07,Leo Tolstoy,Bookshelf,Furniture,1,300,300,West
+1386,2026-07-18,Ivy Taylor,Bookshelf,Furniture,8,300,,South
+1387,2026-01-22,Nathan Drake,Smart Watch,Electronics,7,250,1750,East
+1388,2025-06-22,Alice Brown,Desk,Furniture,6,450,2700,West
+1389,2026-05-11,Frank Green,Printer,Electronics,5,200,1000,EAST
+1390,02-07-2025,Hank Williams,Printer,Electronics,2,200,,West
+1391,2023-08-20,Bob Johnson,Coffee Maker,Appliances,3,75,225,North
+1392,2024-07-14,Olivia Munn,Sofa,Furniture,4,600,2400,West
+1393,2025-02-25,Bob Johnson,Sofa,Furniture,3,600,1800,West
+1394,2025-01-19,Nathan Drake,Coffee Maker,Appliances,8,75,600,North
+1395,2023-03-30,Mary Shelley,Desk Chair,Furniture,6,150,900,East
+1396,2024-05-16,Kathy Bates,Monitor,Electronics,7,300,2100,East
+1397,2025-03-17,Mary Shelley,Printer,Electronics,6,200,1200, north 
+1398,31-01-2025,Frank Green,Desk,Furniture,8,450,3600,East
+1399,07/25/25,Mary Shelley,Desk,Furniture,3,450,1350,EAST
+1400,2025-05-11,John Doe,Monitor,Electronics,4,300,1200,North
+1401,2023-10-01,Hank Williams,Laptop,Electronics,6,1200,,West
+1402,2026-01-09,Charlie Davis,Coffee Maker,Appliances,8,75,600,North
+1403,13-12-2025,jane smith,Mouse,Electronics,3,25,75,North
+1404,2026-01-04,John Doe,Blender,Appliances,-1,50,-50,EAST
+1405,2025-11-12,Peter Parker,Printer,Electronics,6,200,, north 
+1406,2024-10-06,Hank Williams,Coffee Maker,Appliances,-1,75,-75,East
+1407,2025-02-27,Leo Tolstoy,Smart Watch,Electronics,1,250,250, north 
+1408,2023-12-09,Charlie Davis,Blender,Appliances,9,50,450,North
+1409,08/31/23,Leo Tolstoy,Printer,Electronics,3,200,600,East
+1410,2023-04-27,Grace Hopper,Sofa,Furniture,4,600,2400,south
+1411,2026-08-12,Jack Black,Printer,Electronics,3,200,600, north 
+1412,06/01/25,Alice Brown,Laptop,Electronics,7,1200,8400,south
+1413,2024-03-07,Alice Brown,Blender,Appliances,1,50,50,South
+1414,2024-06-11,Frank Green,Sofa,Furniture,7,600,4200,south
+1415,2025-12-21,Kathy Bates,Coffee Maker,Appliances,5,75,375, north 
+1415,2025-12-21,Kathy Bates,Coffee Maker,Appliances,5,75,375, north 
+1416,2024-06-09,Frank Green,Sofa,Furniture,5,600,3000, north 
+1417,2024-01-16,Peter Parker,Smart Watch,Electronics,2,250,500, north 
+1418,2023-02-06,Nathan Drake,Sofa,Furniture,4,600,2400,North
+1419,2024-06-07,Bob Johnson,Mouse,Electronics,2,25,50,West
+1420,2024-02-26,Olivia Munn,Desk,Furniture,6,450,2700, north 
+1421,2024-02-02,Kathy Bates,Mouse,Electronics,9,25,225,EAST
+1422,2024-10-24,Charlie Davis,Mouse,Electronics,1,25,25,south
+1423,2024-08-08,Leo Tolstoy,Monitor,Electronics,8,300,2400,south
+1424,2026-11-29,Jack Black,Sofa,Furniture,1,600,600,south
+1425,2026-07-27,John Doe,Desk Chair,Furniture,5,150,750,North
+1426,2025-07-07,jane smith,Desk,Furniture,6,450,2700, north 
+1427,2024-04-28,Alice Brown,Laptop,Electronics,4,1200,4800,south
+1428,2025-08-19,Hank Williams,Monitor,Electronics,5,300,1500,South
+1429,2024-04-19,Hank Williams,Blender,Appliances,6,50,300,East
+1430,2024-01-07,Leo Tolstoy,Laptop,Electronics,4,1200,4800,EAST
+1431,2026-04-11,Charlie Davis,Headphones,electronics,4,100,400,EAST
+1432,2024-03-22,Eve White,Mouse,Electronics,6,25,150,south
+1433,2025-03-28,Bob Johnson,Desk,Furniture,4,450,1800,South
+1434,2024-08-10,Nathan Drake,Desk Chair,Furniture,6,150,900,West
+1435,2026-01-14,Hank Williams,Mouse,Electronics,3,25,75,East
+1436,2024-06-09,Leo Tolstoy,Mouse,Electronics,8,25,200,South
+1437,2023-08-14,Peter Parker,Desk Chair,Furniture,2,150,300,East
+1438,2024-06-26,Frank Green,Mouse,Electronics,4,25,100,South
+1439,2023-12-15,Frank Green,Keyboard,Electronics,5,40,200,south
+1440,2024-08-24,Frank Green,Headphones,electronics,9,100,900,South
+1441,2024-07-19,Eve White,Blender,Appliances,7,50,350,North
+1442,2024-05-18,Ivy Taylor,Desk Chair,Furniture,-1,150,-150,North
+1443,2024-09-26,Mary Shelley,Bookshelf,Furniture,4,300,,south
+1444,2024-10-10,Grace Hopper,Desk Chair,Furniture,6,150,900,EAST
+1445,2024-02-01,jane smith,Monitor,Electronics,5,300,1500,West
+1446,2023-11-16,Nathan Drake,Smart Watch,Electronics,1,250,250,EAST
+1447,2025-09-20,Mary Shelley,Smart Watch,Electronics,6,250,1500, north 
+1448,2025-01-16,Bob Johnson,Coffee Maker,Appliances,1,75,75,South
+1449,2026-02-07,Ivy Taylor,Printer,Electronics,7,200,,North
+1450,2026-06-03,Alice Brown,Laptop,Electronics,6,1200,7200,West
+1451,2023-02-11,Olivia Munn,Headphones,electronics,4,100,400,South
+1452,2024-11-17,jane smith,Mouse,Electronics,3,25,75, north 
+1453,18-04-2025,John Doe,Sofa,Furniture,1,600,600,South
+1454,24-02-2026,Hank Williams,Desk,Furniture,8,450,3600, north 
+1455,2025-10-04,,Desk Chair,Furniture,5,150,750,East
+1456,2026-09-19,Olivia Munn,Monitor,Electronics,7,300,2100,EAST
+1457,2026-03-14,jane smith,Monitor,Electronics,7,300,2100,North
+1458,2026-03-30,Jack Black,Sofa,Furniture,6,600,3600, north 
+1459,2024-11-12,Frank Green,Sofa,Furniture,6,600,3600,North
+1460,2025-09-19,Peter Parker,Monitor,Electronics,3,300,900,East
+1461,2025-01-19,Charlie Davis,Laptop,Electronics,2,1200,2400,South
+1462,2024-09-16,Alice Brown,Printer,Electronics,2,200,400,south
+1463,2023-02-15,jane smith,Bookshelf,Furniture,3,300,900,EAST
+1464,2023-08-20,Grace Hopper,Printer,Electronics,5,200,1000,EAST
+1465,08-05-2024,Leo Tolstoy,Desk,Furniture,9,450,4050,EAST
+1466,2023-12-15,Charlie Davis,Blender,Appliances,5,50,250,EAST
+1467,2024-08-22,Hank Williams,Bookshelf,Furniture,8,300,2400,South
+1468,2024-09-12,jane smith,Headphones,electronics,7,100,700,West
+1469,2025-04-12,Bob Johnson,Keyboard,Electronics,7,40,,EAST
+1470,2026-11-21,Alice Brown,Keyboard,Electronics,3,40,120,EAST
+1471,2026-09-10,Hank Williams,Monitor,Electronics,5,300,1500,South
+1472,06-05-2024,jane smith,Monitor,Electronics,6,300,1800,South
+1473,12-03-2026,Frank Green,Blender,Appliances,-1,50,-50, north 
+1474,2023-10-12,John Doe,Laptop,Electronics,4,1200,4800,North
+1475,2023-06-14,Bob Johnson,Laptop,Electronics,9,1200,10800, north 
+1476,01/20/25,Nathan Drake,Coffee Maker,Appliances,1,75,75,south
+1477,2023-08-26,Hank Williams,Mouse,Electronics,4,25,100,EAST
+1478,2024-05-02,Ivy Taylor,Keyboard,Electronics,6,40,240,North
+1479,02/11/25,John Doe,Keyboard,Electronics,4,40,160, north 
+1480,2023-12-30,Eve White,Bookshelf,Furniture,7,300,2100,East
+1481,2026-02-18,Ivy Taylor,Smart Watch,Electronics,4,250,1000, north 
+1482,2023-04-27,Hank Williams,Blender,Appliances,9,50,450,North
+1483,2026-07-31,Alice Brown,Headphones,electronics,5,100,500,West
+1484,2024-07-24,Nathan Drake,Desk,Furniture,-1,450,-450,West
+1485,2024-12-31,Kathy Bates,Monitor,Electronics,8,300,2400,South
+1486,2024-12-01,Frank Green,Bookshelf,Furniture,4,300,1200,North
+1487,2024-08-16,Kathy Bates,Coffee Maker,Appliances,4,75,300,West
+1488,2024-12-27,Jack Black,Laptop,Electronics,3,1200,3600,North
+1489,2023-01-09,Mary Shelley,Laptop,Electronics,9,1200,10800,East
+1490,2024-04-03,Nathan Drake,Bookshelf,Furniture,1,300,300,EAST
+1491,2025-08-08,Charlie Davis,Laptop,Electronics,4,1200,4800,East
+1492,2026-08-26,Bob Johnson,Mouse,Electronics,4,25,100,South
+1493,2023-07-11,Peter Parker,Blender,Appliances,5,50,250,EAST
+1494,2023-04-04,Charlie Davis,Mouse,Electronics,8,25,200,South
+1495,2023-09-01,Alice Brown,Smart Watch,Electronics,1,250,250,East
+1496,2023-08-16,Olivia Munn,Printer,Electronics,6,200,1200,South
+1497,2024-06-24,Grace Hopper,Bookshelf,Furniture,3,300,900,North
+1498,2023-06-19,Eve White,Bookshelf,Furniture,6,300,1800,West
+1499,06-05-2024,John Doe,Keyboard,Electronics,5,40,200,South
+1500,2023-01-05,Charlie Davis,Desk Chair,Furniture,4,150,600,EAST
+1501,2026-10-06,Eve White,Blender,Appliances,9,50,450,North
+1502,2023-08-10,Grace Hopper,Keyboard,Electronics,2,40,80,West
+1502,2023-08-10,Grace Hopper,Keyboard,Electronics,2,40,80,West
+1503,2024-03-02,Hank Williams,Laptop,Electronics,3,1200,3600,south
+1504,2025-11-08,Olivia Munn,Sofa,Furniture,7,600,4200,North
+1505,2024-05-23,Leo Tolstoy,Smart Watch,Electronics,2,250,500,South
+1506,26-09-2026,Alice Brown,Desk,Furniture,8,450,3600,south
+1507,17-06-2026,Peter Parker,Laptop,Electronics,6,1200,7200,EAST
+1508,2025-05-12,Eve White,Blender,Appliances,3,50,150,South
+1509,2025-08-12,Nathan Drake,Desk Chair,Furniture,3,150,450,West
+1510,2024-11-25,Kathy Bates,Printer,Electronics,2,200,,North
+1511,2023-01-20,Frank Green,Headphones,electronics,1,100,100,South
+1512,2025-12-25,Leo Tolstoy,Laptop,Electronics,2,1200,2400,North
+1513,2025-11-08,Olivia Munn,Sofa,Furniture,9,600,5400,South
+1513,2025-11-08,Olivia Munn,Sofa,Furniture,9,600,5400,South
+1514,2025-02-27,Ivy Taylor,Bookshelf,Furniture,3,300,900,West
+1515,2026-07-11,Charlie Davis,Sofa,Furniture,1,600,600,EAST
+1516,09-08-2025,Peter Parker,Laptop,Electronics,5,1200,6000,West
+1517,2025-12-12,Charlie Davis,Desk,Furniture,5,450,2250,West
+1518,2026-12-19,Leo Tolstoy,Laptop,Electronics,4,1200,4800,West
+1519,2024-10-28,Ivy Taylor,Coffee Maker,Appliances,3,75,225, north 
+1520,2025-03-12,Grace Hopper,Desk Chair,Furniture,6,150,900,West
+1521,2025-12-18,Alice Brown,Desk,Furniture,-1,450,-450,south
+1522,2025-06-15,Kathy Bates,Smart Watch,Electronics,7,250,1750,East
+1523,2026-02-27,Alice Brown,Coffee Maker,Appliances,9,75,675, north 
+1524,2026-06-25,Peter Parker,Bookshelf,Furniture,7,300,2100,EAST
+1525,2025-10-28,Hank Williams,Blender,Appliances,7,50,350,South
+1526,2024-09-04,Frank Green,Printer,Electronics,7,200,1400,East
+1527,2026-09-19,Bob Johnson,Desk Chair,Furniture,1,150,150,South
+1528,2024-06-16,Nathan Drake,Keyboard,Electronics,2,40,80,West
+1529,2025-08-14,Alice Brown,Coffee Maker,Appliances,4,75,300, north 
+1530,13-02-2025,Leo Tolstoy,Keyboard,Electronics,4,40,160,EAST
+1531,2026-11-04,Olivia Munn,Bookshelf,Furniture,5,300,1500, north 
+1532,13-01-2025,Leo Tolstoy,Printer,Electronics,4,200,800,South
+1533,2024-05-30,Nathan Drake,Coffee Maker,Appliances,1,75,75,East
+1534,2025-09-28,Ivy Taylor,Bookshelf,Furniture,8,300,2400,South
+1535,2026-08-15,Leo Tolstoy,Coffee Maker,Appliances,9,75,675, north 
+1536,21-08-2023,Mary Shelley,Coffee Maker,Appliances,8,75,600,West
+1537,2026-12-06,Bob Johnson,Keyboard,Electronics,7,40,280,EAST
+1538,2023-02-26,Hank Williams,Headphones,electronics,3,100,,south
+1539,2026-06-13,Ivy Taylor,Desk Chair,Furniture,1,150,150,North
+1540,2025-09-13,Hank Williams,Blender,Appliances,8,50,400,EAST
+1541,2025-03-15,Ivy Taylor,Desk,Furniture,8,450,3600,West
+1542,2023-04-28,John Doe,Blender,Appliances,3,50,150,West
+1543,12/27/23,Eve White,Coffee Maker,Appliances,4,75,300, north 
+1544,2026-12-05,Kathy Bates,Blender,Appliances,7,50,350,south
+1545,2024-02-19,Charlie Davis,Desk,Furniture,4,450,1800,South
+1546,2024-09-06,Charlie Davis,Sofa,Furniture,7,600,,North
+1547,2025-04-27,Hank Williams,Mouse,Electronics,9,25,,North
+1548,2026-11-27,Hank Williams,Blender,Appliances,8,50,400,East
+1549,11-01-2023,Hank Williams,Sofa,Furniture,2,600,1200,south
+1550,2024-06-01,jane smith,Mouse,Electronics,3,25,75,South
+1551,2026-01-25,Hank Williams,Coffee Maker,Appliances,9,75,675,East
+1552,2026-09-07,Hank Williams,Keyboard,Electronics,4,40,160,West
+1553,2024-12-05,Mary Shelley,Printer,Electronics,7,200,1400,south
+1554,2023-03-10,Charlie Davis,Smart Watch,Electronics,5,250,1250,south
+1555,2026-04-24,Frank Green,Monitor,Electronics,1,300,300,North
+1556,2026-09-11,Charlie Davis,Smart Watch,Electronics,6,250,1500, north 
+1557,10/22/24,Olivia Munn,Sofa,Furniture,7,600,4200,South
+1558,2023-01-12,Hank Williams,Desk Chair,Furniture,4,150,600,North
+1559,2024-09-26,Charlie Davis,Keyboard,Electronics,9,40,360,South
+1560,12/03/24,Charlie Davis,Desk,Furniture,4,450,1800,North
+1561,2026-03-04,Charlie Davis,Blender,Appliances,8,50,400,East
+1562,22-06-2025,Grace Hopper,Monitor,Electronics,9,300,2700,East
+1563,2024-08-16,Leo Tolstoy,Sofa,Furniture,9,600,5400,East
+1564,2023-01-25,Olivia Munn,Blender,Appliances,4,50,,EAST
+1565,2023-04-24,Charlie Davis,Desk Chair,Furniture,2,150,300,West
+1566,2026-04-26,Grace Hopper,Sofa,Furniture,3,600,1800,West
+1567,2025-08-07,Leo Tolstoy,Monitor,Electronics,1,300,300,East
+1568,2025-05-18,John Doe,Desk Chair,Furniture,5,150,750,West
+1569,2026-10-17,Frank Green,Coffee Maker,Appliances,7,75,525, north 
+1570,2026-04-24,Nathan Drake,Keyboard,Electronics,8,40,320,EAST
+1571,2026-06-04,Grace Hopper,Bookshelf,Furniture,8,300,2400,East
+1572,2023-08-18,Hank Williams,Coffee Maker,Appliances,4,75,300,EAST
+1573,2024-03-14,Kathy Bates,Laptop,Electronics,-1,1200,-1200,EAST
+1574,2023-10-22,Bob Johnson,Bookshelf,Furniture,2,300,600,South
+1575,2023-04-30,Eve White,Desk Chair,Furniture,1,150,150,East
+1576,2025-02-23,Kathy Bates,Desk,Furniture,8,450,3600,EAST
+1577,2025-08-01,Alice Brown,Bookshelf,Furniture,7,300,2100, north 
+1578,2024-09-01,Kathy Bates,Mouse,Electronics,8,25,200,south
+1579,2024-06-14,Frank Green,Monitor,Electronics,6,300,1800, north 
+1580,2024-01-05,Kathy Bates,Coffee Maker,Appliances,5,75,375,EAST
+1581,2024-06-24,Peter Parker,Bookshelf,Furniture,6,300,1800, north 
+1582,2025-01-23,Grace Hopper,Monitor,Electronics,4,300,1200,South
+1583,2024-10-10,Olivia Munn,Desk Chair,Furniture,1,150,150,EAST
+1584,08/16/23,Ivy Taylor,Desk Chair,Furniture,6,150,900,East
+1585,2024-04-19,Peter Parker,Monitor,Electronics,5,300,1500,South
+1586,2026-12-09,Alice Brown,Blender,Appliances,5,50,250,North
+1587,2023-05-30,Bob Johnson,Monitor,Electronics,8,300,2400,West
+1588,2024-11-05,Grace Hopper,Bookshelf,Furniture,2,300,600, north 
+1589,2025-06-07,Nathan Drake,Coffee Maker,Appliances,8,75,600,East
+1590,2024-07-31,Eve White,Printer,Electronics,3,200,600,West
+1591,2023-07-11,Charlie Davis,Smart Watch,Electronics,8,250,2000,EAST
+1592,2024-05-09,Peter Parker,Desk Chair,Furniture,1,150,150,South
+1593,2025-03-09,Mary Shelley,Monitor,Electronics,8,300,2400,South
+1594,01/26/25,Mary Shelley,Desk,Furniture,5,450,2250,East
+1595,01/25/23,Leo Tolstoy,Blender,Appliances,4,50,200,East
+1596,2024-01-22,Nathan Drake,Desk Chair,Furniture,5,150,750,South
+1597,2023-03-24,Bob Johnson,Mouse,Electronics,8,25,200,South
+1598,2026-02-15,Kathy Bates,Blender,Appliances,7,50,350,West
+1599,2026-12-03,Frank Green,Printer,Electronics,1,200,200,EAST
+1600,2026-06-06,Kathy Bates,Printer,Electronics,3,200,600,south
+1601,2025-04-24,Eve White,Printer,Electronics,7,200,1400,south
+1602,2025-04-09,Ivy Taylor,Keyboard,Electronics,5,40,200, north 
+1603,2025-09-09,Leo Tolstoy,Smart Watch,Electronics,4,250,1000,West
+1604,2026-06-07,Bob Johnson,Mouse,Electronics,7,25,175,East
+1605,2023-08-31,Jack Black,Monitor,Electronics,-1,300,-300,East
+1606,2026-06-11,Leo Tolstoy,Headphones,electronics,8,100,,south
+1607,2026-08-04,Bob Johnson,Desk,Furniture,4,450,1800,West
+1608,2024-05-11,Nathan Drake,Sofa,Furniture,2,600,1200,South
+1609,2024-03-27,Jack Black,Bookshelf,Furniture,7,300,2100,East
+1610,2026-09-09,Olivia Munn,Printer,Electronics,5,200,1000,South
+1611,2024-10-03,Ivy Taylor,Keyboard,Electronics,-1,40,-40,south
+1612,2025-03-13,Alice Brown,Bookshelf,Furniture,7,300,2100, north 
+1613,2026-03-23,Charlie Davis,Desk Chair,Furniture,7,150,1050,North
+1614,2024-02-12,Hank Williams,Laptop,Electronics,5,1200,6000,EAST
+1615,2026-09-22,Nathan Drake,Laptop,Electronics,9,1200,10800,West
+1616,2024-03-18,Nathan Drake,Printer,Electronics,8,200,1600,West
+1617,2024-06-11,Grace Hopper,Monitor,Electronics,6,300,1800, north 
+1618,2023-06-11,,Desk,Furniture,7,450,3150,East
+1619,2026-05-15,Olivia Munn,Coffee Maker,Appliances,2,75,150,West
+1620,2023-04-03,Nathan Drake,Monitor,Electronics,6,300,1800,East
+1621,2023-03-08,Bob Johnson,Printer,Electronics,3,200,600,South
+1622,2025-11-22,John Doe,Blender,Appliances,9,50,450,North
+1623,2026-10-27,Jack Black,Headphones,electronics,4,100,,East
+1624,2023-05-10,Olivia Munn,Laptop,Electronics,8,1200,,East
+1625,2025-02-14,Kathy Bates,Printer,Electronics,8,200,1600, north 
+1626,2024-05-05,Peter Parker,Keyboard,Electronics,3,40,120,South
+1627,2024-07-05,,Desk,Furniture,9,450,4050,North
+1628,01/01/23,Eve White,Desk,Furniture,5,450,2250, north 
+1629,2025-12-18,Olivia Munn,Printer,Electronics,9,200,1800,south
+1630,2026-03-19,Grace Hopper,Sofa,Furniture,3,600,1800,East
+1631,09/30/25,Charlie Davis,Bookshelf,Furniture,6,300,1800,North
+1632,10/15/24,Jack Black,Headphones,electronics,9,100,900,EAST
+1633,2025-01-01,Alice Brown,Blender,Appliances,1,50,50,south
+1634,2024-01-31,Kathy Bates,Bookshelf,Furniture,1,300,300,EAST
+1635,2026-01-04,Eve White,Mouse,Electronics,3,25,75,North
+1636,2023-04-26,Ivy Taylor,Blender,Appliances,8,50,400,EAST
+1637,2024-01-28,jane smith,Sofa,Furniture,3,600,1800,West
+1638,2024-07-07,Nathan Drake,Headphones,electronics,9,100,900,North
+1639,2026-01-16,Alice Brown,Sofa,Furniture,2,600,1200,West
+1640,2024-10-09,John Doe,Desk Chair,Furniture,7,150,1050, north 
+1640,2024-10-09,John Doe,Desk Chair,Furniture,7,150,1050, north 
+1641,2025-11-20,Bob Johnson,Sofa,Furniture,9,600,5400, north 
+1642,2026-08-06,Alice Brown,Coffee Maker,Appliances,7,75,525, north 
+1643,2023-07-29,Kathy Bates,Keyboard,Electronics,5,40,200,south
+1644,2026-01-04,jane smith,Printer,Electronics,6,200,1200,North
+1645,2023-07-27,Grace Hopper,Headphones,electronics,9,100,900,EAST
+1646,2026-08-04,Hank Williams,Printer,Electronics,7,200,1400,south
+1647,2023-09-21,Ivy Taylor,Laptop,Electronics,4,1200,4800,East
+1648,2025-03-06,Olivia Munn,Sofa,Furniture,5,600,3000,south
+1649,05/30/24,Grace Hopper,Keyboard,Electronics,7,40,280,South
+1650,2026-05-16,jane smith,Laptop,Electronics,6,1200,7200,South
+1651,2023-06-06,Charlie Davis,Bookshelf,Furniture,5,300,1500,south
+1652,2025-11-03,Kathy Bates,Printer,Electronics,8,200,1600, north 
+1653,2025-10-01,John Doe,Mouse,Electronics,6,25,150,North
+1654,2025-05-27,Nathan Drake,Desk Chair,Furniture,1,150,150,south
+1655,2024-05-29,Mary Shelley,Smart Watch,Electronics,2,250,500,EAST
+1656,2023-04-13,John Doe,Smart Watch,Electronics,4,250,1000,East
+1657,2023-07-23,Mary Shelley,Bookshelf,Furniture,5,300,1500,West
+1658,2024-10-28,,Laptop,Electronics,7,1200,8400, north 
+1659,2023-03-04,Olivia Munn,Sofa,Furniture,2,600,1200,South
+1660,2026-10-16,Leo Tolstoy,Sofa,Furniture,6,600,3600,West
+1661,2026-02-13,Kathy Bates,Smart Watch,Electronics,4,250,1000,North
+1662,2025-01-09,Hank Williams,Headphones,electronics,8,100,800,EAST
+1663,2025-06-16,Charlie Davis,Coffee Maker,Appliances,2,75,150,south
+1664,2026-12-29,,Sofa,Furniture,-1,600,-600,East
+1665,2023-08-29,Nathan Drake,Keyboard,Electronics,6,40,240,East
+1666,2025-10-07,jane smith,Sofa,Furniture,6,600,3600,West
+1667,2024-04-17,,Smart Watch,Electronics,3,250,750,North
+1668,2026-06-20,Ivy Taylor,Headphones,electronics,1,100,100,West
+1669,2026-07-19,Alice Brown,Blender,Appliances,6,50,300,south
+1670,2023-10-21,Eve White,Mouse,Electronics,7,25,,East
+1671,2026-12-21,Leo Tolstoy,Keyboard,Electronics,7,40,280,West
+1672,2025-01-22,Eve White,Headphones,electronics,5,100,500,EAST
+1673,03/12/25,Grace Hopper,Mouse,Electronics,4,25,100,East
+1674,2024-12-31,Charlie Davis,Monitor,Electronics,5,300,1500, north 
+1675,2026-01-23,John Doe,Monitor,Electronics,4,300,,West
+1676,04/24/23,John Doe,Monitor,Electronics,6,300,1800, north 
+1677,26-09-2023,Peter Parker,Laptop,Electronics,5,1200,6000,North
+1678,2024-01-12,Charlie Davis,Sofa,Furniture,5,600,3000,North
+1679,2023-02-08,Kathy Bates,Desk Chair,Furniture,9,150,1350,East
+1680,2024-02-06,Frank Green,Desk,Furniture,2,450,900,North
+1681,2025-02-03,Charlie Davis,Monitor,Electronics,1,300,300,South
+1682,2026-04-18,Bob Johnson,Blender,Appliances,1,50,, north 
+1683,2024-03-28,Grace Hopper,Sofa,Furniture,1,600,600,EAST
+1684,10-08-2025,,Blender,Appliances,7,50,350,North
+1685,2026-10-31,Charlie Davis,Laptop,Electronics,4,1200,4800,North
+1686,2026-02-03,John Doe,Sofa,Furniture,5,600,3000,West
+1687,2025-01-11,Bob Johnson,Blender,Appliances,3,50,150,south
+1688,2025-03-12,Hank Williams,Bookshelf,Furniture,1,300,300, north 
+1689,2026-10-13,Frank Green,Sofa,Furniture,1,600,600,south
+1690,2025-06-06,Ivy Taylor,Bookshelf,Furniture,5,300,1500,EAST
+1691,2023-06-18,Jack Black,Monitor,Electronics,8,300,2400, north 
+1692,2023-10-10,Kathy Bates,Blender,Appliances,7,50,350,East
+1693,2024-03-26,Nathan Drake,Headphones,electronics,4,100,400,West
+1694,2023-01-17,Nathan Drake,Headphones,electronics,8,100,,North
+1695,2026-09-24,Grace Hopper,Sofa,Furniture,7,600,4200,South
+1696,2024-01-14,Frank Green,Desk Chair,Furniture,8,150,1200,North
+1697,2025-12-29,Bob Johnson,Desk Chair,Furniture,7,150,1050,East
+1698,2025-09-09,Ivy Taylor,Smart Watch,Electronics,8,250,2000,South
+1699,2024-08-11,Nathan Drake,Keyboard,Electronics,4,40,160,West
+1700,12-10-2025,Nathan Drake,Desk Chair,Furniture,3,150,450,North
+1701,2025-01-11,Charlie Davis,Mouse,Electronics,1,25,25,East
+1702,2024-11-25,Charlie Davis,Desk,Furniture,6,450,2700,East
+1703,2023-08-21,Hank Williams,Headphones,electronics,4,100,400,EAST
+1704,2023-06-16,Grace Hopper,Headphones,electronics,3,100,300,South
+1705,2025-06-02,Hank Williams,Mouse,Electronics,7,25,175,south
+1706,2023-11-11,Grace Hopper,Bookshelf,Furniture,1,300,300,West
+1707,2024-03-15,Frank Green,Coffee Maker,Appliances,6,75,450, north 
+1708,2023-01-18,Frank Green,Monitor,Electronics,3,300,900,East
+1709,2023-10-16,Olivia Munn,Monitor,Electronics,6,300,1800,North
+1710,2024-10-31,Nathan Drake,Keyboard,Electronics,9,40,360,South
+1711,2023-05-26,Grace Hopper,Coffee Maker,Appliances,8,75,600,North
+1712,2026-08-04,Charlie Davis,Desk,Furniture,4,450,1800,EAST
+1713,2024-09-26,jane smith,Headphones,electronics,1,100,100,East
+1714,2026-12-02,Jack Black,Headphones,electronics,8,100,800,South
+1715,2025-12-12,Leo Tolstoy,Monitor,Electronics,5,300,1500,South
+1716,2023-01-01,Peter Parker,Bookshelf,Furniture,8,300,2400,East
+1717,2025-09-18,John Doe,Bookshelf,Furniture,5,300,,south
+1718,2026-12-14,Eve White,Smart Watch,Electronics,8,250,2000,North
+1719,2025-09-18,Bob Johnson,Coffee Maker,Appliances,2,75,150,south
+1720,2024-05-27,John Doe,Headphones,electronics,8,100,800,South
+1721,2023-07-06,Bob Johnson,Printer,Electronics,9,200,1800,EAST
+1722,2025-12-09,jane smith,Coffee Maker,Appliances,8,75,600,North
+1723,2026-09-26,Alice Brown,Smart Watch,Electronics,8,250,2000,EAST
+1724,2023-06-06,Mary Shelley,Blender,Appliances,8,50,400,South
+1725,2023-04-13,Mary Shelley,Blender,Appliances,2,50,100,East
+1726,2023-04-08,Charlie Davis,Mouse,Electronics,1,25,25,South
+1727,2023-03-10,Jack Black,Headphones,electronics,9,100,900,South
+1728,2026-03-05,John Doe,Headphones,electronics,1,100,100, north 
+1729,2025-06-17,Bob Johnson,Mouse,Electronics,7,25,, north 
+1730,2025-10-12,Mary Shelley,Desk Chair,Furniture,-1,150,-150,West
+1731,13-01-2024,Ivy Taylor,Sofa,Furniture,1,600,600,West
+1732,2025-07-29,Ivy Taylor,Desk,Furniture,8,450,3600,South
+1733,2026-06-08,Jack Black,Bookshelf,Furniture,6,300,1800,East
+1734,2024-03-16,Bob Johnson,Desk,Furniture,2,450,900,EAST
+1735,2026-08-12,John Doe,Keyboard,Electronics,6,40,240, north 
+1736,27-06-2023,,Smart Watch,Electronics,4,250,1000,south
+1737,2025-09-26,Bob Johnson,Sofa,Furniture,4,600,2400,North
+1738,2024-08-05,Hank Williams,Smart Watch,Electronics,5,250,1250,East
+1739,2023-08-27,jane smith,Desk Chair,Furniture,3,150,450,EAST
+1740,2024-09-17,Alice Brown,Laptop,Electronics,1,1200,1200,EAST
+1741,2026-08-18,Bob Johnson,Keyboard,Electronics,6,40,,South
+1742,2024-08-16,Ivy Taylor,Coffee Maker,Appliances,9,75,675,North
+1743,2025-10-11,Alice Brown,Monitor,Electronics,5,300,1500, north 
+1744,2023-02-21,jane smith,Smart Watch,Electronics,1,250,250,EAST
+1745,2024-04-30,Alice Brown,Headphones,electronics,3,100,300, north 
+1746,2025-04-03,Peter Parker,Coffee Maker,Appliances,3,75,,West
+1747,03-03-2023,Eve White,Laptop,Electronics,9,1200,10800, north 
+1748,2023-11-12,Leo Tolstoy,Keyboard,Electronics,5,40,200,south
+1749,2026-09-08,Leo Tolstoy,Sofa,Furniture,4,600,2400,south
+1750,2026-06-23,Alice Brown,Laptop,Electronics,3,1200,3600,West
+1751,2023-05-10,Eve White,Desk Chair,Furniture,2,150,300,south
+1752,2024-07-02,Nathan Drake,Printer,Electronics,4,200,800,West
+1753,2024-02-05,Olivia Munn,Desk Chair,Furniture,5,150,750,EAST
+1754,01-01-2025,Kathy Bates,Headphones,electronics,9,100,900,West
+1755,12/10/23,John Doe,Smart Watch,Electronics,7,250,1750,East
+1756,2026-06-19,,Bookshelf,Furniture,4,300,1200,EAST
+1757,2025-11-14,Frank Green,Sofa,Furniture,9,600,5400,North
+1758,2023-08-06,Charlie Davis,Desk,Furniture,5,450,2250,South
+1759,2024-02-02,,Desk Chair,Furniture,3,150,450,South
+1760,2023-07-14,Leo Tolstoy,Mouse,Electronics,2,25,50,south
+1761,2026-01-20,Grace Hopper,Blender,Appliances,8,50,400, north 
+1762,2023-09-19,,Sofa,Furniture,5,600,3000,South
+1763,2025-08-19,Grace Hopper,Printer,Electronics,4,200,800,North
+1764,2024-06-03,Leo Tolstoy,Bookshelf,Furniture,5,300,1500,south
+1765,2024-04-23,jane smith,Mouse,Electronics,6,25,150, north 
+1766,2026-09-12,Mary Shelley,Bookshelf,Furniture,5,300,1500,South
+1767,2024-07-24,John Doe,Headphones,electronics,8,100,800,West
+1768,2025-12-19,Hank Williams,Coffee Maker,Appliances,4,75,300,EAST
+1769,2025-06-05,Jack Black,Desk Chair,Furniture,8,150,1200,south
+1770,2025-03-30,Eve White,Blender,Appliances,6,50,300,South
+1771,2026-07-09,Grace Hopper,Desk,Furniture,7,450,,East
+1772,2024-01-03,Alice Brown,Keyboard,Electronics,4,40,160, north 
+1773,2023-02-11,Bob Johnson,Keyboard,Electronics,6,40,240,West
+1774,2024-06-26,Alice Brown,Bookshelf,Furniture,4,300,1200,south
+1775,2026-01-25,Grace Hopper,Mouse,Electronics,4,25,100,EAST
+1776,2025-10-06,John Doe,Coffee Maker,Appliances,5,75,375,South
+1777,2024-04-05,Alice Brown,Smart Watch,Electronics,8,250,2000,North
+1778,2025-09-22,Leo Tolstoy,Blender,Appliances,5,50,250,south
+1779,2025-12-27,Nathan Drake,Laptop,Electronics,6,1200,7200,North
+1780,2024-11-16,Kathy Bates,Bookshelf,Furniture,6,300,1800,EAST
+1781,2024-03-31,Frank Green,Desk Chair,Furniture,7,150,1050,East
+1782,2024-02-12,Bob Johnson,Sofa,Furniture,8,600,4800,West
+1783,2025-04-11,Nathan Drake,Bookshelf,Furniture,8,300,2400,East
+1784,2023-12-16,Olivia Munn,Mouse,Electronics,2,25,50,North
+1785,29-07-2026,,Laptop,Electronics,1,1200,1200,EAST
+1786,2026-10-18,John Doe,Coffee Maker,Appliances,1,75,75,North
+1787,2023-12-11,Charlie Davis,Bookshelf,Furniture,7,300,2100,South
+1788,2026-05-01,Nathan Drake,Bookshelf,Furniture,8,300,2400, north 
+1789,2023-09-20,Mary Shelley,Laptop,Electronics,4,1200,4800,South
+1790,2025-06-21,Peter Parker,Printer,Electronics,4,200,800,EAST
+1791,2025-07-01,Nathan Drake,Desk Chair,Furniture,4,150,600,East
+1792,2023-06-29,John Doe,Coffee Maker,Appliances,6,75,450,East
+1793,2023-05-23,Frank Green,Headphones,electronics,4,100,400,West
+1794,2024-02-02,Jack Black,Blender,Appliances,1,50,50,south
+1795,20-10-2026,Leo Tolstoy,Desk Chair,Furniture,6,150,900,North
+1796,2025-05-05,Hank Williams,Laptop,Electronics,5,1200,6000, north 
+1797,2023-01-03,Ivy Taylor,Coffee Maker,Appliances,8,75,600,East
+1798,2025-09-28,Eve White,Keyboard,Electronics,9,40,360,East
+1799,2026-01-14,Nathan Drake,Headphones,electronics,9,100,900,EAST
+1800,2025-11-28,Peter Parker,Keyboard,Electronics,9,40,360,EAST
+1801,02/13/24,Frank Green,Desk,Furniture,4,450,1800, north 
+1802,05/28/26,Frank Green,Blender,Appliances,4,50,200,North
+1803,2025-12-12,Kathy Bates,Desk Chair,Furniture,6,150,900,South
+1804,06/29/24,Kathy Bates,Coffee Maker,Appliances,5,75,375, north 
+1805,2024-04-27,Nathan Drake,Desk,Furniture,2,450,900,south
+1806,08/18/26,Frank Green,Laptop,Electronics,-1,1200,-1200, north 
+1807,2024-12-17,Hank Williams,Coffee Maker,Appliances,2,75,150,West
+1808,2024-11-23,Olivia Munn,Blender,Appliances,2,50,100,south
+1809,09/06/24,,Monitor,Electronics,6,300,1800, north 
+1810,2026-08-21,John Doe,Desk Chair,Furniture,7,150,1050,South
+1811,2024-03-26,Bob Johnson,Laptop,Electronics,5,1200,6000,North
+1812,2024-07-16,,Headphones,electronics,5,100,500,South
+1813,12-01-2023,Ivy Taylor,Headphones,electronics,4,100,400,West
+1814,2024-06-12,John Doe,Printer,Electronics,6,200,1200,south
+1815,2025-11-02,jane smith,Desk Chair,Furniture,8,150,1200,EAST
+1816,2024-11-22,Bob Johnson,Mouse,Electronics,5,25,125,North
+1817,07/25/26,Nathan Drake,Headphones,electronics,1,100,100,South
+1818,2023-04-19,Hank Williams,Blender,Appliances,-1,50,-50,south
+1819,2025-07-04,Grace Hopper,Coffee Maker,Appliances,9,75,675,East
+1820,2024-01-02,Grace Hopper,Laptop,Electronics,4,1200,4800,West
+1821,2023-09-24,John Doe,Monitor,Electronics,3,300,900,EAST
+1822,2024-11-15,Alice Brown,Blender,Appliances,3,50,150,West
+1823,2026-05-07,Olivia Munn,Bookshelf,Furniture,9,300,2700,West
+1824,2026-10-17,Olivia Munn,Mouse,Electronics,6,25,150,south
+1825,2023-01-13,,Sofa,Furniture,6,600,3600,North
+1826,24-08-2023,Alice Brown,Bookshelf,Furniture,7,300,2100,South
+1827,2026-01-14,Peter Parker,Bookshelf,Furniture,2,300,600,East
+1828,2025-04-16,Ivy Taylor,Sofa,Furniture,4,600,2400,West
+1829,2026-02-12,Nathan Drake,Desk Chair,Furniture,9,150,1350,EAST
+1830,14-04-2024,Leo Tolstoy,Headphones,electronics,9,100,900,south
+1831,2026-12-21,John Doe,Monitor,Electronics,1,300,300,south
+1832,2023-04-14,Charlie Davis,Coffee Maker,Appliances,7,75,525,EAST
+1833,2024-11-12,Hank Williams,Sofa,Furniture,4,600,2400,South
+1834,2023-01-20,Eve White,Monitor,Electronics,7,300,2100,North
+1835,2023-10-20,Jack Black,Monitor,Electronics,2,300,600,North
+1836,2026-03-19,Leo Tolstoy,Sofa,Furniture,5,600,3000, north 
+1837,2023-08-16,Jack Black,Smart Watch,Electronics,5,250,1250,south
+1838,2023-06-24,John Doe,Blender,Appliances,1,50,50,West
+1839,2023-10-26,Olivia Munn,Sofa,Furniture,1,600,600,East
+1840,2024-01-23,John Doe,Smart Watch,Electronics,3,250,750,south
+1841,2025-12-18,Bob Johnson,Sofa,Furniture,7,600,4200,EAST
+1842,2024-02-20,Grace Hopper,Coffee Maker,Appliances,9,75,675, north 
+1843,2024-06-12,John Doe,Sofa,Furniture,2,600,1200,south
+1844,2023-11-21,,Headphones,electronics,5,100,500, north 
+1845,2026-03-07,jane smith,Desk Chair,Furniture,5,150,750,East
+1846,04/10/23,Leo Tolstoy,Sofa,Furniture,5,600,3000,North
+1847,2025-12-18,Peter Parker,Headphones,electronics,-1,100,-100,South
+1848,2023-04-21,Jack Black,Headphones,electronics,8,100,800,south
+1849,2026-01-16,Leo Tolstoy,Blender,Appliances,4,50,200, north 
+1850,2026-01-24,Ivy Taylor,Mouse,Electronics,4,25,100,East
+1851,2023-03-13,Nathan Drake,Keyboard,Electronics,6,40,240,North
+1852,2026-04-12,Bob Johnson,Monitor,Electronics,8,300,2400,South
+1853,2025-05-25,Grace Hopper,Smart Watch,Electronics,7,250,1750,south
+1854,2025-07-29,Bob Johnson,Monitor,Electronics,2,300,600,south
+1855,2024-10-16,Eve White,Keyboard,Electronics,2,40,80,EAST
+1856,2024-09-14,Peter Parker,Printer,Electronics,7,200,1400,south
+1857,2024-01-31,Charlie Davis,Printer,Electronics,6,200,1200, north 
+1858,2023-07-04,Kathy Bates,Smart Watch,Electronics,6,250,1500,West
+1859,2026-02-17,Eve White,Keyboard,Electronics,8,40,320,South
+1860,06-10-2026,Peter Parker,Desk Chair,Furniture,8,150,1200,south
+1861,2025-05-07,Frank Green,Smart Watch,Electronics,8,250,2000,East
+1862,2025-06-20,Mary Shelley,Desk Chair,Furniture,4,150,600,West
+1863,2024-07-08,Kathy Bates,Keyboard,Electronics,2,40,80, north 
+1864,2024-12-25,Mary Shelley,Coffee Maker,Appliances,9,75,675,south
+1865,29-08-2026,Peter Parker,Headphones,electronics,5,100,500,East
+1866,2026-11-09,Leo Tolstoy,Monitor,Electronics,6,300,1800,West
+1867,2026-01-23,Ivy Taylor,Blender,Appliances,7,50,350,South
+1868,2023-03-11,Kathy Bates,Monitor,Electronics,2,300,,West
+1869,2025-08-10,Ivy Taylor,Laptop,Electronics,6,1200,7200,West
+1870,2025-02-08,Leo Tolstoy,Printer,Electronics,6,200,1200,south
+1871,2023-06-10,Grace Hopper,Bookshelf,Furniture,3,300,900,East
+1872,2024-02-25,Charlie Davis,Laptop,Electronics,7,1200,8400,south
+1873,2023-09-16,jane smith,Headphones,electronics,8,100,800,North
+1874,2023-04-16,Leo Tolstoy,Headphones,electronics,9,100,900,North
+1875,2025-06-24,Grace Hopper,Monitor,Electronics,6,300,1800,West
+1876,2026-03-26,Kathy Bates,Blender,Appliances,4,50,200, north 
+1877,2025-06-16,Leo Tolstoy,Sofa,Furniture,7,600,4200,EAST
+1878,2025-11-27,Frank Green,Blender,Appliances,6,50,300,south
+1879,2024-05-08,Mary Shelley,Headphones,electronics,1,100,100,south
+1880,2026-02-06,Nathan Drake,Smart Watch,Electronics,1,250,250,South
+1881,2025-05-13,Charlie Davis,Desk Chair,Furniture,6,150,900,East
+1882,2024-10-03,Olivia Munn,Smart Watch,Electronics,8,250,2000,south
+1883,2026-07-03,Frank Green,Desk Chair,Furniture,7,150,1050,West
+1884,2025-05-07,Bob Johnson,Monitor,Electronics,-1,300,-300,south
+1885,2025-09-10,Bob Johnson,Printer,Electronics,2,200,400,East
+1886,2023-05-18,Hank Williams,Blender,Appliances,2,50,100,south
+1887,2024-08-18,John Doe,Desk Chair,Furniture,5,150,750,south
+1888,2024-05-13,Mary Shelley,Laptop,Electronics,4,1200,4800,East
+1889,2025-08-16,Peter Parker,Laptop,Electronics,8,1200,9600,East
+1890,2023-07-20,Nathan Drake,Headphones,electronics,7,100,700, north 
+1891,2024-09-17,Peter Parker,Desk Chair,Furniture,2,150,300,East
+1892,2025-12-11,Alice Brown,Desk,Furniture,5,450,2250,North
+1893,2025-07-01,jane smith,Bookshelf,Furniture,4,300,1200, north 
+1894,2024-11-25,Jack Black,Sofa,Furniture,5,600,3000,East
+1895,2023-02-08,Leo Tolstoy,Desk,Furniture,2,450,900, north 
+1896,2023-08-31,Eve White,Blender,Appliances,5,50,250,South
+1897,2025-07-29,jane smith,Desk,Furniture,8,450,3600,West
+1898,2023-10-18,Hank Williams,Desk Chair,Furniture,9,150,1350,East
+1899,28-06-2024,Peter Parker,Monitor,Electronics,6,300,,south
+1900,2025-03-07,Grace Hopper,Coffee Maker,Appliances,7,75,525,West
+1901,31-10-2023,Kathy Bates,Headphones,electronics,1,100,,North
+1902,2023-11-22,jane smith,Blender,Appliances,6,50,300,West
+1903,2026-12-03,Kathy Bates,Desk Chair,Furniture,2,150,,North
+1904,2025-11-12,Peter Parker,Desk Chair,Furniture,7,150,1050,south
+1905,2024-07-12,Nathan Drake,Smart Watch,Electronics,8,250,2000, north 
+1906,2023-05-10,Ivy Taylor,Sofa,Furniture,6,600,3600,North
+1907,2024-04-26,Peter Parker,Smart Watch,Electronics,3,250,750,South
+1908,2026-06-02,jane smith,Desk Chair,Furniture,3,150,450,North
+1909,2024-12-30,John Doe,Keyboard,Electronics,2,40,80,West
+1910,2023-12-25,Kathy Bates,Headphones,electronics,9,100,900,North
+1911,2026-01-11,Jack Black,Laptop,Electronics,2,1200,2400,West
+1912,2023-05-27,Leo Tolstoy,Desk,Furniture,1,450,450,East
+1913,13-02-2026,Bob Johnson,Desk Chair,Furniture,4,150,600,south
+1914,2024-09-30,Nathan Drake,Mouse,Electronics,2,25,50,EAST
+1915,2023-10-22,Nathan Drake,Mouse,Electronics,5,25,125,North
+1916,2026-07-06,Jack Black,Mouse,Electronics,7,25,175,North
+1917,2026-09-07,Jack Black,Coffee Maker,Appliances,9,75,675,south
+1918,2023-08-08,Eve White,Keyboard,Electronics,2,40,80,EAST
+1919,2026-02-02,Bob Johnson,Keyboard,Electronics,1,40,40,East
+1920,2026-10-21,Jack Black,Keyboard,Electronics,8,40,320,West
+1921,2026-11-09,Frank Green,Mouse,Electronics,5,25,125, north 
+1922,2026-03-18,Leo Tolstoy,Sofa,Furniture,8,600,4800,South
+1923,2025-02-18,Bob Johnson,Sofa,Furniture,1,600,600,West
+1924,2026-10-27,Leo Tolstoy,Sofa,Furniture,9,600,,North
+1925,2025-08-25,jane smith,Printer,Electronics,3,200,600, north 
+1926,2024-07-28,John Doe,Bookshelf,Furniture,9,300,2700,West
+1927,2023-09-16,Peter Parker,Blender,Appliances,3,50,150,South
+1928,2025-06-21,Olivia Munn,Coffee Maker,Appliances,7,75,525,South
+1929,2024-03-20,Kathy Bates,Mouse,Electronics,3,25,75,East
+1930,2026-03-31,Eve White,Printer,Electronics,5,200,1000,south
+1931,2026-07-25,Leo Tolstoy,Monitor,Electronics,2,300,600,south
+1932,2023-07-31,Nathan Drake,Laptop,Electronics,-1,1200,-1200,south
+1933,2023-12-30,Ivy Taylor,Smart Watch,Electronics,4,250,1000,South
+1934,2026-03-14,Charlie Davis,Sofa,Furniture,1,600,600,EAST
+1935,2023-08-12,,Headphones,electronics,4,100,400,South
+1936,2025-11-17,Frank Green,Keyboard,Electronics,4,40,160,North
+1937,2026-09-22,Kathy Bates,Mouse,Electronics,6,25,150,East
+1938,2025-07-16,Nathan Drake,Blender,Appliances,4,50,200,East
+1939,2023-03-23,Kathy Bates,Sofa,Furniture,9,600,5400,South
+1940,2026-02-06,Peter Parker,Blender,Appliances,3,50,150, north 
+1941,2024-08-27,Leo Tolstoy,Laptop,Electronics,5,1200,6000,East
+1942,2026-10-04,Alice Brown,Desk,Furniture,9,450,,West
+1943,2023-06-07,John Doe,Desk,Furniture,6,450,2700,East
+1944,2025-07-12,Mary Shelley,Desk,Furniture,9,450,4050,EAST
+1945,2026-02-13,Leo Tolstoy,Desk Chair,Furniture,7,150,1050,West
+1946,2024-03-27,Olivia Munn,Blender,Appliances,1,50,50,South
+1947,2025-02-15,Nathan Drake,Bookshelf,Furniture,5,300,1500,south
+1948,2026-12-20,Peter Parker,Printer,Electronics,2,200,400,West
+1949,09/27/25,Frank Green,Headphones,electronics,4,100,400,North
+1950,2026-10-23,Olivia Munn,Monitor,Electronics,7,300,2100,south
+1951,2023-07-13,Mary Shelley,Mouse,Electronics,3,25,75,south
+1952,2023-03-06,Nathan Drake,Coffee Maker,Appliances,7,75,525,EAST
+1953,05/29/24,Olivia Munn,Laptop,Electronics,6,1200,7200,South
+1954,2026-02-13,Nathan Drake,Laptop,Electronics,9,1200,10800,South
+1955,2023-02-12,Kathy Bates,Laptop,Electronics,-1,1200,-1200,south
+1956,2025-05-03,Peter Parker,Printer,Electronics,1,200,200,EAST
+1957,2024-11-22,Olivia Munn,Mouse,Electronics,7,25,175,South
+1958,2023-06-05,Leo Tolstoy,Sofa,Furniture,5,600,3000,EAST
+1959,2023-05-11,jane smith,Keyboard,Electronics,6,40,240,West
+1960,2025-01-22,Eve White,Laptop,Electronics,7,1200,8400,EAST
+1961,2026-06-01,Hank Williams,Desk Chair,Furniture,5,150,750,West
+1962,2024-09-06,Leo Tolstoy,Bookshelf,Furniture,5,300,1500,South
+1963,2024-09-18,Nathan Drake,Headphones,electronics,5,100,500,East
+1964,2025-08-04,Jack Black,Mouse,Electronics,2,25,50,North
+1965,2026-08-17,Jack Black,Keyboard,Electronics,1,40,40,East
+1966,2025-09-10,Alice Brown,Blender,Appliances,5,50,250,West
+1967,2024-06-08,Nathan Drake,Coffee Maker,Appliances,4,75,300,East
+1968,2024-03-07,Bob Johnson,Keyboard,Electronics,3,40,120,EAST
+1969,2024-07-15,Olivia Munn,Blender,Appliances,3,50,150,North
+1970,2025-06-19,Nathan Drake,Smart Watch,Electronics,4,250,1000,South
+1971,2025-04-05,Jack Black,Smart Watch,Electronics,4,250,1000,South
+1972,2025-06-20,Leo Tolstoy,Headphones,electronics,5,100,,North
+1972,2025-06-20,Leo Tolstoy,Headphones,electronics,5,100,,North
+1973,2025-05-15,Olivia Munn,Keyboard,Electronics,4,40,160,West
+1974,2024-08-24,Bob Johnson,Coffee Maker,Appliances,4,75,300,West
+1975,2023-12-17,Alice Brown,Sofa,Furniture,4,600,2400,South
+1976,2025-03-26,Eve White,Coffee Maker,Appliances,2,75,150,East
+1977,11-07-2023,Alice Brown,Blender,Appliances,8,50,400,West
+1978,03/03/23,Ivy Taylor,Smart Watch,Electronics,9,250,2250,EAST
+1978,03/03/23,Ivy Taylor,Smart Watch,Electronics,9,250,2250,EAST
+1979,2023-12-15,Ivy Taylor,Blender,Appliances,5,50,250, north 
+1980,2023-12-04,Eve White,Laptop,Electronics,4,1200,4800,South
+1981,2024-08-11,Grace Hopper,Printer,Electronics,8,200,1600,south
+1982,2026-03-12,Peter Parker,Desk,Furniture,1,450,450,EAST
+1983,2024-07-07,Olivia Munn,Coffee Maker,Appliances,9,75,675,EAST
+1984,2024-04-23,Kathy Bates,Laptop,Electronics,2,1200,2400,East
+1985,2026-05-20,Alice Brown,Printer,Electronics,9,200,1800,West
+1986,2025-05-09,Nathan Drake,Blender,Appliances,1,50,50, north 
+1987,2026-12-20,,Keyboard,Electronics,1,40,40, north 
+1988,2023-05-31,Alice Brown,Desk Chair,Furniture,6,150,900,North
+1989,2024-02-18,Ivy Taylor,Keyboard,Electronics,4,40,160,West
+1990,2024-04-09,Alice Brown,Printer,Electronics,7,200,1400, north 
+1991,2023-07-09,Nathan Drake,Desk Chair,Furniture,7,150,1050,North
+1992,2025-10-15,Mary Shelley,Blender,Appliances,8,50,400,south
+1993,2024-11-28,jane smith,Keyboard,Electronics,3,40,120,West
+1994,2026-08-14,Grace Hopper,Desk,Furniture,9,450,4050,South
+1995,2026-07-02,Mary Shelley,Smart Watch,Electronics,9,250,2250, north 
+1996,2023-10-13,Hank Williams,Monitor,Electronics,5,300,1500,EAST
+1996,2023-10-13,Hank Williams,Monitor,Electronics,5,300,1500,EAST
+1997,2023-05-06,,Keyboard,Electronics,3,40,120, north 
+1998,2026-06-19,Alice Brown,Bookshelf,Furniture,4,300,1200,West
+1998,2026-06-19,Alice Brown,Bookshelf,Furniture,4,300,1200,West
+1999,2024-05-03,Olivia Munn,Headphones,electronics,6,100,600,south
+2000,2026-06-25,Nathan Drake,Smart Watch,Electronics,7,250,, north 
+2001,2024-11-25,Bob Johnson,Headphones,electronics,8,100,800,East
+2002,04/30/23,Kathy Bates,Laptop,Electronics,2,1200,2400,West
+2003,2026-12-23,Hank Williams,Desk,Furniture,3,450,1350,South
+2004,2024-07-30,Bob Johnson,Smart Watch,Electronics,7,250,1750,West
+2005,2024-05-01,Grace Hopper,Bookshelf,Furniture,8,300,2400,south
+2006,2026-01-08,Mary Shelley,Sofa,Furniture,4,600,2400,East
+2007,2026-10-27,Olivia Munn,Smart Watch,Electronics,2,250,500,south
+2008,2026-06-12,Leo Tolstoy,Printer,Electronics,7,200,1400,South
+2009,2023-11-11,John Doe,Monitor,Electronics,2,300,600,south
+2010,2023-05-18,Nathan Drake,Mouse,Electronics,9,25,225,South
+2011,2023-04-27,Eve White,Monitor,Electronics,1,300,,south
+2012,2023-12-26,Jack Black,Desk Chair,Furniture,9,150,1350, north 
+2013,10-08-2023,Kathy Bates,Mouse,Electronics,6,25,150,south
+2014,2026-01-18,Kathy Bates,Desk Chair,Furniture,8,150,1200, north 
+2015,2023-02-04,John Doe,Sofa,Furniture,5,600,3000,south
+2016,2023-07-28,Eve White,Blender,Appliances,9,50,450, north 
+2017,2025-12-17,Olivia Munn,Desk Chair,Furniture,5,150,750,East
+2018,2024-02-26,John Doe,Desk Chair,Furniture,1,150,150,North
+2019,2026-07-14,John Doe,Keyboard,Electronics,1,40,,East
+2020,2026-02-22,Mary Shelley,Coffee Maker,Appliances,1,75,75, north 
+2021,2026-08-25,Hank Williams,Printer,Electronics,6,200,1200,EAST
+2022,2023-04-21,Kathy Bates,Sofa,Furniture,3,600,1800,South
+2023,2023-04-16,Bob Johnson,Coffee Maker,Appliances,3,75,225,south
+2024,05-03-2024,jane smith,Laptop,Electronics,7,1200,8400,South
+2025,2025-04-09,John Doe,Headphones,electronics,5,100,500,West
+2026,07-04-2023,Bob Johnson,Coffee Maker,Appliances,8,75,600,North
+2027,2023-02-17,Kathy Bates,Printer,Electronics,2,200,400,West
+2028,2026-01-14,John Doe,Bookshelf,Furniture,4,300,,South
+2029,2026-11-14,jane smith,Headphones,electronics,1,100,100,South
+2030,2023-10-11,Olivia Munn,Monitor,Electronics,2,300,600,North
+2031,2024-12-31,,Mouse,Electronics,2,25,50,North
+2032,2025-03-06,Leo Tolstoy,Mouse,Electronics,3,25,75,West
+2033,2025-05-11,Hank Williams,Monitor,Electronics,1,300,300,East
+2034,05/16/23,Ivy Taylor,Laptop,Electronics,9,1200,10800,East
+2035,04/12/23,Mary Shelley,Monitor,Electronics,6,300,,South
+2036,2024-05-09,Leo Tolstoy,Sofa,Furniture,5,600,3000,West
+2037,2025-04-04,Grace Hopper,Mouse,Electronics,3,25,75,EAST
+2038,2023-07-26,jane smith,Desk,Furniture,5,450,2250,East
+2039,2024-10-05,Mary Shelley,Coffee Maker,Appliances,5,75,375, north 
+2040,2026-11-08,Kathy Bates,Sofa,Furniture,5,600,3000,North
+2041,2023-06-19,Charlie Davis,Blender,Appliances,1,50,50,North
+2042,2024-03-30,Leo Tolstoy,Printer,Electronics,5,200,1000,East
+2043,19-10-2023,Mary Shelley,Headphones,electronics,8,100,800,West
+2044,2024-06-13,Peter Parker,Monitor,Electronics,7,300,2100,East
+2045,07-10-2024,Jack Black,Coffee Maker,Appliances,2,75,150,South
+2046,12/22/24,Grace Hopper,Bookshelf,Furniture,6,300,,North
+2047,2026-12-04,Bob Johnson,Smart Watch,Electronics,7,250,,East
+2048,2024-03-06,Mary Shelley,Desk,Furniture,2,450,900,North
+2049,2026-12-24,Ivy Taylor,Printer,Electronics,-1,200,-200, north 
+2050,2026-05-01,jane smith,Bookshelf,Furniture,8,300,2400,South
+2051,2026-11-24,Grace Hopper,Smart Watch,Electronics,2,250,500,North
+2052,2025-07-01,Kathy Bates,Printer,Electronics,4,200,,North
+2053,2023-04-28,Leo Tolstoy,Laptop,Electronics,5,1200,6000,East
+2054,2023-10-04,Nathan Drake,Headphones,electronics,7,100,700,south
+2055,04-05-2026,Mary Shelley,Headphones,electronics,5,100,500,South
+2056,2026-06-07,Peter Parker,Keyboard,Electronics,2,40,80, north 
+2057,2024-09-14,Grace Hopper,Printer,Electronics,4,200,800,south
+2058,2026-12-14,Leo Tolstoy,Keyboard,Electronics,5,40,200,South
+2059,2024-12-24,Jack Black,Monitor,Electronics,5,300,1500,North
+2060,2023-10-11,Alice Brown,Keyboard,Electronics,2,40,80,EAST
+2061,2024-11-03,Charlie Davis,Printer,Electronics,8,200,1600,North
+2062,2024-06-27,Charlie Davis,Keyboard,Electronics,1,40,40,south
+2063,2024-11-16,Jack Black,Blender,Appliances,4,50,200,North
+2064,20-02-2025,John Doe,Printer,Electronics,2,200,400,South
+2065,04/17/26,Kathy Bates,Mouse,Electronics,1,25,25, north 
+2066,2023-11-03,,Printer,Electronics,6,200,1200,South
+2067,2023-12-23,Grace Hopper,Keyboard,Electronics,4,40,160,West
+2068,2023-06-10,Alice Brown,Monitor,Electronics,7,300,2100,South
+2069,2024-11-26,Eve White,Blender,Appliances,9,50,450, north 
+2070,2023-04-17,,Smart Watch,Electronics,8,250,2000,East
+2071,05/10/25,Jack Black,Blender,Appliances,4,50,200,South
+2072,2023-09-24,Ivy Taylor,Smart Watch,Electronics,3,250,750,south
+2073,2023-01-04,John Doe,Mouse,Electronics,3,25,75,South
+2074,2023-07-10,Alice Brown,Printer,Electronics,1,200,200,West
+2075,2024-10-22,Olivia Munn,Blender,Appliances,9,50,450,North
+2076,2024-03-21,Jack Black,Monitor,Electronics,3,300,900,south
+2077,2026-06-28,Mary Shelley,Keyboard,Electronics,9,40,360,south
+2078,2025-04-13,Charlie Davis,Smart Watch,Electronics,4,250,1000,South
+2079,2025-08-15,Eve White,Smart Watch,Electronics,7,250,1750,EAST
+2080,06/14/23,Bob Johnson,Desk Chair,Furniture,8,150,1200,East
+2081,10/25/25,John Doe,Desk,Furniture,3,450,1350,south
+2082,2026-06-05,Peter Parker,Bookshelf,Furniture,7,300,2100,south
+2083,2026-06-17,Ivy Taylor,Mouse,Electronics,2,25,50,North
+2084,2026-08-06,jane smith,Mouse,Electronics,6,25,150,south
+2085,17-09-2024,Frank Green,Keyboard,Electronics,8,40,320,West
+2086,2026-07-17,Bob Johnson,Desk Chair,Furniture,2,150,300,South
+2087,2025-07-18,John Doe,Desk,Furniture,6,450,2700,south
+2088,09-12-2025,Ivy Taylor,Headphones,electronics,9,100,900,East
+2089,2024-06-10,Eve White,Desk Chair,Furniture,2,150,300,south
+2090,2026-12-22,Bob Johnson,Laptop,Electronics,3,1200,3600,North
+2091,2025-11-19,Bob Johnson,Coffee Maker,Appliances,2,75,150,south
+2092,2026-12-12,Olivia Munn,Sofa,Furniture,2,600,1200,South
+2093,2026-03-13,Kathy Bates,Smart Watch,Electronics,8,250,2000,North
+2094,09-04-2025,Eve White,Monitor,Electronics,4,300,1200,East
+2095,21-10-2026,Frank Green,Keyboard,Electronics,7,40,,North
+2096,2024-03-24,Eve White,Keyboard,Electronics,3,40,120,south
+2097,2024-09-29,Olivia Munn,Bookshelf,Furniture,8,300,2400,East
+2098,2025-05-29,Jack Black,Coffee Maker,Appliances,7,75,525,North
+2099,2026-12-26,Alice Brown,Smart Watch,Electronics,2,250,500,South
+2100,2026-12-21,Grace Hopper,Bookshelf,Furniture,1,300,300,East
+2101,2023-11-07,Leo Tolstoy,Laptop,Electronics,5,1200,6000,North
+2102,2026-12-08,Alice Brown,Mouse,Electronics,1,25,25,East
+2103,2023-10-05,Nathan Drake,Desk,Furniture,1,450,450,EAST
+2104,07-02-2026,John Doe,Laptop,Electronics,2,1200,2400,south
+2105,2023-05-08,,Printer,Electronics,9,200,1800,south
+2106,2024-06-29,Olivia Munn,Printer,Electronics,1,200,200,EAST
+2106,2024-06-29,Olivia Munn,Printer,Electronics,1,200,200,EAST
+2107,2026-10-09,Alice Brown,Monitor,Electronics,9,300,2700,East
+2108,02-09-2026,Eve White,Desk,Furniture,7,450,3150,West
+2109,2026-05-16,Kathy Bates,Mouse,Electronics,7,25,175,North
+2110,2023-05-02,Leo Tolstoy,Laptop,Electronics,6,1200,7200,West
+2111,2024-07-20,Olivia Munn,Bookshelf,Furniture,6,300,,North
+2112,2025-08-06,Leo Tolstoy,Printer,Electronics,8,200,1600,West
+2113,2025-04-06,Charlie Davis,Coffee Maker,Appliances,7,75,525,West
+2114,2024-01-04,Bob Johnson,Desk,Furniture,1,450,450,North
+2115,2025-02-01,Grace Hopper,Desk Chair,Furniture,3,150,450,south
+2116,12/10/24,Mary Shelley,Printer,Electronics,6,200,1200,EAST
+2117,2023-01-06,Nathan Drake,Desk,Furniture,3,450,1350,EAST
+2118,2026-05-18,Peter Parker,Sofa,Furniture,6,600,3600,south
+2119,15-10-2026,Nathan Drake,Printer,Electronics,2,200,400,EAST
+2120,2025-01-26,John Doe,Monitor,Electronics,9,300,2700,East
+2121,2024-01-18,Jack Black,Desk,Furniture,1,450,450,North
+2122,2025-01-16,Mary Shelley,Mouse,Electronics,9,25,225,EAST
+2123,2025-09-19,Kathy Bates,Headphones,electronics,4,100,400,West
+2124,2023-05-06,Bob Johnson,Desk,Furniture,6,450,2700,south
+2125,03/09/25,Eve White,Coffee Maker,Appliances,3,75,225,North
+2126,2026-08-30,Olivia Munn,Mouse,Electronics,7,25,175,south
+2127,2024-12-11,Grace Hopper,Blender,Appliances,4,50,200,EAST
+2128,2023-08-10,Kathy Bates,Laptop,Electronics,2,1200,2400,EAST
+2129,2023-02-24,Grace Hopper,Blender,Appliances,4,50,200,EAST
+2130,2023-03-10,Grace Hopper,Printer,Electronics,5,200,1000,West
+2131,2025-11-02,Kathy Bates,Blender,Appliances,7,50,350,South
+2132,2023-05-18,Olivia Munn,Sofa,Furniture,6,600,3600, north 
+2133,2023-12-17,John Doe,Bookshelf,Furniture,9,300,2700,East
+2134,2026-04-14,Peter Parker,Sofa,Furniture,6,600,3600,North
+2135,2026-07-09,Leo Tolstoy,Monitor,Electronics,9,300,2700,EAST
+2136,2024-07-28,Hank Williams,Smart Watch,Electronics,9,250,2250,south
+2137,2024-01-19,Kathy Bates,Headphones,electronics,1,100,100,South
+2138,2024-11-29,Leo Tolstoy,Monitor,Electronics,6,300,1800,EAST
+2139,2023-11-12,John Doe,Printer,Electronics,7,200,1400,EAST
+2140,2023-06-26,Hank Williams,Monitor,Electronics,9,300,2700, north 
+2141,2023-11-16,Charlie Davis,Coffee Maker,Appliances,7,75,525,South
+2142,2024-08-22,,Blender,Appliances,6,50,,south
+2143,2025-02-28,Peter Parker,Desk,Furniture,4,450,1800,EAST
+2144,2026-04-16,Kathy Bates,Smart Watch,Electronics,9,250,,West
+2145,2024-02-16,Charlie Davis,Monitor,Electronics,2,300,600, north 
+2146,2023-03-01,Leo Tolstoy,Laptop,Electronics,-1,1200,-1200,East
+2147,2023-12-21,Jack Black,Headphones,electronics,7,100,700,south
+2148,2026-05-21,Hank Williams,Keyboard,Electronics,2,40,80,West
+2149,2023-11-24,Nathan Drake,Desk Chair,Furniture,9,150,, north 
+2150,03/19/24,John Doe,Coffee Maker,Appliances,9,75,675, north 
+2151,2026-05-26,Kathy Bates,Laptop,Electronics,6,1200,7200,East
+2152,2024-11-25,Ivy Taylor,Desk,Furniture,8,450,3600,South
+2153,2023-01-11,Alice Brown,Desk Chair,Furniture,5,150,750,West
+2154,2024-02-25,Kathy Bates,Bookshelf,Furniture,4,300,1200,North
+2155,2025-12-03,Leo Tolstoy,Smart Watch,Electronics,5,250,1250,EAST
+2156,2023-07-12,Leo Tolstoy,Desk,Furniture,2,450,900,North
+2157,2025-07-02,jane smith,Monitor,Electronics,2,300,600,EAST
+2158,2025-09-14,Nathan Drake,Laptop,Electronics,6,1200,7200,West
+2159,2024-01-24,jane smith,Printer,Electronics,8,200,1600,West
+2160,2025-08-08,Nathan Drake,Coffee Maker,Appliances,2,75,150,West
+2161,2025-03-16,Kathy Bates,Blender,Appliances,2,50,100,North
+2162,2025-09-18,John Doe,Blender,Appliances,8,50,400,East
+2163,2024-06-13,John Doe,Bookshelf,Furniture,9,300,2700,West
+2164,2023-11-15,Eve White,Smart Watch,Electronics,1,250,250,West
+2165,2023-05-20,Charlie Davis,Bookshelf,Furniture,4,300,,South
+2166,2024-08-18,Mary Shelley,Headphones,electronics,5,100,500,South
+2167,2023-10-25,Jack Black,Mouse,Electronics,9,25,225,south
+2168,2023-05-29,Frank Green,Printer,Electronics,3,200,600,West
+2169,2025-02-25,Leo Tolstoy,Desk,Furniture,1,450,450,North
+2170,2023-01-14,Eve White,Headphones,electronics,3,100,,south
+2171,2025-12-01,Hank Williams,Desk Chair,Furniture,2,150,300,south
+2172,2026-07-10,Ivy Taylor,Keyboard,Electronics,4,40,160,South
+2173,06/16/23,John Doe,Monitor,Electronics,6,300,1800,North
+2174,2025-03-14,Nathan Drake,Desk Chair,Furniture,5,150,750, north 
+2175,2023-08-02,Alice Brown,Keyboard,Electronics,9,40,,North
+2176,2025-10-11,Hank Williams,Monitor,Electronics,1,300,300,South
+2177,2023-10-09,jane smith,Blender,Appliances,7,50,350, north 
+2178,2026-04-26,Ivy Taylor,Bookshelf,Furniture,5,300,1500,EAST
+2179,2025-11-10,Leo Tolstoy,Headphones,electronics,3,100,300,North
+2180,2024-04-03,Frank Green,Desk,Furniture,2,450,900,EAST
+2181,2023-07-21,Nathan Drake,Coffee Maker,Appliances,-1,75,-75,East
+2182,2026-07-08,Jack Black,Keyboard,Electronics,7,40,280,south
+2183,2024-02-20,Hank Williams,Mouse,Electronics,9,25,225,south
+2184,2025-01-06,Jack Black,Mouse,Electronics,6,25,150,south
+2185,2024-11-22,Hank Williams,Sofa,Furniture,9,600,5400,East
+2186,2025-08-19,Frank Green,Sofa,Furniture,3,600,1800,south
+2186,2025-08-19,Frank Green,Sofa,Furniture,3,600,1800,south
+2187,2024-11-28,Grace Hopper,Desk Chair,Furniture,6,150,900,EAST
+2188,2023-06-11,Peter Parker,Monitor,Electronics,4,300,1200,South
+2189,2023-05-06,Bob Johnson,Coffee Maker,Appliances,9,75,675, north 
+2190,2024-11-14,Frank Green,Monitor,Electronics,-1,300,-300,EAST
+2191,2026-10-14,Alice Brown,Headphones,electronics,1,100,100,EAST
+2192,07/12/24,Peter Parker,Keyboard,Electronics,9,40,360, north 
+2193,2023-06-14,Eve White,Monitor,Electronics,8,300,2400,EAST
+2194,2023-12-04,Frank Green,Monitor,Electronics,4,300,1200,North
+2195,2024-12-20,Frank Green,Monitor,Electronics,2,300,600, north 
+2196,2023-12-26,Jack Black,Blender,Appliances,7,50,350,East
+2197,2023-09-01,Mary Shelley,Printer,Electronics,7,200,1400,south
+2198,16-12-2024,Olivia Munn,Smart Watch,Electronics,5,250,,south
+2199,2026-11-08,Charlie Davis,Printer,Electronics,6,200,1200,West
+2200,2025-04-01,Peter Parker,Desk Chair,Furniture,8,150,1200,south
+2201,2023-07-27,Ivy Taylor,Desk,Furniture,8,450,3600,East
+2202,2023-11-29,Hank Williams,Mouse,Electronics,4,25,100,East
+2203,2023-10-27,Jack Black,Printer,Electronics,2,200,400,North
+2204,2025-02-18,Frank Green,Desk Chair,Furniture,1,150,150,EAST
+2205,2024-08-20,Peter Parker,Blender,Appliances,7,50,350,North
+2206,2025-03-02,jane smith,Monitor,Electronics,5,300,1500,North
+2207,2023-01-26,Hank Williams,Desk Chair,Furniture,9,150,1350, north 
+2208,2023-11-03,Hank Williams,Monitor,Electronics,4,300,1200,East
+2209,2024-11-26,Charlie Davis,Laptop,Electronics,8,1200,9600,East
+2210,2024-06-27,Alice Brown,Sofa,Furniture,3,600,1800,EAST
+2211,2026-03-31,Olivia Munn,Headphones,electronics,3,100,,West
+2212,04-09-2026,Jack Black,Blender,Appliances,9,50,450,West
+2213,2024-04-13,John Doe,Bookshelf,Furniture,7,300,2100, north 
+2214,2023-04-18,Frank Green,Mouse,Electronics,8,25,200,East
+2215,2025-12-02,Alice Brown,Bookshelf,Furniture,5,300,1500,south
+2216,2024-11-23,John Doe,Smart Watch,Electronics,6,250,1500,East
+2217,2026-03-20,Kathy Bates,Keyboard,Electronics,8,40,320, north 
+2218,2026-06-16,Leo Tolstoy,Bookshelf,Furniture,1,300,300,EAST
+2219,2023-10-12,Frank Green,Keyboard,Electronics,9,40,360,West
+2220,2025-09-06,jane smith,Laptop,Electronics,3,1200,3600,East
+2221,2024-12-17,Hank Williams,Headphones,electronics,9,100,900,south
+2222,2025-01-22,Frank Green,Sofa,Furniture,6,600,3600,South
+2223,2025-11-18,Ivy Taylor,Desk Chair,Furniture,1,150,150,West
+2224,2026-10-03,Jack Black,Laptop,Electronics,9,1200,,South
+2225,01/12/25,Charlie Davis,Smart Watch,Electronics,8,250,2000,North
+2225,01/12/25,Charlie Davis,Smart Watch,Electronics,8,250,2000,North
+2226,23-03-2023,Charlie Davis,Sofa,Furniture,2,600,1200,EAST
+2227,2025-08-25,Mary Shelley,Sofa,Furniture,4,600,2400,South
+2228,17-05-2024,Olivia Munn,Desk Chair,Furniture,5,150,750, north 
+2229,2026-08-23,Ivy Taylor,Sofa,Furniture,5,600,3000, north 
+2230,2024-01-17,Eve White,Mouse,Electronics,4,25,100,south
+2231,2026-08-06,Charlie Davis,Monitor,Electronics,7,300,2100,South
+2232,2024-01-09,Mary Shelley,Keyboard,Electronics,8,40,320, north 
+2233,2023-03-02,Grace Hopper,Smart Watch,Electronics,4,250,1000,EAST
+2234,2023-07-15,Olivia Munn,Headphones,electronics,2,100,200,West
+2235,2026-01-18,Alice Brown,Smart Watch,Electronics,2,250,500,South
+2236,2024-10-07,jane smith,Printer,Electronics,8,200,1600,North
+2237,2025-07-04,Grace Hopper,Laptop,Electronics,9,1200,10800,North
+2238,2023-02-04,Kathy Bates,Mouse,Electronics,5,25,125,West
+2239,2026-12-25,,Blender,Appliances,8,50,400,North
+2239,2026-12-25,,Blender,Appliances,8,50,400,North
+2240,2023-12-17,jane smith,Sofa,Furniture,1,600,600,EAST
+2241,2024-12-20,Ivy Taylor,Sofa,Furniture,7,600,4200,South
+2242,2024-02-13,Jack Black,Laptop,Electronics,2,1200,2400,East
+2243,2023-01-28,Hank Williams,Blender,Appliances,9,50,450,south
+2244,12/08/26,Charlie Davis,Desk,Furniture,3,450,1350,West
+2245,2026-01-26,Kathy Bates,Coffee Maker,Appliances,6,75,450,West
+2246,2025-09-27,John Doe,Headphones,electronics,8,100,800,South
+2247,2023-11-24,Hank Williams,Bookshelf,Furniture,5,300,1500,West
+2248,2024-09-06,Olivia Munn,Mouse,Electronics,1,25,25, north 
+2249,2025-10-29,Leo Tolstoy,Sofa,Furniture,4,600,2400,South
+2250,2025-10-26,jane smith,Printer,Electronics,9,200,1800,south
+2251,2026-09-12,,Mouse,Electronics,8,25,,south
+2252,2026-10-23,Bob Johnson,Desk,Furniture,9,450,4050,EAST
+2253,2023-11-07,John Doe,Laptop,Electronics,7,1200,8400,North
+2254,2025-01-19,Grace Hopper,Sofa,Furniture,2,600,1200,South
+2255,2024-04-24,Mary Shelley,Coffee Maker,Appliances,5,75,375,West
+2256,09/03/24,Leo Tolstoy,Headphones,electronics,4,100,400, north 
+2257,2024-06-27,,Keyboard,Electronics,4,40,160, north 
+2258,2024-02-03,John Doe,Headphones,electronics,-1,100,-100,East
+2259,2026-06-19,jane smith,Laptop,Electronics,6,1200,7200, north 
+2260,2025-09-25,Bob Johnson,Smart Watch,Electronics,5,250,1250,EAST
+2261,2023-07-22,Hank Williams,Bookshelf,Furniture,4,300,1200,south
+2262,2025-05-03,Peter Parker,Desk Chair,Furniture,3,150,450, north 
+2263,11/17/25,Charlie Davis,Mouse,Electronics,1,25,25,south
+2264,2026-04-11,Mary Shelley,Keyboard,Electronics,9,40,360,East
+2265,2025-12-13,Mary Shelley,Headphones,electronics,9,100,900,East
+2266,2023-12-24,Charlie Davis,Sofa,Furniture,5,600,3000, north 
+2267,2023-08-23,Charlie Davis,Mouse,Electronics,2,25,50,EAST
+2268,2026-10-02,Olivia Munn,Printer,Electronics,2,200,400,EAST
+2269,2023-12-08,Frank Green,Headphones,electronics,4,100,400,North
+2270,2025-09-08,jane smith,Blender,Appliances,8,50,400,West
+2271,2026-09-27,Hank Williams,Blender,Appliances,2,50,,East
+2272,07-12-2023,Mary Shelley,Sofa,Furniture,-1,600,-600,south
+2273,2023-05-02,Charlie Davis,Blender,Appliances,3,50,150, north 
+2274,2025-03-11,Olivia Munn,Sofa,Furniture,5,600,3000,North
+2275,2025-04-13,John Doe,Laptop,Electronics,3,1200,3600,North
+2276,2025-10-04,Mary Shelley,Keyboard,Electronics,4,40,160,EAST
+2277,2026-02-13,jane smith,Sofa,Furniture,6,600,3600,south
+2278,2025-04-28,Alice Brown,Laptop,Electronics,3,1200,3600,South
+2279,2025-05-20,Mary Shelley,Desk,Furniture,4,450,1800,East
+2280,2023-03-07,Mary Shelley,Monitor,Electronics,-1,300,-300,EAST
+2281,2024-11-16,John Doe,Sofa,Furniture,4,600,2400,South
+2282,2024-07-27,,Printer,Electronics,2,200,400, north 
+2283,2023-01-25,jane smith,Desk Chair,Furniture,9,150,1350,East
+2284,20-08-2024,Grace Hopper,Bookshelf,Furniture,7,300,2100,North
+2285,2025-11-25,Ivy Taylor,Monitor,Electronics,4,300,1200, north 
+2286,09/08/25,Kathy Bates,Coffee Maker,Appliances,8,75,600,south
+2287,2023-01-15,Jack Black,Sofa,Furniture,1,600,600,EAST
+2288,2026-01-27,Peter Parker,Monitor,Electronics,8,300,2400,EAST
+2289,2026-08-19,Peter Parker,Smart Watch,Electronics,8,250,2000, north 
+2290,2026-10-17,Leo Tolstoy,Sofa,Furniture,6,600,3600,East
+2291,2023-08-15,Leo Tolstoy,Printer,Electronics,5,200,1000, north 
+2292,28-11-2024,Kathy Bates,Smart Watch,Electronics,2,250,500,East
+2293,2025-05-03,Alice Brown,Printer,Electronics,3,200,600,West
+2294,30-10-2023,Ivy Taylor,Sofa,Furniture,5,600,3000, north 
+2295,2024-07-17,Kathy Bates,Desk,Furniture,-1,450,-450,North
+2296,2025-01-04,Hank Williams,Bookshelf,Furniture,2,300,600, north 
+2297,2024-06-01,Kathy Bates,Smart Watch,Electronics,6,250,1500,North
+2298,16-02-2023,,Laptop,Electronics,7,1200,8400, north 
+2299,2026-08-19,Mary Shelley,Desk Chair,Furniture,8,150,1200,south
+2300,29-03-2024,Frank Green,Headphones,electronics,9,100,900,North
+2301,2025-02-23,Grace Hopper,Bookshelf,Furniture,2,300,600, north 
+2302,09-12-2023,Peter Parker,Desk Chair,Furniture,3,150,450,south
+2303,2023-07-04,Frank Green,Desk,Furniture,8,450,3600,North
+2304,2025-11-13,Frank Green,Bookshelf,Furniture,2,300,600,North
+2305,2026-10-12,Frank Green,Monitor,Electronics,5,300,1500,South
+2306,2024-04-28,Eve White,Laptop,Electronics,7,1200,8400,North
+2307,2023-08-08,Ivy Taylor,Printer,Electronics,6,200,1200, north 
+2308,08/07/26,Hank Williams,Keyboard,Electronics,8,40,320,West
+2309,2026-03-16,Charlie Davis,Coffee Maker,Appliances,3,75,225,south
+2310,2023-08-14,Peter Parker,Laptop,Electronics,9,1200,10800,West
+2311,2026-05-14,Frank Green,Mouse,Electronics,8,25,200,East
+2312,2026-05-12,Nathan Drake,Printer,Electronics,6,200,1200,East
+2313,2024-02-10,Peter Parker,Mouse,Electronics,8,25,200,EAST
+2313,2024-02-10,Peter Parker,Mouse,Electronics,8,25,200,EAST
+2314,2023-11-15,Peter Parker,Blender,Appliances,3,50,150,EAST
+2315,2025-04-04,jane smith,Coffee Maker,Appliances,6,75,450, north 
+2316,2023-01-02,Peter Parker,Coffee Maker,Appliances,-1,75,-75, north 
+2317,2026-04-28,Kathy Bates,Blender,Appliances,8,50,400,south
+2318,2026-05-29,Nathan Drake,Smart Watch,Electronics,1,250,250, north 
+2319,2026-11-09,Hank Williams,Headphones,electronics,5,100,500, north 
+2320,02-08-2026,Jack Black,Desk Chair,Furniture,7,150,1050,South
+2321,2023-03-02,Charlie Davis,Desk,Furniture,9,450,4050,West
+2322,24-12-2024,Hank Williams,Keyboard,Electronics,8,40,320,South
+2323,2023-05-29,Mary Shelley,Monitor,Electronics,6,300,1800,South
+2324,2024-12-27,Bob Johnson,Headphones,electronics,9,100,900,East
+2325,2026-04-18,Jack Black,Sofa,Furniture,5,600,3000,South
+2326,11-10-2025,Grace Hopper,Smart Watch,Electronics,6,250,1500,EAST
+2327,2024-04-24,Frank Green,Blender,Appliances,9,50,450, north 
+2328,2026-03-09,,Monitor,Electronics,1,300,300,East
+2329,2024-02-20,jane smith,Bookshelf,Furniture,1,300,300,West
+2330,2023-01-16,John Doe,Smart Watch,Electronics,7,250,1750,North
+2331,2025-12-05,jane smith,Smart Watch,Electronics,4,250,1000,South
+2332,2024-08-16,Alice Brown,Smart Watch,Electronics,3,250,750,West
+2333,2024-08-10,,Desk,Furniture,-1,450,-450,North
+2334,2026-01-04,Hank Williams,Desk Chair,Furniture,2,150,300,South
+2335,2025-06-22,jane smith,Printer,Electronics,8,200,1600,EAST
+2336,2023-11-09,Nathan Drake,Smart Watch,Electronics,8,250,2000,West
+2337,2024-12-24,Eve White,Mouse,Electronics,8,25,200,West
+2338,2023-12-12,Peter Parker,Laptop,Electronics,8,1200,,South
+2339,2025-09-08,Frank Green,Smart Watch,Electronics,4,250,1000,North
+2340,2024-05-01,Bob Johnson,Keyboard,Electronics,7,40,280,West
+2341,2026-09-24,Charlie Davis,Headphones,electronics,8,100,800,West
+2342,2024-11-09,Bob Johnson,Mouse,Electronics,9,25,225,EAST
+2343,2025-04-01,Mary Shelley,Smart Watch,Electronics,6,250,1500,West
+2344,2023-07-24,John Doe,Printer,Electronics,4,200,800,North
+2345,2024-02-03,,Desk,Furniture,6,450,2700,North
+2346,2025-10-17,Nathan Drake,Keyboard,Electronics,9,40,360,East
+2347,2026-09-30,Jack Black,Desk Chair,Furniture,6,150,900, north 
+2348,2024-06-14,Ivy Taylor,Blender,Appliances,1,50,50,south
+2349,2024-12-13,Charlie Davis,Sofa,Furniture,3,600,1800, north 
+2350,2026-02-10,Jack Black,Blender,Appliances,2,50,100,south
+2351,2025-02-16,Alice Brown,Printer,Electronics,1,200,200,South
+2352,2024-11-10,John Doe,Desk,Furniture,9,450,4050,East
+2353,2025-02-06,Alice Brown,Desk Chair,Furniture,3,150,450,West
+2354,2024-12-21,Kathy Bates,Desk Chair,Furniture,8,150,1200,North
+2355,2023-04-06,Eve White,Printer,Electronics,7,200,1400, north 
+2356,2026-11-06,,Mouse,Electronics,6,25,150,West
+2357,2026-01-05,jane smith,Smart Watch,Electronics,6,250,1500,south
+2358,2026-09-07,jane smith,Laptop,Electronics,9,1200,10800,East
+2359,2026-03-22,Hank Williams,Desk Chair,Furniture,7,150,1050,South
+2360,2026-04-17,Kathy Bates,Sofa,Furniture,8,600,4800,south
+2361,2024-10-08,Mary Shelley,Monitor,Electronics,6,300,1800,South
+2362,11/28/25,John Doe,Monitor,Electronics,6,300,1800,West
+2363,2024-03-06,Peter Parker,Keyboard,Electronics,7,40,280,West
+2364,2024-02-15,Jack Black,Desk,Furniture,5,450,2250,West
+2365,2026-08-03,Alice Brown,Laptop,Electronics,3,1200,3600,North
+2366,2024-03-09,Alice Brown,Laptop,Electronics,1,1200,1200,West
+2367,2023-06-23,Nathan Drake,Desk,Furniture,1,450,450, north 
+2368,2026-05-25,Bob Johnson,Desk,Furniture,7,450,,EAST
+2369,10-01-2023,Charlie Davis,Bookshelf,Furniture,5,300,1500,East
+2370,2023-10-01,John Doe,Desk Chair,Furniture,8,150,1200,EAST
+2371,2023-09-12,Jack Black,Printer,Electronics,6,200,1200,West
+2372,2024-11-16,Mary Shelley,Headphones,electronics,4,100,400, north 
+2373,2026-10-04,Leo Tolstoy,Bookshelf,Furniture,4,300,1200,EAST
+2374,2024-06-04,Nathan Drake,Headphones,electronics,2,100,200,South
+2375,2024-05-04,Frank Green,Laptop,Electronics,8,1200,9600,South
+2375,2024-05-04,Frank Green,Laptop,Electronics,8,1200,9600,South
+2376,2024-07-23,Peter Parker,Bookshelf,Furniture,9,300,2700, north 
+2377,2025-12-19,jane smith,Laptop,Electronics,5,1200,6000,south
+2378,2025-03-15,Mary Shelley,Bookshelf,Furniture,3,300,900,South
+2379,2024-05-31,Bob Johnson,Headphones,electronics,5,100,,East
+2380,2024-08-14,Bob Johnson,Desk,Furniture,7,450,3150,South
+2381,2026-03-15,Kathy Bates,Desk Chair,Furniture,3,150,450,West
+2382,2023-10-15,Kathy Bates,Mouse,Electronics,6,25,150,south
+2383,2026-03-29,Olivia Munn,Bookshelf,Furniture,8,300,2400,West
+2384,2023-08-20,Nathan Drake,Coffee Maker,Appliances,1,75,75,EAST
+2385,2025-08-26,Olivia Munn,Keyboard,Electronics,7,40,280,South
+2386,2025-02-08,John Doe,Printer,Electronics,6,200,1200,West
+2387,07-09-2026,jane smith,Coffee Maker,Appliances,8,75,600,South
+2388,2025-03-23,Leo Tolstoy,Printer,Electronics,6,200,1200,East
+2389,2025-11-22,Ivy Taylor,Printer,Electronics,7,200,1400,North
+2390,2024-09-12,Olivia Munn,Bookshelf,Furniture,9,300,2700,EAST
+2391,2023-06-29,Nathan Drake,Keyboard,Electronics,2,40,80,South
+2392,2026-09-12,Hank Williams,Desk Chair,Furniture,5,150,750,East
+2393,2026-04-30,Bob Johnson,Keyboard,Electronics,9,40,360,south
+2394,2024-12-17,Jack Black,Blender,Appliances,5,50,250,South
+2395,2025-04-12,Hank Williams,Coffee Maker,Appliances,5,75,375, north 
+2396,21-03-2026,Alice Brown,Headphones,electronics,1,100,100, north 
+2397,2026-07-05,Frank Green,Headphones,electronics,7,100,700, north 
+2398,21-04-2024,Grace Hopper,Desk,Furniture,3,450,1350,EAST
+2399,2025-06-10,Ivy Taylor,Printer,Electronics,5,200,1000,West
+2400,2024-12-16,Kathy Bates,Desk Chair,Furniture,5,150,750,East
+2401,2026-01-13,Alice Brown,Keyboard,Electronics,5,40,200,West
+2402,2025-02-04,Nathan Drake,Coffee Maker,Appliances,3,75,225,EAST
+2403,2025-01-17,jane smith,Monitor,Electronics,8,300,2400,West
+2404,2024-04-28,Nathan Drake,Desk Chair,Furniture,3,150,450,South
+2405,2024-07-04,Ivy Taylor,Bookshelf,Furniture,7,300,2100,south
+2406,2023-11-03,Olivia Munn,Keyboard,Electronics,2,40,80,EAST
+2407,2024-11-21,Jack Black,Coffee Maker,Appliances,9,75,675,East
+2408,2023-09-20,Grace Hopper,Blender,Appliances,2,50,100,south
+2409,2023-03-08,John Doe,Desk,Furniture,2,450,900,North
+2410,2025-12-08,Grace Hopper,Blender,Appliances,1,50,50, north 
+2411,2026-09-24,Nathan Drake,Bookshelf,Furniture,4,300,1200, north 
+2412,2023-10-07,Bob Johnson,Sofa,Furniture,4,600,2400,south
+2413,2025-12-26,Charlie Davis,Laptop,Electronics,4,1200,4800,West
+2414,2023-04-13,Kathy Bates,Laptop,Electronics,5,1200,6000,South
+2415,2026-05-14,jane smith,Headphones,electronics,-1,100,-100, north 
+2416,2026-01-22,Ivy Taylor,Bookshelf,Furniture,4,300,1200,south
+2417,2025-02-15,Alice Brown,Printer,Electronics,4,200,800,North
+2418,2026-10-17,Frank Green,Printer,Electronics,4,200,800, north 
+2419,2026-04-19,John Doe,Smart Watch,Electronics,8,250,, north 
+2420,11/02/24,Ivy Taylor,Desk,Furniture,7,450,3150,North
+2421,2023-07-21,Leo Tolstoy,Blender,Appliances,7,50,350,south
+2422,2026-01-29,Grace Hopper,Keyboard,Electronics,6,40,240,south
+2423,2024-01-23,Leo Tolstoy,Printer,Electronics,8,200,1600,South
+2424,2025-03-12,Bob Johnson,Smart Watch,Electronics,1,250,250,south
+2425,2023-05-09,jane smith,Monitor,Electronics,6,300,1800,EAST
+2426,2023-03-14,Eve White,Headphones,electronics,4,100,400,South
+2427,2023-09-01,,Smart Watch,Electronics,7,250,,East
+2428,2024-10-06,Charlie Davis,Keyboard,Electronics,6,40,240,EAST
+2429,2026-04-05,Alice Brown,Smart Watch,Electronics,2,250,500,South
+2430,2024-04-28,Charlie Davis,Monitor,Electronics,7,300,2100,EAST
+2431,2026-01-30,Ivy Taylor,Mouse,Electronics,2,25,50,North
+2432,2024-12-09,Jack Black,Smart Watch,Electronics,8,250,2000,North
+2433,2026-03-05,Leo Tolstoy,Monitor,Electronics,3,300,900,South
+2434,2024-07-25,jane smith,Laptop,Electronics,9,1200,10800, north 
+2435,03/17/25,Frank Green,Printer,Electronics,4,200,800,West
+2436,2024-06-23,Jack Black,Laptop,Electronics,6,1200,7200,South
+2437,2025-04-27,Charlie Davis,Coffee Maker,Appliances,5,75,375,south
+2438,2024-07-23,Alice Brown,Printer,Electronics,9,200,1800, north 
+2439,07/13/23,Bob Johnson,Desk Chair,Furniture,1,150,150, north 
+2440,2024-09-10,Eve White,Smart Watch,Electronics,2,250,500,North
+2441,2026-07-16,Alice Brown,Mouse,Electronics,7,25,175,East
+2442,2026-12-27,Leo Tolstoy,Headphones,electronics,3,100,300,EAST
+2443,2023-01-07,Peter Parker,Coffee Maker,Appliances,5,75,375,South
+2444,09-03-2025,Nathan Drake,Blender,Appliances,9,50,450,south
+2445,2025-10-28,Leo Tolstoy,Coffee Maker,Appliances,2,75,150,South
+2446,2026-04-18,jane smith,Monitor,Electronics,1,300,300,South
+2447,2024-11-08,Kathy Bates,Laptop,Electronics,5,1200,6000,EAST
+2448,17-02-2023,Nathan Drake,Blender,Appliances,8,50,400,East
+2449,2024-06-07,Grace Hopper,Mouse,Electronics,7,25,175,south
+2450,2023-10-28,Frank Green,Desk Chair,Furniture,2,150,300, north 
+2451,2025-04-27,John Doe,Mouse,Electronics,2,25,50,East
+2452,2023-09-07,Jack Black,Keyboard,Electronics,4,40,160,West
+2453,2024-02-07,jane smith,Bookshelf,Furniture,4,300,1200,south
+2454,2023-04-01,Frank Green,Printer,Electronics,-1,200,-200,South
+2455,2023-01-05,Grace Hopper,Sofa,Furniture,9,600,5400,East
+2456,02-05-2023,Jack Black,Printer,Electronics,6,200,1200,West
+2457,2025-04-06,Hank Williams,Desk Chair,Furniture,1,150,150,North
+2458,26-08-2026,Charlie Davis,Mouse,Electronics,8,25,200,North
+2459,2024-03-08,Eve White,Bookshelf,Furniture,2,300,600,South
+2460,2025-06-18,Frank Green,Mouse,Electronics,6,25,150,North
+2461,2026-05-18,Jack Black,Laptop,Electronics,5,1200,6000,EAST
+2462,2024-03-30,jane smith,Monitor,Electronics,4,300,1200,South
+2463,2026-12-21,Frank Green,Laptop,Electronics,7,1200,8400,West
+2464,2025-06-28,Eve White,Monitor,Electronics,2,300,600,West
+2465,2024-04-05,jane smith,Headphones,electronics,4,100,400,North
+2466,2026-02-14,Grace Hopper,Mouse,Electronics,4,25,100,EAST
+2467,2023-04-16,Frank Green,Bookshelf,Furniture,2,300,600,EAST
+2468,2023-03-30,John Doe,Mouse,Electronics,8,25,200,EAST
+2469,2023-07-12,Mary Shelley,Keyboard,Electronics,1,40,40, north 
+2470,2025-03-28,Kathy Bates,Mouse,Electronics,7,25,175,South
+2471,2023-11-17,Nathan Drake,Monitor,Electronics,4,300,1200,North
+2472,2026-10-07,Grace Hopper,Sofa,Furniture,9,600,5400,south
+2473,2023-07-03,Leo Tolstoy,Desk,Furniture,7,450,3150,South
+2474,2025-06-19,Eve White,Keyboard,Electronics,8,40,320,East
+2475,2026-03-01,Frank Green,Laptop,Electronics,1,1200,1200, north 
+2476,2024-04-17,Leo Tolstoy,Laptop,Electronics,8,1200,9600,South
+2477,2026-11-03,Alice Brown,Monitor,Electronics,7,300,2100, north 
+2478,2024-02-22,Charlie Davis,Printer,Electronics,6,200,1200,South
+2479,2026-05-16,Grace Hopper,Headphones,electronics,7,100,700,south
+2480,2024-01-28,John Doe,Monitor,Electronics,8,300,,East
+2481,2025-12-23,Bob Johnson,Keyboard,Electronics,5,40,200,South
+2482,2025-09-16,Ivy Taylor,Coffee Maker,Appliances,8,75,600,North
+2483,22-05-2025,Peter Parker,Printer,Electronics,4,200,800,South
+2484,2026-01-02,Eve White,Smart Watch,Electronics,6,250,1500,EAST
+2485,2023-02-01,Charlie Davis,Laptop,Electronics,1,1200,1200,West
+2486,2026-10-20,jane smith,Desk Chair,Furniture,2,150,300, north 
+2487,2026-03-28,Alice Brown,Printer,Electronics,9,200,1800,East
+2488,2023-07-24,Bob Johnson,Headphones,electronics,3,100,300,West
+2489,2026-01-10,Leo Tolstoy,Blender,Appliances,2,50,100,North
+2490,2023-03-07,Eve White,Mouse,Electronics,7,25,175,South
+2491,2023-06-28,Peter Parker,Blender,Appliances,2,50,100,West
+2492,02-07-2024,Hank Williams,Laptop,Electronics,1,1200,1200,North
+2493,03-03-2024,Olivia Munn,Blender,Appliances,3,50,150,South
+2494,2023-05-06,Jack Black,Smart Watch,Electronics,4,250,1000,EAST
+2495,2025-02-09,Eve White,Smart Watch,Electronics,7,250,1750, north 
+2496,2024-05-21,,Sofa,Furniture,4,600,2400,EAST
+2497,2023-09-03,Frank Green,Coffee Maker,Appliances,2,75,150,south
+2498,2026-09-14,Ivy Taylor,Laptop,Electronics,4,1200,4800,West
+2499,2024-09-06,Olivia Munn,Smart Watch,Electronics,7,250,1750,North
+2500,2024-02-11,John Doe,Monitor,Electronics,9,300,2700,West
+

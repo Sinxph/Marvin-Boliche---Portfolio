@@ -1,0 +1,42 @@
+{
+    "name": "Coupler Web Traffic Theme",
+    "dataColors": [
+        "#0284c7",
+        "#38bdf8",
+        "#8b5cf6",
+        "#10b981",
+        "#f43f5e",
+        "#1e40af",
+        "#cbd5e1"
+    ],
+    "background": "#f8fafc",
+    "foreground": "#334155",
+    "tableAccent": "#0284c7",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "fontFamily": "Inter, sans-serif",
+                        "fontSize": 11,
+                        "color": { "solid": { "color": "#475569" } }
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#ffffff" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#e2e8f0" } },
+                        "radius": 4
+                    }
+                ]
+            }
+        }
+    }
+}
